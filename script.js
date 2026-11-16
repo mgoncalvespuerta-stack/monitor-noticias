@@ -517,7 +517,7 @@ function crearTarjeta(noticia) {
       'dd',
       '',
       `${{ alta: 'Alta', media: 'Media', baja: 'Baja' }[noticia.relevancia] || 'Media'}` +
-        (noticia.cobertura > 1 ? ` · ${noticia.cobertura} medios publicaron esta historia` : '')
+        (noticia.motivo ? `. ${noticia.motivo}` : '')
     ),
     crear('dt', '', 'Tipo de medio'),
     crear('dd', '', ETIQUETA_TAMANO[noticia.tamano] || ETIQUETA_TAMANO.local),

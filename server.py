@@ -606,16 +606,43 @@ def recolectar():
     return final, list(estado.values())
 
 
-RE_CLAVE_NACIONAL = re.compile(
-    r"presidente|reforma|fiscal[ií]a|corte\b|congreso|centro democr|elecci|paro\b|ministr|"
-    r"tributari|iva\b|eln\b|disidencia|acuerdo de paz|constituyente|emergencia", re.IGNORECASE)
+# Asuntos sobre los que el expresidente Uribe suele pronunciarse o que le conviene conocer.
+# (nombre que se muestra, peso, palabras clave). Editable: sume o quite temas según su agenda.
+AGENDA_URIBE = [
+    ("su partido y la oposición", 3, r"centro democr|uribis|paloma valencia|mar[ií]a fernanda cabal|bancada|oposici|coalici"),
+    ("seguridad y orden público", 2, r"eln\b|farc|disidencia|clan del golfo|secuestr|masacre|atentado|orden p[uú]blico|"
+        r"fuerza p[uú]blica|ej[eé]rcito|narcotr|terroris|extorsi|seguridad democr"),
+    ("impuestos y economía", 2, r"reforma tributaria|tributari|impuesto|iva\b|d[eé]ficit|austeridad|ecopetrol|deuda p[uú]blica|"
+        r"salario m[ií]nimo|ley de rescate|presupuesto|regla fiscal|inflaci|aval[uú]o"),
+    ("reformas y Congreso", 2, r"reforma|proyecto de ley|congreso|senado|c[aá]mara de representantes|constituyente|"
+        r"consulta popular|moci[oó]n de censura"),
+    ("paz y justicia transicional", 2, r"acuerdo de paz|paz total|jep\b|negociaci[oó]n|di[aá]logos? de paz|cese al fuego"),
+    ("Petro y la izquierda", 2, r"petro\b|pacto hist[oó]rico|cepeda"),
+    ("elecciones", 2, r"elecci|candidat|campa[nñ]a|encuesta|registradur"),
+    ("decisiones del Gobierno", 1.5, r"presidente|alocuci|decreto|ministr|gobierno nacional|casa de nari|vicepresident|"
+        r"de la espriella"),
+    ("justicia e instituciones", 1.5, r"fiscal[ií]a|corte suprema|corte constitucional|procurad|contralor|"
+        r"consejo de estado|comisi[oó]n de acusaci"),
+    ("campo y agro", 1.5, r"\bagro|campesin|ganader|cafeter|tierras|reforma agraria"),
+    ("relaciones internacionales", 1.5, r"venezuela|maduro|estados unidos|trump|washington"),
+    ("salud y pensiones", 1.5, r"reforma a la salud|eps\b|pensional|pensiones|sistema de salud"),
+    ("Antioquia", 1, r"antioquia|medell[ií]n"),
+]
+AGENDA_URIBE = [(n, peso, re.compile(p, re.IGNORECASE)) for n, peso, p in AGENDA_URIBE]
+
+# Sucesos locales: rara vez ameritan un pronunciamiento
+RE_SUCESO_LOCAL = re.compile(
+    r"accidente|choque|volc[oó]|hurto|ri[nñ]a|incendio|cierre (?:de|del) (?:la )?v[ií]a|puente festivo|"
+    r"capturad[oa]s? por|arroll|ahog|trancon|movilidad|clima|lluvias|feria|festival|concurso", re.IGNORECASE)
 
 
 def calcular_relevancia(noticias):
-    """Asigna relevancia alta, media o baja.
+    """Asigna relevancia alta, media o baja y explica el motivo.
 
-    Suma puntos por: mención a Uribe (más si está en el titular), tamaño del medio,
-    cuántos medios distintos publicaron la misma historia y temas centrales de la agenda.
+    - Menciones: ya lo involucran; pesa si su nombre va en el titular, el tamaño del medio
+      y cuántos medios publicaron la historia.
+    - Coyuntura: qué tanto le importa a Uribe saberlo o pronunciarse, según los asuntos de
+      AGENDA_URIBE que toca la nota (el titular pesa el doble) y qué tan extendida está.
     """
     # 1. Agrupar titulares parecidos para saber cuántos medios cubren cada historia
     grupos = []      # [palabras del titular de referencia, medios, noticias]
@@ -639,15 +666,30 @@ def calcular_relevancia(noticias):
     for _, medios, miembros in grupos:
         for n in miembros:
             n["cobertura"] = max(1, len(medios))
-            puntos = peso_medio.get(n["tamano"], 0)
+            extendida = 2 if n["cobertura"] >= 5 else 1 if n["cobertura"] >= 2 else 0
+
             if n["categoria"] == "mencion":
-                puntos += 3 if RE_URIBE_VISIBLE.search(RE_OTRO_URIBE.sub(" ", n["titulo"])) else 1.5
-            if n["cobertura"] >= 5:
-                puntos += 2
-            elif n["cobertura"] >= 2:
-                puntos += 1
-            if RE_CLAVE_NACIONAL.search(n["titulo"]):
-                puntos += 1
+                en_titular = bool(RE_URIBE_VISIBLE.search(RE_OTRO_URIBE.sub(" ", n["titulo"])))
+                puntos = peso_medio.get(n["tamano"], 0) + (3 if en_titular else 1.5) + extendida
+                n["motivo"] = "Lo nombra en el titular" if en_titular else "Lo nombra en el texto"
+            else:
+                cuerpo = n["resumen"] + " " + n["detalle"]
+                puntos, asuntos = 0.0, []
+                for nombre, peso, patron in AGENDA_URIBE:
+                    if patron.search(n["titulo"]):
+                        puntos += peso
+                        asuntos.append(nombre)
+                    elif patron.search(cuerpo):
+                        puntos += peso / 2
+                        asuntos.append(nombre)
+                en_titulo = any(patron.search(n["titulo"]) for _, _, patron in AGENDA_URIBE)
+                if RE_SUCESO_LOCAL.search(n["titulo"]) and not en_titulo:
+                    puntos -= 2.5
+                puntos += extendida + (0.5 if n["tamano"] in ("gran", "nacional", "internacional") else 0)
+                n["motivo"] = ("Toca asuntos de su agenda: " + ", ".join(asuntos[:3])) if asuntos \
+                    else "No toca asuntos de su agenda"
+            if n["cobertura"] > 1:
+                n["motivo"] += " · {} medios publicaron esta historia".format(n["cobertura"])
             n["relevancia"] = "alta" if puntos >= 5 else "media" if puntos >= 3 else "baja"
 
 
