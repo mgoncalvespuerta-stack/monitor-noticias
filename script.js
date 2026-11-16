@@ -32,6 +32,7 @@ const ETIQUETA_TAMANO = {
   regional: 'Medio regional',
   nacional: 'Medio nacional',
   gran: 'Gran medio',
+  internacional: 'Medio internacional',
   redes: 'Redes sociales',
 };
 
@@ -43,6 +44,7 @@ const ETIQUETA_CATEGORIA = {
 const state = {
   filter: 'all',
   size: 'all',
+  tema: 'all',
   query: '',
   visibles: POR_PAGINA,
   noticias: [],
@@ -188,7 +190,7 @@ async function desdeRss2json() {
     }
     if ((medios.redes || []).includes(normalizar(fuente))) return 'redes';
     const etiqueta = `${normalizar(fuente)} ${dominio.includes('google.') ? '' : dominio}`;
-    for (const tamano of ['regional', 'nacional', 'gran']) {
+    for (const tamano of ['regional', 'nacional', 'internacional', 'gran']) {
       if ((medios[tamano] || []).some((clave) => etiqueta.includes(normalizar(clave)))) return tamano;
     }
     return 'local';
@@ -366,12 +368,40 @@ function coincideBusqueda(noticia, palabras) {
   return palabras.every((palabra) => pajar.includes(palabra));
 }
 
+function temaDe(noticia) {
+  return noticia.tema || 'Otros temas';
+}
+
+// Los botones de tema se arman con los temas que traen las noticias, del más frecuente al menos
+function renderTemas() {
+  const conteo = new Map();
+  state.noticias.forEach((noticia) => conteo.set(temaDe(noticia), (conteo.get(temaDe(noticia)) || 0) + 1));
+  const temas = [...conteo.entries()].sort((a, b) => (a[0] === 'Otros temas') - (b[0] === 'Otros temas') || b[1] - a[1]);
+  if (state.tema !== 'all' && !conteo.has(state.tema)) state.tema = 'all';
+
+  const grupo = $('grupoTemas');
+  grupo.replaceChildren();
+  [['all', state.noticias.length], ...temas].forEach(([tema, cantidad]) => {
+    const boton = crear('button', `tema-btn${state.tema === tema ? ' activo' : ''}`);
+    boton.type = 'button';
+    boton.setAttribute('aria-pressed', String(state.tema === tema));
+    boton.append(tema === 'all' ? 'Todos los temas' : tema, ' ', crear('span', 'conteo', String(cantidad)));
+    boton.addEventListener('click', () => {
+      state.tema = tema;
+      state.visibles = POR_PAGINA;
+      renderNews();
+    });
+    grupo.append(boton);
+  });
+}
+
 function getFilteredNews() {
   const palabras = normalizar(state.query).split(/\s+/).filter(Boolean);
   return state.noticias.filter(
     (noticia) =>
       (state.filter === 'all' || noticia.categoria === state.filter) &&
       (state.size === 'all' || noticia.tamano === state.size) &&
+      (state.tema === 'all' || temaDe(noticia) === state.tema) &&
       coincideBusqueda(noticia, palabras)
   );
 }
@@ -405,7 +435,8 @@ function crearTarjeta(noticia) {
       'span',
       `etiqueta etiqueta-tamano${noticia.tamano === 'redes' ? ' etiqueta-redes' : ''}`,
       ETIQUETA_TAMANO[noticia.tamano] || ETIQUETA_TAMANO.local
-    )
+    ),
+    crear('span', 'etiqueta etiqueta-tema', temaDe(noticia))
   );
 
   const titulo = crear('h3');
@@ -416,7 +447,12 @@ function crearTarjeta(noticia) {
   titulo.append(tituloEnlace);
 
   const meta = crear('p', 'meta');
-  meta.append(crear('strong', '', noticia.fuente), ` · ${haceCuanto(fecha)}`);
+  const inicial = (noticia.fuente.match(/[A-Za-zÁÉÍÓÚÑáéíóúñ0-9]/) || ['•'])[0].toUpperCase();
+  const avatar = crear('span', 'avatar', inicial);
+  avatar.setAttribute('aria-hidden', 'true');
+  const metaTexto = crear('span', 'meta-texto');
+  metaTexto.append(crear('strong', '', noticia.fuente), crear('span', 'meta-hora', haceCuanto(fecha)));
+  meta.append(avatar, metaTexto);
 
   const resumen = noticia.resumen
     ? crear('p', 'resumen', noticia.resumen)
@@ -454,6 +490,8 @@ function crearTarjeta(noticia) {
   ficha.append(
     crear('dt', '', 'Medio'),
     crear('dd', '', noticia.fuente),
+    crear('dt', '', 'Tema'),
+    crear('dd', '', temaDe(noticia)),
     crear('dt', '', 'Cobertura'),
     crear('dd', '', ETIQUETA_TAMANO[noticia.tamano] || ETIQUETA_TAMANO.local),
     crear('dt', '', 'Publicada'),
@@ -491,6 +529,7 @@ function crearTarjeta(noticia) {
 
 function renderNews() {
   updateStats();
+  renderTemas();
   const filtradas = getFilteredNews();
   const visibles = filtradas.slice(0, state.visibles);
 
@@ -502,6 +541,7 @@ function renderNews() {
   const partes = [];
   if (state.filter !== 'all') partes.push(ETIQUETA_CATEGORIA[state.filter]);
   if (state.size !== 'all') partes.push(ETIQUETA_TAMANO[state.size]);
+  if (state.tema !== 'all') partes.push(`tema «${state.tema}»`);
   if (state.query) partes.push(`búsqueda «${state.query}»`);
   $('filtrosActivos').hidden = !partes.length;
   $('filtrosActivosTexto').textContent =
@@ -509,7 +549,7 @@ function renderNews() {
 
   if (!filtradas.length) {
     const vacio = crear('div', 'vacio');
-    const hayFiltros = state.filter !== 'all' || state.size !== 'all' || state.query;
+    const hayFiltros = state.filter !== 'all' || state.size !== 'all' || state.tema !== 'all' || state.query;
     vacio.append(
       crear('h3', '', state.noticias.length ? 'No hay noticias con esos filtros.' : 'Todavía no hay noticias para mostrar.'),
       crear(
@@ -557,6 +597,7 @@ function marcarActivo(selector, atributo, valor) {
 function quitarFiltros() {
   state.filter = 'all';
   state.size = 'all';
+  state.tema = 'all';
   state.query = '';
   state.visibles = POR_PAGINA;
   searchInputEl.value = '';

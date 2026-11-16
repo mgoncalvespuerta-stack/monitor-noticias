@@ -42,7 +42,8 @@ MIN_ENTRE_FORZADOS = 45         # el botón "Actualizar" no golpea los feeds má
 TIEMPO_ESPERA = 12
 DIAS_MENCIONES = 10
 DIAS_COYUNTURA = 3
-MAX_POR_CATEGORIA = 300
+MAX_POR_CATEGORIA = 400
+MAX_BUSQUEDAS_RESUMEN = 120     # titulares sin resumen que se buscan por actualización
 MAX_REDES = 80                  # publicaciones de redes sociales (cupo aparte)
 MIN_NOTICIAS_VALIDAS = 8        # con menos que esto se considera que la carga falló
 
@@ -89,6 +90,14 @@ FEEDS = [
      "url": GOOGLE.format(_q('gobierno Colombia when:1d'))},
     {"nombre": "Google Noticias: Presidencia", "tipo": "google", "seccion": "coyuntura", "filtrar": True,
      "url": GOOGLE.format(_q('"De la Espriella" when:1d'))},
+    {"nombre": "Canales regionales (vía Google Noticias)", "tipo": "google", "seccion": "coyuntura", "filtrar": True,
+     "url": GOOGLE.format(_q('(site:teleantioquia.co OR site:telemedellin.tv OR site:telecaribe.co OR '
+                             'site:telepacifico.com OR site:canaltro.com OR site:canalcapital.gov.co) when:2d'))},
+    {"nombre": "Medios internacionales (vía Google Noticias)", "tipo": "google", "seccion": "coyuntura",
+     "colombia": True,
+     "url": GOOGLE.format(_q('Colombia (site:cnnespanol.cnn.com OR site:bbc.com OR site:dw.com OR '
+                             'site:france24.com OR site:elpais.com OR site:reuters.com OR site:apnews.com OR '
+                             'site:efe.com OR site:nytimes.com) when:3d'))},
     {"nombre": "El Tiempo", "tipo": "directo", "seccion": "coyuntura",
      "url": "https://www.eltiempo.com/rss/politica.xml"},
     {"nombre": "El Tiempo", "tipo": "directo", "seccion": "coyuntura",
@@ -129,6 +138,62 @@ FEEDS = [
      "url": "https://www.lapatria.com/rss.xml"},
     {"nombre": "La Opinión", "tipo": "directo", "seccion": "coyuntura",
      "url": "https://www.laopinion.co/rss.xml"},
+    # --- Más medios nacionales y regionales
+    {"nombre": "Caracol Radio", "tipo": "directo", "seccion": "coyuntura", "filtrar": True,
+     "url": "https://caracol.com.co/arc/outboundfeeds/rss/?outputType=xml"},
+    {"nombre": "El Espectador", "tipo": "directo", "seccion": "coyuntura", "filtrar": True,
+     "url": "https://www.elespectador.com/arc/outboundfeeds/discover/?outputType=xml"},
+    {"nombre": "Las2orillas", "tipo": "directo", "seccion": "coyuntura", "filtrar": True,
+     "url": "https://www.las2orillas.co/feed/"},
+    {"nombre": "Valora Analitik", "tipo": "directo", "seccion": "coyuntura", "filtrar": True,
+     "url": "https://www.valoraanalitik.com/feed/"},
+    {"nombre": "360 Radio", "tipo": "directo", "seccion": "coyuntura", "filtrar": True,
+     "url": "https://www.360radio.com.co/feed/"},
+    {"nombre": "IFM Noticias", "tipo": "directo", "seccion": "coyuntura", "filtrar": True,
+     "url": "https://www.ifmnoticias.com/feed/"},
+    {"nombre": "Telemedellín", "tipo": "directo", "seccion": "coyuntura", "filtrar": True,
+     "url": "https://telemedellin.tv/feed/"},
+    {"nombre": "Telecaribe", "tipo": "directo", "seccion": "coyuntura", "filtrar": True,
+     "url": "https://telecaribe.co/feed/"},
+    {"nombre": "Canal TRO", "tipo": "directo", "seccion": "coyuntura", "filtrar": True,
+     "url": "https://www.canaltro.com/feed/"},
+    {"nombre": "Minuto30", "tipo": "directo", "seccion": "coyuntura", "filtrar": True,
+     "url": "https://www.minuto30.com/feed/"},
+    {"nombre": "El Colombiano", "tipo": "directo", "seccion": "coyuntura", "filtrar": True,
+     "url": "https://www.elcolombiano.com/rss/antioquia.xml"},
+    {"nombre": "El Nuevo Día", "tipo": "directo", "seccion": "coyuntura", "filtrar": True,
+     "url": "https://www.elnuevodia.com.co/feed"},
+    {"nombre": "La Nación (Neiva)", "tipo": "directo", "seccion": "coyuntura", "filtrar": True,
+     "url": "https://www.lanacion.com.co/feed/"},
+    {"nombre": "Diario del Huila", "tipo": "directo", "seccion": "coyuntura", "filtrar": True,
+     "url": "https://diariodelhuila.com/feed/"},
+    {"nombre": "El Diario (Pereira)", "tipo": "directo", "seccion": "coyuntura", "filtrar": True,
+     "url": "https://www.eldiario.com.co/feed/"},
+    {"nombre": "Diario del Norte", "tipo": "directo", "seccion": "coyuntura", "filtrar": True,
+     "url": "https://www.diariodelnorte.net/feed/"},
+    {"nombre": "Crónica del Quindío", "tipo": "directo", "seccion": "coyuntura", "filtrar": True,
+     "url": "https://www.cronicadelquindio.com/rss"},
+    {"nombre": "La Guajira Hoy", "tipo": "directo", "seccion": "coyuntura", "filtrar": True,
+     "url": "https://www.laguajirahoy.com/feed"},
+    {"nombre": "El Informador", "tipo": "directo", "seccion": "coyuntura", "filtrar": True,
+     "url": "https://www.elinformador.com.co/index.php?format=feed&type=rss"},
+    {"nombre": "BC Noticias", "tipo": "directo", "seccion": "coyuntura", "filtrar": True,
+     "url": "https://www.bcnoticias.com.co/feed/"},
+    {"nombre": "El Tabloide", "tipo": "directo", "seccion": "coyuntura", "filtrar": True,
+     "url": "https://www.eltabloide.com.co/feed/"},
+    # --- Medios internacionales: solo las notas que hablan de Colombia
+    {"nombre": "El País (España)", "tipo": "directo", "seccion": "coyuntura", "colombia": True,
+     "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/america-colombia/portada"},
+    {"nombre": "BBC Mundo", "tipo": "directo", "seccion": "coyuntura", "colombia": True,
+     "url": "https://feeds.bbci.co.uk/mundo/rss.xml"},
+    {"nombre": "France 24", "tipo": "directo", "seccion": "coyuntura", "colombia": True,
+     "url": "https://www.france24.com/es/am%C3%A9rica-latina/rss"},
+    {"nombre": "Infobae América", "tipo": "directo", "seccion": "coyuntura", "colombia": True,
+     "url": "https://www.infobae.com/arc/outboundfeeds/rss/category/america/?outputType=xml"},
+    {"nombre": "ABC.es", "tipo": "directo", "seccion": "coyuntura", "colombia": True,
+     "url": "https://www.abc.es/rss/2.0/internacional/"},
+    {"nombre": "DW Español", "tipo": "directo", "seccion": "coyuntura", "colombia": True,
+     "url": "https://rss.dw.com/xml/rss-sp-top"},
 ]
 
 # Para comprobar que la mención se ve en el texto mostrado (y no es otro Uribe)
@@ -168,6 +233,47 @@ RE_TEMA_NACIONAL = re.compile(
     r"salud|eps|pensi|energ[ií]a|gas\b|ecopetrol|venezuela|frontera|narcotr[aá]fico|justicia|jep",
     re.IGNORECASE,
 )
+
+
+RE_COLOMBIA = re.compile(
+    r"colombia|bogot[aá]|medell[ií]n|petro\b|uribe|de la espriella|eln\b|farc", re.IGNORECASE)
+
+# Temas: se cuenta cuántas palabras clave aparecen (el titular pesa triple) y gana el tema con más
+TEMAS = [
+    ("Seguridad y orden público", r"eln\b|farc|disidencia|clan del golfo|ej[eé]rcito|polic[ií]a|secuestr|atentado|homicidio|"
+        r"asesin|masacre|narcotr|explosiv|extorsi|orden p[uú]blico|militar|captur|sicari|guerrill|ataque|"
+        r"fuerza p[uú]blica|criminal|bandas?\b|alias\b"),
+    ("Justicia", r"fiscal[ií]a|corte\b|cortes\b|juez|jueza|juzgado|imputa|condena|juicio|tribunal|procurad|contralor|"
+        r"jep\b|indagatoria|soborno|testigos|archiv[oóa]|expediente|magistrad|sentencia|denuncia|corrupci"),
+    ("Economía", r"econom|inflaci|impuesto|iva\b|tributari|d[oó]lar|presupuesto|fiscal\b|salario|empleo|dane\b|"
+        r"banco de la rep|ecopetrol|pib\b|inversi|empresa|comercio|precio|deuda|aval[uú]o|canasta familiar|"
+        r"hacienda|exportaci|mercado|billones|millones"),
+    ("Política y Congreso", r"congreso|senad|c[aá]mara|partido|elecci|candidat|campa[nñ]a|pacto hist|centro democr|"
+        r"bancada|proyecto de ley|reforma|oposici|coalici|alianza|consulta|uribis|petris|congresista|"
+        r"representante|debate|moci[oó]n|registradur"),
+    ("Gobierno", r"presidente|gobierno|ministr|decreto|casa de nari|vicepresident|alocuci|consejo de ministros|"
+        r"de la espriella|presidencia|mandatario|gabinete"),
+    ("Salud, educación y social", r"salud|eps\b|hospital|pensi|educaci|universidad|colegio|vivienda|subsidio|pobreza|"
+        r"estudiant|m[eé]dic|vacuna|sena\b|adulto mayor|ni[nñ]os|mujeres"),
+    ("Internacional", r"estados unidos|ee\.? ?uu|venezuela|trump|onu\b|embajad|canciller|frontera|ecuador|washington|"
+        r"maduro|uni[oó]n europea|otan|diplom|migra|panam[aá]|per[uú]\b|brasil|m[eé]xico"),
+    ("Energía y ambiente", r"energ|gas\b|petr[oó]leo|miner[ií]a|ambient|clima|fen[oó]meno del ni[nñ]o|sequ[ií]a|"
+        r"inundaci|deforest|apag[oó]n|racionamiento|terremoto|sismo|emergencia|lluvias"),
+    ("Regiones", r"alcald|gobernador|gobernaci|municipio|concejo|departamento|antioquia|medell[ií]n|bogot[aá]|cali\b|"
+        r"barranquilla|cartagena|bucaramanga|c[uú]cuta|huila|cauca|nari[nñ]o|choc[oó]|atl[aá]ntico|santander"),
+]
+TEMAS = [(nombre, re.compile(patron, re.IGNORECASE)) for nombre, patron in TEMAS]
+
+
+def clasificar_tema(noticia):
+    titulo = noticia["titulo"]
+    cuerpo = " ".join((noticia["resumen"], noticia["detalle"], noticia["cita"]))
+    mejor, puntos = "Otros temas", 0
+    for nombre, patron in TEMAS:
+        p = 3 * len(patron.findall(titulo)) + len(patron.findall(cuerpo))
+        if p > puntos:
+            mejor, puntos = nombre, p
+    return mejor
 
 
 # ------------------------------------------------------------------ utilidades
@@ -278,7 +384,7 @@ def clasificar_tamano(fuente, dom, medios):
         if nombre == clave or dom == clave or dom == clave + ".com" or dom.endswith("." + clave + ".com"):
             return "redes"
     etiqueta = nombre + " " + dom
-    for tamano in ("regional", "nacional", "gran"):
+    for tamano in ("regional", "nacional", "internacional", "gran"):
         for clave in medios.get(tamano, []):
             if clave in etiqueta:
                 return tamano
@@ -401,6 +507,9 @@ def leer_feed(feed, medios):
             descripcion = texto.rstrip(" .…") + "…" if len(texto) > len(titulo) else ""
             contenido = ""
 
+        if feed.get("colombia") and not es_mencion and not RE_COLOMBIA.search(titulo + " " + descripcion):
+            continue
+
         base = descripcion or contenido
         resumen = recortar(base, 280 if tamano == "redes" else 240)
         largo = contenido if len(contenido) > len(descripcion) else descripcion
@@ -485,7 +594,54 @@ def recolectar():
         cuenta[cupo] += 1
         n.pop("_calidad", None)
         final.append(n)
+    completar_resumenes(final)
+    for n in final:
+        n["tema"] = clasificar_tema(n)
     return final, list(estado.values())
+
+
+def _palabras(texto):
+    return set(w for w in re.findall(r"[a-z0-9]+", normalizar(texto)) if len(w) > 3)
+
+
+def buscar_resumen(noticia):
+    """Busca el titular en Bing Noticias y devuelve el resumen del resultado que coincide."""
+    try:
+        raiz = ET.fromstring(descargar(BING.format(_q(noticia["titulo"][:110]))))
+    except Exception:
+        return None          # sin respuesta: se reintenta en la próxima actualización
+    propias = _palabras(noticia["titulo"])
+    for item in raiz.iter("item"):
+        otras = _palabras(texto_hijo(item, "title"))
+        if len(propias & otras) / max(1, len(propias | otras)) >= 0.6:
+            texto = re.sub(r'^[\s"}\]]+', "", limpiar(texto_hijo(item, "description")))
+            if len(texto) > 40 and normalizar(texto) != normalizar(noticia["titulo"]):
+                return recortar(texto, 240)
+    return ""               # se buscó y no hay: no insistir
+
+
+def completar_resumenes(noticias):
+    """Rellena el resumen de las noticias que llegaron solo con titular (las de Google Noticias)."""
+    previas = {n["id"]: n for n in (leer_respaldo() or {}).get("noticias", [])}
+    pendientes = []
+    for n in noticias:
+        if n["resumen"] or n["tamano"] == "redes":
+            continue
+        previa = previas.get(n["id"], {})
+        if previa.get("resumen"):
+            n["resumen"] = previa["resumen"]
+        elif previa.get("buscado"):
+            n["buscado"] = True
+        else:
+            pendientes.append(n)
+
+    def resolver(n):
+        resultado = buscar_resumen(n)
+        if resultado is not None:
+            n["buscado"] = True
+            n["resumen"] = resultado
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        list(pool.map(resolver, pendientes[:MAX_BUSQUEDAS_RESUMEN]))
 
 
 # ------------------------------------------------------------------ caché y respaldo

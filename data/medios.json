@@ -1,5 +1,5 @@
 {
-  "_nota": "Clasificación de medios por tamaño. Se compara contra el nombre y el dominio del medio (sin tildes, en minúsculas). Se revisa en este orden: regional, nacional, gran. Lo que no aparezca aquí se muestra como 'Pequeño / local'. 'redes' son redes sociales (se muestran como 'Redes sociales').",
+  "_nota": "Clasificación de medios. Se compara contra el nombre y el dominio del medio (sin tildes, en minúsculas). Orden de revisión: redes, regional, nacional, internacional, gran. Lo que no aparezca aquí se muestra como 'Pequeño / local'.",
   "ignorar": [
     "youtube",
     "tiktok",
@@ -61,7 +61,13 @@
     "impacto news",
     "el otro lado",
     "bc noticias",
-    "el nuevo oriente"
+    "el nuevo oriente",
+    "diario del cauca",
+    "cw+",
+    "hsb",
+    "eje 21",
+    "eje21",
+    "la cronica del quindio"
   ],
   "nacional": [
     "portafolio",
@@ -111,7 +117,9 @@
     "primera pagina",
     "seguimiento.co",
     "la linea del medio",
-    "msn"
+    "msn",
+    "cambio colombia",
+    "red+ noticias"
   ],
   "gran": [
     "el tiempo",
@@ -127,25 +135,40 @@
     "wradio",
     "la fm",
     "lafm",
-    "infobae",
-    "bbc",
+    "infobae"
+  ],
+  "redes": [
+    "facebook",
+    "instagram",
+    "x.com",
+    "twitter"
+  ],
+  "internacional": [
     "cnn",
+    "bbc",
+    "elpais.com ",
     "el pais",
-    "elpais.com",
-    "efe",
     "reuters",
+    "agencia efe",
+    "efe.com",
+    "efe -",
     "associated press",
+    "apnews",
     "ap news",
     "afp",
-    "dw",
+    "dw.com",
+    "dw espanol",
+    "deutsche welle",
     "france 24",
+    "france24",
     "new york times",
+    "nytimes",
     "bloomberg",
     "swissinfo",
     "europa press",
     "clarin",
     "el mundo",
-    "abc",
+    "abc.es",
     "telemundo",
     "univision",
     "voz de america",
@@ -156,12 +179,16 @@
     "rt en espanol",
     "telesur",
     "el comercio",
-    "la tercera"
-  ],
-  "redes": [
-    "facebook",
-    "instagram",
-    "x.com",
-    "twitter"
+    "la tercera",
+    "marca",
+    "infobae america",
+    "euronews",
+    "el diario.es",
+    "eldiario.es",
+    "la vanguardia",
+    "el universal mexico",
+    "milenio",
+    "el nacional",
+    "al jazeera"
   ]
 }

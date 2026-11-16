@@ -8,6 +8,13 @@
       name="description"
       content="Tablero de seguimiento de noticias de coyuntura nacional y menciones al presidente Álvaro Uribe en medios pequeños, regionales, nacionales y grandes."
     />
+    <meta name="theme-color" content="#0a2d63" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css?v=local" />
   </head>
   <body>
@@ -16,7 +23,14 @@
     <header class="cabecera">
       <div class="contenedor cabecera-fila">
         <div class="marca">
-          <div class="marca-sello" aria-hidden="true">AU</div>
+          <div class="marca-sello" aria-hidden="true">
+            <svg viewBox="0 0 32 32" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="4" y="5" width="20" height="22" rx="3" stroke="#0a2d63" stroke-width="2.6" />
+              <path d="M24 11h2.5A1.5 1.5 0 0 1 28 12.500V24a3 3 0 0 1-3 3" stroke="#0a2d63" stroke-width="2.6" />
+              <rect x="8.500" y="9.500" width="11" height="5" rx="1" fill="#c8102e" />
+              <path d="M9 19h10M9 23h7" stroke="#0a2d63" stroke-width="2.6" />
+            </svg>
+          </div>
           <div>
             <p class="marca-sobre">Oficina de monitoreo</p>
             <p class="marca-nombre">Álvaro Uribe · Coyuntura nacional</p>
@@ -26,16 +40,19 @@
           <span aria-hidden="true">A+</span> Letra más grande
         </button>
       </div>
-    </header>
 
-    <main id="dashboard" class="contenedor pagina">
-      <section class="resumen-panel" aria-labelledby="tituloPrincipal">
-        <div class="resumen-texto">
-          <h1 id="tituloPrincipal">Noticias de coyuntura y menciones al presidente Álvaro Uribe</h1>
-          <p class="bajada">
-            Seguimiento de la agenda nacional y de lo que publican sobre el expresidente los medios
-            pequeños, regionales, nacionales y grandes. Las más recientes aparecen primero.
-          </p>
+      <div class="contenedor heroe">
+        <h1 id="tituloPrincipal">Noticias de coyuntura y menciones al presidente Álvaro Uribe</h1>
+        <p class="bajada">
+          Seguimiento de la agenda nacional y de lo que publican sobre el expresidente los medios
+          pequeños, regionales, nacionales y grandes. Las más recientes aparecen primero.
+        </p>
+
+        <div class="heroe-acciones">
+          <button id="refreshButton" class="boton boton-rojo boton-grande" type="button">
+            <span class="icono-girar" aria-hidden="true">↻</span>
+            <span id="refreshTexto">Actualizar ahora</span>
+          </button>
 
           <div class="estado" role="status" aria-live="polite">
             <span id="estadoPildora" class="pildora pildora-cargando">Cargando…</span>
@@ -44,30 +61,27 @@
               <span id="proximaActualizacion" class="estado-secundario"></span>
             </div>
           </div>
-
-          <button id="refreshButton" class="boton boton-rojo boton-grande" type="button">
-            <span class="icono-girar" aria-hidden="true">↻</span>
-            <span id="refreshTexto">Actualizar ahora</span>
-          </button>
         </div>
+      </div>
+    </header>
 
-        <div class="cifras" aria-label="Resumen del monitoreo">
-          <div class="cifra">
-            <strong id="total-news">0</strong>
-            <span>Noticias</span>
-          </div>
-          <div class="cifra cifra-azul">
-            <strong id="conjuntura-count">0</strong>
-            <span>Coyuntura nacional</span>
-          </div>
-          <div class="cifra cifra-roja">
-            <strong id="mencion-count">0</strong>
-            <span>Menciones a Uribe</span>
-          </div>
-          <div class="cifra">
-            <strong id="sources-count">0</strong>
-            <span>Medios distintos</span>
-          </div>
+    <main id="dashboard" class="contenedor pagina">
+      <section class="cifras" aria-label="Resumen del monitoreo">
+        <div class="cifra">
+          <strong id="total-news">0</strong>
+          <span>Noticias</span>
+        </div>
+        <div class="cifra cifra-azul">
+          <strong id="conjuntura-count">0</strong>
+          <span>Coyuntura nacional</span>
+        </div>
+        <div class="cifra cifra-roja">
+          <strong id="mencion-count">0</strong>
+          <span>Menciones a Uribe</span>
+        </div>
+        <div class="cifra cifra-gris">
+          <strong id="sources-count">0</strong>
+          <span>Medios distintos</span>
         </div>
       </section>
 
@@ -103,7 +117,7 @@
         </div>
 
         <div class="filtro-bloque">
-          <p class="filtro-titulo" id="tituloTamano">Tamaño del medio y redes sociales</p>
+          <p class="filtro-titulo" id="tituloTamano">Tipo de medio</p>
           <div class="grupo-botones" role="group" aria-labelledby="tituloTamano">
             <button class="tamano-btn activo" data-size="all" aria-pressed="true" type="button">
               Todos los medios
@@ -120,10 +134,18 @@
             <button class="tamano-btn" data-size="gran" aria-pressed="false" type="button">
               Grandes <span class="conteo" data-conteo="gran"></span>
             </button>
+            <button class="tamano-btn" data-size="internacional" aria-pressed="false" type="button">
+              Internacionales <span class="conteo" data-conteo="internacional"></span>
+            </button>
             <button class="tamano-btn" data-size="redes" aria-pressed="false" type="button">
               Redes sociales <span class="conteo" data-conteo="redes"></span>
             </button>
           </div>
+        </div>
+
+        <div class="filtro-bloque">
+          <p class="filtro-titulo" id="tituloTema">Tema</p>
+          <div id="grupoTemas" class="grupo-botones" role="group" aria-labelledby="tituloTema"></div>
         </div>
       </section>
 
