@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-16T23:17:30Z",
+ "generado": "2026-11-16T23:27:31Z",
  "origen": "vivo",
  "fuentes": [
   {
@@ -21,6 +21,11 @@
    "nombre": "Google Noticias: Uribe Vélez (hoy)",
    "ok": true,
    "cantidad": 9
+  },
+  {
+   "nombre": "Google Noticias: Uribe (hoy)",
+   "ok": true,
+   "cantidad": 21
   },
   {
    "nombre": "Bing Noticias: Álvaro Uribe",
@@ -48,6 +53,31 @@
    "cantidad": 91
   },
   {
+   "nombre": "Facebook hoy (vía Google Noticias)",
+   "ok": true,
+   "cantidad": 23
+  },
+  {
+   "nombre": "Instagram hoy (vía Google Noticias)",
+   "ok": true,
+   "cantidad": 24
+  },
+  {
+   "nombre": "X (vía Google Noticias)",
+   "ok": true,
+   "cantidad": 25
+  },
+  {
+   "nombre": "YouTube (vía Google Noticias)",
+   "ok": true,
+   "cantidad": 9
+  },
+  {
+   "nombre": "TikTok (vía Google Noticias)",
+   "ok": true,
+   "cantidad": 3
+  },
+  {
    "nombre": "Google Noticias: Colombia",
    "ok": true,
    "cantidad": 64
@@ -55,12 +85,12 @@
   {
    "nombre": "Google Noticias: titulares",
    "ok": true,
-   "cantidad": 12
+   "cantidad": 13
   },
   {
    "nombre": "Google Noticias: Gobierno",
    "ok": true,
-   "cantidad": 58
+   "cantidad": 55
   },
   {
    "nombre": "Google Noticias: Presidencia",
@@ -95,7 +125,7 @@
   {
    "nombre": "El Colombiano",
    "ok": true,
-   "cantidad": 35
+   "cantidad": 34
   },
   {
    "nombre": "La República",
@@ -125,7 +155,7 @@
   {
    "nombre": "El Heraldo",
    "ok": true,
-   "cantidad": 68
+   "cantidad": 63
   },
   {
    "nombre": "El Universal",
@@ -297,6 +327,21 @@
    "tamano": "gran",
    "dominio": "infobae.com",
    "tema": "Seguridad y orden público"
+  },
+  {
+   "id": "114678548468",
+   "titulo": "De la Espriella invita a empresarios internacionales a invertir en Colombia durante Milagro Week en Nueva York",
+   "resumen": "En Milagro Week en Nueva York, Abelardo de la Espriella pidió a inversionistas apostar por Colombia: finanzas públicas, competitividad y “abierta a los.",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPako1R2lLNWdRU0hfQnVLMFY0TnA4UTZpQ2JWbjg1dE14bDNYeDRTSEloeVVyLW9uVW9aTUlHeFNEeVpPbllwRjBGS05PMU04TXVHakVocDdtb3k1dDZpVGNiODU3S1Z0VUVDTGJmVnA0MWg5aUgwZ1ZTYXlxU0xPcUp5ZzVndEsyaDRxa1IxQVhQRVh1bXRMSzZiekdDT0pqUHd4dkVPQkFjdDVydWN1SFk2UnkyYTgyTkJUNlkybG1TRW9jNGpOMXNJclFoRVBPbC1iOFNFU1ZJc0Z0SzFJ0gHfAUFVX3lxTE5RZ05NYVUwbWRuajJyNHB1M2c2T3QxeUp3UnBVd01nNWFGS0RzM2JaYmNWZ01BckxxcFlGdUI1WmM1aDh2eDJDbG1FYmZyN1lPVUM5ZU9nTE44ODliXzVmRXhQWnJZWm9DU2hrLXJsM0lCdW1ob1hadjl4S0hTVXhFWXRtamoyWHVPM212NWNReE5kN2xqVFJKcGtBcVV5OWh3OVV4OXZPWmU5d04yeXR2dm0yOWxQdDhITHQyajR2ZHR2YkNOMUlDVVVULXd3MXNGRGlEYjZkZUhrc09ReG8?oc=5",
+   "fuente": "La FM",
+   "fecha": "2026-11-16T23:12:56Z",
+   "categoria": "coyuntura",
+   "tamano": "gran",
+   "dominio": "lafm.com.co",
+   "buscado": true,
+   "tema": "Economía"
   },
   {
    "id": "fe21009d1629",
@@ -621,6 +666,7 @@
    "categoria": "coyuntura",
    "tamano": "regional",
    "dominio": "cwmas.com.co",
+   "buscado": true,
    "tema": "Gobierno"
   },
   {
@@ -803,6 +849,7 @@
    "categoria": "coyuntura",
    "tamano": "nacional",
    "dominio": "ntn24.com",
+   "buscado": true,
    "tema": "Gobierno"
   },
   {
@@ -817,6 +864,7 @@
    "categoria": "coyuntura",
    "tamano": "regional",
    "dominio": "diariodelcauca.com.co",
+   "buscado": true,
    "tema": "Gobierno"
   },
   {
@@ -934,6 +982,36 @@
    "tema": "Seguridad y orden público"
   },
   {
+   "id": "5bf47739187e",
+   "titulo": "De la Espriella da marcha atrás con el IVA a los alimentos y recibe el respaldo de Uribe: la reforma fiscal colombiana busca una salida en el Congreso",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQZGotODRUbl9KNnpyclFldnJOY0xFVTFqTDlzcWJUbjdUOHg4N2FPejlrV0xGX1ZJd1VZWjZnMTBaTXJxUEN4ak4yLWZuXy1Hcjh5bmx3dUh1LWxDeXZ0d0wwN3U3Um1tVlFhYWNMTEF1MFBhMFAwWE9ZT1UzM2ZNNU5oYXc2dHNaUW9jTGRka0NjWUYzQk5KQkhlOExfeVB5MWZ5ZHFOMnJ5anZ5dnBzYmFRRF9JZ0lkZ0tyTDdvblVYZW95SjRFSU5wdnU4YVFrM3R6Q1ZXNVNoWC1Hcld1cVY3MU5faHpDTXlkOVdDUS1UdkEyRUdwVkY4NEdZUGhEdW9uUG9EaC02MDRsckswcHdoLWtoWno4UXc?oc=5",
+   "fuente": "DDC",
+   "fecha": "2026-11-16T21:39:02Z",
+   "categoria": "mencion",
+   "tamano": "local",
+   "dominio": "diariodigitalcolombiano.com",
+   "buscado": true,
+   "tema": "Economía"
+  },
+  {
+   "id": "8967db94d6b1",
+   "titulo": "Uribe pidió una reforma tributaria y reglas estables para sostener las inversiones en Neuquén",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQTBkdGJqbHZINkJqRFdBaWlrMXdkeWkyX2J3X3lZdjdnQzAyRlZFNWtFOXEtTVBUTGVIM1VoSTNraTh2c1ZwMUdPUTlIWlJ6MjB0WWxEREVmZTlod0JmM0tIQUg3TDh1SDlsR01ZbERSNC1ib1ZqREU0T3hzb0lsa29GZ1pWNjNiay1VOGhpVllRR0J6UVZDM2NvbjM3RGN5UEMxNU5tRUhpOFhwYURkU21CUUI5dWktWHFjYWpwUXlIUQ?oc=5",
+   "fuente": "Diario Neuquino",
+   "fecha": "2026-11-16T21:38:07Z",
+   "categoria": "mencion",
+   "tamano": "local",
+   "dominio": "diarioneuquino.com.ar",
+   "buscado": true,
+   "tema": "Economía"
+  },
+  {
    "id": "92a7cc8188b5",
    "titulo": "A sus 23 años, alias Primo Gay habría pasado por dos grupos armados: así fue su recorrido criminal",
    "resumen": "La Fiscalía le imputó cargos a Neyder Yesid Uñates López por concierto para delinquir agravado, secuestro simple, fabricación, tráfico y porte de armas o municiones de uso restringido o privativo de las Fuerzas Armadas, explosivos y…",
@@ -1015,6 +1093,7 @@
    "categoria": "coyuntura",
    "tamano": "nacional",
    "dominio": "pulzo.com",
+   "buscado": true,
    "tema": "Gobierno"
   },
   {
@@ -1267,6 +1346,7 @@
    "categoria": "coyuntura",
    "tamano": "regional",
    "dominio": "elcolombiano.com",
+   "buscado": true,
    "tema": "Economía"
   },
   {
@@ -1324,6 +1404,7 @@
    "categoria": "coyuntura",
    "tamano": "nacional",
    "dominio": "ntn24.com",
+   "buscado": true,
    "tema": "Seguridad y orden público"
   },
   {
@@ -1395,6 +1476,20 @@
    "tamano": "gran",
    "dominio": "infobae.com",
    "tema": "Economía"
+  },
+  {
+   "id": "4c63dc133851",
+   "titulo": "¿Indemnizarán familia Petro por chuzaDAS de Uribe? Consejo de Estado decide. ¿Qué pasará con OFAC?",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBVbzR0b0tGUWJ3MFhIUDU3cVp6WDV2VHpRNWp0WDh0RzhCcEg3eXJISk5pY0ZrMk50S3FzN0lXZWphajhlODNKX2RjNURjU2NQd2x2dnd3?oc=5",
+   "fuente": "YouTube",
+   "fecha": "2026-11-16T20:28:56Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "youtube.com",
+   "tema": "Otros temas"
   },
   {
    "id": "8763e5c91af1",
@@ -1478,6 +1573,7 @@
    "categoria": "coyuntura",
    "tamano": "gran",
    "dominio": "semana.com",
+   "buscado": true,
    "tema": "Política y Congreso"
   },
   {
@@ -1661,6 +1757,20 @@
    "tamano": "gran",
    "dominio": "infobae.com",
    "tema": "Seguridad y orden público"
+  },
+  {
+   "id": "a6d4d29127de",
+   "titulo": "El expresidente Álvaro Uribe Vélez expresó su respaldo al anuncio del presidente Abelardo de la Espriella de no imponer…",
+   "resumen": "El expresidente Álvaro Uribe Vélez expresó su respaldo al anuncio del presidente Abelardo de la Espriella de no imponer nuevas cargas de IVA a los productos de la canasta familiar, en medio de la controversia por la reforma tributaria. “Buen anuncio del pr…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE54ZFdaZmRaOWxSZXF5OVJtY2lxTzJ4QkpGUmVneGR1djQzWUVscUdDcXNHX0dJOTJERmIxVVZna3B3WEQzb18tY0ZfX2xSYmVlLUE?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-16T20:03:03Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Gobierno"
   },
   {
    "id": "e95ee95e13f2",
@@ -1856,6 +1966,7 @@
    "categoria": "coyuntura",
    "tamano": "internacional",
    "dominio": "marca.com",
+   "buscado": true,
    "tema": "Gobierno"
   },
   {
@@ -1884,6 +1995,7 @@
    "categoria": "coyuntura",
    "tamano": "nacional",
    "dominio": "pulzo.com",
+   "buscado": true,
    "tema": "Justicia"
   },
   {
@@ -2028,6 +2140,20 @@
    "tema": "Política y Congreso"
   },
   {
+   "id": "bb80925a06e7",
+   "titulo": "#Colombia 🥕 El expresidente Álvaro Uribe Vélez expresó su apoyo a la decisión anunciada por el presidente Abelardo De…",
+   "resumen": "#Colombia 🥕 El expresidente Álvaro Uribe Vélez expresó su apoyo a la decisión anunciada por el presidente Abelardo De La Espriella de no gravar con IVA los productos de la canasta familiar ni imponer nuevas cargas tributarias al sector agropecuario. Seg…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2a2pnRHN5RnhRZm5ZZllRSnAxSkJ0VEJIWVlCdy15TWxOVjZOaHN2UUs5dzNwZE0zSjF3dlBUZmx2QXIxbFQ1WEhkNlJPZDdIX3c?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-16T19:15:46Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Gobierno"
+  },
+  {
    "id": "0715f2525a1c",
    "titulo": "Colombia y Japón reactivan conversaciones para fortalecer su relación económica y comercial",
    "resumen": "El Gobierno colombiano avanza en el fortalecimiento de sus relaciones económicas con Japón, luego de que el ministro de Comercio, Industria y Turismo, Mauricio Gómez Amín, liderara una…",
@@ -2095,6 +2221,7 @@
    "categoria": "coyuntura",
    "tamano": "regional",
    "dominio": "zonacero.com",
+   "buscado": true,
    "tema": "Seguridad y orden público"
   },
   {
@@ -2114,7 +2241,7 @@
   {
    "id": "15efe4f3b774",
    "titulo": "Colombia rechaza ajuste neoliberal y violencia en gestión de la Espriella",
-   "resumen": "El recorte estatal, el deterioro de la seguridad y el ingreso de tropas estadounidenses motivan la convocatoria a una movilización masiva.",
+   "resumen": "Resumen Latinoamericano, 16 de Noviembre de 2026. Foto: Entre el 7 de agosto y el 15 de noviembre, las muertes de integrantes de la fuerza pública se incrementaron en un 58 por ciento y los fallecimie.",
    "detalle": "",
    "cita": "",
    "enlace": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5rTnAtTG50U1VlMFNQZFhXcXc3OERSeVVJRHRKcFpSOXg5WWh6anB2em41eVpHNng4MG1vOWFwZTQyT2xrYW02SjhwWEtZQjVraWhjZmtFc3hLX3lORUN2Y0UxWmJTUWRlVkRxVkZ3cWM3d0VwbkJWWnJxNA?oc=5",
@@ -2123,6 +2250,7 @@
    "categoria": "coyuntura",
    "tamano": "internacional",
    "dominio": "telesurtv.net",
+   "buscado": true,
    "tema": "Gobierno"
   },
   {
@@ -2137,6 +2265,7 @@
    "categoria": "coyuntura",
    "tamano": "local",
    "dominio": "larazon.co",
+   "buscado": true,
    "tema": "Seguridad y orden público"
   },
   {
@@ -2151,6 +2280,7 @@
    "categoria": "coyuntura",
    "tamano": "nacional",
    "dominio": "minuto60.com",
+   "buscado": true,
    "tema": "Seguridad y orden público"
   },
   {
@@ -2305,6 +2435,7 @@
    "categoria": "coyuntura",
    "tamano": "gran",
    "dominio": "elespectador.com",
+   "buscado": true,
    "tema": "Otros temas"
   },
   {
@@ -2319,6 +2450,7 @@
    "categoria": "coyuntura",
    "tamano": "local",
    "dominio": "cubainformacion.tv",
+   "buscado": true,
    "tema": "Seguridad y orden público"
   },
   {
@@ -2361,6 +2493,7 @@
    "categoria": "coyuntura",
    "tamano": "nacional",
    "dominio": "ntn24.com",
+   "buscado": true,
    "tema": "Gobierno"
   },
   {
@@ -2380,7 +2513,7 @@
   {
    "id": "ae7607b88364",
    "titulo": "MinTIC prioriza la protección digital en primeros 100 días del gobierno de Abelardo De La Espriella",
-   "resumen": "",
+   "resumen": "El Ministerio de TIC destacó “la protección desde lo digital” como una de las prioridades del gobierno de Abelardo De La Espriella, que cumplió 100 días como.",
    "detalle": "",
    "cita": "",
    "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNd003RXN6Zmxwb2pzN2VMeVR4eFZDWWVWaVBsX0tHMFlIaWNrUXZ3MEpHZm9zXzhnX0NWbDJsZE93U1VnejZaQTR4YnByMkI4dTVlaThoR0R6UnJhU013allYN21GRnhsY1kyQ09UbVJQTF9kdTBkVTZkY2ZHc0JCNkhIZXFCZXo3V2ItR2JGVVNkQ3JxMTlzRDJhek9MeHBVWUhzMm13bGwtUlU5aGp0ZWl2clhyWHRROWtheUhERm5wR09lUFdv?oc=5",
@@ -2418,6 +2551,7 @@
    "categoria": "coyuntura",
    "tamano": "internacional",
    "dominio": "elcomercio.com",
+   "buscado": true,
    "tema": "Seguridad y orden público"
   },
   {
@@ -2446,6 +2580,7 @@
    "categoria": "coyuntura",
    "tamano": "nacional",
    "dominio": "rtvcnoticias.com",
+   "buscado": true,
    "tema": "Economía"
   },
   {
@@ -2503,20 +2638,6 @@
    "tamano": "regional",
    "dominio": "laopinion.co",
    "tema": "Gobierno"
-  },
-  {
-   "id": "f8938c115998",
-   "titulo": "Milagro Week: desde el Senado levantan la mano por el proyecto de ley de minerales críticos",
-   "resumen": "El senador Camilo Torres Villalba, del Partido Liberal, explicó que con la norma se busca estabilidad y reglas en un sector donde la inversión extranjera cayó más del 80% en 2025.",
-   "detalle": "En medio del inicio de la Milagro Week en Nueva York este lunes, el senador Camilo Torres, del Partido Liberal, recordó que el Congreso ya trabaja en una ley de minerales críticos, con la que se busca estabilidad y reglas en un sector donde la inversión extranjera cayó más del 80% en 2025. A través de una constancia en la plenaria del Senado puso de presente que radicó con el senador Juan Espinal, del Centro Democrático el proyecto que le da reglas al sector: “Apoyamos que el Gobierno salga a buscar inversión. La tarea del Congreso es darle reglas que duren”.",
-   "cita": "",
-   "enlace": "https://www.elheraldo.co/politica/2026/11/16/milagro-week-desde-el-senado-levantan-la-mano-por-el-proyecto-de-ley-de-minerales-criticos/",
-   "fuente": "El Heraldo",
-   "fecha": "2026-11-16T18:12:15Z",
-   "categoria": "coyuntura",
-   "tamano": "regional",
-   "dominio": "elheraldo.co",
-   "tema": "Política y Congreso"
   },
   {
    "id": "b46107510577",
@@ -2600,6 +2721,7 @@
    "categoria": "coyuntura",
    "tamano": "regional",
    "dominio": "elcolombiano.com",
+   "buscado": true,
    "tema": "Regiones"
   },
   {
@@ -2615,6 +2737,20 @@
    "tamano": "nacional",
    "dominio": "larepublica.co",
    "tema": "Política y Congreso"
+  },
+  {
+   "id": "739d34f41a74",
+   "titulo": "Álvaro Uribe impulsa proyecto para reducir avalúos catastrales en Colombia",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZEx5MTJ6MUxkZ0tZMFVqT2NjUHRDOTdpNDZqdXpFUG0zUG1HY0xJUzlEU2IxSE5uU0xFWEU5OUx6bVNEQV9PVVR1d2dqcWJiT0RWZGhQR09tcXlES3BwY3JYZFFYbENwbVFVcFlQclJzelU1VDYwLTZtTWdNVlhNYVA5V2YtODhDUUpabHN3?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-16T17:53:10Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "facebook.com",
+   "tema": "Economía"
   },
   {
    "id": "23bc3bf2ee09",
@@ -2796,6 +2932,7 @@
    "categoria": "coyuntura",
    "tamano": "local",
    "dominio": "risaraldahoy.com",
+   "buscado": true,
    "tema": "Gobierno"
   },
   {
@@ -2911,6 +3048,20 @@
    "tema": "Economía"
   },
   {
+   "id": "60e0fd7d776b",
+   "titulo": "La admiración y respeto de Abelardo de la Espriella con Álvaro Uribe Vélez genera reacciones",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1xczlEVEFBLWRBRmVkaVcyMklFekNPSWJiRnZ3SGFHMjA2QUk3U0pGTEw1NmpyaHhqcEFnNjVJUzkxdnplelA3ZjgtTWZMUkx3RHVBUg?oc=5",
+   "fuente": "YouTube",
+   "fecha": "2026-11-16T17:20:35Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "youtube.com",
+   "tema": "Gobierno"
+  },
+  {
    "id": "ad13102bc7f1",
    "titulo": "El expresidente Álvaro Uribe Vélez anunció que la bancada del Centro Democrático retomará las gestiones en el Congreso…",
    "resumen": "El expresidente Álvaro Uribe Vélez anunció que la bancada del Centro Democrático retomará las gestiones en el Congreso de la República para impulsar un proyecto de ley que busca aliviar el impacto económico de los incrementos en los avalú…",
@@ -2992,6 +3143,7 @@
    "categoria": "coyuntura",
    "tamano": "gran",
    "dominio": "lafm.com.co",
+   "buscado": true,
    "tema": "Economía"
   },
   {
@@ -3162,6 +3314,7 @@
    "categoria": "coyuntura",
    "tamano": "nacional",
    "dominio": "portafolio.co",
+   "buscado": true,
    "tema": "Economía"
   },
   {
@@ -3177,20 +3330,6 @@
    "tamano": "gran",
    "dominio": "semana.com",
    "tema": "Política y Congreso"
-  },
-  {
-   "id": "56c2331a9694",
-   "titulo": "Respaldo político a ADLE tras anuncio de no gravar con IVA la canasta familiar ni el sector agropecuario",
-   "resumen": "\"Bien que se acoja la alarma del Centro Democrático de no subir el IVA a productos sensibles del consumo popular\", dijo el senador Carlos Meisel, de las Comisiones Económicas Conjuntas.",
-   "detalle": "Amplio respaldo de las bancadas mayoritarias del Congreso recibió en redes sociales el anuncio del presidente Abelardo De la Espriella de no gravar con IVA la canasta familiar en la Ley de Rescate. “Mi gobierno no impondrá IVA a los productos de la canasta familiar, ni promoverá nuevas cargas de IVA sobre el sector agropecuario”, aseguró el mandatario el pasado domingo en su alocución por los primeros 100 días de mandato, agregando que “el Ministerio de Hacienda está estudiando la posibilidad de reducir la tarifa general del IVA del 19% al 18% o incluso al 17%. Espero poder darle pronto buenas noticias al país en este sentido”.",
-   "cita": "",
-   "enlace": "https://www.elheraldo.co/politica/2026/11/16/respaldo-politico-a-adle-tras-anuncio-de-no-gravar-con-iva-la-canasta-familiar-ni-el-sector-agropecuario/",
-   "fuente": "El Heraldo",
-   "fecha": "2026-11-16T16:51:44Z",
-   "categoria": "coyuntura",
-   "tamano": "regional",
-   "dominio": "elheraldo.co",
-   "tema": "Economía"
   },
   {
    "id": "49e65245dc68",
@@ -3236,6 +3375,20 @@
    "tema": "Seguridad y orden público"
   },
   {
+   "id": "8dbfb4ab0e26",
+   "titulo": "Tras los primeros 100 días del Gobierno del presidente Abelardo de la Espriella, en Caracol Radio analizamos la…",
+   "resumen": "Tras los primeros 100 días del Gobierno del presidente Abelardo de la Espriella, en Caracol Radio analizamos la relación que ha tenido el mandatario con el Congreso de la República. ¿Logró poner al petrismo y al uribismo en la mism…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5CQ0lYVV9ha3JqczQ4TUc2MzNhRWNVRlgtd0xpd09udFRsOE5BWTByV2tELWZRVXpOcnFyMjhhal9YRklBUENCZ0lzOUJhVGJnd1NYekhn?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-16T16:46:41Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Gobierno"
+  },
+  {
    "id": "b9c2eead6b6d",
    "titulo": "Juez pide investigar a presidente Abelardo de la Espriella por posibles vulneraciones en exhibición de capturados en Antioquia",
    "resumen": "La actuación pública del presidente De la Espriella frente a capturados genera investigación por posible vulneración de derechos.",
@@ -3247,6 +3400,7 @@
    "categoria": "coyuntura",
    "tamano": "nacional",
    "dominio": "pulzo.com",
+   "buscado": true,
    "tema": "Gobierno"
   },
   {
@@ -3261,6 +3415,7 @@
    "categoria": "coyuntura",
    "tamano": "local",
    "dominio": "dplnews.com",
+   "buscado": true,
    "tema": "Gobierno"
   },
   {
@@ -3430,6 +3585,7 @@
    "categoria": "coyuntura",
    "tamano": "local",
    "dominio": "larazon.co",
+   "buscado": true,
    "tema": "Seguridad y orden público"
   },
   {
@@ -3472,6 +3628,7 @@
    "categoria": "coyuntura",
    "tamano": "local",
    "dominio": "periodismopublico.com",
+   "buscado": true,
    "tema": "Economía"
   },
   {
@@ -3612,6 +3769,7 @@
    "categoria": "coyuntura",
    "tamano": "nacional",
    "dominio": "pulzo.com",
+   "buscado": true,
    "tema": "Economía"
   },
   {
@@ -3640,6 +3798,7 @@
    "categoria": "coyuntura",
    "tamano": "regional",
    "dominio": "elpais.com.co",
+   "buscado": true,
    "tema": "Seguridad y orden público"
   },
   {
@@ -3712,6 +3871,20 @@
    "dominio": "cwmas.com.co",
    "buscado": true,
    "tema": "Economía"
+  },
+  {
+   "id": "6e9d1061aac2",
+   "titulo": "El expresidente Álvaro Uribe Vélez anunció que el Centro Democrático insistirá en el Congreso con un proyecto que busca…",
+   "resumen": "El expresidente Álvaro Uribe Vélez anunció que el Centro Democrático insistirá en el Congreso con un proyecto que busca aliviar la carga de un impuesto que golpea el bolsillo de miles de colombianos. Más información en el primer comentario ⬇️…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNMG1yWUlCeHR6R3lETTc0bzN4VFRzV2tkeTFQbXA1b2VRT2RhNWFFSzdPOWREZ3F2bWVXOXBDQWpGRWJrZlNEcER5YVZRUl9tbk9NRjhtUkNXdTRXenZNTlI5QWUtajNvNDVlcFBLWjdoOWUwX2JSWlFaSXZtdTktMFNWTXA2WUYwNjVJZUtRZmlDMm10REt0WVo0N3JjUzR0cXRQQjZjUkVneGI0WUpBXzZLekQ2MW44SF9fMU40SjlfNUswNC1CMHZScFdaUmdqV0VkWVd4VDRxOW45Y1VpOW5XcWY5bl92ZGFhYU4wQTR6Q1Yxc3c?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-16T15:51:49Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "facebook.com",
+   "tema": "Política y Congreso"
   },
   {
    "id": "fcfaeedaad06",
@@ -3851,6 +4024,7 @@
    "categoria": "coyuntura",
    "tamano": "local",
    "dominio": "elolfato.com",
+   "buscado": true,
    "tema": "Economía"
   },
   {
@@ -3921,6 +4095,7 @@
    "categoria": "coyuntura",
    "tamano": "gran",
    "dominio": "elespectador.com",
+   "buscado": true,
    "tema": "Economía"
   },
   {
@@ -3952,6 +4127,20 @@
    "tema": "Seguridad y orden público"
   },
   {
+   "id": "2cdd4bdf1f22",
+   "titulo": "“Motivo de tranquilidad”. Álvaro Uribe (@AlvaroUribeVel) celebró la decisión de Abelardo De La Espriella…",
+   "resumen": "“Motivo de tranquilidad”. Álvaro Uribe (@AlvaroUribeVel) celebró la decisión de Abelardo De La Espriella (@ABDELAESPRIELLA) de excluir la canasta familiar del IVA. El Gobierno también estudia reducir la tarifa general del impuesto del 19 % al 17 %. https…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAyOUtmU1V1ZTFMdk9rbkxjTU9qUUhQRXR2ajJpeDRfYzBMNmhYbUR5V1dCbmNQdEhXRVdINzFqbTJ0UmtJMWtQSEc1ZUcwaUpScWM5czZld3pPR0Rf?oc=5",
+   "fuente": "X",
+   "fecha": "2026-11-16T15:30:05Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "x.com",
+   "tema": "Gobierno"
+  },
+  {
    "id": "f66358302079",
    "titulo": "“Motivo de tranquilidad”. Álvaro Uribe celebró la decisión de Abelardo De La Espriella de excluir la canasta familiar…",
    "resumen": "“Motivo de tranquilidad”. Álvaro Uribe celebró la decisión de Abelardo De La Espriella de excluir la canasta familiar del IVA. El Gobierno también estudia reducir la tarifa general del impuesto del 19 % al 17 %…",
@@ -3966,6 +4155,20 @@
    "tema": "Economía"
   },
   {
+   "id": "d7d069f404dd",
+   "titulo": "#POLÍTICA \"Buen anuncio\": Uribe celebra decisión de De La Espriella de no poner IVA a la canasta familiar @HoyDiarioMag…",
+   "resumen": "#POLÍTICA \"Buen anuncio\": Uribe celebra decisión de De La Espriella de no poner IVA a la canasta familiar @HoyDiarioMag #POLÍTICA…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBETFM5WjdFLTg0NlhUMnFJZjV6UkpHZ3ZIdzdQVXZjN1dQVUdRd2hpMndZcVJsOFRpT0c3VnJXZEpZdlZTOUdNdFVwX1V3Qy1Dc3pQWENOS0RvdXg5anFuaUxuUQ?oc=5",
+   "fuente": "X",
+   "fecha": "2026-11-16T15:27:44Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "x.com",
+   "tema": "Economía"
+  },
+  {
    "id": "8d5aeeed6204",
    "titulo": "IVA, seguridad, reconstrucción y balance de sus primeros 100 días: claves de la última alocución de De La Espriella",
    "resumen": "El presidente dijo que buscará consensos para modificar la Ley de Rescate y mantener protegidos los alimentos.",
@@ -3977,20 +4180,6 @@
    "categoria": "coyuntura",
    "tamano": "nacional",
    "dominio": "portafolio.co",
-   "tema": "Gobierno"
-  },
-  {
-   "id": "5627f03b4ae4",
-   "titulo": "“Derroté a un auspiciador del narcoterrorismo”: mensaje de De la Espriella contra Petro",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQU1ESTBId1ZJbGNWT1lMRV9aOXJzNndRalF6dWd0N0p5SXJFMW55cGhrWU8zWFhTT0dpWWxpMmdyXzZkYU5xeWJVaktrVXlKYjdyQ1JTNFZULUQtRWFtZFF0amt3YWs4RVp1SkxSeXc3YzhKWXJaTkc5Wl9OcmlGU0FKaVFTZzdpdGZrOVZkcllQUTVsRktkWGxzTDhlU2JtQUI1ZVVqM1U0WkRiM0FNVTlCX1BwSjVl?oc=5",
-   "fuente": "El Cronista",
-   "fecha": "2026-11-16T15:24:37Z",
-   "categoria": "coyuntura",
-   "tamano": "local",
-   "dominio": "elcronista.co",
    "buscado": true,
    "tema": "Gobierno"
   },
@@ -4006,6 +4195,7 @@
    "categoria": "coyuntura",
    "tamano": "gran",
    "dominio": "semana.com",
+   "buscado": true,
    "tema": "Gobierno"
   },
   {
@@ -4034,7 +4224,22 @@
    "categoria": "coyuntura",
    "tamano": "regional",
    "dominio": "laopinion.com.co",
+   "buscado": true,
    "tema": "Seguridad y orden público"
+  },
+  {
+   "id": "a3977f2d37fc",
+   "titulo": "Durante una reunión de concertación con el gobierno del presidente Abelardo De La Espriella en el marco de la discusión…",
+   "resumen": "Durante una reunión de concertación con el gobierno del presidente Abelardo De La Espriella en el marco de la discusión de la Ley de Rescate Económico, la colectividad del Centro Democrático —liderada por el expresidente Álvaro Uribe— puso sobre la…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLNnVLRTlkMGtDUlJNcnJOYmcyUUlYcEJWRC1UTnFfVDRvd3pyUU1nYlRFaFhKTEdMUjI5Y1BSaTRyZk5tVVg1QzNwUUZlWTU5V1E?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-16T15:18:19Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Gobierno"
   },
   {
    "id": "5390564c5387",
@@ -4161,6 +4366,7 @@
    "categoria": "coyuntura",
    "tamano": "local",
    "dominio": "businesscol.com",
+   "buscado": true,
    "tema": "Gobierno"
   },
   {
@@ -4175,6 +4381,7 @@
    "categoria": "coyuntura",
    "tamano": "local",
    "dominio": "businesscol.com",
+   "buscado": true,
    "tema": "Gobierno"
   },
   {
@@ -4189,6 +4396,7 @@
    "categoria": "coyuntura",
    "tamano": "local",
    "dominio": "businesscol.com",
+   "buscado": true,
    "tema": "Gobierno"
   },
   {
@@ -4206,6 +4414,20 @@
    "tema": "Economía"
   },
   {
+   "id": "e1aa568cf45c",
+   "titulo": "Álvaro Uribe Vélez anuncia proyecto de ley sobre avalúos catastrales en Colombia.",
+   "resumen": "Álvaro Uribe Vélez anuncia proyecto de ley sobre avalúos catastrales en Colombia. El Centro Democrático insistirá en el Congreso para reducir la carga del predial en varias regiones del país. #Colombia #Congreso #Predial La nota completa, en acentocolo…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9BRU5iMzhiY0NxbUJobjNsZkNXMXZPbTR1RWE2c3VYcGVrTTNsaEczaEZuOVlJRjBjRmZycWhPYUR3UTZSbS1FNFBKTVRLRm9lR2c?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-16T15:02:27Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Política y Congreso"
+  },
+  {
    "id": "299a52dc2db1",
    "titulo": "Gobierno, sindicatos y empresarios definen cronograma para la negociación del salario mínimo de 2027 en Colombia",
    "resumen": "El salario mínimo de Colombia para 2027 se negociará desde el 18 de noviembre. Descubre fechas clave, actores y factores que incidirán.",
@@ -4217,6 +4439,7 @@
    "categoria": "coyuntura",
    "tamano": "nacional",
    "dominio": "pulzo.com",
+   "buscado": true,
    "tema": "Economía"
   },
   {
@@ -4315,6 +4538,7 @@
    "categoria": "coyuntura",
    "tamano": "local",
    "dominio": "businesscol.com",
+   "buscado": true,
    "tema": "Economía"
   },
   {
@@ -4329,6 +4553,7 @@
    "categoria": "coyuntura",
    "tamano": "local",
    "dominio": "businesscol.com",
+   "buscado": true,
    "tema": "Economía"
   },
   {
@@ -4360,6 +4585,20 @@
    "tema": "Gobierno"
   },
   {
+   "id": "c0895272bf08",
+   "titulo": "🇨🇴 ¡URIBE RESPALDA A DE LA ESPRIELLA POR DESCARTAR EL IVA A LA CANASTA FAMILIAR!",
+   "resumen": "🇨🇴 ¡URIBE RESPALDA A DE LA ESPRIELLA POR DESCARTAR EL IVA A LA CANASTA FAMILIAR! El expresidente Álvaro Uribe Vélez celebró la decisión del presidente Abelardo De La Espriella de no imponer IVA a los productos de la canasta familiar ni e…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5peXNYYXlscm8xd1VkZ2Y1MEZ4U09FZXRjWFhCZUEteUpsSkFPVzRySkdzZXU4NnM4N3Nkb25hSGgxYmhvMmdXTzhzaEI0eHEzYkE?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-16T14:54:29Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Economía"
+  },
+  {
    "id": "5a5f5ca6c5dd",
    "titulo": "Capturan en Manizales a un extranjero requerido para cumplir una condena de 64 meses",
    "resumen": "La Policía capturó en la carrera 19 con calle 17, en Manizales, a un ciudadano extranjero de 24 años, conocido como «Elías», que tenía una orden judicial vigente para cumplir una condena de 64 meses de prisión por tráfico de…",
@@ -4385,6 +4624,7 @@
    "categoria": "coyuntura",
    "tamano": "local",
    "dominio": "businesscol.com",
+   "buscado": true,
    "tema": "Seguridad y orden público"
   },
   {
@@ -4399,6 +4639,7 @@
    "categoria": "coyuntura",
    "tamano": "local",
    "dominio": "businesscol.com",
+   "buscado": true,
    "tema": "Gobierno"
   },
   {
@@ -4413,6 +4654,7 @@
    "categoria": "coyuntura",
    "tamano": "local",
    "dominio": "bogota.gov.co",
+   "buscado": true,
    "tema": "Gobierno"
   },
   {
@@ -4498,6 +4740,7 @@
    "categoria": "coyuntura",
    "tamano": "local",
    "dominio": "ecospoliticos.com",
+   "buscado": true,
    "tema": "Economía"
   },
   {
@@ -4568,6 +4811,7 @@
    "categoria": "coyuntura",
    "tamano": "gran",
    "dominio": "elespectador.com",
+   "buscado": true,
    "tema": "Gobierno"
   },
   {
@@ -4709,6 +4953,7 @@
    "categoria": "coyuntura",
    "tamano": "gran",
    "dominio": "semana.com",
+   "buscado": true,
    "tema": "Gobierno"
   },
   {
@@ -4793,6 +5038,21 @@
    "categoria": "coyuntura",
    "tamano": "nacional",
    "dominio": "pulzo.com",
+   "buscado": true,
+   "tema": "Gobierno"
+  },
+  {
+   "id": "5cc6dcdefc67",
+   "titulo": "El expresidente Álvaro Uribe Vélez celebró la decisión del presidente Abelardo De La Espriella sobre el no incremento…",
+   "resumen": "El expresidente Álvaro Uribe Vélez celebró la decisión del presidente Abelardo De La Espriella sobre el no incremento del IVA para la canasta familiar, un tema que había acaparado la atención del país tras el proyecto de Ley de Rescate Fiscal q…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPaGVMcm1wWmV1MzZtcFZMVFRMOVAzZnJDanBqNTlkSTZ3eWtfWVY1YUMtMnVzTUJ6eXYwLW41d05CRUNGUEtyUnYtVmY0OGpELWpNdUZyNEpoeS1zRkxEM0haVzNFNTNRZnZaek9uSTY3bmYtb1UtWVRwUUdyd0pHRVJ1azJTQ0s1N2pvZERyVGExOG5QZ1c0T0pzMVZOVjk1Ykc0UHcxWk0xWVFjNzEtcVAzREl2NkZpYkZWVXRWNUJtNndKQVotNEFTb0dpUWhEbVBrSDBxS1ZFR29FSnlZMW5uTlFEalR1RDNJdk1hN2czNU02UUQ2OUp2VQ?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-16T14:07:00Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "facebook.com",
    "tema": "Gobierno"
   },
   {
@@ -4853,6 +5113,20 @@
    "tema": "Regiones"
   },
   {
+   "id": "a4e9acd41359",
+   "titulo": "Gracias a la gestión del CD, bajo el liderazgo de Álvaro Uribe, se logró proteger el bolsillo de los colombianos al…",
+   "resumen": "Gracias a la gestión del CD, bajo el liderazgo de Álvaro Uribe, se logró proteger el bolsillo de los colombianos al evitar que se gravara con IVA la canasta familiar. ¡Hicieron su trabajo!…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9NUG9TQWUxcnUwYXgtN09CRkNCWE1OTURhTG1rc08ybldvSEd6S0ZnUUdLaFA1Mi1LbkZzRlBDYjI1LUF5ektidExDSFZudXhOZXdoWmpMdFg4anRVX1BF?oc=5",
+   "fuente": "X",
+   "fecha": "2026-11-16T14:03:04Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "x.com",
+   "tema": "Economía"
+  },
+  {
    "id": "569e60bc329c",
    "titulo": "Extesorera de Garzón, condenada por robo informático",
    "resumen": "No fue un ataque cibernético. No hubo hackers remotos. Fue una empresa criminal coordinada desde las propias dependencias de la Alcaldía de Garzón. Un municipio saqueado. Tres fallos señalan culpables.",
@@ -4907,6 +5181,20 @@
    "tamano": "regional",
    "dominio": "elheraldo.co",
    "tema": "Gobierno"
+  },
+  {
+   "id": "55e1f28f95f8",
+   "titulo": "Las cosas como son. En las reuniones con gob para buscar opciones para la Tributaria con la q se quería gravar la…",
+   "resumen": "Las cosas como son. En las reuniones con gob para buscar opciones para la Tributaria con la q se quería gravar la canasta familiar y la salud, el único Partido al q vimos fue al @CeDemocratico y al expresidente Uribe. No vimos ni a Fincho, ni a Vargas, ni Cl…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1yd3ZWUTBzSGtqU0w5TFNraU96SFlEak1iQlZPWnpDYmhMWEZzNW5wejJlWndQTEthekdnbGNUUU5BbFlHeHFGSjU2MGhNMzJxTjFiT2R3eWY2anJrSjhuWFVrREc?oc=5",
+   "fuente": "X",
+   "fecha": "2026-11-16T13:57:08Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "x.com",
+   "tema": "Economía"
   },
   {
    "id": "ce74a8f67cef",
@@ -4976,6 +5264,7 @@
    "categoria": "coyuntura",
    "tamano": "gran",
    "dominio": "lafm.com.co",
+   "buscado": true,
    "tema": "Salud, educación y social"
   },
   {
@@ -5004,6 +5293,7 @@
    "categoria": "coyuntura",
    "tamano": "gran",
    "dominio": "infobae.com",
+   "buscado": true,
    "tema": "Seguridad y orden público"
   },
   {
@@ -5018,6 +5308,7 @@
    "categoria": "coyuntura",
    "tamano": "regional",
    "dominio": "diariodelcauca.com.co",
+   "buscado": true,
    "tema": "Seguridad y orden público"
   },
   {
@@ -5089,6 +5380,34 @@
    "tamano": "regional",
    "dominio": "diariodelhuila.com",
    "tema": "Economía"
+  },
+  {
+   "id": "69fe5fee060d",
+   "titulo": "🇨🇴 Álvaro Uribe celebra decisión anunciada por el presidente De la Espriella sobre la canasta familiar El expresidente…",
+   "resumen": "🇨🇴 Álvaro Uribe celebra decisión anunciada por el presidente De la Espriella sobre la canasta familiar El expresidente Álvaro Uribe Vélez reaccionó positivamente al anuncio del presidente Abelardo de la Espriella de no aplicar IVA a la canasta familiar. A tra…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNSVpRUnRLZ0ZSQ2pzNmRqNFoxelM1QmRRSEowUkZzNDVNNWRpeVZKOWg3aXh2am40SWxIMnV4T1RmT0I1c090V19VdTBnUENBNE5ZT2hnUGtOWC1Ed244Z1lmTzkzNUJnSTVPODk3RUszNE9oRV94SkZtaWsyN29ST0tkV251NmV4YzFFUE9ySldhal9ic296dGJNcmFtbUxTTkJzbGhxSUJvZ2plWDJnWDhYb09XeEdZUkJXQVVpNTctU3RtVEhVUDFlLU5FVGM5TXFOQ01hT1E1ZUxHRTh2LVNCZ3d2dzAy?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-16T13:26:11Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "facebook.com",
+   "tema": "Gobierno"
+  },
+  {
+   "id": "9a6898482a11",
+   "titulo": "Uribe celebra que el Gobierno no impondrá IVA a la canasta familiar El expresidente Álvaro Uribe reaccionó este domingo…",
+   "resumen": "Uribe celebra que el Gobierno no impondrá IVA a la canasta familiar El expresidente Álvaro Uribe reaccionó este domingo 15 de noviembre, a través de redes sociales, al anuncio del presidente Abelardo De La Espriella de que la Ley de Rescate E…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1qMk5rWmhnZDBxV2ZLLUZxLU8ySlpGZk4xeW9HVFE4V21Kcm9YSU43Umdob3doMlR2UV94ZlFFZzY3SjBsT20wTld6MzFJQXdrRlE?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-16T13:25:18Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Gobierno"
   },
   {
    "id": "53a64fb6b23a",
@@ -5218,20 +5537,6 @@
    "tema": "Economía"
   },
   {
-   "id": "1c7ac73b504e",
-   "titulo": "\"Mi Gobierno no impondrá IVA\": Presidente De La Espriella confirma inesperado cambio que tendría el impuesto en Colombia",
-   "resumen": "El presidente Abelardo De La Espriella anunció que estudia reducir el IVA del 19 % al 17 % y aseguró que los alimentos de la canasta familiar no pagarán este impuesto.",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPV3QtOEVGbzhST2Iycmg5WTUzV3IwVDRUUEtXNUxYNlVuT2Ixd0wtNWFBSkgtNU9sMzhJdmpZd1QyM0pyNWtYOFVwYVZVWXUwTUJSbktjdGdJTmdoRWhhV19uTkV5ci1rS0Z5M0xwR2Z5SUdLeW1TVkJwcTlLUnhkS1JwTWhXT3FpRlBjNElBWVZwdklFWDROcndVUGRvMDdSSVhlU2ZnQ0xpUnhuMlRrRWdZT3Bpd041R3J3TUhWdWVQQldkWDNfeVpSMDNLMkdzMUhmc0h2dHUyeldhOGFvSGwwV2VHOXhSZjVhb3lGLWFBQXpwNzh6bjNkSjc?oc=5",
-   "fuente": "RED+ Noticias",
-   "fecha": "2026-11-16T13:14:39Z",
-   "categoria": "coyuntura",
-   "tamano": "nacional",
-   "dominio": "redmas.com.co",
-   "tema": "Gobierno"
-  },
-  {
    "id": "efe540f40a0c",
    "titulo": "Padres de María Camila Pantoja, subteniente secuestrada, hablaron con SEMANA y enviaron contundente mensaje al ELN",
    "resumen": "La incertidumbre y la preocupación continúan para la familia de la subteniente María Camila Pantoja Hernández, quien permanece secuestrada por el ELN en el departamento de Arauca.",
@@ -5244,6 +5549,21 @@
    "tamano": "gran",
    "dominio": "semana.com",
    "tema": "Seguridad y orden público"
+  },
+  {
+   "id": "1c7ac73b504e",
+   "titulo": "\"Mi Gobierno no impondrá IVA\": Presidente De La Espriella confirma inesperado cambio que tendría el impuesto en Colombia",
+   "resumen": "El presidente Abelardo De La Espriella anunció que estudia reducir el IVA del 19 % al 17 % y aseguró que los alimentos de la canasta familiar no pagarán este impuesto.",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPV3QtOEVGbzhST2Iycmg5WTUzV3IwVDRUUEtXNUxYNlVuT2Ixd0wtNWFBSkgtNU9sMzhJdmpZd1QyM0pyNWtYOFVwYVZVWXUwTUJSbktjdGdJTmdoRWhhV19uTkV5ci1rS0Z5M0xwR2Z5SUdLeW1TVkJwcTlLUnhkS1JwTWhXT3FpRlBjNElBWVZwdklFWDROcndVUGRvMDdSSVhlU2ZnQ0xpUnhuMlRrRWdZT3Bpd041R3J3TUhWdWVQQldkWDNfeVpSMDNLMkdzMUhmc0h2dHUyeldhOGFvSGwwV2VHOXhSZjVhb3lGLWFBQXpwNzh6bjNkSjc?oc=5",
+   "fuente": "RED+ Noticias",
+   "fecha": "2026-11-16T13:14:39Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional",
+   "dominio": "redmas.com.co",
+   "buscado": true,
+   "tema": "Gobierno"
   },
   {
    "id": "2648621a472c",
@@ -5285,6 +5605,7 @@
    "categoria": "coyuntura",
    "tamano": "local",
    "dominio": "bogota.gov.co",
+   "buscado": true,
    "tema": "Otros temas"
   },
   {
@@ -5299,6 +5620,7 @@
    "categoria": "coyuntura",
    "tamano": "regional",
    "dominio": "diariodelcauca.com.co",
+   "buscado": true,
    "tema": "Gobierno"
   },
   {
@@ -5355,6 +5677,7 @@
    "categoria": "coyuntura",
    "tamano": "nacional",
    "dominio": "pulzo.com",
+   "buscado": true,
    "tema": "Economía"
   },
   {
@@ -5370,6 +5693,20 @@
    "tamano": "regional",
    "dominio": "elcolombiano.com",
    "tema": "Gobierno"
+  },
+  {
+   "id": "8494318a29fe",
+   "titulo": "Álvaro Uribe calificó como “buen anuncio” la decisión del Gobierno de no imponer IVA a la canasta familiar.",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5aWlhXeFNfRjF2c0ZibTN1RWdieWRpY21RbEw0eWJvMGVLWU5tX2hmTGkyS0RSczNPYWt4dDhjeXFIMFBaekl4emZjNnFYcEhmX3ZSNk03QkI2V2hROFExU01n?oc=5",
+   "fuente": "X",
+   "fecha": "2026-11-16T12:56:33Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "x.com",
+   "tema": "Economía"
   },
   {
    "id": "518d3d54add0",
@@ -5457,6 +5794,20 @@
    "tema": "Seguridad y orden público"
   },
   {
+   "id": "c9b4680e9a14",
+   "titulo": "“Motivo de tranquilidad”: Álvaro Uribe celebra decisión del Gobierno de no imponer IVA a la canasta familiar 📲Más…",
+   "resumen": "“Motivo de tranquilidad”: Álvaro Uribe celebra decisión del Gobierno de no imponer IVA a la canasta familiar 📲Más detalles haciendo clic en la imagen. ⬇️…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5pNVZaZm52SHd1RjdSUzQzYmE0NnhyTFhtcXFxWUhWSVBTSlpuTTdHNEprRmFRR2xFcHJCcXFRZmxZZzNLbURDNUpmTUo2YS1GeHBfZTgwOWdXdktKZ0JjQ3N3?oc=5",
+   "fuente": "X",
+   "fecha": "2026-11-16T12:42:03Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "x.com",
+   "tema": "Economía"
+  },
+  {
    "id": "28e7c72823a8",
    "titulo": "Gobierno lanza plan de choque tras aumento de ataques con drones en 16 departamentos",
    "resumen": "Necessary cookies are required to enable the basic features of this site, such as providing secure log-in or adjusting your consent preferences. These cookies do not store any personally identifiable.",
@@ -5468,6 +5819,7 @@
    "categoria": "coyuntura",
    "tamano": "local",
    "dominio": "radiosantafe.com",
+   "buscado": true,
    "tema": "Seguridad y orden público"
   },
   {
@@ -5525,6 +5877,7 @@
    "categoria": "coyuntura",
    "tamano": "regional",
    "dominio": "hsbnoticias.com",
+   "buscado": true,
    "tema": "Gobierno"
   },
   {
@@ -5539,21 +5892,36 @@
    "categoria": "coyuntura",
    "tamano": "regional",
    "dominio": "elcolombiano.com",
+   "buscado": true,
    "tema": "Economía"
   },
   {
-   "id": "94ef4c525160",
-   "titulo": "Ley de Rescate Económico: esto plantea el proyecto para las empresas, trabajadores y hogares del país",
-   "resumen": "La iniciativa del Gobierno plantea cambios tributarios, ajustes al gasto público y modificaciones en las cotizaciones a salud.",
+   "id": "e4afb76b9ac6",
+   "titulo": "Photo by Álvaro Uribe Vélez · November 16, 2026",
+   "resumen": "",
    "detalle": "",
    "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOVFJ0VXpOYTMxeFBhX1RwYkVGbkhYb08yUnBibmxiMzltTkNsZEYtaTl4bnA3WjJwS2xKT3dLNm5rQ3JrbTdTX0h2MzFvY0Q4OGNrUGxtemk3eTIwNDI4c0k0NkRvT0YxeEFjWU9jc2FRWV9qamZsRWVCcnhBQVJOblFNS0hmUEpuZnpaMmlBZnVhLTRnRFlxTkhXTmw0YWVyNW5yckZ3dF9YQ2M4TWVQMGpQMFBaMVpPMEgxcGhhNkw4a2tzWUFySktvV2UtVmMxNjBJeVNzcjVpQzZCaF85SW1wdWxZaEdNckZDZV9iUWhZOE800gH6AUFVX3lxTE85OE14cHQzb2N5TU4tZ3Vmay1xZHdmdjdVR2dhd29TQ3lTS3JkLU84eDhoZDAxM25yUWpOLVBwTkdZZW9aMHc0T3N1ODBLdzFJOU1EMmJ4a3V6OGJlTGJQeVNYOVk1UTNObkNVMllzOHNFYnNqVDJfQzI4SHlEUkRqWThtVXlfTllJbDYxOWRGN1ZzbzlVS3k1SkJCa2NnS1p6cHJWd0ZQNWpiLUNzbHIwR0puRXdnWEdvcU9IMFhFa0txYVc1WlVmWkd2VndHVWQzZnNpUGJxdWxjTWlMU0Y0MGFuMVVoNEFsRkRhdVp1Sm5wYjN0bjY1UEE?oc=5",
-   "fuente": "Revista Semana",
-   "fecha": "2026-11-16T12:26:21Z",
-   "categoria": "coyuntura",
-   "tamano": "gran",
-   "dominio": "semana.com",
-   "tema": "Economía"
+   "enlace": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTm0tamtkY3NWWTNjTFlnV3dxTlNweGVySkFnLW01aFVtZ2RES0JGaXR3MzVpRzEwcUliZm10QjZSMVJWRkhXYnN3aTJ2cXZkUnNCMm5OYkpBT3FXci0tRmNaWWR3TzhjTGRNSTUySTRXTVB2dU1EcnYxTUxRZld1MUcxR0c0MHNKUkZ6NUF3?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-16T12:24:56Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "facebook.com",
+   "tema": "Otros temas"
+  },
+  {
+   "id": "8b3b12834785",
+   "titulo": "Bilde av Álvaro Uribe Vélez · 16. november 2026",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTGpLMVZPc2sxdVVDUk9lVEpPN21laUtxUlRHM0hTWDdCTXpWaGxnSm5MTUtxMHpnS3hRT253V1NHaElaVXNWYXpZbTdwdzBaMnUySWVkdUJOMEhlVS10dldGUzh6eDFIVVV3OWQ3MnBIVHJLZXota3FvbExJSDJDZ1l3?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-16T12:24:56Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "facebook.com",
+   "tema": "Otros temas"
   },
   {
    "id": "6491749240f0",
@@ -5600,7 +5968,7 @@
   {
    "id": "b895f782c491",
    "titulo": "Alimentos sin IVA en Colombia: cambios tributarios del Gobierno",
-   "resumen": "La administración actual en Colombia ha puesto sobre la mesa una de las medidas económicas más significativas de los últimos tiempos: la posible exención del Impu.",
+   "resumen": "",
    "detalle": "",
    "cita": "",
    "enlace": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQR08yLU9xMkhldmhFSWk0RF9ZbGlaMF9zb2RQaEhmZHJ6akpnQUVfdHlCbURyODRqam9IWHFqVXVMUzFfQXhRSFJVSUR3VTBYZWluRWFVM0xkUmE4bHRrU1M4MXZsamF3cUlsMzRuaGV5Nkdzc0hOLTVHdHRBSXZQdm52ZTF0ZFE?oc=5",
@@ -5609,6 +5977,7 @@
    "categoria": "coyuntura",
    "tamano": "local",
    "dominio": "estrelladigital.com.co",
+   "buscado": true,
    "tema": "Economía"
   },
   {
@@ -5623,6 +5992,7 @@
    "categoria": "coyuntura",
    "tamano": "gran",
    "dominio": "eltiempo.com",
+   "buscado": true,
    "tema": "Economía"
   },
   {
@@ -5654,6 +6024,20 @@
    "tema": "Salud, educación y social"
   },
   {
+   "id": "339fb56c7628",
+   "titulo": "Gracias Pdte. Uribe y a la bancada del Centro Democrático a Abelardo le toca recular en su intención de ponerle IVA a…",
+   "resumen": "Gracias Pdte. Uribe y a la bancada del Centro Democrático a Abelardo le toca recular en su intención de ponerle IVA a la comida. Hay que seguir presionando para que no se suba de un solo impuesto más…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA1S1BzQ3NkZ2JjNnRRc29xcUsyMWZKVmlrbTlORFVjREY2OG9GVnRPb2JXaUpUcE5xZXhqMS1jX1JrdWlTdG1uenpzLXRfR2tlSk9TV3V2VnJsNVN4LU43V1pqT3RiUQ?oc=5",
+   "fuente": "X",
+   "fecha": "2026-11-16T11:48:24Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "x.com",
+   "tema": "Política y Congreso"
+  },
+  {
    "id": "5d4feed2df93",
    "titulo": "🔴 EN VIVO | Plan retorno a Bogotá: las principales vías de entrada y salida de la ciudad registran movilidad fluida",
    "resumen": "El puente festivo de la Independencia de Cartagena llega a su último día este lunes, 16 de noviembre, y las autoridades mantienen un operativo especial para atender el regreso de miles de viajeros.",
@@ -5679,6 +6063,7 @@
    "categoria": "coyuntura",
    "tamano": "gran",
    "dominio": "eltiempo.com",
+   "buscado": true,
    "tema": "Gobierno"
   },
   {
@@ -5693,6 +6078,7 @@
    "categoria": "coyuntura",
    "tamano": "nacional",
    "dominio": "pulzo.com",
+   "buscado": true,
    "tema": "Economía"
   },
   {
@@ -5749,7 +6135,6 @@
    "categoria": "coyuntura",
    "tamano": "internacional",
    "dominio": "bbc.com",
-   "buscado": true,
    "tema": "Seguridad y orden público"
   },
   {
@@ -5851,6 +6236,7 @@
    "categoria": "coyuntura",
    "tamano": "regional",
    "dominio": "elcolombiano.com",
+   "buscado": true,
    "tema": "Seguridad y orden público"
   },
   {
@@ -5921,6 +6307,7 @@
    "categoria": "coyuntura",
    "tamano": "internacional",
    "dominio": "elpais.com",
+   "buscado": true,
    "tema": "Justicia"
   },
   {
@@ -5979,6 +6366,20 @@
    "tamano": "gran",
    "dominio": "infobae.com",
    "tema": "Energía y ambiente"
+  },
+  {
+   "id": "e5552a876c2d",
+   "titulo": "Álvaro Uribe Vélez Buen anuncio del Presidente De La Espriella que no habrá IVA a la Canasta Familiar.",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPMTBJYzk3X0psVDFYM2puTzNEemhaN1BmMWxnaU1aWmRYcWc4ckxQM192dDZqNzZfUU91RVd0cDhkTFRJUFNOUjNMUXRGQzlGVnRMbVZmMUVkMnlOZjJZY2lyay1rdVFBazJPV1prZ0JKQy1BV2c0YW81TlZILXdsdXNneGhRV2I3YlAwMENOTXF0cTNRRjhGUkdQZVc3TDQyVndDQ29YZzgzd0FsSTVfZC1QYkotdmJZVWZjeFp5YjJuZ0RPZjZyVVFMUzhyMU5WZDU5UUlrd3RVOWRKOWNCSjNtM2loeXpKNGdN?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-16T08:39:00Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "facebook.com",
+   "tema": "Economía"
   },
   {
    "id": "977665c5ab50",
@@ -6179,6 +6580,21 @@
    "tema": "Internacional"
   },
   {
+   "id": "fcf574f3e642",
+   "titulo": "Corte Suprema confirma sentencia contra el hermano del expresidente Álvaro Uribe",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTlI3UkQyNlBrT3Z2NmF0M214eVlHUjcxYWRNT0N6Qlc3dGQwM3E3bGtHb2tRNHptdVhuNkIwVFlZLU1ZUXlGS3FvWUJ3bzN0TW9XRnAwdkxiYjhjM01MNElrdFFDanJyWmZjejBMLWRUMzNqQzZDQ1U4RDJVMExUX21Rb094MGdrRkZrdkNNY011ODI0cktXSzk4emE5WnUwRlJwdUJWQzdzTzRzX1Rkc1VJZDR6VGVfX2xQNw?oc=5",
+   "fuente": "El Quindiano",
+   "fecha": "2026-11-16T05:40:33Z",
+   "categoria": "mencion",
+   "tamano": "regional",
+   "dominio": "elquindiano.com",
+   "buscado": true,
+   "tema": "Justicia"
+  },
+  {
    "id": "1461e37b147d",
    "titulo": "Colombia — Los 100 días de gobierno de De la Espriella|¿Qué ha cambiado en Colombia?",
    "resumen": "El presidente de Colombia, Abelardo de la Espriella, cumplió este domingo sus primeros 100 días de gobierno en un contexto marcado por el recrudecimiento de la violencia, las labores de reconstrucción.",
@@ -6190,6 +6606,7 @@
    "categoria": "coyuntura",
    "tamano": "local",
    "dominio": "prensamercosur.org",
+   "buscado": true,
    "tema": "Gobierno"
   },
   {
@@ -6219,6 +6636,20 @@
    "tamano": "redes",
    "dominio": "facebook.com",
    "tema": "Política y Congreso"
+  },
+  {
+   "id": "72c7bc0182a5",
+   "titulo": "\"Motivo de tranquilidad\": Uribe reaccionó y celebró decisión de Abelardo de la Espriella",
+   "resumen": "Noticias de Álvaro Uribe: el expresidente y su partido habían sido críticos con esa decisión de la Ley de Rescate.",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZEtKNUloU0xZQTAyalZmZlQ5aUZwWHFlQ0JIUFc0ZEhYQU5NdFJBVWoySC1aZURDNHNEWHhKYVRtcURuTkFsRXlKd0dVdk5yR0hCNEl1QjFBTm5kR2V1eV9IdmNQLWRZd1NhT0Z5dEZhaUl0MmtBR3R5enY5OXdkd0VITmVRV1hvMEZUQnl4ZU5VdVRtLTQyT0phNNIBoAFBVV95cUxNV2tMeF82ZnFSVDBlUGlVTF9objAtSS03SUFUNWlvODhVdWJJWkhPRWMyd2h5am56RGF6bjdsbkpRb28wbG4yUC03b2J2eWVuSnlEU0tmU2JRSjc2R2tPVkYzR05FVDBtUURRaXlaR2ZRTHRNMlE4RUtFd3NMdF9uaS00bHItUVV6TXZRVkZod1BQU2EySG56UlFzajd4eW5r?oc=5",
+   "fuente": "Pulzo",
+   "fecha": "2026-11-16T05:04:53Z",
+   "categoria": "mencion",
+   "tamano": "nacional",
+   "dominio": "pulzo.com",
+   "tema": "Gobierno"
   },
   {
    "id": "714e4e55fb92",
@@ -6403,6 +6834,49 @@
    "tema": "Seguridad y orden público"
   },
   {
+   "id": "49c40b97bb74",
+   "titulo": "Así se juegan la vida contra el crimen dos antioqueñas de la Policía: “una entra, pero no sabe si sale”",
+   "resumen": "Las tomas guerrilleras que sacudieron a su natal pueblo de Nariño, Antioquia, no acobardaron el corazón de Lina María Henao Naranjo. Apenas tenía 13 años de edad, cuando vio a los terroristas detonar bombas, matar paisanos y secuestrar…",
+   "detalle": "Las tomas guerrilleras que sacudieron a su natal pueblo de Nariño, Antioquia, no acobardaron el corazón de Lina María Henao Naranjo. Apenas tenía 13 años de edad, cuando vio a los terroristas detonar bombas, matar paisanos y secuestrar policías; pero no fue el miedo lo que le inundó el alma, sino el coraje para luchar por la justicia. El recuerdo le vuelve a la memoria en una conversación con EL COLOMBIANO, ahora que ostenta 40 abriles y el grado de intendente en la Policía. Lina es una de las investigadoras del Grupo de Acción Unificada por la Libertad Personal (Gaula) de la Policía Metropolitana del Valle de Aburrá, y le apasiona rescatar secuestrados.",
+   "cita": "",
+   "enlace": "https://www.elcolombiano.com/colombia/mujeres-de-la-policia-en-antioquia-asi-enfrentan-crimen-secuestros-y-bandas-ilegales-DC43633734",
+   "fuente": "El Colombiano",
+   "fecha": "2026-11-16T04:20:57Z",
+   "categoria": "coyuntura",
+   "tamano": "regional",
+   "dominio": "elcolombiano.com",
+   "tema": "Seguridad y orden público"
+  },
+  {
+   "id": "76d6db291923",
+   "titulo": "Las piezas clave del presunto plan en la DNI de Petro para atacar las elecciones: el hacker, el gemelo y las denuncias",
+   "resumen": "Durante la administración de Gustavo Petro, la Dirección Nacional de Inteligencia (DNI) dejó de ser un búnker de funcionarios de carrera.",
+   "detalle": "Durante la administración de Gustavo Petro, la Dirección Nacional de Inteligencia (DNI) dejó de ser un búnker de funcionarios de carrera. En cuatro años pasaron por su dirección cuatro exmilitantes del M-19 —Manuel Alberto Casanova; Carlos Ramón González, prófugo en Nicaragua; Jorge Lemus y René Guarín— y, según fuentes de la entidad consultadas por EL COLOMBIANO, terminó convertida en una especie de policía gubernamental, dedicada a defender intereses del gobierno de turno. La entidad llamada a anticipar y contrarrestar los riesgos contra la democracia habría terminado, según varias revelaciones, convertida en uno de ellos.",
+   "cita": "",
+   "enlace": "https://www.elcolombiano.com/colombia/dni-gobierno-petro-presunto-plan-para-atacar-elecciones-hacker-carlos-oyola-IC43634851",
+   "fuente": "El Colombiano",
+   "fecha": "2026-11-16T04:18:36Z",
+   "categoria": "coyuntura",
+   "tamano": "regional",
+   "dominio": "elcolombiano.com",
+   "tema": "Política y Congreso"
+  },
+  {
+   "id": "79e93744473e",
+   "titulo": "Abelardo de la Espriella anuncia reducción de gasto estatal, sin aumento de IVA y balance de primeros 100 días de gobierno",
+   "resumen": "Abelardo de la Espriella descarta subir el IVA en canasta familiar y anuncia reducción del gasto estatal y avances en seguridad.",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVUVoWDh0Tk9SOUh1Z2pGdVE3T1NaUXRFVUJ4RFhSYzdvalZZeTlJWnYxY1hjTWNpV2RLX3FOazdmUUlaSng5d2Zmd3VGTWNLMk15MnA1cUFmbjNpcHlOeHFKWHJxbEliTTZLUXlZRXgyenNBUE8xVTJxNFZfdW4waGEtdmFjSG1xTHJOUFdWbmJsMG5rUzBTS29vV1JNNHFNRkZBMDdoSU5TcG5iZUU2X0VFX3JmM1NkU1IzNzlaU0lBdEM4R2RkVlFCVnlCZ3hOd2fSAdcBQVVfeXFMTnF4OGszelkxdG9LSkhLTHdHUHhPVVo5VDdyNmR4VjdubjVkNkhHV3pJcXdBc3R3S0VpZUdYQ1dsZzJWdVcxWlAxLWlrelVSU1c2T1ZfdU4yYUR0Mlh3SnZLeTZyN05nVjgwN1lpNnU1cEZZVUotYkRVN1pjMDBNU2FDaHhpSGd0SFBIbkxSRWVNVlhPOHdyVUFBcTFGNDhnNWJPR09wcEI4U3FxVEFSYkQ3MGc1SmFDRUFoa2ozcHlMUmw3T0VaMU9vRnRYcUU2a0VFcjFScm8?oc=5",
+   "fuente": "Pulzo",
+   "fecha": "2026-11-16T04:15:47Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional",
+   "dominio": "pulzo.com",
+   "buscado": true,
+   "tema": "Gobierno"
+  },
+  {
    "id": "58e9ab2ef416",
    "titulo": "\"Buen anuncio\": Uribe celebra decisión de De La Espriella de no poner IVA a la canasta familiar",
    "resumen": "El expresidente destacó el anuncio del mandatario, quien también confirmó que estudia reducir la tarifa general del impuesto.",
@@ -6417,6 +6891,90 @@
    "tema": "Economía"
   },
   {
+   "id": "e09d34693735",
+   "titulo": "\"Hay una bomba fiscal\": el vicepresidente Restrepo defiende la Ley de Rescate mientras Hacienda estudia las propuestas del uribismo",
+   "resumen": "El vicepresidente José Manuel Restrepo advirtió que, sin un ajuste en las finanzas públicas, Colombia enfrentaría en 2027 \"un escenario de crisis fiscal.",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYWlPcnRRcmJHS1ZrYk5SaHJSRjZ0eGZqdVVmYzBjTUo5U21VNl9YQ1FDNGpFWnFkRndGV2V1UEp1TFRBNHRMTG1LcVFPZ0p1VFM5Umh5bzl2MkVfcGM4dnJ1ZlZzbzRiamZwNEF3UlU2cTBWUzRUSzNINzFFaEFjZmdDMDN2YVY0N2M0bWxlV1d1UUtsb1V0NHY1ZTYwaEtKdzdJZFdhemRDODNSQ05TbkFfSlQ?oc=5",
+   "fuente": "IFM Noticias",
+   "fecha": "2026-11-16T02:47:31Z",
+   "categoria": "mencion",
+   "tamano": "nacional",
+   "dominio": "ifmnoticias.com",
+   "tema": "Economía"
+  },
+  {
+   "id": "3978676d4178",
+   "titulo": "EXPRESIDENTE URIBE COMPLACIDO CON EL ANUNCIO PRESIDENCIAL DE NO GRAVAR CON IVA LA CANASTA FAMILIAR.",
+   "resumen": "EXPRESIDENTE URIBE COMPLACIDO CON EL ANUNCIO PRESIDENCIAL DE NO GRAVAR CON IVA LA CANASTA FAMILIAR. #Política | El expresidente Álvaro Uribe Vélez celebró el anuncio del presidente Abelardo De La Espriella de no imponer IVA a l…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNaG1NTmdKTWxYZlR3RDVyMG1odjVfMm5CcGJMQjUxVXhYcEJpQzQ5ZFFoYldJNUZlY2dLS3U3ZnNiRDc5RWRxdzZUQmxreXRqamotT3BRX2xRMkxhLWpDd3d2QW1Ea3lEaDRzVGt6RUxCSlZPeEN1eEpWUVRsaGw3RmFZb0VyZzZtaVJSN2U0S0Q1NDBrNWp5a3FfZjNYT1Y2cnlCQVRWOHRJUjVQd1Zvc2Z1M1NUQUN5WW90aFB6M2pOSDFaZDhwcnZJMlVLSnQyUXJhdkhB?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-16T02:42:04Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "facebook.com",
+   "tema": "Gobierno"
+  },
+  {
+   "id": "966035c4c88c",
+   "titulo": "URIBE CELEBRA DECISIÓN DE ABELARDO DE NO PONER IVA A LA CANASTA FAMILIAR: “MOTIVO DE TRANQUILIDAD” El expresidente…",
+   "resumen": "URIBE CELEBRA DECISIÓN DE ABELARDO DE NO PONER IVA A LA CANASTA FAMILIAR: “MOTIVO DE TRANQUILIDAD” El expresidente Álvaro Uribe celebró la decisión del presidente Abelardo de la Espriella de excluir el IVA a la canasta familiar de su…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Uc1N6SG9oTDk0TW5iaE9veGEyejBIZzNLcXlOQWRreTdiNUxYS1JlemhpVFZOb3ljNk13TDZlRS1uQU52ZkI1TGNCbjdrWWZiNEE?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-16T02:42:02Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Economía"
+  },
+  {
+   "id": "226537a71e3e",
+   "titulo": "La labor de Álvaro Uribe Vélez ha sido de admirar, de manera genuina, busca soluciones en la ley de rescate.",
+   "resumen": "La labor de Álvaro Uribe Vélez ha sido de admirar, de manera genuina, busca soluciones en la ley de rescate. Aplausos de pie al gran colombiano…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFByUkdoUHNMNnV6TXJmaUM3ZnhxZ3RVal9NQzlYMFJzQ0EwMjZreVpuZTFsUUFjMUx2dE8zY1NDYlJnVXpIS0hHSHlYWTN0OWFOWnFXTG8zbnM0RV9HMVRrTFFEMzM?oc=5",
+   "fuente": "X",
+   "fecha": "2026-11-16T02:15:16Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "x.com",
+   "tema": "Otros temas"
+  },
+  {
+   "id": "17c35d47d2a2",
+   "titulo": "El líder del Centro Democrático Álvaro Uribe Vélez celebró el anuncio del presidente Abelardo De La Espriella acerca de…",
+   "resumen": "El líder del Centro Democrático Álvaro Uribe Vélez celebró el anuncio del presidente Abelardo De La Espriella acerca de que no habrá aumento del IVA a los productos de la canasta familiar. “Buen anuncio del Presidente De La Espriella que no habrá IVA a l…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBUWHFabngtNk1Hdkwta20xdkZOS01GT1NVM0FXUm5VVlZaSUlGM1phR1RGbXVfQnFfaTB4UXVLaVRDdk9ReTVpdTRLTmtOcTkzakxrUU1tM0tXUnp1R2FBRA?oc=5",
+   "fuente": "X",
+   "fecha": "2026-11-16T01:57:44Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "x.com",
+   "tema": "Gobierno"
+  },
+  {
+   "id": "3304e3c8701b",
+   "titulo": "ÁLVARO URIBE DESTACA ANUNCIO DE DE LA ESPRIELLA SOBRE EL IVA A LA CANASTA FAMILIAR El expresidente Álvaro Uribe Vélez…",
+   "resumen": "ÁLVARO URIBE DESTACA ANUNCIO DE DE LA ESPRIELLA SOBRE EL IVA A LA CANASTA FAMILIAR El expresidente Álvaro Uribe Vélez calificó como una buena noticia el anuncio del presidente Abelardo De la Espriella relacionado con la no aplicación…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOWnZ0RzZ1N1FHaHkzbVVlcVNLZjJRamlnVXNVcHVLUWRFM3lXMWlUVnVhY3hqa2hXSi14Mzlxa054UTVOUThnSHRYR0N1SWdtZHJQaVZla1lmNjV0bzg1dzVBek1MYWlCaktTSHl5NmU3ZFdUMWdpcEtjejhvXzFrSGtiS0hIWlBnME1Ha3ZJMXJtWFVHNGZ2WTRzc05FbHZNNDJXUUhZWF94MGo0R3BaUnVyQ2pjV3lnVEdULVBMS0dfckZyQWFxUkRkbFFrVE9BaTlKRU1zbS1OZjJGeVhtU3JBeEpodTNK?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-16T01:34:19Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "facebook.com",
+   "tema": "Gobierno"
+  },
+  {
    "id": "ce9cf1eb64a2",
    "titulo": "Álvaro Uribe reacciona al anuncio del presidente Abelardo De La Espriella: “Motivo de tranquilidad”",
    "resumen": "El presidente Abelardo De La Espriella anunció que la Ley de Rescate Económico no impondrá el impuesto al valor agregado (IVA) a la canasta familiar y que los colombianos podrán estar tranquilos en es.",
@@ -6428,6 +6986,20 @@
    "categoria": "mencion",
    "tamano": "gran",
    "dominio": "semana.com",
+   "tema": "Gobierno"
+  },
+  {
+   "id": "b20b82fe760a",
+   "titulo": "El expresidente Álvaro Uribe celebró la decisión del presidente Abelardo de la Espriella de excluir el IVA a la canasta…",
+   "resumen": "El expresidente Álvaro Uribe celebró la decisión del presidente Abelardo de la Espriella de excluir el IVA a la canasta familiar de su proyecto de reforma tributaria: “Buen anuncio del presidente De la Espriella que no habrá IVA a la canasta familiar…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMibkFVX3lxTE42MzRzMFpiNllpVTFRV2VvYjJHNzU4czBGbGluc1A0ZmtUOG5mYm1COFdkc0gxVUtMazN1bjBaakI4cWQ1d1ItSHcxRThqZk1fMUxLMjV6UVIxcnQxNVkwaTAyMTlLbFI5OFNtY3p3?oc=5",
+   "fuente": "X",
+   "fecha": "2026-11-16T01:22:43Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "x.com",
    "tema": "Gobierno"
   },
   {
@@ -6459,18 +7031,46 @@
    "tema": "Política y Congreso"
   },
   {
-   "id": "bdc8392ac4a8",
-   "titulo": "Photo by Álvaro Uribe Vélez (@alvarouribevelez) · November 15, 2026",
-   "resumen": "",
+   "id": "9c60161df79e",
+   "titulo": "Daniel Briceño, representante del Centro Democrático, hizo un llamado al Gobierno De La Espriella para no ponerles más…",
+   "resumen": "Daniel Briceño, representante del Centro Democrático, hizo un llamado al Gobierno De La Espriella para no ponerles más impuestos a los colombianos. El uribismo tiene una propuesta para que avance la Ley de Rescate en el Congreso. Vea más en seman…",
    "detalle": "",
    "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3NjdoSmE1VWdOUGFNQ3pwMXNhMUxPSmUwdmVOTWF5UmVFUjE2a09TY0NxdmU3LUtrQ3Q5ejA5UVk5OG0zZFhwN1dmQWhLNDF6Mnc?oc=5",
+   "enlace": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA4aU5kZXJ1bzdDZkFhSEpXRkZqZFVxMnh0aWhRYmtJOXo5clhyc1p4WDJGVW1CWXJPTFlWcnIxbnZrS25ENWF1VFNKTkxoRkhHRUx5UXJR?oc=5",
    "fuente": "Instagram",
-   "fecha": "2026-11-15T23:25:53Z",
+   "fecha": "2026-11-16T00:01:25Z",
    "categoria": "mencion",
    "tamano": "redes",
    "dominio": "instagram.com",
-   "tema": "Otros temas"
+   "tema": "Política y Congreso"
+  },
+  {
+   "id": "29e4aafc519f",
+   "titulo": "#Política 🏛️ El Congreso convocó la primera reunión para discutir la reforma tributaria, tras el diálogo entre Uribe y…",
+   "resumen": "#Política 🏛️ El Congreso convocó la primera reunión para discutir la reforma tributaria, tras el diálogo entre Uribe y el Gobierno. La propuesta busca recaudar el 2,2 % del PIB y ajustar entre $47 y $50 billones en 2027 mediante impuestos y recortes presupu…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qUlVGWTVEVTlfSG5jNHhmbHJ1Y0NEeHIwR2RrTFBmWUVZT2pfRXVFZW9HalJORHNyQUVuQTlyX1VmOUo3cnFkVVBGeGF4aFpxdlVhbHFNdXlxcVgwSDdpWmNHS2I?oc=5",
+   "fuente": "X",
+   "fecha": "2026-11-15T23:30:00Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "x.com",
+   "tema": "Política y Congreso"
+  },
+  {
+   "id": "73b52393ac32",
+   "titulo": "El expresidente Álvaro Uribe Vélez lanzó una advertencia sobre la situación de los restaurantes y las empresas de…",
+   "resumen": "El expresidente Álvaro Uribe Vélez lanzó una advertencia sobre la situación de los restaurantes y las empresas de servicios en Colombia. Según el exmandatario, la presión tributaria y los elevados costos de operación están llevando a numerosos estableci…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA4NkZjcEI0VHVHS1cwUnBQV0ppdEY3cmpOdlZmTnRzSmJxNHBMVjlKb25lX1FDZXJ4djNMYjFFcnRqYl9NLXVJaGhvX0FncXJJM3lQaHdNdDl6T0xu?oc=5",
+   "fuente": "X",
+   "fecha": "2026-11-15T23:20:20Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "x.com",
+   "tema": "Economía"
   },
   {
    "id": "b64a3a905a89",
@@ -6499,6 +7099,20 @@
    "tamano": "regional",
    "dominio": "vanguardia.com",
    "tema": "Política y Congreso"
+  },
+  {
+   "id": "aadc4e05f4fc",
+   "titulo": "Gonzalo Guillén habla de Uribe, las masacres de El Aro y la impunidad en Colombia | Cuestión Pública",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBDTjUyZTNaUDMxSWk5TXNqNWR6UXk5elNhTHF0cFBWeHQwejN3TWI0VDVFbF9CNlEycXI1RFlOel9MRTVmV0RBckgzdTgxR25TejR0dW1R?oc=5",
+   "fuente": "YouTube",
+   "fecha": "2026-11-15T23:00:00Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "youtube.com",
+   "tema": "Seguridad y orden público"
   },
   {
    "id": "bed2e43742d2",
@@ -6585,6 +7199,20 @@
    "tema": "Economía"
   },
   {
+   "id": "d6e9b5834668",
+   "titulo": "¿Por qué la Fiscalía archivó la investigación contra Álvaro Uribe por presunto soborno a testigos?",
+   "resumen": "¿Por qué la Fiscalía archivó la investigación contra Álvaro Uribe por presunto soborno a testigos? El ente investigador concluyó que no encontró pruebas para demostrar que el expresidente hubiera ofrecido dinero a exparamilitares a cambio de modificar su…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wTnVIT1dhSFpXQTJaVVJwYldBbTY5dkk1TzJORnZwWkpvdkIwbGVtYXV2N3gtYndCbzZ2UVRfMVNUeGVoTkNtalNfNUVSOC1kRlVleFVQdVUtb0ZkYlZ2cl9YYXJZRGg4OGtFODBQSV8?oc=5",
+   "fuente": "TikTok",
+   "fecha": "2026-11-15T21:00:09Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "tiktok.com",
+   "tema": "Justicia"
+  },
+  {
    "id": "99567225e418",
    "titulo": "Uribe celebró que De La Espriella no cobrará IVA a la canasta familiar: \"Motivo de tranquilidad\"",
    "resumen": "El expresidente escribió en X que es \"motivo de tranquilidad\". La Ley de Rescate subía al 19 % el impuesto del café, el azúcar y las pastas.",
@@ -6599,18 +7227,46 @@
    "tema": "Economía"
   },
   {
-   "id": "8d266c8fbe6a",
-   "titulo": "Tras reunirse con el vicepresidente Restrepo, Uribe ve ‘expectativas positivas’ frente a la ley de ajuste fiscal",
-   "resumen": "El expresidente destacó el ambiente del encuentro y la disposición del Ejecutivo a revisar cambios en el proyecto.",
+   "id": "bdc8392ac4a8",
+   "titulo": "Photo by Álvaro Uribe Vélez (@alvarouribevelez) · November 15, 2026",
+   "resumen": "",
    "detalle": "",
    "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQZFhuNkJjc2FGMlVRalpmamtwRlZOUldoOEJIREIzUmVkOWhYaU15WWhnUHFGSGN6QUVVaURNQWFHZDhhZkdmZElxU1drTmIxMWphSnZtMFpZR0sya2JJWWFuWlh6MWJTWlA1T0cwdUV5N2stZkVYcUJjTkZmYTZ4dXVDeUFCckJXQzZUUU1YenpVUFR6TndhajYtb1hsSzk1bV91YlBpZGpZd0tNaVhLSnNoLVRXNTQ3Yy04TE1QVnpyTjZiMVdPbExIQUJ2VUVkZWxiUVFncTZqRnhkNTJsdmt0cnJSY2NDQWZibmF4NUI5Z9IB9wFBVV95cUxPZHlkS2E3bFFna2dhWjFRbWl2eVhWanlwdUc3OTR0RGRrX0JSczc1VGpLRm9CRjJxbUF5QlJGTDF6emFjNmtZR1ZvUElqUTJtX05ldHdDOFdXck5hTnFvRGpPc3R0dTdsa3gtVzVzWUtFLUQ1ZFJJNUhmbmItbEs5cDZZSGtyRmhnaXZKdHJfWVdEWHFVejlKWmczbzd3c1ZTTUJXakJIWTlXNmNFN2kwZ1AtaTR3MHRubl9aM0gwQWNGeklCdHNfYTF3dTYwQXB4YzYzQTJOdWM1ZXpabUlRNUYxTDZzdlFJX1c0VnVmS3Y4TDdRUGZ3?oc=5",
-   "fuente": "Portafolio.co",
-   "fecha": "2026-11-15T17:10:16Z",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1hdmM3UjBTOTgwUXk5YzRxeF9xc3poSl9EY0N2ajJxbHBMUU92bklXNTVjNE1ZajdBZW4xWFdkMjM4OGhnMjJhd1NoOTFxaXJHeGc?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-15T19:53:07Z",
    "categoria": "mencion",
-   "tamano": "nacional",
-   "dominio": "portafolio.co",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Otros temas"
+  },
+  {
+   "id": "8d266c8fbe6a",
+   "titulo": "Tras reunirse con el vicepresidente Restrepo, Uribe ve ‘expectativas positivas’ frente a la ley de ajuste fiscal El…",
+   "resumen": "Tras reunirse con el vicepresidente Restrepo, Uribe ve ‘expectativas positivas’ frente a la ley de ajuste fiscal El expresidente destacó el ambiente del encuentro y la disposición del Ejecutivo a revisar cambios en el proyecto. Consulte más información aquí🗞️…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9pTjZBUlNtQkY5am1iRUdoZFVEOUQ1TkYxRGxVRFNYc3lBNzlNaGdWcTZ4NHYxQzZHdGhuTXFybVZmVk5DanUzN3hveGs1Sm5fNDRJY2Q1SU5FVHFFQ2dIUUpKOA?oc=5",
+   "fuente": "X",
+   "fecha": "2026-11-15T18:02:40Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "x.com",
    "tema": "Gobierno"
+  },
+  {
+   "id": "3f6af83aa05d",
+   "titulo": "'Hay una bomba fiscal': Restrepo explicó qué habló con Álvaro Uribe sobre el ajuste fiscal en Col.",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4wMGhQVDd2NUUyNFVQMVBTY0hwdjVEM2RMT1JtZjN0OWowVVpaaDk3UG9hSVlROVg2UzdzbjNPc2JNcEhqN1JsV1ZQZmxCR1NhLUpjdWln?oc=5",
+   "fuente": "YouTube",
+   "fecha": "2026-11-15T17:58:56Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "youtube.com",
+   "tema": "Economía"
   },
   {
    "id": "9aea0be2598f",
@@ -6655,18 +7311,32 @@
    "tema": "Seguridad y orden público"
   },
   {
-   "id": "72c7bc0182a5",
-   "titulo": "\"Motivo de tranquilidad\": Uribe reaccionó y celebró decisión de Abelardo de la Espriella",
-   "resumen": "Noticias de Álvaro Uribe: el expresidente y su partido habían sido críticos con esa decisión de la Ley de Rescate.",
+   "id": "a16c44b7175a",
+   "titulo": "«Lo MUDO al lado de mi cuarto»: Meisel, Uribe y el consejo que Duque no tomó | Yo, Camilo",
+   "resumen": "",
    "detalle": "",
    "cita": "",
-   "enlace": "https://www.pulzo.com/nacion/alvaro-uribe-celebro-decision-abelardo-espriella-con-iva-PP5356604",
-   "fuente": "Pulzo",
-   "fecha": "2026-11-15T16:04:00Z",
+   "enlace": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8tdlo5RWN5VHNZNVpwZTkwNTBJRTZQaExZYmw3Zll6bXRFLUhmS3hqMVhBLTRWWHpfcXVNM0I4TUNfSnUtT3JWRXY5MG1TN3NDVHNhRA?oc=5",
+   "fuente": "YouTube",
+   "fecha": "2026-11-15T16:00:20Z",
    "categoria": "mencion",
-   "tamano": "nacional",
-   "dominio": "pulzo.com",
-   "tema": "Gobierno"
+   "tamano": "redes",
+   "dominio": "youtube.com",
+   "tema": "Otros temas"
+  },
+  {
+   "id": "8626e157561e",
+   "titulo": "Tres días sin IVA y pasar la ESAP a la UNAL: propuestas del uribismo al Gobierno | Caracol Radio",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8zcVJPZmRZcmVIUEpFcmhMeGJFczU1TmQ5V3pFWWoxZTlDbzlINXdJbzZic1lqTmpGTjdTeHBodmdiZHZBLWdRdmc4VDZvWDk4bkdXTHBB?oc=5",
+   "fuente": "YouTube",
+   "fecha": "2026-11-15T15:53:38Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "youtube.com",
+   "tema": "Economía"
   },
   {
    "id": "96670501eab1",
@@ -6681,6 +7351,48 @@
    "tamano": "gran",
    "dominio": "semana.com",
    "tema": "Economía"
+  },
+  {
+   "id": "e5b1d05b77ba",
+   "titulo": "🚨🇨🇴 URGENTE | José Manuel Restrepo se reunió con el expresidente Álvaro Uribe para hablar sobre la ponencia alternativa…",
+   "resumen": "🚨🇨🇴 URGENTE | José Manuel Restrepo se reunió con el expresidente Álvaro Uribe para hablar sobre la ponencia alternativa de la Ley de Rescate Económico…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAtd1BEci00NTJINU0wQ191LVc4RklVU2JBcVFYM25KOU9PVkRTNVZYelFJSnFBcFo2NnBVQXFmZTJpSmEtQXJFMjNuX0xtUGdCTm5MaENaTlpoOTZ1aUxsTGJQd3N1UQ?oc=5",
+   "fuente": "X",
+   "fecha": "2026-11-15T15:28:56Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "x.com",
+   "tema": "Economía"
+  },
+  {
+   "id": "e0a4321f05ac",
+   "titulo": "La gran @SOFIARAUJOMEJIA me contó que Petro fue a Valledupar y le pidió a su tío Álvaro que le entregara “la cabeza de…",
+   "resumen": "La gran @SOFIARAUJOMEJIA me contó que Petro fue a Valledupar y le pidió a su tío Álvaro que le entregara “la cabeza de Uribe”…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMicEFVX3lxTE55MVhrV1hzSlUzeGJVZUtsV0Nib0U3ZXpMWTVtUW5ualpJVHBVRmRyZnoteUlqeGNsV2VCLTJZWW9fVEM4WlVPdkZhTkNYNDJIWEk5WjNXT2F6SVEyeEVYbEJ3MThidE85SUhudXlVakE?oc=5",
+   "fuente": "X",
+   "fecha": "2026-11-15T14:27:22Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "x.com",
+   "tema": "Otros temas"
+  },
+  {
+   "id": "36b42f61e432",
+   "titulo": "Fiscalía archiva investigación contra Álvaro Uribe por presuntos pagos a testigos contra Iván Cepeda La Fiscalía…",
+   "resumen": "Fiscalía archiva investigación contra Álvaro Uribe por presuntos pagos a testigos contra Iván Cepeda La Fiscalía concluyó que no hubo entrega de dinero a exparamilitares para que declararan contra el senador Iván Cepeda, por lo que decidió cerrar la inves…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1rV3lVRDVadkRSQXpTNGZGWFQ1QTltTVBwUDJGdzVXb0tNaVZoQkk3T3RGaEozMG1vQWwxY0NQczVEZDUwX0dGa1ZmSTZpQXctZ0djdzJkdFBJQmUxbHdpQ0RR?oc=5",
+   "fuente": "X",
+   "fecha": "2026-11-15T14:03:55Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "x.com",
+   "tema": "Justicia"
   },
   {
    "id": "978ba453b3b3",
@@ -6796,6 +7508,34 @@
    "tema": "Gobierno"
   },
   {
+   "id": "6b05573f40e8",
+   "titulo": "Se enfrentan en vivo por Álvaro Uribe | Julio Sánchez Cristo",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBOU3FKbGNzU29TaTlqWldEclpveEdNOV84a09NQlJudXJ2OFQ5Ul9GemtURmZJRGJQeDV0UW05UllpeTItS3gwMzRqT291MWw4Tk5LUw?oc=5",
+   "fuente": "YouTube",
+   "fecha": "2026-11-15T00:00:25Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "youtube.com",
+   "tema": "Otros temas"
+  },
+  {
+   "id": "29a89e26b693",
+   "titulo": "En su era como gobernador de Antioquia, Álvaro Uribe haciendo entrega del trofeo a Lorenza “🐎 “",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5hcUdDNjNHTE9LZlpoU2pFYXBxT3o5SHBobVR6ZUk5WDJ5RTBnT0JsN21CZVRQZl9iWExkWWdBNkRCQkRxRU5CMl8zWHlkTG5Va0c0X01IdTF3LThKbHV0SnYzamdjNDN5SDlMRWx3?oc=5",
+   "fuente": "TikTok",
+   "fecha": "2026-11-14T23:54:28Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "tiktok.com",
+   "tema": "Regiones"
+  },
+  {
    "id": "c5fd0e516d4a",
    "titulo": "Fiscalía archiva investigación contra Álvaro Uribe por supuestos pagos a exparamilitares tras ocho años de indagación",
    "resumen": "La defensa del expresidente Álvaro Uribe Vélez celebró la decisión de la Fiscalía General de la Nación de archivar una investigación relacionada con el supuesto pago de dinero a antiguos integrantes de grupos paramilitares para que…",
@@ -6808,6 +7548,48 @@
    "tamano": "regional",
    "dominio": "elpais.com.co",
    "tema": "Justicia"
+  },
+  {
+   "id": "314b19df243e",
+   "titulo": "¡Que nadie se deje engañar! Álvaro Uribe y el Centro Democrático, amenazados por la extrema derecha abelardista…",
+   "resumen": "¡Que nadie se deje engañar! Álvaro Uribe y el Centro Democrático, amenazados por la extrema derecha abelardista, quieren atribuirse el reversazo que tendrá que dar el Gobierno frente al IVA a los alimentos. ¿Dónde está el rechazo del uribismo al aument…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1qSktOcWJydmM1RU1uaV8ySF81SVRVQVNCblQxWWE1c0NtUl80eWhVOHNDRXF3WFBTSDU3WS1TZWFGOXlBSzRJaU45TnliTDlHb3VSMk9aLXV0VmwzcnhkblVn?oc=5",
+   "fuente": "X",
+   "fecha": "2026-11-14T23:51:03Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "x.com",
+   "tema": "Política y Congreso"
+  },
+  {
+   "id": "c1724f67d1f6",
+   "titulo": "La Fiscalía archivó la investigación contra Álvaro Uribe por presunto soborno a testigos porque no encontró pruebas de…",
+   "resumen": "La Fiscalía archivó la investigación contra Álvaro Uribe por presunto soborno a testigos porque no encontró pruebas de que se hubieran hecho los supuestos pagos a exparamilitares para cambiar sus declaraciones 👉…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBiSmctNndmcWd3MHhDSklCejNQRGhZY3NQWXItcko4NEVHekFQOHNocURLTUdDVGJkYmFDUlEyVVkzZE5xYS1ZbDNIbFlnWHN5cThLdzdjMV9oUTNQblhVbE1Qaw?oc=5",
+   "fuente": "X",
+   "fecha": "2026-11-14T23:30:13Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "x.com",
+   "tema": "Justicia"
+  },
+  {
+   "id": "305d015b15ce",
+   "titulo": "El vicepresidente José Manuel Restrepo y el ministro del Interior, Alejandro Ordóñez, se reunieron con el Centro…",
+   "resumen": "El vicepresidente José Manuel Restrepo y el ministro del Interior, Alejandro Ordóñez, se reunieron con el Centro Democrático. El exmandatario Álvaro Uribe estuvo presente. 👉…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBPaGoydkZRbUJKRWsxcU1LM01kaHZubTZTdmpiMHQ1eFZPdmNfR3I1dVE0S0xlYkMzVGNpQlNVWEg2OFdocGREZVNMU3llUzV1cjZkM3FSYnltNV9xWDNqLWNpdw?oc=5",
+   "fuente": "X",
+   "fecha": "2026-11-14T23:30:13Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "x.com",
+   "tema": "Gobierno"
   },
   {
    "id": "d7e2bd268e72",
@@ -6921,6 +7703,20 @@
    "tamano": "local",
    "dominio": "crprensa.com",
    "tema": "Justicia"
+  },
+  {
+   "id": "603f9ce15ffe",
+   "titulo": "Presidente Álvaro Uribe en medio de una reciente cirugía asiste a la reunión con el vicepresidente para ataender el…",
+   "resumen": "Presidente Álvaro Uribe en medio de una reciente cirugía asiste a la reunión con el vicepresidente para ataender el tema de la ley del rescate…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMibkFVX3lxTE41NXNXaWNXelNOQnRoN0F2akdXM3hUTUFYUElIa0tNdnZXNXNFaXhFa3VkWEJnN2pQUEh1M09GV1ZUdGlDZDBKbUJDaV9xU1JLT2pDYTExRHdQNUJHSGhVcndWOEhoLXozOTNEc2JB?oc=5",
+   "fuente": "TikTok",
+   "fecha": "2026-11-14T20:50:06Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "tiktok.com",
+   "tema": "Gobierno"
   },
   {
    "id": "64278890a8c1",
@@ -7551,6 +8347,20 @@
    "categoria": "mencion",
    "tamano": "regional",
    "dominio": "elpais.com.co",
+   "tema": "Justicia"
+  },
+  {
+   "id": "9be1681c3b67",
+   "titulo": "#Judiciales • La Fiscalía ordenó archivar la investigación contra el expresidente Álvaro Uribe Vélez por el presunto…",
+   "resumen": "#Judiciales • La Fiscalía ordenó archivar la investigación contra el expresidente Álvaro Uribe Vélez por el presunto soborno a exparamilitares para que modificaran los testimonios en su contra. Según el ente acusador, las denuncias no tenían pruebas que la…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE95Q29HUkJ6aldwUmtOems0QzRiMkY4QUR1QXZ3S0UzUzhBVEdSUlBRTXVWdnJfZV90Qi1wVDJqVmdpOGdMcGstQU9iSXp2VnhOVXc?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-14T02:35:30Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
    "tema": "Justicia"
   },
   {
@@ -8243,6 +9053,20 @@
    "tema": "Gobierno"
   },
   {
+   "id": "77baa39ea6d5",
+   "titulo": "COLOMBIA | Álvaro Uribe rechazó la propuesta de Gustavo Petro de construir un acuerdo, incluso electoral, para oponerse…",
+   "resumen": "COLOMBIA | Álvaro Uribe rechazó la propuesta de Gustavo Petro de construir un acuerdo, incluso electoral, para oponerse al gobierno de Abelardo De La Espriella. “Ese tema no va a entrar en el menú temático del Centro Democrático”, afirmó y negó que ex…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBSYU9KWklZT1pvY25EbF9nT3hRSHpKOGo2eHlIbWZvSE9ZeXVPRnU1WmVZSGxrMFJhWmczT0Y2QWZmczNuMUt4Smdia3JweFB6U3c?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-09T23:28:22Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Gobierno"
+  },
+  {
    "id": "f58be37af2ef",
    "titulo": "La curiosa búsqueda de Álvaro Uribe para enfrentar a Gustavo Petro para la Alcaldía de Bogotá en 2027: “No hay jaguar”",
    "resumen": "El expresidente reconoció que el Centro Democrático todavía no tiene una figura definida para disputar el Palacio Liévano y pidió a sus copartidarios encontrar un aspirante capaz de competir en las el.",
@@ -8285,6 +9109,48 @@
    "tema": "Economía"
   },
   {
+   "id": "002255685a42",
+   "titulo": "La defensa del expresidente Álvaro Uribe Vélez ha sufrido este lunes un nuevo revés jurídico que complica su proceso…",
+   "resumen": "La defensa del expresidente Álvaro Uribe Vélez ha sufrido este lunes un nuevo revés jurídico que complica su proceso por supuestos vínculos con el paramilitarismo en los años noventa mientras era gobernador de Antioquia. La investigación penal contra el…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5NSm1jSk5QN0dQTjlzaHYtUXNMVnZoN2lXQW5zMWJWYkEzWG5HV2MyWV9US0RqLVVIbklMbGg4eGFaYl9vakhCbzNnS1ZXdzlQVkE?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-09T22:20:01Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Gobierno"
+  },
+  {
+   "id": "11d56a79f169",
+   "titulo": "🔴En el primer comentario la respuesta del expresidente Álvaro Uribe Vélez a la propuesta de una alianza electoral entre…",
+   "resumen": "🔴En el primer comentario la respuesta del expresidente Álvaro Uribe Vélez a la propuesta de una alianza electoral entre el Centro Democrático y el Pacto Histórico lanzada por el expresidente Gustavo Petro. Los detalles ⬇️…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxORGRIWkM1bWZJbEdUQTZrcF9vaXhTYXNkUk1KaUNKampmNDBlU21ZejZoZ3lESUdSYXBoZFV4Wi16NlotajVHZTNzYmd6dURzYWNDRjROYXJMcDNuZ3VtajhDZ2JNYW44VGJQNnFiVFpfc2xyeFZPenVCaW1EbXJ6QWNOQk42dkdLcGJMaWhzYndHZnpIZkd2ZGVNUUI0a0N0clg2bDFMVG50QllEc0dFRk1OYnlYWms3NGI5UlhOMjBsdjE5aWVmVV9QdWl3YW5BT196Rm9VQW1aby1NendOV0Vn?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-09T22:15:21Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "facebook.com",
+   "tema": "Política y Congreso"
+  },
+  {
+   "id": "581886856d9d",
+   "titulo": "El proceso judicial que involucra al expresidente Álvaro Uribe Vélez continuará bajo la lupa de la Fiscalía General de…",
+   "resumen": "El proceso judicial que involucra al expresidente Álvaro Uribe Vélez continuará bajo la lupa de la Fiscalía General de la Nación, luego de que la Corte Constitucional decidiera no resolver el conflicto de competencias entre ese organismo y la Comisión de Inv…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB0dHRKbnBOMFdQYVo1U0taeGpVSkF1c05CcDRrWnVoN2RjYXUzS2JHTmp0ellaTGpadnU0cWs2S1lDQXlUeHVkY1RzenhMWmRQa0E?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-09T22:12:04Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Justicia"
+  },
+  {
    "id": "ef2295a0a9ef",
    "titulo": "La investigación contra Álvaro Uribe por las masacres del Aro, la Granja y el asesinato de Jesús María Valle se queda en la Fiscalía",
    "resumen": "",
@@ -8314,6 +9180,62 @@
    "tema": "Política y Congreso"
   },
   {
+   "id": "4cd083a27444",
+   "titulo": "Álvaro Uribe descarta una alianza con Gustavo Petro tras la propuesta de acuerdo que hizo el expresidente en Medellín…",
+   "resumen": "Álvaro Uribe descarta una alianza con Gustavo Petro tras la propuesta de acuerdo que hizo el expresidente en Medellín: “Eso nunca. Ese tema nunca ha existido” ⬇️…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOamc0THlxY0wyMy1MMmJSVkc4ZWRLQTd4MzNYOE9aN1ZUelJjTFkxQ05Ea29ocDYzMl84NWhYa21jaktTY2szRjBTemU2ejZ2dEFQbHdlTlI2dVF1YVVwcUptU0tyakNUdXNZY3Jla0NzNjJXeUQwVmxMcXRpS0M0MTdlbXZsMW9VMzktd2dfMVBpcmhiNnA5M3RCOGVOdXVQel90T2hVYUdvQS1Ua19ONE91b09USFo5VVlrVnp4aWt5dG1fNk1aS05WdXNmUkV6c0Y1Ukd0eGRrbDJ0UGZ6OXVB?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-09T21:22:27Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "facebook.com",
+   "tema": "Política y Congreso"
+  },
+  {
+   "id": "8a2dc7a385fc",
+   "titulo": "El expresidente Álvaro Uribe, líder del Centro Democrático, se pronunció este lunes en W Radio sobre la 'Ley de Rescate…",
+   "resumen": "El expresidente Álvaro Uribe, líder del Centro Democrático, se pronunció este lunes en W Radio sobre la 'Ley de Rescate Económico' impulsada por el Gobierno de Abelardo De la Espriella. Aunque el exmandatario reconoció que comparte el diagnóstico del…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5TT2dKcEJZU2lGaGI2UUxiSHItRWZrdWdXbWRWbDVXMDVFYmozakN2QWZsa21rYWFQX2xwVk5iUmc2RWI2bEpkeDhOU3dPSkJzTmc?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-09T21:21:44Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Gobierno"
+  },
+  {
+   "id": "19b0ee203bd6",
+   "titulo": "Corte Constitucional decide si la Fiscalía seguirá investigando a Álvaro Uribe | Noticiero Mediodía La decisión de la…",
+   "resumen": "Corte Constitucional decide si la Fiscalía seguirá investigando a Álvaro Uribe | Noticiero Mediodía La decisión de la Corte Constitucional sobre el acuerdo de paz y el debate en la sala plena sobre el futuro judicial del expresidente Álvaro Uribe. Conversamos…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPeldxUU1QeHRWZ1RYcFpXLW5XVUFGeHAwZmptQ3FxazB2XzJQUWpEbWw1T2ZEWjR4Nm9EUUs2TWtFSVM5V0lWSDA1SFJObVdVamFLWUFjYkRmWTBuam0tT0NFN0dyc3htV1RTX3FyQU8tSGl1akNNcHh5WFRWUk5ZX1VSR25nc3Nzemx0LWtmOS14UlljaG5QRWR2RU5DNk1KRm1oQ2ZxbnZ5bXRCWGh6aUN3U29wdGstTExVRzVzbFVEU0djNXFyZ0tHODZoSlg5M0dwN0RpNi1tUFVqaFEtUHlwMDZtUm43OXZ1cW8zVQ?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-09T21:04:34Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "facebook.com",
+   "tema": "Justicia"
+  },
+  {
+   "id": "a2fe8b0992d1",
+   "titulo": "El expresidente Álvaro Uribe Vélez rechazó cualquier pacto con el petrismo, horas después de que Gustavo Petro le…",
+   "resumen": "El expresidente Álvaro Uribe Vélez rechazó cualquier pacto con el petrismo, horas después de que Gustavo Petro le propusiera un acuerdo para enfrentar al presidente Abelardo de la Espriella en las elecciones regionales. 📌Sepa más en el link 🔗…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOM3VmdlVKTnhfMVN0TTgyMm9IOTZEbmNyU3FxQlA1RFljNWVoaVlvSGRTRmJLM2laUzNXUHd5M2RtcFdLQVBPOVc2ZGx6LVIyOXlaSUtkVTFjVldQY3pSYWdLaEhyTkNmVENkVmhINWlsc3dsLTNWMWVuWG5RS1lyX3RKWnp1X1ltTEpXWExCekhweWlfam5NYmJXQ0hXNEhtSld0OUNpWXd1Y3lrbnlsZzNRb3dZc29zYVdSbkRha2o3enVoWlZZNTZYOXJfbHNGTGtfaGQwVVBoSV9WSl8zbmhlRXFXbWpYZjlpOXJQRFktT1R6QV9SMVJfTHc5bzVrNnc?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-09T21:04:28Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "facebook.com",
+   "tema": "Gobierno"
+  },
+  {
    "id": "73721e79b02c",
    "titulo": "Álvaro Uribe propone vender una parte de Ecopetrol y tener un acuerdo de gobernalidad que la proteja",
    "resumen": "Con varios cuestionamientos sobre el manejo político de Ecopetrol, el expresident e Álvaro Uribe Vélez se pronunció ante el futuro de la compañía petrolera más grande del país.",
@@ -8339,6 +9261,34 @@
    "categoria": "mencion",
    "tamano": "gran",
    "dominio": "semana.com",
+   "tema": "Política y Congreso"
+  },
+  {
+   "id": "dab5afaf1068",
+   "titulo": "Enlace entrevista @revistasemana en las historias o en el canal YouTube de Álvaro Uribe Vélez.",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFByWDd5WjJxNlFLY3FXYTFyWU9fLVc0eUtkTFlSSzJZUkV6VFB6Q3VTdlBhbEFMODhoTVhIbDdUanpyRjBkZ3ZDREdGQXRMVkNHeGc?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-09T20:35:06Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Otros temas"
+  },
+  {
+   "id": "0e0ae5e1cb38",
+   "titulo": "🇨🇴 Álvaro Uribe descarta una alianza política con Gustavo Petro y el Pacto Histórico.",
+   "resumen": "🇨🇴 Álvaro Uribe descarta una alianza política con Gustavo Petro y el Pacto Histórico. El expresidente Álvaro Uribe Vélez rechazó la propuesta de Gustavo Petro de avanzar en un posible acuerdo político, incluso electoral, para defender la Constitución. En en…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNakpTTFFqN3l4VUQ4YWl3RnJtLV9sT2JSbFh0a285bi1ndUd5ZkdOaVFhWk1wclowaXFtNVlEMU9oWHJwXzJPMFgwVlRBaWZ6Y2R2Z21oYWEydUlvQlF3NngtdWRDM1VVYVE4N053QkF1b18tNzdXNlBiZjZiYWxVRElrX1ZJUXdIc2F5czRzWXYyZUFYbGtxT0c4em1BNlFMMzhlMjlBRGdNZzF6SFd4VFdiR1FnZEljQXdwYjlCS0tUOHp3dVF4cWhCQ2MtZ2s5bXAtMG9iamNaY2dac3ZRMXRMUi1nckR2QmNBaUxQWk1TNjZu?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-09T20:32:55Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "facebook.com",
    "tema": "Política y Congreso"
   },
   {
@@ -8370,6 +9320,34 @@
    "tema": "Gobierno"
   },
   {
+   "id": "934ef0158c97",
+   "titulo": "El expresidente Álvaro Uribe Vélez rechazó la propuesta del también exmandatario Gustavo Petro de establecer una…",
+   "resumen": "El expresidente Álvaro Uribe Vélez rechazó la propuesta del también exmandatario Gustavo Petro de establecer una alianza política para hacer oposición al Gobierno de Abelardo de la Espriella. La iniciativa también buscaba unir esfuerzos contra la Ley de…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5kM3NFNEZmOTlqcVF2VHNCd0hxOGRJVEVDeldDZU1DbS1JSmlIVDNDN2lyNGVlMEZGMU4wZXgyajdCbk9Jd1REcnl0Q3A4UDNmVGc?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-09T20:18:07Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Gobierno"
+  },
+  {
+   "id": "9f9104c3d873",
+   "titulo": "Como siempre, compartimos plenamente la claridad del presidente Álvaro Uribe.",
+   "resumen": "Como siempre, compartimos plenamente la claridad del presidente Álvaro Uribe. En el Centro Democrático tenemos principios, convicciones y una visión de país que defendemos siempre con coherencia. No estamos buscando alianzas electorales con quie…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQTklITjFHSHg0dklFVGQ4MVpVSXlpWjdUNDZWTkxxVnRUWm9tbUpGaXoxbzdnY2ZXcTJ2VnNNWTRJRlZCUzVQQ2w1b3pPb3d4QTVQeWFTWXZqZ21kcEN2VDhFTGFrYXNiOHpJWGNUZjY1U1FvYTU3WmlWZmRrOUYwNzdsSEVwejZpcWxXUGhLOFhENThyM0xHcVplU3p2NENWUlB5YndoUk0tQjc5dmZsMkwxX1JzOWg4bjJXUTIyNkJ6VFJGZjM2NGI3S20zWXVOSU82YkhKSjBMLWFiRi13M2tTVQ?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-09T20:09:14Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "facebook.com",
+   "tema": "Gobierno"
+  },
+  {
    "id": "03be4954a66e",
    "titulo": "¿Qué le responde el expresidente Uribe a Petro? -",
    "resumen": "",
@@ -8385,6 +9363,20 @@
    "tema": "Gobierno"
   },
   {
+   "id": "c36968e718a4",
+   "titulo": "#Judiciales • La Fiscalía continuará investigando al expresidente Álvaro Uribe por sus presuntos vínculos con el…",
+   "resumen": "#Judiciales • La Fiscalía continuará investigando al expresidente Álvaro Uribe por sus presuntos vínculos con el paramilitarismo durante y después de su paso por la Gobernación de Antioquia. La decisión se conoce luego de que la Corte Constitucional se d…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB5cDV5d08weGtjRjlWMDBlNzVjN2RkbGc0UnVNZGo1ZTdGMkNaRkJrM21MWkQ5c1k3cDhxdW1BRmpJLXhTcVZlemg1YjZoTnZBVGc?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-09T19:56:46Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Justicia"
+  },
+  {
    "id": "70c1cbb74a70",
    "titulo": "Caso de Álvaro Uribe quedó en manos de la Fiscalía, por ahora: la Corte Constitucional no resolvió el choque de competencias",
    "resumen": "",
@@ -8397,6 +9389,48 @@
    "tamano": "gran",
    "dominio": "infobae.com",
    "buscado": true,
+   "tema": "Justicia"
+  },
+  {
+   "id": "f51b50c4bace",
+   "titulo": "El expresidente Álvaro Uribe busca revolución dentro de Ecopetrol. Su idea golpea directamente al presidente Abelardo…",
+   "resumen": "El expresidente Álvaro Uribe busca revolución dentro de Ecopetrol. Su idea golpea directamente al presidente Abelardo De La Espriella. Más información en el primer comentario ⬇️…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPMU9qZ0lybVZGTzJYRFEzVmlERTJIbXRzRnZaMEtFYXVoYjBsbWEtREVnVmhkNmxZTDYzOGpHYkgxWE84WHVzeVpSZDFIWnd0LTBheHhJU3Izb2p4Z082Yml5MDAydUduUzBIQ1ZWNlhoSHpqdmswUVpLZ2tsbWhiSW1adHk1NjVuY3dGemxfZi0yemhsdUhtVzVhVGp1Tkg5eHh2THcwbmx0RFpLeHJILXRlMExCQWN5WFpxVDlHUngtRU9XN1JnWjVjRk5VbE5CQ3pkX0M1TWF2TEV1UDByN2l4WFYtaWZrQ0E?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-09T19:41:15Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "facebook.com",
+   "tema": "Gobierno"
+  },
+  {
+   "id": "58052de5823f",
+   "titulo": "Una propuesta política que reúne a dos de los mayores contradictores de la política colombiana se conoció este lunes 9…",
+   "resumen": "Una propuesta política que reúne a dos de los mayores contradictores de la política colombiana se conoció este lunes 9 de noviembre. El expresidente Gustavo Petro invitó públicamente a Álvaro Uribe a construir un acuerdo político, incluso elector…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAtTE00bDhHSUc4S3JiN3IzNGp3cGs2Vld0N21zVVVMVkdtRnZoNjB5bTMwUGMxcEwxdGtWdC0yb19pZUpuQlVsM2lRYndia2Z1U0E?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-09T19:31:33Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Gobierno"
+  },
+  {
+   "id": "96b7568e9fa7",
+   "titulo": "#LaSillaEnVivo El expediente de Álvaro Uribe por sus presuntos vínculos con las masacres de El Aro (1997) y La Granja…",
+   "resumen": "#LaSillaEnVivo El expediente de Álvaro Uribe por sus presuntos vínculos con las masacres de El Aro (1997) y La Granja (1996), en Antioquia, seguirá en la Fiscalía Tercera Delegada ante la Corte Suprema. Con siete votos a favor y dos en contra, la Corte C…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5pTWN3djkxUEIwM2YwN1ZLTDl1NFY2eUx5cDEtRko5UF9uNGh1VkI1LXpmdWJLckJuQnBLbFF5cnNyWVBlOVFYcjZCRXNDczAyd3c?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-09T19:29:59Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
    "tema": "Justicia"
   },
   {
@@ -8442,6 +9476,76 @@
    "tema": "Justicia"
   },
   {
+   "id": "c01363684975",
+   "titulo": "Caracol Radio. Álvaro Uribe advirtió que no permitirá acuerdos de puestos entre su partido y el Gobierno | 6AM W En 6AM…",
+   "resumen": "Caracol Radio. Álvaro Uribe advirtió que no permitirá acuerdos de puestos entre su partido y el Gobierno | 6AM W En 6AM W de Caracol Radio, el expresidente Álvaro Uribe Vélez respondió a los cuestionamientos por las presuntas gestiones de puestos de…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOY05MM1dNZDVqWkNzcGY2UDRvT0sxU29TLURXbThOMjltX1RucU5vMHNKZ1dJb0hwS2MtMVJyM2NBNTFpUXEwb2NjNGF6a05ZVXZMUWhUVEVLeDNBLUR4QUJxM2lLZnE1TjFnSXFLZEJFVEE1TjdhLU1LV0s4Rm01ZkxRZDc0N1c2bEdabWJ0bXhOZFVIanRVTmtNWlUzRUExOEhNbnR3Yy1mUTdQWXNLenNocGZ4cVVuSXdzVUpDVWRYYTA2MzIzeXltOG50eHhvS05BdmdBVFdpeU1zRGprS1UzaTNUQmg3dEJtTEk0OA?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-09T19:15:02Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "facebook.com",
+   "tema": "Gobierno"
+  },
+  {
+   "id": "76031560e186",
+   "titulo": "Revista Semana. \"Ubíqueme con el papá de Abelardo\": Álvaro Uribe Vélez hace una reflexión sobre su pensamiento…",
+   "resumen": "Revista Semana. \"Ubíqueme con el papá de Abelardo\": Álvaro Uribe Vélez hace una reflexión sobre su pensamiento político. Esto dijo sobre la izquierda y la derecha…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWUlseDdkR25Hc3ZCdTM1dWIxZGRCYVAzQ2F2YXBjdFQ2dVEzVWJSb2ZBa2RlSU5ZNkFLckxCaHVGQW12ZTFDczBBVm1Kdm95YkZHT0JGOVZUNGVWY1dCTVVBT2hrN2R6U0lkZ1ltYVRCWGdvNE5HRXRCdnAtM21vU1dDRG1haUdRTkxYM2dYdFlSR3JHNGZFRUQyRndTU3ZzcFhmbmpydUUxN0dheFhpUWtoSjYzYlN6WXRnYnE4MUMweEVJQXdHSjdZZjEyQU8y?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-09T19:07:42Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "facebook.com",
+   "tema": "Otros temas"
+  },
+  {
+   "id": "4a3fd656a2d2",
+   "titulo": "Revista Semana. Álvaro Uribe Vélez reacciona a los videos en los que el presidente Abelardo De La Espriella encara a…",
+   "resumen": "Revista Semana. Álvaro Uribe Vélez reacciona a los videos en los que el presidente Abelardo De La Espriella encara a delincuentes que son capturados…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNOFl2NUdNZlczbm03TnJnUFNwTWNMSHAyV1FWdHhIM3MxU2hZNWdUVlJxVkRzcU8zWVJ4aVotazYyQW9RZEZjMVZHVzdxVjZ1RFNxY09MekZyMDRKdUIzT0IxWExiT0ZuSmlBQkthWFNoYkVLdzB0cXVsZ1JBTjZUSlBaMDVVLVhqYk4yQXE4NEVPSDJ3SW92bmtBTjdkc2g3Z2pKUklHZ0FDT212VUJpNlJjWGtMN0RTNi0zTWVrcERGdlN5N0ZTYzF2VHEwTGNJc3hNdg?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-09T19:07:35Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "facebook.com",
+   "tema": "Gobierno"
+  },
+  {
+   "id": "d4db76ba69a7",
+   "titulo": "Revista Semana. \"Espero que las instituciones colombianas eviten los extremos (.) Tenemos un ideario contrapuesto\"…",
+   "resumen": "Revista Semana. \"Espero que las instituciones colombianas eviten los extremos (.) Tenemos un ideario contrapuesto\": Álvaro Uribe Vélez responde a quienes hablan de una alianza con Gustavo Petro. Vea el video completo…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQOHowQUZlTVBjTnVSZm1LMEVfbXVmaGtPQnM1U3RVakRNeldIRkViRkxZMFBmeUYxUXdtZnZzejZxem9MN2toWkNWdF95d0xPWmhTUEJtQ0RJS3gzRjBIN3V6eFJWSDhnQXFOeWlibF81WmpoRnRqT0JWSm1VcGM1d0pQcVJ2VWw5anJlb3JYUVNkSFNpNjRQajQzRzJkY1d6cGdmX0FkaUs4OEgwZ0hrVUFiVVFYWTBwdHcxX3FURU5RVDhGQXZEeXBSdlNERF90ZTRFU08wUQ?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-09T19:07:33Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "facebook.com",
+   "tema": "Política y Congreso"
+  },
+  {
+   "id": "0eaed1da9bbd",
+   "titulo": "🔴 Uribe descarta alianza política o electoral con Petro El expresidente Álvaro Uribe Vélez rechazó la posibilidad de…",
+   "resumen": "🔴 Uribe descarta alianza política o electoral con Petro El expresidente Álvaro Uribe Vélez rechazó la posibilidad de establecer una alianza política o electoral con Gustavo Petro, luego de que el exmandatario propusiera un acuerdo entre distintos sectores pa…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4wemJVN05FZEpHMU5ia3h4d2hXYnZuai1sVjQ2cTVfdGgxOEpEemhiV0w0R3pBZ2s0dHVQbzVZU19MV0NXRnNKd2ZMcUt1dVRRZ3c?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-09T19:06:18Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Política y Congreso"
+  },
+  {
    "id": "47cdc4951607",
    "titulo": "Corte Constitucional se declaró inhibida y quedó en la Fiscalía investigación contra Álvaro Uribe Vélez por masacres de El Aro y La Granja",
    "resumen": "El alto tribunal consideró que no se cumplían los requisitos para estudiar el caso, que involucra hechos ocurridos en Ituango entre 1996 y 1997.",
@@ -8454,6 +9558,20 @@
    "tamano": "gran",
    "dominio": "eltiempo.com",
    "tema": "Justicia"
+  },
+  {
+   "id": "94a46ed0997c",
+   "titulo": "La investigación contra el expresidente Álvaro Uribe Vélez por temas de paramilitarismo continuará en manos de la…",
+   "resumen": "La investigación contra el expresidente Álvaro Uribe Vélez por temas de paramilitarismo continuará en manos de la Fiscalía General de la Nación, luego de que la Corte Constitucional se abstuviera de resolver el conflicto de competencias con la…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1SS2VxSHBOcHpXNWZaemxmLU9teVVvYjdIWmxVM3BSUWRpTzFfb1BPUldtemtfY2ZUV0g5UlVrQWNaSjNvb2FPWXZfT1A3SnJkSlE?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-09T18:43:30Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Seguridad y orden público"
   },
   {
    "id": "aea8449418bc",
@@ -8717,7 +9835,7 @@
    "resumen": "El expresidente Álvaro Uribe publicó un trino en sus redes sociales sobre su posición frente a Ecopetrol. “En la actual estructura, así como unos gobiernos la manejan bien, se corre el riesgo de que o.",
    "detalle": "",
    "cita": "",
-   "enlace": "https://www.msn.com/es-co/noticias/other/debe-haber-una-norma-que-garantice-un-nombramiento-ajeno-al-capricho-del-presidente-expresidente-uribe-sobre-ecopetrol/ar-AA2h3Q39",
+   "enlace": "https://www.msn.com/es-co/noticias/nacional/debe-haber-una-norma-que-garantice-un-nombramiento-ajeno-al-capricho-del-presidente-expresidente-uribe-sobre-ecopetrol/ar-AA2h3Q39",
    "fuente": "Semana",
    "fecha": "2026-11-09T04:39:45Z",
    "categoria": "mencion",

@@ -49,7 +49,7 @@ ESFUERZO_TONO = "low"             # low | medium | high: más esfuerzo = más pr
 MAX_TONO_POR_CORRIDA = 150        # menciones nuevas que se analizan por actualización
 LOTE_TONO = 25                    # menciones por consulta
 MAX_BUSQUEDAS_RESUMEN = 120     # titulares sin resumen que se buscan por actualización
-MAX_REDES = 80                  # publicaciones de redes sociales (cupo aparte)
+MAX_REDES = 150                  # publicaciones de redes sociales (cupo aparte)
 MIN_NOTICIAS_VALIDAS = 8        # con menos que esto se considera que la carga falló
 
 USER_AGENT = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
@@ -75,6 +75,9 @@ FEEDS = [
      "url": GOOGLE.format(_q('"Álvaro Uribe" when:2d'))},
     {"nombre": "Google Noticias: Uribe Vélez (hoy)", "tipo": "google", "seccion": "mencion",
      "url": GOOGLE.format(_q('"Uribe Vélez" OR "expresidente Uribe" when:1d'))},
+    # Titulares del día que dicen solo "Uribe" (se descartan los que hablan de otra persona)
+    {"nombre": "Google Noticias: Uribe (hoy)", "tipo": "google", "seccion": "mencion", "contexto": True,
+     "url": GOOGLE.format(_q('Uribe when:1d'))},
     {"nombre": "Bing Noticias: Álvaro Uribe", "tipo": "bing", "seccion": "mencion",
      "url": BING.format(_q('"Álvaro Uribe"'))},
     {"nombre": "Bing Noticias: expresidente Uribe", "tipo": "bing", "seccion": "mencion",
@@ -86,6 +89,16 @@ FEEDS = [
      "url": GOOGLE.format(_q('"Álvaro Uribe" site:facebook.com when:10d'))},
     {"nombre": "Instagram (vía Google Noticias)", "tipo": "google", "seccion": "mencion",
      "url": GOOGLE.format(_q('"Álvaro Uribe" site:instagram.com when:10d'))},
+    {"nombre": "Facebook hoy (vía Google Noticias)", "tipo": "google", "seccion": "mencion",
+     "url": GOOGLE.format(_q('"Álvaro Uribe" site:facebook.com when:1d'))},
+    {"nombre": "Instagram hoy (vía Google Noticias)", "tipo": "google", "seccion": "mencion",
+     "url": GOOGLE.format(_q('"Álvaro Uribe" site:instagram.com when:1d'))},
+    {"nombre": "X (vía Google Noticias)", "tipo": "google", "seccion": "mencion", "contexto": True,
+     "url": GOOGLE.format(_q('"Uribe" site:x.com when:2d'))},
+    {"nombre": "YouTube (vía Google Noticias)", "tipo": "google", "seccion": "mencion",
+     "url": GOOGLE.format(_q('"Álvaro Uribe" site:youtube.com when:2d'))},
+    {"nombre": "TikTok (vía Google Noticias)", "tipo": "google", "seccion": "mencion",
+     "url": GOOGLE.format(_q('"Álvaro Uribe" site:tiktok.com when:3d'))},
     # --- Coyuntura nacional
     {"nombre": "Google Noticias: Colombia", "tipo": "google", "seccion": "coyuntura",
      "url": "https://news.google.com/rss/headlines/section/topic/NATION?hl=es-419&gl=CO&ceid=CO:es-419"},
@@ -217,6 +230,18 @@ NOMBRES_DE_PILA = set("""jaime tomas jeronimo santiago miguel mario juan maria h
     jhon edwin fabio guillermo humberto ignacio javier leonardo marcela natalia patricia sandra sofia valentina
     andrea carolina catalina daniela isabel juliana luisa monica paula adriana angela beatriz gloria martha""".split())
 OTROS_SEGUNDOS_APELLIDOS = {"turbay", "londono", "noguera"}
+# Palabras que pueden ir con mayúscula antes de "Uribe" al iniciar una frase sin ser un nombre de pila
+NO_SON_NOMBRES = set("""segun dice dijo advierte advirtio afirma afirmo asegura aseguro pide pidio propone propuso
+    responde respondio critica critico celebra celebro insiste anuncia anuncio rechaza rechazo cuestiona
+    respalda respaldo reacciona reacciono explica explico sostiene denuncia defiende acusa reitera
+    para con de del a al por sobre contra entre tras y o e ni que como cuando donde mientras aunque pero
+    el la los las un una su sus este esta ese esa hoy ayer ahora asi tambien ademas video foto fotos
+    atencion urgente opinion analisis politica noticias colombia""".split())
+# Contexto colombiano: se exige en las búsquedas de "Uribe" a secas, que traen homónimos de otros países
+RE_CONTEXTO_COLOMBIA = re.compile(
+    r"colombia|centro democr|de la espriella|petro\b|\biva\b|canasta familiar|fiscal[ií]a|congreso|senad|"
+    r"cepeda|uribis|expresidente|bogot[aá]|medell[ií]n|antioquia|tributari|aval[uú]o|farc|\beln\b|"
+    r"casa de nari|pacto hist[oó]rico|paloma valencia|cabal\b|restrepo|corte suprema|jep\b", re.IGNORECASE)
 
 
 def menciona_a_alvaro(texto):
@@ -227,8 +252,8 @@ def menciona_a_alvaro(texto):
     for m in RE_APELLIDO_URIBE.finditer(texto):
         previa, siguiente = m.group(1) or "", m.group(4) or ""
         anterior = normalizar(previa)
-        if normalizar(siguiente) in OTROS_SEGUNDOS_APELLIDOS:
-            otra_persona = True
+        if normalizar(siguiente) in OTROS_SEGUNDOS_APELLIDOS or texto[m.end():m.end() + 1] == "-":
+            otra_persona = True      # otro apellido compuesto: Uribe Turbay, Uribe-Markaida…
             continue
         if anterior in TITULOS_URIBE:
             return True
@@ -236,7 +261,7 @@ def menciona_a_alvaro(texto):
             # Palabra con mayúscula justo antes: es un nombre de pila, salvo que solo inicie la frase
             inicio = texto[:m.start()].rstrip()
             inicia_frase = not inicio or inicio[-1] in ".!?:;\"“”«»(¿¡|-–—\n" or not inicio[-1].isalnum()
-            if anterior in NOMBRES_DE_PILA or not inicia_frase:
+            if anterior in NOMBRES_DE_PILA or not inicia_frase or anterior not in NO_SON_NOMBRES:
                 otra_persona = True
                 continue
         a_secas = True
@@ -460,13 +485,13 @@ def frase_con_mencion(texto):
 
 # ------------------------------------------------------------------ descarga
 
-_turno_google = threading.Semaphore(2)   # Google responde 429 si recibe muchas búsquedas a la vez
+_turno_google = threading.Semaphore(1)   # Google responde 429 si recibe muchas búsquedas a la vez
 
 
 def descargar(url):
     if "news.google.com" in url:
         with _turno_google:
-            time.sleep(0.5)
+            time.sleep(1.0)      # una búsqueda por segundo: más rápido, Google las rechaza
             return _descargar(url)
     return _descargar(url)
 
@@ -564,7 +589,10 @@ def leer_feed(feed, medios):
         if es_mencion:
             # Solo cuenta como mención si el nombre se ve en lo que mostramos. Los buscadores
             # devuelven resultados donde Uribe aparece en una parte del texto que no entregan.
-            if not menciona_a_alvaro(" ".join((titulo, resumen, detalle, cita))):
+            visible = " ".join((titulo, resumen, detalle, cita))
+            sin_contexto = feed.get("contexto") and not RE_MENCION.search(visible) \
+                and not RE_CONTEXTO_COLOMBIA.search(visible)
+            if sin_contexto or not menciona_a_alvaro(visible):
                 if feed["seccion"] == "mencion":
                     continue
                 es_mencion = False

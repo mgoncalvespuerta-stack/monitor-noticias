@@ -1,8 +1,6 @@
 {
   "_nota": "Clasificación de medios. Se compara contra el nombre y el dominio del medio (sin tildes, en minúsculas). Orden de revisión: redes, regional, nacional, internacional, gran. Lo que no aparezca aquí se muestra como 'Pequeño / local'.",
   "ignorar": [
-    "youtube",
-    "tiktok",
     "linkedin",
     "wikipedia"
   ],
@@ -141,7 +139,9 @@
     "facebook",
     "instagram",
     "x.com",
-    "twitter"
+    "twitter",
+    "youtube",
+    "tiktok"
   ],
   "internacional": [
     "cnn",
