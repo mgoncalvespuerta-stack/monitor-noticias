@@ -44,6 +44,9 @@ jobs:
         run: |
           mkdir -p _site/data
           cp index.html styles.css script.js _site/
+          # Cada versión publicada lleva su propio número, para que los navegadores
+          # no sigan usando estilos o código viejos guardados en memoria
+          sed -i "s/?v=local/?v=${GITHUB_SHA::7}/g" _site/index.html
           cp data/respaldo.json data/medios.json _site/data/
 
       - uses: actions/upload-pages-artifact@v3
