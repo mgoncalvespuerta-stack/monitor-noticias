@@ -2,13 +2,13 @@
  *
  * Orden de carga (si un paso falla se intenta el siguiente):
  *   1. /api/noticias          -> servidor local (python3 server.py), lee ~25 feeds RSS reales
- *   2. data/respaldo.json     -> sitio publicado: archivo renovado cada 45 min (si es reciente)
+ *   2. data/respaldo.json     -> sitio publicado: archivo renovado cada 30 min (si es reciente)
  *   3. rss2json.com           -> modo simple (python -m http.server), menos fuentes
  *   4. copia en el navegador  -> última carga real guardada en este equipo
  *   5. data/respaldo.json     -> copia de noticias reales, aunque sea antigua
  */
 
-const AUTO_REFRESH_MS = 45 * 60 * 1000;
+const AUTO_REFRESH_MS = 30 * 60 * 1000;
 const ARCHIVO_RECIENTE_MS = 2 * 60 * 60 * 1000;
 const POR_PAGINA = 30;
 const CLAVE_COPIA = 'monitor-noticias-copia';
@@ -162,7 +162,7 @@ async function desdeServidor(forzar) {
 }
 
 // 2. Sitio publicado (GitHub Pages): no hay servidor, pero una tarea automática
-//    renueva data/respaldo.json cada 45 minutos. Si el archivo es reciente, cuenta como en vivo.
+//    renueva data/respaldo.json cada 30 minutos. Si el archivo es reciente, cuenta como en vivo.
 async function desdeArchivoReciente() {
   const datos = await pedirJson(`data/respaldo.json?t=${Date.now()}`, 15000);
   const edad = Date.now() - new Date(datos && datos.generado).getTime();
@@ -289,7 +289,7 @@ function mostrarEstado(datos) {
     : 'Última actualización: sin datos';
 
   const proxima = new Date(Date.now() + AUTO_REFRESH_MS);
-  proximaEl.textContent = `Se actualiza sola cada 45 minutos. Próxima: ${fmtHora.format(proxima)}`;
+  proximaEl.textContent = `Se actualiza sola cada 30 minutos. Próxima: ${fmtHora.format(proxima)}`;
 
   if (!datos) {
     avisoEl.hidden = false;

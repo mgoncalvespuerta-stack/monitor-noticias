@@ -36,7 +36,7 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 RUTA_RESPALDO = os.path.join(BASE, "data", "respaldo.json")
 RUTA_MEDIOS = os.path.join(BASE, "data", "medios.json")
 
-ACTUALIZAR_CADA_SEGUNDOS = 45 * 60   # actualización automática del servidor
+ACTUALIZAR_CADA_SEGUNDOS = 30 * 60   # actualización automática del servidor
 CACHE_SEGUNDOS = 10 * 60        # entre visitas normales
 MIN_ENTRE_FORZADOS = 45         # el botón "Actualizar" no golpea los feeds más seguido que esto
 TIEMPO_ESPERA = 12
@@ -556,7 +556,7 @@ class Manejador(SimpleHTTPRequestHandler):
 
 
 def actualizar_en_ciclo():
-    """Descarga noticias al iniciar y luego cada 45 minutos, haya o no una página abierta."""
+    """Descarga noticias al iniciar y luego cada 30 minutos, haya o no una página abierta."""
     while True:
         try:
             obtener_noticias(True)
