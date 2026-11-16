@@ -154,6 +154,24 @@
           </div>
         </div>
 
+        <div id="bloqueTono" class="filtro-bloque" hidden>
+          <p class="filtro-titulo" id="tituloTono">Tono de las menciones a Uribe</p>
+          <div class="grupo-botones" role="group" aria-labelledby="tituloTono">
+            <button class="tema-btn tono-btn activo" data-tono="all" aria-pressed="true" type="button">
+              Todas
+            </button>
+            <button class="tema-btn tono-btn tono-favorable" data-tono="favorable" aria-pressed="false" type="button">
+              Favorables <span class="conteo" data-conteo="tono-favorable"></span>
+            </button>
+            <button class="tema-btn tono-btn tono-desfavorable" data-tono="desfavorable" aria-pressed="false" type="button">
+              Desfavorables <span class="conteo" data-conteo="tono-desfavorable"></span>
+            </button>
+            <button class="tema-btn tono-btn" data-tono="neutra" aria-pressed="false" type="button">
+              Neutras <span class="conteo" data-conteo="tono-neutra"></span>
+            </button>
+          </div>
+        </div>
+
         <div class="filtro-bloque">
           <p class="filtro-titulo" id="tituloTema">Tema</p>
           <div id="grupoTemas" class="grupo-botones" role="group" aria-labelledby="tituloTema"></div>

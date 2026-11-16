@@ -37,7 +37,13 @@ jobs:
           python3 -c "import json; d=json.load(open('/tmp/publicado.json')); assert len(d['noticias']) > 8"
           cp /tmp/publicado.json data/respaldo.json
 
+      - name: Instalar el cliente de la API de Claude (para el tono de las menciones)
+        run: pip install --quiet anthropic
+
       - name: Descargar noticias
+        env:
+          # Clave guardada en Settings → Secrets and variables → Actions. Sin ella no se analiza el tono.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python3 server.py --respaldo
 
       - name: Preparar sitio

@@ -751,6 +751,46 @@ input {
   box-shadow: inset 0 0 0 2px #b9c9e6;
 }
 
+.etiqueta-tono-favorable {
+  background: var(--verde-suave);
+  color: var(--verde);
+  box-shadow: inset 0 0 0 2px #8fd0a8;
+}
+
+.etiqueta-tono-desfavorable {
+  background: #fff;
+  color: var(--rojo-oscuro);
+  box-shadow: inset 0 0 0 2px var(--rojo);
+}
+
+.etiqueta-tono-neutra {
+  background: #eef1f6;
+  color: #2f3d57;
+  box-shadow: inset 0 0 0 2px #c3cbd9;
+}
+
+.tono-favorable {
+  color: var(--verde);
+  border-color: #8fd0a8;
+}
+
+.tono-favorable.activo {
+  background: var(--verde);
+  border-color: var(--verde);
+  color: #fff;
+}
+
+.tono-desfavorable {
+  color: var(--rojo-oscuro);
+  border-color: #efb4be;
+}
+
+.tono-desfavorable.activo {
+  background: var(--rojo);
+  border-color: var(--rojo);
+  color: #fff;
+}
+
 .etiqueta-redes {
   background: var(--morado);
   color: #fff;
