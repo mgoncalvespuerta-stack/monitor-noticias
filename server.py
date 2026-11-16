@@ -180,11 +180,30 @@ def normalizar(texto):
     return re.sub(r"\s+", " ", sin_tildes(texto or "").lower()).strip()
 
 
+# Enlaces promocionales a OTRAS notas ("Ver también: …", "Importante: …"). Hay que quitarlos:
+# si no, una nota cualquiera parece mencionar a Uribe solo porque enlaza a otra que sí lo hace.
 RE_PROMO = re.compile(
-    r"(?:L ?eer m[aá]s|Le puede interesar|Tambi[eé]n le puede interesar|Le recomendamos|Lea(?: tambi[eé]n| adem[aá]s| aqu[ií])?|"
-    r"Vea tambi[eé]n|Puede leer|En contexto|Siga leyendo|Otras noticias)\s*:\s*[^.?!]*[.?!]",
+    r"(?:(?:V ?er|L ?eer|L ?ea|L ?ee|Mire|Vea|Consulte)(?: tambi[eé]n| adem[aá]s| m[aá]s| aqu[ií])?|"
+    r"(?:Tambi[eé]n )?(?:le|te) (?:puede|podr[ií]a) interesar|Le recomendamos|Te recomendamos|"
+    r"Importante|Adem[aá]s|Relacionad[oa]s?|Puede leer|En contexto|Siga leyendo|Otras noticias|"
+    r"M[aá]s noticias|En otras noticias|No deje de leer|Lo [uú]ltimo|Contexto)\s*:\s*[^.?!]*[.?!]",
     re.IGNORECASE,
 )
+RE_PARRAFO = re.compile(r"(?is)<(p|li|h[1-6]|div)\b[^>]*>((?:(?!</?\1\b).)*)</\1>")
+
+
+def quitar_parrafos_enlace(texto):
+    """Elimina párrafos que son solo un enlace a otra nota (con una etiqueta corta delante)."""
+    def revisar(m):
+        interior = m.group(2)
+        if "<a" not in interior.lower():
+            return m.group(0)
+        fuera = re.sub(r"(?is)<a\b.*?</a>", " ", interior)
+        fuera = re.sub(r"<[^>]+>", " ", fuera)
+        return " " if len(re.sub(r"\s+", " ", fuera).strip()) < 40 else m.group(0)
+    return RE_PARRAFO.sub(revisar, texto)
+
+
 RE_FIRMA = re.compile(r"^\S+ \w{3}, \d{2}/\d{2}/\d{4} - \d{2}:\d{2}\s*\.?\s*(?:Cr[eé]ditos?:[^.]*\.)?\s*", re.IGNORECASE)
 
 
@@ -194,6 +213,7 @@ def limpiar(texto):
         return ""
     texto = html.unescape(texto)
     texto = re.sub(r"(?is)<(script|style|figure|figcaption|iframe)[^>]*>.*?</\1>", " ", texto)
+    texto = quitar_parrafos_enlace(texto)
     texto = re.sub(r"(?i)</(p|div|h[1-6]|li)>|<br\s*/?>", ". ", texto)
     texto = re.sub(r"<[^>]+>", " ", texto)
     texto = html.unescape(texto).replace("\xa0", " ")
