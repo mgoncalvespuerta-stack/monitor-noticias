@@ -23,6 +23,11 @@
   box-sizing: border-box;
 }
 
+/* El atributo hidden debe ganar siempre (si no, display:flex/grid lo anula) */
+[hidden] {
+  display: none !important;
+}
+
 html {
   font-size: 19px;
   scroll-behavior: smooth;

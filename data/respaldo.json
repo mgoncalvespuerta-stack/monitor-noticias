@@ -1,16 +1,16 @@
 {
- "generado": "2026-11-16T21:46:49Z",
+ "generado": "2026-11-16T22:27:10Z",
  "origen": "vivo",
  "fuentes": [
   {
    "nombre": "Google Noticias: Álvaro Uribe",
    "ok": true,
-   "cantidad": 100
+   "cantidad": 97
   },
   {
    "nombre": "Google Noticias: Uribe Vélez",
    "ok": true,
-   "cantidad": 48
+   "cantidad": 46
   },
   {
    "nombre": "Bing Noticias: Álvaro Uribe",
@@ -30,12 +30,12 @@
   {
    "nombre": "Facebook (vía Google Noticias)",
    "ok": true,
-   "cantidad": 100
+   "cantidad": 65
   },
   {
    "nombre": "Instagram (vía Google Noticias)",
    "ok": true,
-   "cantidad": 100
+   "cantidad": 93
   },
   {
    "nombre": "Google Noticias: Colombia",
@@ -50,22 +50,22 @@
   {
    "nombre": "Semana",
    "ok": true,
-   "cantidad": 86
+   "cantidad": 85
   },
   {
    "nombre": "Infobae",
    "ok": true,
-   "cantidad": 38
+   "cantidad": 37
   },
   {
    "nombre": "El Colombiano",
    "ok": true,
-   "cantidad": 26
+   "cantidad": 25
   },
   {
    "nombre": "La República",
    "ok": true,
-   "cantidad": 23
+   "cantidad": 21
   },
   {
    "nombre": "Portafolio",
@@ -90,7 +90,7 @@
   {
    "nombre": "El Heraldo",
    "ok": true,
-   "cantidad": 64
+   "cantidad": 63
   },
   {
    "nombre": "El Universal",
@@ -100,7 +100,7 @@
   {
    "nombre": "Vanguardia",
    "ok": true,
-   "cantidad": 37
+   "cantidad": 34
   },
   {
    "nombre": "El País Cali",
@@ -115,10 +115,82 @@
   {
    "nombre": "La Opinión",
    "ok": true,
-   "cantidad": 8
+   "cantidad": 7
   }
  ],
  "noticias": [
+  {
+   "id": "74882a8dd0ab",
+   "titulo": "Salario mínimo de 2027: así están los cambios entre los trabajadores y los empresarios; quiénes son los que podrían definir el próximo aumento",
+   "resumen": "Las diferencias entre los sectores tienen componentes políticos y sindicales. Por un lado, se pediría una cifra mayor al 35% y, por otro, que no se pase de dos dígitos",
+   "detalle": "La concertación del aumento del salario mínimo de Colombia para 2027 comenzará de manera formal el miércoles 18 de noviembre de 2026, con propuestas que van del 8% al 38,5% y con una renovación en la representación del Gobierno, los trabajadores y los empresarios. El debate definirá el ingreso de cerca de 2,4 millones de personas, según el Departamento Administrativo Nacional de Estadística (Dane). La mesa, que se instalaría a las 9:00 a. m., reunirá representantes del Gobierno, los empresarios y las centrales obreras con posiciones aún distantes: los sectores empresariales y algunas referencias técnicas plantean aumentos cercanos al 8%, mientras los sindicatos aspiran a un ajuste de dos dígitos.",
+   "cita": "",
+   "enlace": "https://www.infobae.com/colombia/2026/11/16/salario-minimo-de-2027-asi-estan-los-cambios-entre-los-trabajadores-y-los-empresarios-quienes-son-los-que-podrian-definir-el-proximo-aumento/",
+   "fuente": "Infobae",
+   "fecha": "2026-11-16T22:13:04Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "cce0f1a170bb",
+   "titulo": "“¡A prepararse!”: Max Henríquez alerta por cambios en las temperaturas y las lluvias en Colombia",
+   "resumen": "El meteorólogo Max Henríquez llamó la atención sobre los cambios que comenzarán a registrarse en las condiciones climáticas de Colombia a partir de este miércoles.",
+   "detalle": "El meteorólogo Max Henríquez llamó la atención sobre los cambios que comenzarán a registrarse en las condiciones climáticas de Colombia a partir de este miércoles. Según su pronóstico, buena parte del territorio nacional experimentará un aumento de las temperaturas y una disminución en las probabilidades de lluvia. De acuerdo con el especialista, durante esta jornada se presentarán las primeras manifestaciones de un comportamiento atmosférico que marcaría las condiciones del tiempo en los próximos días en gran parte del país.",
+   "cita": "",
+   "enlace": "https://www.semana.com/nacion/articulo/a-prepararse-max-henriquez-alerta-por-cambios-en-las-temperaturas-y-las-lluvias-en-colombia/202607/",
+   "fuente": "Semana",
+   "fecha": "2026-11-16T22:10:07Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "96697454ef33",
+   "titulo": "Video | Cierre del paso de La Línea entre Cajamarca y Calarcá por trágico accidente de camión en el túnel Ocelotes: el conductor murió en el siniestro",
+   "resumen": "Este 16 de noviembre, el paso en La Línea se mantiene cerrado. Es el tramo que comunica el centro con el suroccidente del país.",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://www.eltiempo.com/colombia/otras-ciudades/tragico-accidente-de-camion-en-el-tunel-ocelotes-mantiene-paralizada-la-via-la-linea-entre-cajamarca-y-calarca-3601439",
+   "fuente": "El Tiempo",
+   "fecha": "2026-11-16T22:09:15Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "bb1bde953620",
+   "titulo": "Las razones por las que salió Jaime Vives de la presidencia de Coljuegos: ¿Cuántos funcionarios han salido en el gobierno De La Espriella?",
+   "resumen": "El funcionario había acumulado escándalos que hicieron inviable su permanencia en el caso.",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://www.eltiempo.com/politica/abelardo-de-la-espriella/las-razones-por-las-que-salio-jaime-vives-de-la-presidencia-de-coljuegos-cuantos-funcionarios-han-salido-en-el-gobierno-de-la-espriella-3601440",
+   "fuente": "El Tiempo",
+   "fecha": "2026-11-16T22:07:29Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "dc1fab78e2f2",
+   "titulo": "El expresidente Álvaro Uribe Vélez informó este lunes, 16 de noviembre, a través de su cuenta en la red social X, que…",
+   "resumen": "El expresidente Álvaro Uribe Vélez informó este lunes, 16 de noviembre, a través de su cuenta en la red social X, que la bancada de congresistas del Centro Democrático retomará esfuerzos en el Legislativo para impulsar un proyecto de ley enfocado en mo…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1tUkxTRjIwaVAzRjR4RFNrVVJ6UFBMcTJQSWoyRWRGTHBxNk1wTmhVUjl3TGVDUFBndVg3MDJVb0c1QUxTZG1SYXp0aHYycDBPQ1E?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-16T22:01:23Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
+   "id": "f1d5f31afe32",
+   "titulo": "Por el bombardeo de las Fuerzas Militares en Vichada, Medicina Legal recibió dos cuerpos: uno ya fue identificado",
+   "resumen": "El ataque contra las disidencias de 'Mordisco', revelado por EL TIEMPO, en su momento no fue divulgado públicamente por el Ministerio de Defensa.",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://www.eltiempo.com/justicia/investigacion/por-el-bombardeo-de-las-fuerzas-militares-en-vichada-medicina-legal-recibio-dos-cuerpos-uno-ya-fue-identificado-3601461",
+   "fuente": "El Tiempo",
+   "fecha": "2026-11-16T21:48:14Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
   {
    "id": "3498f4da015b",
    "titulo": "La vía entre Chocó y Risaralda permanece cerrada por presuntos cilindros bomba y elementos alusivos al ELN: esto se sabe",
@@ -276,18 +348,6 @@
    "tamano": "gran"
   },
   {
-   "id": "dc1fab78e2f2",
-   "titulo": "El expresidente Álvaro Uribe Vélez informó este lunes, 16 de noviembre, a través de su cuenta en la red social X, que…",
-   "resumen": "El expresidente Álvaro Uribe Vélez informó este lunes, 16 de noviembre, a través de su cuenta en la red social X, que la bancada de congresistas del Centro Democrático retomará esfuerzos en el Legislativo para impulsar un proyecto de ley enfocado en mo…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1tUkxTRjIwaVAzRjR4RFNrVVJ6UFBMcTJQSWoyRWRGTHBxNk1wTmhVUjl3TGVDUFBndVg3MDJVb0c1QUxTZG1SYXp0aHYycDBPQ1E?oc=5",
-   "fuente": "Instagram",
-   "fecha": "2026-11-16T21:00:08Z",
-   "categoria": "mencion",
-   "tamano": "redes"
-  },
-  {
    "id": "593b61c2c9fe",
    "titulo": "Hija del exmagistrado Carlos Horacio Urán le respondió al expresidente Petro sobre la toma del Palacio de Justicia",
    "resumen": "En un extenso mensaje en su cuenta de X, el expresidente Gustavo Petro reconoció —entre otras cosas— que la guerrilla del M-19, de la cual hizo parte, incurrió en un “error” al planear y ejecutar la toma del Palacio de Justicia en…",
@@ -322,18 +382,6 @@
    "fecha": "2026-11-16T20:53:55Z",
    "categoria": "coyuntura",
    "tamano": "nacional"
-  },
-  {
-   "id": "96697454ef33",
-   "titulo": "Video | Cierre del paso de La Línea entre Cajamarca y Calarcá por trágico accidente de camión en el túnel Ocelotes: el conductor murió en el siniestro",
-   "resumen": "Este 16 de noviembre, el paso en La Línea se mantiene cerrado. Es el tramo que comunica el centro con el suroccidente del país.",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://www.eltiempo.com/colombia/otras-ciudades/tragico-accidente-de-camion-en-el-tunel-ocelotes-mantiene-paralizada-la-via-la-linea-entre-cajamarca-y-calarca-3601439",
-   "fuente": "El Tiempo",
-   "fecha": "2026-11-16T20:49:28Z",
-   "categoria": "coyuntura",
-   "tamano": "gran"
   },
   {
    "id": "2c6b443c77f4",
@@ -492,18 +540,6 @@
    "tamano": "nacional"
   },
   {
-   "id": "3cac0fc9476a",
-   "titulo": "«Si no se hizo justicia, por lo menos que se sepa la verdad»; bajo esa premisa, Diana Salinas reconstruyó la historia…",
-   "resumen": "«Si no se hizo justicia, por lo menos que se sepa la verdad»; bajo esa premisa, Diana Salinas reconstruyó la historia del Parqueadero Padilla, un lugar en Medellín en donde hallaron más que una oficina: encontraron todas las pistas de la contabilidad de los…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOaUJWZDJaUGpOYUtSOFVweEZfNEpuVzVfMmRGYlpBTzY1bmROT25VdEtjQTJqT0wwVG1pLUQxckZzc0tiNHdVaHFLZlAxOXdIbGllZUNFTnZCd0l1WVhCTmtNQW9MdEVNVkJURXowUzZIUkJkaUNTY0FkWDl2RHB6OXVndGFieVd1WWkyQzljRUYtSURzT2pGMl8xZ1EyV3RrNDZqSHV1QU9qRF8xTllfSldXRU9Pc1YteHlldGx5R1drYTF4ZFg3R0xYaGdib05FbDFfcnBn?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-16T20:04:47Z",
-   "categoria": "mencion",
-   "tamano": "redes"
-  },
-  {
    "id": "47a7ea6b9e99",
    "titulo": "Autoridades capturaron a 492 personas en Bogotá durante una semana de operativos contra cinco estructuras que azotaban la capital",
    "resumen": "La operación Kratos, ejecutada por la Policía Metropolitana y la Fiscalía, derivó en allanamientos, incautaciones y medidas de aseguramiento por secuestro extorsivo, narcotráfico y homicidios selectivos entre el 8 y el 15 de noviembre",
@@ -636,18 +672,6 @@
    "tamano": "nacional"
   },
   {
-   "id": "8612fc72a694",
-   "titulo": "El senador Juan Espinal, del Centro Democrático, anunció la radicación de un proyecto para establecer reglas al sector…",
-   "resumen": "El senador Juan Espinal, del Centro Democrático, anunció la radicación de un proyecto para establecer reglas al sector y respaldó la búsqueda de inversión por parte del Gobierno.…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPcEdVTFZtaHNsLS1XcDNMT0lILUVwVnFRUTNLRGg0b0NPZnhhV0hETElNX1hFR3J5M2VQY0tRTnVGbHJmSVNqaFFhd29uLWVDRmlyYlc0dGtOY19XdGEyTUV3Zjh3akpOQVRkR1ZQNlpXVDgxNnp6TkdQLVo2cXIxdW1PTHdMb1FEcTJtZ3RCWThfVDRUOU9iUmMxQlpzeE5ZVmZOUlA0TkFtalZHc1VDbjV5UENmdmtWREJXSlJaX2QzcFdDWjc1bmtyZnhleTc3SkxSRDRaMTNRNlJxTC1BM0FxU3NtYmh5c1FRcA?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-16T19:29:18Z",
-   "categoria": "mencion",
-   "tamano": "redes"
-  },
-  {
    "id": "f0622e992ed1",
    "titulo": "Cierre del paso en La Línea, entre Cajamarca y Calarcá, por accidente en el túnel Ocelotes",
    "resumen": "Un accidente se presentó en las últimas horas en La Línea, situación que generó una grave afectación en la movilidad entre los municipios de Cajamarca y Calarcá.",
@@ -732,18 +756,6 @@
    "tamano": "gran"
   },
   {
-   "id": "f098620d21ca",
-   "titulo": "🤩🚨 ¡ESTAMOS EN VIVO! 📡👇🏻 Conéctate a la transmisión de #ElVbar de #ASColombia aquí",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxObkVCOEhqdDdwTFNCVXctYWQxZEJudEJFd3ByUER3Tng4MTc4SUtrVnBNNGdWZ0xCbDhNMDJReEhMV2ZsMlBLNW1yWEJETGF6a1pwVU5QbC01dDlVOFJ0QjFDbU5zNjlRTmxCaThLM0RQZW5RNF91SDY5M1diUlRuSjNQRnJnVEVDOGFuZVZTSzllUWdheWZlMVdYN0ZuWXNwSjdaZE9LRnNzN2pya3Nka3ZTcldSZFBBRFcweEJZVWpsbGdtcUFhWVNnTXFBX0JfR1F2ZUx3TWRpSkQtNEZELWhsOWVWSGc?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-16T19:02:12Z",
-   "categoria": "mencion",
-   "tamano": "redes"
-  },
-  {
    "id": "ad62af0177ac",
    "titulo": "La agroindustria transforma la Altillanura, pero no garantiza su desarrollo",
    "resumen": "La expansión agroindustrial de la Altillanura debe reconocer a las comunidades, distribuir sus beneficios y proteger el futuro de los territorios rurales.",
@@ -780,6 +792,18 @@
    "tamano": "gran"
   },
   {
+   "id": "eadb1e14976f",
+   "titulo": "Investigan causas de incendio en el Gran San: 22 locales resultaron afectados",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeWxEVkQ0VVFtaE5LQzZXSGdtZlNkd2VzOWY3clI1ajJha1pOX3QwWWJSeDU2LU9vVU9RdHZUeEZYeVE2V1VyTnBubXc1dnJkaEhRODl1cGxuMHZHV3dUVkhCRXZNdWZWTE4xSUxtRFdzUlprWVlqdmxCWkJBbzk1azVSTWM5Z3V2Tml3NmlNdlNEdlZXTXZTLUpNcXJ5aU93X1RlRHRpTGdnTEhiTDRKUTVkRdIBxwFBVV95cUxOc3FLaFNnYzVJVUpUdndTWEdMcHVJV3F6YzJoeVBSenZVTjdqRld1ZTlQODRLaFM5WmgzYlVySFl2d2QxNzl0U1dmVndObE9IXzZlNEtZWk44QVdhYWRCNEhjWW1sVUZuVUJRMFFMNG5kaTdsR2F0OUZyQ01kUmF6UWpPOS1MLUhvanMzeXk1Z01yelVZaTdCeGI5dWYtSmxzU3ZaWWotWGM1NkxyQzkyRy1Mbm9KbmxBNzJ1a0puRDFVUU00N2pn?oc=5",
+   "fuente": "El Espectador",
+   "fecha": "2026-11-16T18:46:00Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
    "id": "5eba0a19030d",
    "titulo": "Dos peajes fueron atacados con explosivos en Huila y Meta",
    "resumen": "Ambos dejaron daños materiales, pero hasta ahora las autoridades no reportan personas heridas ni fallecidas. The post Dos peajes fueron atacados con explosivos en Huila y Meta appeared first on La Silla Vacía.",
@@ -800,18 +824,6 @@
    "enlace": "https://www.infobae.com/colombia/2026/11/16/alias-mailo-senalado-delincuente-que-fue-capturado-en-megaoperativo-en-bogota-fue-motilado-al-ingresar-a-la-picota-y-abelardo-de-la-espriella-lo-celebro-la-ley-se-respeta/",
    "fuente": "Infobae",
    "fecha": "2026-11-16T18:36:56Z",
-   "categoria": "coyuntura",
-   "tamano": "gran"
-  },
-  {
-   "id": "bb1bde953620",
-   "titulo": "Las razones por las que salió Jaime vives de la presidencia de Coljuegos: ¿Cuántos funcionarios han salido en el gobierno De La Espriella?",
-   "resumen": "El funcionario había acumulado escándalos que hicieron inviable su permanencia en el caso.",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://www.eltiempo.com/politica/abelardo-de-la-espriella/las-razones-por-las-que-salio-jaime-vives-de-la-presidencia-de-coljuegos-cuantos-funcionarios-han-salido-en-el-gobierno-de-la-espriella-3601440",
-   "fuente": "El Tiempo",
-   "fecha": "2026-11-16T18:31:33Z",
    "categoria": "coyuntura",
    "tamano": "gran"
   },
@@ -929,7 +941,7 @@
    "resumen": "",
    "detalle": "",
    "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYlgyYzFZMkxjRXU4WFIycHBUTEZmaHJjd2RFN3pzcTBOUzJ2eVhRTGtQbnpVWVp4SkxuRC14aFBLMDdnbTN6RWFQdFhSZzhMdXkzY0tCZUJDenEzV3B3MGZwaGpONTd5ZjRGOGpRcGxOY2JVelJQMHJIWlZLanFUOEV2SUdxbE94NEFvTC1tV3pMNmhGNUM4WlFHdXFvNDNud0Z1S2U1UVBrMVZtaFZOdG1CeDbSAboBQVVfeXFMTnpXd0tqNlFrcXk5c0JORDViLWFGZWxYNzhkcEdmSF9OUkNKWlpyb0xQNTlRWktuczFuR2F4eHpGWTN0NjdZY3NxVW81OG9wXzVmWUREX0tud2FZMnJaa0lsTEpRdjVHV0xBekdhS3lRZXdrY0pwYmtkUzZkRnhEdUxOYXdEVVdHTk05bjcwZ0RrWFFScUFFS3Nsb3U1dGYyLTJNYlRQTG5Jbkx6TWs0M1NiUXlXVWFnZGdB?oc=5",
+   "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYlgyYzFZMkxjRXU4WFIycHBUTEZmaHJjd2RFN3pzcTBOUzJ2eVhRTGtQbnpVWVp4SkxuRC14aFBLMDdnbTN6RWFQdFhSZzhMdXkzY0tCZUJDenEzV3B3MGZwaGpONTd5ZjRGOGpRcGxOY2JVelJQMHJIWlZLanFUOEV2SUdxbE94NEFvTC1tV3pMNmhGNUM4WlFHdXFvNDNud0Z1S2U1UVBrMVZtaFZOdG1CeDY?oc=5",
    "fuente": "El Colombiano",
    "fecha": "2026-11-16T17:54:31Z",
    "categoria": "coyuntura",
@@ -1030,18 +1042,6 @@
    "fecha": "2026-11-16T17:43:01Z",
    "categoria": "coyuntura",
    "tamano": "nacional"
-  },
-  {
-   "id": "c5a151ba04fb",
-   "titulo": "Lo Que Pasa En Bucaramanga y Colombia.com",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVVh5ckRkdEQ2QzdLQWI3eUlPY29MUnBOWmdVTHpTa1FTQnc3b0RDOVR3VEVtN1VaWU9CeW01T05md3U5dy1fSkpvUHJmUzZlNmhtSmdMS3gtNFVvbUc2cW91V3lvUHdGdnVYeUJjYm5aaDhOXy0tOVY2azFXZWVsbktqZW40ZFlaUjRrQkxn?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-16T17:42:57Z",
-   "categoria": "mencion",
-   "tamano": "redes"
   },
   {
    "id": "579a23becf9d",
@@ -1164,18 +1164,6 @@
    "tamano": "regional"
   },
   {
-   "id": "0751afd8b94b",
-   "titulo": "Un juez de control de garantías de Antioquia compulsó copias a la Comisión de Investigación y Acusación de la Cámara de…",
-   "resumen": "Un juez de control de garantías de Antioquia compulsó copias a la Comisión de Investigación y Acusación de la Cámara de Representantes para que se examine la conducta del presidente Abelardo de la Espriella 👉…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPVmxaM21JcVZSck1GQm8wc1RQdFZfRVVxNVdReW5NVFpBTy03eDQ4X1FqdWY0Ymoxc2dSQTFMYVU5QU5XQl83U1lRbTlUSEZKX2JTUkYtcGhnZmRzMDJuWWtzYWsySHJJS1EtQ1BaYkFRSmNXOE0xWVZ0eUI1b0trWjY2Y1ZxSzRFTlFlYllhWUViVEIzdkJHQk5mODNrbE4yVVluN0JMMXpic1p1VUNHWXYwcWVrb2pQLW81dmNnNWw2T3BYRFQwWGl6RVFwVVV4bTgyUmJOdkJFVlp6WTR2WWUxcmtPejhjNEFTdmlidDB0UQ?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-16T17:24:46Z",
-   "categoria": "mencion",
-   "tamano": "redes"
-  },
-  {
    "id": "ad13102bc7f1",
    "titulo": "El expresidente Álvaro Uribe Vélez anunció que la bancada del Centro Democrático retomará las gestiones en el Congreso…",
    "resumen": "El expresidente Álvaro Uribe Vélez anunció que la bancada del Centro Democrático retomará las gestiones en el Congreso de la República para impulsar un proyecto de ley que busca aliviar el impacto económico de los incrementos en los avalú…",
@@ -1184,18 +1172,6 @@
    "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE83NHNHWjd3TTczZ3NoTUw1OHR1VVNReEs1ZFpnZlVjaUw1WWxCRUFKbWZLNnFCOFM3alNQb0JTaE00Y2JwSDZHYzhMQXlJdjNYRnc?oc=5",
    "fuente": "Instagram",
    "fecha": "2026-11-16T17:19:22Z",
-   "categoria": "mencion",
-   "tamano": "redes"
-  },
-  {
-   "id": "4898505c371c",
-   "titulo": "LA PAPAYA DIGITAL",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdTl0OWpVa0tOajJ5ZjNPQjUtUjdERE1JRnFDN1VTNWN0MDA0LUFsZUdzcUU0aVVzWVFnLTJId29NYy1MTHU5ZURBRjl6ejQ2VktTeC1GWW1MTl9FV3FLWURVZUt4eFZOVUFCNjctU1dXa25oS1NmLVNYQi1fNWlsMHYyMmJnSDJaUlNzUjFn?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-16T17:19:20Z",
    "categoria": "mencion",
    "tamano": "redes"
   },
@@ -1428,18 +1404,6 @@
    "tamano": "gran"
   },
   {
-   "id": "bc37cb31ace4",
-   "titulo": "Presidente de Colombia retrocede en su propuesta de subir el IVA a la canasta familiar tras rechazo político y social…",
-   "resumen": "Presidente de Colombia retrocede en su propuesta de subir el IVA a la canasta familiar tras rechazo político y social 🇨🇴Durante su alocución por los cien días de Gobierno, el mandatario colombiano anunció que retirará de su proyecto de Ley…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5RVGNpX3NhR0xTRGdrMUp4T25EMGpxM2F5X0VQY19nRzNSNjFqMDlyM2habUxLZWlrRlFRdzlkbzBaa0RSYWVRdFY4eEZMTXVJb3c?oc=5",
-   "fuente": "Instagram",
-   "fecha": "2026-11-16T16:21:23Z",
-   "categoria": "mencion",
-   "tamano": "redes"
-  },
-  {
    "id": "880eee472c00",
    "titulo": "Contraloría mantuvo advertencia de sobrecosto en compra de aviones Gripen, pese a no verificar el valor consignado: esto se sabe",
    "resumen": "El organismo de vigilancia calculó un riesgo de $2.130 millones al revisar una orden presupuestal de enero de 2026, pero aclaró que no comprobó el pago recibido por la empresa sueca",
@@ -1450,18 +1414,6 @@
    "fecha": "2026-11-16T16:15:38Z",
    "categoria": "coyuntura",
    "tamano": "gran"
-  },
-  {
-   "id": "b1dcb7dc85f9",
-   "titulo": "🚨 #Economía | El IVA a la canasta familiar divide al Gobierno: ¿la comida de los colombianos terminará pagando más…",
-   "resumen": "🚨 #Economía | El IVA a la canasta familiar divide al Gobierno: ¿la comida de los colombianos terminará pagando más impuestos? En medio del balance de sus primeros 100 días, el presidente Abelardo De La Espriella anunció ajustes a su reforma tributaria…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQM09Mdzh3SkdlRGVUc25sa1hmRGRuMXFPeGlrNVA4OEpnb3VtLWtCdHhSb0RzQ3FiWlFUa0cyLUJtcGxuZGxFaGs1MldiSkxVWjNSaXZpdzNpUE1xYUdJcF9FUHdycU9pT3pJdFRKWEJvWlZHN3FqTGM5N1dON1V6TE5vNGR2RjFOdmpseTdRbHBvYjlTMWVaUDUzR1VZZkdTbEQxM2FLdU9MM0l4Z3Z3bDU5NjBBODdXY0FWYkthT0VydHlQR2tKeHBDQlJHd0M1YzJUaTEwMFdFd2xIY1FLc3hSSHJYNGVnRTBLdU92TmlwbzVN?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-16T16:15:03Z",
-   "categoria": "mencion",
-   "tamano": "redes"
   },
   {
    "id": "c8a687663766",
@@ -1632,18 +1584,6 @@
    "tamano": "redes"
   },
   {
-   "id": "bf1900ee02a0",
-   "titulo": "El presidente Abelardo De la Espriella dijo que el proyecto de Ley de Rescate Económico está en construcción, por lo…",
-   "resumen": "El presidente Abelardo De la Espriella dijo que el proyecto de Ley de Rescate Económico está en construcción, por lo que su administración seguirá buscando consensos con todos los partidos y sectores. Lea los detalles en los comentarios. ⬇️…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOM29iQng0NzVTbml3anJSQlNENVBMa0l1ay1QTlN1QkdjS1JWRWJ5Y3k3Rm44Wm40QWY0c2l0NjJnd3VVRl9xYlFFaFZsd0pNM3dwNWVhSWNoZEhudjlPRURfNjdHREctWVJpSjl5akRZVWZSSDVVN3dOc2lDMXl1SWplcFN3QlJCLWt3a2swRmpKMkFROW5ONGZxeVFyRWIxZVBnWmVYSjJBVnM3QXNOR0FMa1cwWENhaldmSF9Da05fNzBWR2ZMQ3dJLTU2aTN3Rmw4M2p0V24?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-16T15:39:09Z",
-   "categoria": "mencion",
-   "tamano": "redes"
-  },
-  {
    "id": "53e2dd641a93",
    "titulo": "El expresidente Álvaro Uribe Vélez celebró el anuncio del presidente Abelardo de la Espriella de excluir el IVA a la…",
    "resumen": "El expresidente Álvaro Uribe Vélez celebró el anuncio del presidente Abelardo de la Espriella de excluir el IVA a la canasta familiar de su proyecto de reforma tributaria. A través de su cuenta en X, Uribe calificó la decisión como un motivo de tranq…",
@@ -1668,18 +1608,6 @@
    "tamano": "nacional"
   },
   {
-   "id": "9c5b22c3c23a",
-   "titulo": "Te contamos cuándo comenzará el segundo juicio y qué sigue en el caso.",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPaXVtMW5IY1ZQSmxhdnZtdmtzQjZVSVN5cDZuZHF3U2xxdzVteVhHYWI5cGUxa1JXclFwVkl6NXhJV0sxZGt5dERBcWg3TVZtUkVsSi05R1hSZTBrVnBQb0h1X1JZNEpPa01sQllvTlJ4S3lWQ3JwTzBIY0lGLVBYY0VXeWFtOHEzRWJJWUpKZ0Z6NDh4LXZsSUFzTzN6RTdOQTVWMlR5UmpkbGRoS2VCbzNHaXd0bmtkLTBVNThzdnZEdDlfN0h4ejktNmgzM2FMRzFBZnA3djlKazVuTGc?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-16T15:32:48Z",
-   "categoria": "mencion",
-   "tamano": "redes"
-  },
-  {
    "id": "91a4da37228a",
    "titulo": "Que me lleven a mí: las palabras del padre de María Camila Pantoja, subteniente secuestrada por el Eln",
    "resumen": "Authored by. crojas. Image. Colprensa. Lunes, 16 de Noviembre de 2026 Las noches se han convertido en el momento más difícil para la familia de María Camila Pantoja Hernández.",
@@ -1690,18 +1618,6 @@
    "fecha": "2026-11-16T15:32:21Z",
    "categoria": "coyuntura",
    "tamano": "regional"
-  },
-  {
-   "id": "9710906e4d92",
-   "titulo": "Giro del Gobierno sobre IVA a la canasta familiar destrabó debate de ley de ajuste fiscal",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPREo3ZnFaNTVsbzM5MUdlSDI1LWhtSlItczBxd0xVUUs1cllLV2lTX21IZVlfWUE4UENMeUl4RTJvWTBrdUdKQVUtSVlqN1hxUnAyak5HdnFvTDJTQlJmQWIwWHFyc2ZMZnc3a0tuY0JIUUNiR05oYVc4STlUeGt6dUdyN2ZCS050cU5IVXg4MzRhUWZkcWx2UVF1M3I1RUFWWjZFMmctUlgyX1ZhdzhuUVQ3RXJMNzlZSlgtd2VyWFpwcFFkSmc?oc=5",
-   "fuente": "El Espectador",
-   "fecha": "2026-11-16T15:32:00Z",
-   "categoria": "coyuntura",
-   "tamano": "gran"
   },
   {
    "id": "59df8fb130c5",
@@ -1730,24 +1646,12 @@
   {
    "id": "f66358302079",
    "titulo": "“Motivo de tranquilidad”. Álvaro Uribe celebró la decisión de Abelardo De La Espriella de excluir la canasta familiar…",
-   "resumen": "“Motivo de tranquilidad”. Álvaro Uribe celebró la decisión de Abelardo De La Espriella de excluir la canasta familiar del IVA. El Gobierno también estudia reducir la tarifa general del impuesto del 19 % al 17 %.…",
+   "resumen": "“Motivo de tranquilidad”. Álvaro Uribe celebró la decisión de Abelardo De La Espriella de excluir la canasta familiar del IVA. El Gobierno también estudia reducir la tarifa general del impuesto del 19 % al 17 %…",
    "detalle": "",
    "cita": "",
    "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPaE5Qd1Bab0JPaEFVbHU1UFA5MWdYa0JNZlp3bVNzYWZjek40aThRZVNlTEl1dGZWdTdiX0JLUU9kQ1UtX2NGZVUwOUhoYXlJRjFkZTlpdTNPNkZqVXVOVlJtTkVQNGY1NVdsbGozbm5Qak9Ec1hONDNDMEJOWUw4NFNCS0p4R0x6SlJEN2x3TFJpSW1yRzJhXzhLOVFaaG5WMFNJOXItNzIzU1hUcUU4QnF0MkJ2MmlSaEtVaExvT1R4dXRpbXJWdG15WmhmZW9INVFaRWZiTGYxSVVmeHBHaklEa05UclE?oc=5",
    "fuente": "Facebook",
    "fecha": "2026-11-16T15:30:01Z",
-   "categoria": "mencion",
-   "tamano": "redes"
-  },
-  {
-   "id": "410e78b8908b",
-   "titulo": "Le contamos:",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBINkwwZE5yV0MxY3FRVERsVmY3SkJmSTM5QkdpcU5vUHROMFRObWZHYmtMYzEwWVlTZ19pVGd2dV9ZODJyUm5vZnM4MDB0alg1WVlWZUxpbzlOS21HVkNVQVVlNzJsY0Q4U3JmZXRSVlpKanhZVVp5MUEwWE1Nc0U?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-16T15:17:41Z",
    "categoria": "mencion",
    "tamano": "redes"
   },
@@ -1772,18 +1676,6 @@
    "enlace": "https://www.elheraldo.co/colombia/2026/11/16/cartagena-es-la-sexta-ciudad-mas-deseada-del-mundo-por-viajeros-y-lectores-segun-la-revista-wanderlust/",
    "fuente": "El Heraldo",
    "fecha": "2026-11-16T15:12:51Z",
-   "categoria": "coyuntura",
-   "tamano": "regional"
-  },
-  {
-   "id": "f3316a039bdc",
-   "titulo": "Las polémicas de la DNI durante el gobierno de Gustavo Petro: contratos y presuntos ataques electorales",
-   "resumen": "Authored by. crojas. Image. Colprensa. Lunes, 16 de Noviembre de 2026 Durante la administración de Gustavo Petro, la Dirección Nacional de Inteligencia (DNI) dejó de ser un búnker de funcionarios de carrera.",
-   "detalle": "Authored by. crojas. Image. Colprensa. Lunes, 16 de Noviembre de 2026 Durante la administración de Gustavo Petro, la Dirección Nacional de Inteligencia (DNI) dejó de ser un búnker de funcionarios de carrera. En cuatro años pasaron por su dirección cuatro exmilitantes del M-19 —Manuel Alberto Casanova; Carlos Ramón González, prófugo en Nicaragua; Jorge Lemus y René Guarín— y, según fuentes de la entidad consultadas por El Colombiano, terminó convertida en una especie de policía gubernamental, dedicada a defender intereses del gobierno de turno. La entidad llamada a anticipar y contrarrestar los riesgos contra la democracia habría terminado, según varias revelaciones, convertida en uno de ellos.",
-   "cita": "",
-   "enlace": "https://laopinion.co/colombia/las-polemicas-de-la-dni-durante-el-gobierno-de-gustavo-petro-contratos-y-presuntos-ataques",
-   "fuente": "La Opinión",
-   "fecha": "2026-11-16T15:08:55Z",
    "categoria": "coyuntura",
    "tamano": "regional"
   },
@@ -2016,18 +1908,6 @@
    "tamano": "redes"
   },
   {
-   "id": "73ea53c2528d",
-   "titulo": "#Política 🟡| El expresidente destacó la decisión impartida por el mandatario nacional en el marco de la Ley de Rescate…",
-   "resumen": "#Política 🟡| El expresidente destacó la decisión impartida por el mandatario nacional en el marco de la Ley de Rescate Fiscal. Precisó que es \"motivo de tranquilidad\".…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQbHgtLTc4N2pFOEFhSjNqVlBvQjVjRDQtZ2dBTi1WckNNUDRuaGVGZjluTjRrak5xWElhUThEUk1WTmxCLWRXSkxpM2dpTmJfRmNtYVR0djJjZ1VyWWZBTWZ6aWx5bHR1TGZiMHQzRGo5bXVUSGdqR0dMNGRQYjZGTnU4Z0R2X3hiTzZrVUFORkRTSEF0Snk0TWx2Rm5ra2lRbTAzcjVMV2w2NlBzaEN6ZEVoR3Fzd0VNT0EtS0tFUzBVYlVpZEgyRllyTm5SbTcwWmt3ZDlyci1DWXdUeWhPSklMdlN0aGFOQUI0V0xPRXU?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-16T14:23:38Z",
-   "categoria": "mencion",
-   "tamano": "redes"
-  },
-  {
    "id": "f474ee3d4aca",
    "titulo": "La representante del barrio Olaya Herrera, sector Stella, fue electa Reina popular de las fiestas Cartagena",
    "resumen": "En el Centro de Convenciones Cartagena de Indias fue electa la soberana de los barrios y corregimientos que representará la tradición festiva de la ciudad.",
@@ -2052,18 +1932,6 @@
    "tamano": "regional"
   },
   {
-   "id": "d3e3e056a51a",
-   "titulo": "“Colombia progresa de noche, poco a poco, sin que nadie se da cuenta”",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQzRKUTlfVURyazJOTVBlMmVvR1dQUy1nOERXc1V5M0I5c0JwbHdkY09wekh2bWx3dURhMzFqZHhJQ2J2M2ltcVJWS1VBUFlqejU5bG51N3NZVWV0UVhYaTNPSnlnUHhNcXhpbDZYLXZKeFFwaG1lZlQtWXZ5STNDSG8yMUxSOFk0LWlfdGJOZjZlRmI0VTRpYQ?oc=5",
-   "fuente": "Las2orillas",
-   "fecha": "2026-11-16T14:14:05Z",
-   "categoria": "coyuntura",
-   "tamano": "nacional"
-  },
-  {
    "id": "d471953013a9",
    "titulo": "¿Cómo cambia la Ley de Rescate Económico sin las propuestas de IVA a la canasta familiar?",
    "resumen": "El presidente Abelardo de la Espriella anunció que el MinHacienda estudia bajar la tarifa general de IVA de 19% a 18% o incluso a 17%",
@@ -2086,18 +1954,6 @@
    "fecha": "2026-11-16T14:12:19Z",
    "categoria": "coyuntura",
    "tamano": "nacional"
-  },
-  {
-   "id": "90cc3c1f3adc",
-   "titulo": "El gobierno de Abelardo de la Espriella sufrió este domingo una de sus derrotas políticas más visibles.",
-   "resumen": "El gobierno de Abelardo de la Espriella sufrió este domingo una de sus derrotas políticas más visibles. En una alocución presidencial, el mandatario anunció que no gravará con IVA la canasta familiar, echándose atrás en el punto más controvertido de su Le…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOTUVMeVJFWUkwYXZpZ3RJbDlQdWZiQ3RuVFdMMUQ5dFNxNkdGM3lmdWp6TjI0MmJHR2dxbXY2RXhYY2hpaTA0ckFTb2FCMVBfbWZqcWUxSU5iSHFMMGY1eVVFWlZHeWtfWmtaRVhwSFg4MzZIREN2Y2Vockx3OHlFR3VGbzJlX2s5Z211ZHAyc1JFakdpNE13U1Q1czREMDBoQ1pKU3c5RElLSzQtam1ZWUYxLXJJOXp3eFNaSjFKSUlLemVST2NBOFdKYmF2eDBPUUxIVGRBU19nS3FfZ2NWcG9WMjRpejA?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-16T14:12:13Z",
-   "categoria": "mencion",
-   "tamano": "redes"
   },
   {
    "id": "4cde62726140",
@@ -2304,18 +2160,6 @@
    "tamano": "gran"
   },
   {
-   "id": "3a603eda53ae",
-   "titulo": "Las pistas detrás del presunto plan orquestado desde la DNI para sabotear la Registraduría: el hacker condenado, visitas sospechosas y las alertas de Penagos",
-   "resumen": "La Fiscalía recibió el 5 de marzo de 2026 una denuncia del registrador Hernán Penagos sobre intentos de intervenir los sistemas informáticos de la Registraduría durante la campaña legislativa y presidencial",
-   "detalle": "En medio del revuelo generado al interior de la Dirección Nacional de Inteligencia por cuenta del reciente escándalo que involucra a Carlos Andrés Oyola Tovar, señalado de coordinar una presunta red de activistas digitales, bodegueros y hackers para atacar a la Registraduría y alterar los resultados de la segunda vuelta presidencial del 21 de junio, poco a poco las autoridades continúan armando el rompecabezas y estableciendo responsabilidades. El supuesto plan, que no tiene una investigación pública conocida, se suma a las alertas sobre campañas destinadas a erosionar la confianza en el sistema electoral colombiano.",
-   "cita": "",
-   "enlace": "https://www.infobae.com/colombia/2026/11/16/las-pistas-detras-del-presunto-plan-orquestado-desde-la-dni-para-sabotear-la-registraduria-el-hacker-condenado-visitas-sospechosas-y-las-alertas-de-penagos/",
-   "fuente": "Infobae",
-   "fecha": "2026-11-16T13:12:41Z",
-   "categoria": "coyuntura",
-   "tamano": "gran"
-  },
-  {
    "id": "31d089606ede",
    "titulo": "“También voy por ellos y los voy a dar de baja con ayuda de la fuerza pública”: De la Espriella sobre ‘Iván Mordisco’ y ‘Chiquito Malo’",
    "resumen": "En lo que llamó ‘El milagro de recuperar la autoridad’, habló de los resultados de la ofensiva contra grupos ilegales, como el Clan del Golfo y las disidencias, aprovechando para enviarles un mensaje a alias Chiquito Malo y alias Iván…",
@@ -2326,18 +2170,6 @@
    "fecha": "2026-11-16T12:54:29Z",
    "categoria": "mencion",
    "tamano": "regional"
-  },
-  {
-   "id": "9f7418a39aff",
-   "titulo": "El mandatario hizo el anuncio durante la alocución del domingo, en la que abordó el proyecto de Ley de Rescate…",
-   "resumen": "El mandatario hizo el anuncio durante la alocución del domingo, en la que abordó el proyecto de Ley de Rescate Económico, presentado por su Gobierno ante el Congreso, al cumplirse sus primeros 100 días de gestión.…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOcFMyWjR5WUFYSzQ2QU1Gdi03a2huR0ZaUEV1bElCZFN4VlUyNEo4eDBWMmJmNFRqZ3RKR1l6c1JXSnBfOWNVX1ZRRy1RSno4bXJkUkU1R3F0azZscmR3MXBkTmplZWhlOEJfZGY4d1AyeEtiVUhQSV9Yd3phaEFtcG5welJ6Yjh1NEZzTEk1RkR2LVVQSHp2c3ZEWE5jdlZUMW5rMEp5eFZBYWprVGJzRGhZQ3dBTlZxVVVMcmVHTjJGMndMYlB6aWotWnZWbmZDNVZaUTB5ZFFqdnBqOEhVSVd6VS13UQ?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-16T12:45:44Z",
-   "categoria": "mencion",
-   "tamano": "redes"
   },
   {
    "id": "96e3ebc6da0e",
@@ -2376,42 +2208,6 @@
    "tamano": "regional"
   },
   {
-   "id": "69b471896eb2",
-   "titulo": "¿Hay acuerdo en la reforma tributaria? El expresidente se refirió a la decisión del mandatario sobre la Ley de rescate…",
-   "resumen": "¿Hay acuerdo en la reforma tributaria? El expresidente se refirió a la decisión del mandatario sobre la Ley de rescate fiscal.…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNX1NuVDVHWnBudm42dFVRY2hYMHppMVlNdGRzR3ZyQW9sTVVQdVA2N01hZEU0dW01VFRSa0JTd0pzVUZJTktHcHd0bEtYUks1RjdUWmlET2JCVFZmbkFqYTktamRaSjFEMnhGd2ZGS1VmWEJBU1ZCSGs4ZGVFTzBWZ1dvWnAtNDJYX1JvakdQRUUxV0taMXdTdU9PZWI1a0lfbEhQZVhjSUJRYnBWd3hjSXF3d2w5WGZON0xfMlU3YTBCRkxzdDBCNnJBR1BkSmw3UVVTRWhpd1NBQkZwSnIxX3NabktCbTdo?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-16T12:15:12Z",
-   "categoria": "mencion",
-   "tamano": "redes"
-  },
-  {
-   "id": "5653151cd329",
-   "titulo": "🔴🗣️El mandatario destacó las gestiones que ha adelantado su administración y aseguró que el país tendría otra suerte si…",
-   "resumen": "🔴🗣️El mandatario destacó las gestiones que ha adelantado su administración y aseguró que el país tendría otra suerte si no hubiese sido elegido. Les en detalle lo que dijo en alocución.🔽…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNRlM0WGlXVjBxTjNscmdCd3pBeEtfR0ZYSWFKUXM5QjN4Z0NsWDFCcU1ReWdnMDFicUphcmZGSFcwbzBZZlNZWFhINEN4MUFma1V6NFpscFJ5OFdSdEw1X3M2Z3p4SDRsLUJyYktneHVwWDJ2NmJBUEV3UGttcFVtalhMbGdmY2tBc0pndXNTNXhWS2RfbW9ZMHNEempfX2JkLVBlQlFwcGFLc3Y1aU5qQnM0dExhRHQxRHp4ZjZDV2lGX21FZkNPcEd1bUVkeWhCSTVoeHMyVEcyY2lrekg5YmRXUWpCdXJkaFNvcQ?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-16T11:17:30Z",
-   "categoria": "mencion",
-   "tamano": "redes"
-  },
-  {
-   "id": "29709e2cc3fc",
-   "titulo": "El vicepresidente explicó los temas que abordó con el expresidente y las conversaciones que adelanta el Gobierno con…",
-   "resumen": "El vicepresidente explicó los temas que abordó con el expresidente y las conversaciones que adelanta el Gobierno con distintas bancadas para buscar acuerdos sobre el ajuste tributario y el déficit fiscal…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQY0xUak9tU1p4TEFMSHFhUnFuT01WVVlwYXQzNkdXT0hpa2Zmb1NmZ3JERE5zYXNxT05BdVVSNzZESTB6UW93ekpydW1LUEdxajZxU3F2OGQ0amkxaUlxUTFMOUNtdWYwR3pyWExuN3RiakpNa2JMOXNCeG9zS3hjdldQeW8wekVlWDJUd2l6RXNqUFZjM01rRkdNdVd5eWE5c1FaVHhaajNUcmFXLVVLQTEwV1VHZ2phOVRkSUhIVWVENGJxRHc4QVFhQUhNd3ZyaE5ZZTNVenY4dGRoQ1YtWkRfaDJmZDBCWTJr?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-16T10:22:50Z",
-   "categoria": "mencion",
-   "tamano": "redes"
-  },
-  {
    "id": "cba4d79fc903",
    "titulo": "Photo by Álvaro Uribe Vélez (@alvarouribevelez) · November 16, 2026",
    "resumen": "",
@@ -2420,18 +2216,6 @@
    "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9HSmsyM3ptR09BQ3Jhc1JtWGtPaGc5NGd5eWNhVHlvVjRVWlJfckNKSGFQRDJ1NTAyRi12QnVKMWozaS1jdHF1NDRkaENXVzBtbVE?oc=5",
    "fuente": "Instagram",
    "fecha": "2026-11-16T09:48:29Z",
-   "categoria": "mencion",
-   "tamano": "redes"
-  },
-  {
-   "id": "404698826ab3",
-   "titulo": "Los pronunciamientos estuvieron marcados por diferencias sobre el papel de la oposición, la presión ciudadana y las…",
-   "resumen": "Los pronunciamientos estuvieron marcados por diferencias sobre el papel de la oposición, la presión ciudadana y las medidas que aún contempla la Ley de Rescate Fiscal, entre ellas la posible venta de empresas públicas y los cambios tributarios…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNTURxZ1YtMlFhSTVoWi1JcF9QTHBHaGhIY2RDLWF3bmFwVDFjNDNNbnkyVHRqaFFYcUlXRXoyLThHQjI1dEtKeVcwWGlKUUpnN1JPeWpBRVdnTm42N1hfMHNRNW9PM0RZd3VBZ1ltMzY3bVYtZ3ExR0NOdldXUklyaVJyMlpNT3AyWWw2c0VTWEJKYmRDN0R2N3FWMDVEdTNrdnNNc1VmQTJTMlpKSDd6NHdaMEp5Z1pRUGlBZzlMdE5ySVdLRUZqdTdxRUVSU0hWcERSekVjWmhvbHRaQ3c?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-16T07:41:44Z",
    "categoria": "mencion",
    "tamano": "redes"
   },
@@ -2472,18 +2256,6 @@
    "tamano": "local"
   },
   {
-   "id": "3a4c715b84a3",
-   "titulo": "“El gobierno de Abelardo de la Espriella tiene un sesgo anti-tecnocrático”: Salomón Kalmanovitz",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPTG5CZHdDTjFLaVVnOGtscWFYcU5UXzE3bEF1Tjc0OEllUWhKQ2l5OTAtaXRRckFPMEg3dHVEdXVzSTE1ZVFIVVhoaVpaNEszRWdCRm1NWXhEc3BsZ3o5aWp6b3hZR19iRlJoazlqRElDN3FYMmQyMkpKZ256eUY1dnMta20ybHViSTFsMVF0c0NkVGRLRDk2NWdBUms4QkhSdFNnUThOdXhKazMzNDNNYUhBRVp5Q2ZpR0VJbmF0VlZ2dXg1cDhsWFZSRGpVWFd1bVJaMWJBSTQwX3U2Rlc3OEUtMFFvZWU1T25j?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-16T06:33:02Z",
-   "categoria": "mencion",
-   "tamano": "redes"
-  },
-  {
    "id": "b0753ee84e4d",
    "titulo": "Álvaro Uribe respalda decisión de De La Espriella sobre el IVA a la canasta familiar y reforma tributaria: 'Motivo de tranquilidad'",
    "resumen": "El expresidente reaccionó al anuncio presidencial, que también contempla posibles cambios en la tarifa general del impuesto.",
@@ -2498,7 +2270,7 @@
   {
    "id": "8bb3a7e2fdac",
    "titulo": "Primer comentario 👇 Noticias de Álvaro Uribe: el expresidente y su partido habían sido críticos con esa decisión de la…",
-   "resumen": "Primer comentario 👇 Noticias de Álvaro Uribe: el expresidente y su partido habían sido críticos con esa decisión de la Ley de Rescate.…",
+   "resumen": "Primer comentario 👇 Noticias de Álvaro Uribe: el expresidente y su partido habían sido críticos con esa decisión de la Ley de Rescate…",
    "detalle": "",
    "cita": "",
    "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxON2YtOWRRYjhjaUtsVW9nREh0VFlNeGNwMVFyaDVKR1NYY1pycHY5MW5zNGRGM1JyZzlRMXZNdjlodk45eWNuU2tqaklsblFJbnhhdkJwYmpGX0htd19oX2ZOendnR3B1VzZkMGthc3hYdzdHQm5BbTNuNmEyLVA2bnpmSURwWU9LR2ZPZHBMREdJSExFVVJrbjdubmJaM19hWXpGWHlEbzVmVURXY0trWDlrS0Z3WDIwMjdjNFVnMU8xV08wbFdUcHJwcmlDQjVYR2dSYUdLNWRqUHFSMFF5MzlOSHJ0eWVRQnc?oc=5",
@@ -2506,6 +2278,18 @@
    "fecha": "2026-11-16T05:18:11Z",
    "categoria": "mencion",
    "tamano": "redes"
+  },
+  {
+   "id": "72c7bc0182a5",
+   "titulo": "\"Motivo de tranquilidad\": Uribe reaccionó y celebró decisión de Abelardo de la Espriella",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZEtKNUloU0xZQTAyalZmZlQ5aUZwWHFlQ0JIUFc0ZEhYQU5NdFJBVWoySC1aZURDNHNEWHhKYVRtcURuTkFsRXlKd0dVdk5yR0hCNEl1QjFBTm5kR2V1eV9IdmNQLWRZd1NhT0Z5dEZhaUl0MmtBR3R5enY5OXdkd0VITmVRV1hvMEZUQnl4ZU5VdVRtLTQyT0phNNIBoAFBVV95cUxNV2tMeF82ZnFSVDBlUGlVTF9objAtSS03SUFUNWlvODhVdWJJWkhPRWMyd2h5am56RGF6bjdsbkpRb28wbG4yUC03b2J2eWVuSnlEU0tmU2JRSjc2R2tPVkYzR05FVDBtUURRaXlaR2ZRTHRNMlE4RUtFd3NMdF9uaS00bHItUVV6TXZRVkZod1BQU2EySG56UlFzajd4eW5r?oc=5",
+   "fuente": "Pulzo",
+   "fecha": "2026-11-16T05:04:53Z",
+   "categoria": "mencion",
+   "tamano": "nacional"
   },
   {
    "id": "58e9ab2ef416",
@@ -2520,30 +2304,6 @@
    "tamano": "gran"
   },
   {
-   "id": "0c9350633ade",
-   "titulo": "El Presidente @AlvaroUribeVel destacó el anuncio del presidente @ABDELAESPRIELLA de mantener sin IVA los productos de…",
-   "resumen": "El Presidente @AlvaroUribeVel destacó el anuncio del presidente @ABDELAESPRIELLA de mantener sin IVA los productos de la canasta familiar: \"Motivo de tranquilidad\", expresó el exmandatario.…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOX093Y0JWbDNjRjZILTBFLWJ6TWVPMjByNnpaelhDcDU1ZVZNN2tVTUduSkVrVlJJc3M0R3RQNW5BTm1GbF9nQW9vTWpDTmJCSkVjQ2RUSHFadXJGODRTVkVUc0R1bmdzZ1hhNThRNzNFNXRyVTJkMDV1REFqV0NjLVIyXy04ek5lQzYteHAtaE5UZHlBT1p2MU1memVXZ1lRYjlucDlFSVpGZnFoYU96Z0VWTWFIenotUW1rZ2hSbkpKZFo0b1JWTEFudTJsS005TzQxby1CNlVYVVlsTUpDSG9mSVVwcFlQWGc?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-16T01:59:54Z",
-   "categoria": "mencion",
-   "tamano": "redes"
-  },
-  {
-   "id": "836f1acecc43",
-   "titulo": "MiOriente. Presidente asegura que no impondrá IVA a la canasta familiar Durante su alocución de los “100 Días + 100…",
-   "resumen": "MiOriente. Presidente asegura que no impondrá IVA a la canasta familiar Durante su alocución de los “100 Días + 100 Milagros”, el presidente aseguró que su Gobierno no impondrá IVA a los productos de la canasta familiar ni creará nuevas cargas de este…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQeThheWxlMzNTZFNWTUpnSGpsellqRmJGNTNWbmtWRzhKOWZiTm8zQXVlVmZ6bkllQVdmOEhFeE1nQ3J0anpqTlNtUlNTaFJxNFhoS1pXVGkxOHloeUN5Z21RS2FlWUVBNzBSZThKOE5BNkZZUF9hZkZUVk1HbEhoWWRsaVpBdVNMRC15YmUzVVpkQVA1UlJxLXZQUkstY201MjQ4LW9SVl93YnlaQUpkV0JPQnNqclVWM2dBeGQ0czU2LXJUNHdkXzhiTDRjM1BnUEs3b3UwVVZ6X1VaaFVGWkdSVWU?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-16T01:41:37Z",
-   "categoria": "mencion",
-   "tamano": "redes"
-  },
-  {
    "id": "ce9cf1eb64a2",
    "titulo": "Álvaro Uribe reacciona al anuncio del presidente Abelardo De La Espriella: “Motivo de tranquilidad”",
    "resumen": "",
@@ -2556,38 +2316,14 @@
    "tamano": "gran"
   },
   {
-   "id": "d82c22450637",
-   "titulo": "Revista RAYA. 🔴 #RAYAInvestiga Los juicios contra altos generales en la JEP que la derecha quiere impedir 🔎#EXCLUSIVO|…",
-   "resumen": "Revista RAYA. 🔴 #RAYAInvestiga Los juicios contra altos generales en la JEP que la derecha quiere impedir 🔎#EXCLUSIVO| RAYA Investiga revela un listado de 28 altos oficiales, entre ellos, 15 generales de la República, que irán a juicio ante la Justicia E…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQV2RvVXR2dmNYY2dDTG9WZDBVQ0FydElhN0prNjJMRkk1NHQ3dTcxQ1k1LUxsU0lIaHkzOXZ5QkFseG45eFZVRVZFQUhIVk5ZV3NWTlJ5N0pfXzZLc3ZabFh5eG9XbmUydWFnUWRuSHpXRy0xRkFxel9ibTZzbkNKbkxEbmUyRDNQa2U2cXNCQzlmLVRMaVVxLWhBZ2lfWWs3VEVxcVJ5ckFha0t2ajZadmVyVzdwenIwaFNfZy02SHdsNFRBb0FILU9nU0k4OEJpZWc?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-16T01:01:30Z",
-   "categoria": "mencion",
-   "tamano": "redes"
-  },
-  {
    "id": "643bebf6ad7d",
    "titulo": "🔴 El partido de Álvaro Uribe le presentó las iniciativas al vicepresidente, con las que, según sus cálculos, se podrían…",
-   "resumen": "🔴 El partido de Álvaro Uribe le presentó las iniciativas al vicepresidente, con las que, según sus cálculos, se podrían conseguir cerca de $20 billones. Los detalles en el enlace del primer comentario.…",
+   "resumen": "🔴 El partido de Álvaro Uribe le presentó las iniciativas al vicepresidente, con las que, según sus cálculos, se podrían conseguir cerca de $20 billones. Los detalles en el enlace del primer comentario…",
    "detalle": "",
    "cita": "",
    "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVlRialhKc3EwTHZyYWs0cktUanQyTjkyRWtUNFhEOEZjSTlHR1lsLUtkLWFqWWNtT0FSVkNEVk1pY18wRnZUcXZpeGgwSnR2ek45RjNCaFp2dERWNWdUZHVYQVJHcDZjWFBKeXNKa0s3OEd3dXZrendhRll2MmhSaFpDTGNBUlpPMGZEQVJIaFhROTBDRExDTXRkZWRrOC11WndRUnVmQXROOFd4X01wVWp5cjRMM3djRkREQjg3cHRVWUx4c2E1bndGSktsazBQbzNWem5ZbWpoMk1Ha3F5VVl3?oc=5",
    "fuente": "Facebook",
    "fecha": "2026-11-16T00:15:18Z",
-   "categoria": "mencion",
-   "tamano": "redes"
-  },
-  {
-   "id": "068e8e786fdc",
-   "titulo": "En ejercicio de su labor de control político, el representante a la Cámara, Alejandro Toro, cuestionó al Gobierno…",
-   "resumen": "En ejercicio de su labor de control político, el representante a la Cámara, Alejandro Toro, cuestionó al Gobierno Nacional frente a las iniciativas de Ley de Sometimiento y Rescate Fiscal. El Congresista puso sobre la mesa sus reparos a estas propuestas y al…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQa2FMM29zZWdkcVFGYmNPVmhmQXF0SEVUakFab1lTZ1NYc2F0dU1la1dmamdzWEI1XzB6NWpTSUUyNHc3S0JWRGRyVTRETGZTSTdQbXhJNEFkcE41RDMtbzhHN3RfTlF5a2FaS25jeHBrTFoxeE41V253elM2NWdweHNHZEpGa19waVVCeHJiUDdIbXdMd043N0VteFVKWUFlUDkySDAzSkZrbmUxU0d0WVA5RlNmcFdSRjFsVjNIMkFyNTVWZXRyaWpuWkQ2U1YxRTV1VVNUbFpBSnZBZElSanJ0cDU?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-15T23:30:47Z",
    "categoria": "mencion",
    "tamano": "redes"
   },
@@ -2676,18 +2412,6 @@
    "tamano": "gran"
   },
   {
-   "id": "39f15c1baab5",
-   "titulo": "Y por mi sofá de Me Vale pasa, esta vez, el ex presidente Iván Duque con quien, hablamos de política internacional, de…",
-   "resumen": "Y por mi sofá de Me Vale pasa, esta vez, el ex presidente Iván Duque con quien, hablamos de política internacional, de su fundación I + D pero también de su partido, Centro Democrático. ¿Debería el presidente Abelardo de la Espriella y el ex presidente Uri…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTnZmSjlFQ2tvS1RnWGpFWldRQkFGTlgyY2FCVFo4UDVwczJ3cHlkRFh6S0lfMEtpeFRCdzk0ZzE3V1dsbzIxLVlpbGZkS0tfamh0aTVJZ0NXSlpCaUd6akJMUU1OcWctMGVRakFHcTNPSnJyVlAzOVlDQ1JRY0ozc25DM0ppbkdjYjRvdVhhQmYtVENyTnhReG9wMWR1REdzN0FDRmdSRk5BeU1QZThyVWtmdmU3ejNtYVZMWGVVb2RrX0NUN0pmaXdXY0xiUUkwQ0h3bHh4c3VPZVBnYW1Qeg?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-15T21:04:03Z",
-   "categoria": "mencion",
-   "tamano": "redes"
-  },
-  {
    "id": "99567225e418",
    "titulo": "Uribe celebró que De La Espriella no cobrará IVA a la canasta familiar: \"Motivo de tranquilidad\"",
    "resumen": "El expresidente escribió en X que es \"motivo de tranquilidad\". La Ley de Rescate subía al 19 % el impuesto del café, el azúcar y las pastas.",
@@ -2698,18 +2422,6 @@
    "fecha": "2026-11-15T20:41:00Z",
    "categoria": "mencion",
    "tamano": "nacional"
-  },
-  {
-   "id": "4bfb3879647a",
-   "titulo": "Días sin IVA y fusión de entidades, en vez de más impuestos a la gente: lo que propuso el Centro Democrático al…",
-   "resumen": "Días sin IVA y fusión de entidades, en vez de más impuestos a la gente: lo que propuso el Centro Democrático al Gobierno sobre la reforma fiscal El Centro Democrático le presentó al Gobierno Nacional una serie de propuestas para evitar que se aplique el I…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE96dVRNN2NmWnBfWjRsT0ZSbGZwd0hHU3hPNlBxc3ZHYlM2MzZsRVpaRWQxTFlERG5wT1hHT3lFbktRSUdJc2J5Rm1GZ0tVWnhFdEE?oc=5",
-   "fuente": "Instagram",
-   "fecha": "2026-11-15T20:20:31Z",
-   "categoria": "mencion",
-   "tamano": "redes"
   },
   {
    "id": "bdc8392ac4a8",
@@ -2724,18 +2436,6 @@
    "tamano": "redes"
   },
   {
-   "id": "6a23fe8db54a",
-   "titulo": "🏛️ La discusión sobre la Ley de Rescate podría tener un nuevo protagonista: el Centro Democrático.",
-   "resumen": "🏛️ La discusión sobre la Ley de Rescate podría tener un nuevo protagonista: el Centro Democrático. El economista Jorge Restrepo advirtió que la postura de esta colectividad podría ser determinante para definir el futuro de la iniciativa en el Congreso. El pr…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1meFp5b0ppcUdHQ2dpSFQ1OW1ZV0dzVThmMDNBQ1NMSmxRLWVfbnFyVFFXR0NxeS01OTZMdzViMjN6c0tlb0M5YTZqRFR4NVVQTmc?oc=5",
-   "fuente": "Instagram",
-   "fecha": "2026-11-15T19:27:05Z",
-   "categoria": "mencion",
-   "tamano": "redes"
-  },
-  {
    "id": "e6dbdde0be79",
    "titulo": "Álvaro Uribe Vélez y el Centro Democrático analizan con el Gobierno la Ley de Rescate Económico en Bogotá.",
    "resumen": "Álvaro Uribe Vélez y el Centro Democrático analizan con el Gobierno la Ley de Rescate Económico en Bogotá. El partido rechaza el IVA a frutas, café, lentejas y otros alimentos de la canasta familiar. #Colombia #Bogotá #LeyDeRescateEconómico La nota c…",
@@ -2746,18 +2446,6 @@
    "fecha": "2026-11-15T17:23:00Z",
    "categoria": "mencion",
    "tamano": "redes"
-  },
-  {
-   "id": "09c8e5ff1856",
-   "titulo": "Se complica situación de Gustavo Petro en la Comisión de Acusación: tres de sus investigaciones quedaron en manos de opositores",
-   "resumen": "Al comienzo de su gobierno en 2022, Gustavo Petro hizo público su temor a la Comisión de Investigación y Acusación de la Cámara, la única instancia que puede quitarle el fuero de presidente y someterlo a un juicio político.",
-   "detalle": "Al comienzo de su gobierno en 2022, Gustavo Petro hizo público su temor a la Comisión de Investigación y Acusación de la Cámara, la única instancia que puede quitarle el fuero de presidente y someterlo a un juicio político. A medida que pasó el tiempo, el líder del Pacto Histórico empezó a sentirse cómodo. Sin embargo, su escenario hoy es distinto: Petro es expresidente, tiene 370 investigaciones penales y disciplinarias, como lo reveló SEMANA en su más reciente edición impresa, de las cuales 350 adelantarán parlamentarios del Pacto Histórico, sus principales aliados. El problema son las otras 20 —las más complejas—, entre ellas, la de violación de topes electorales en su campaña presidencial de 2022.",
-   "cita": "Cuenca también tiene en su despacho otra explosiva investigación contra Petro: la del Pacto de Valledupar, la polémica reunión adelantada el 25 de octubre de 2025 donde, según la exdirectora del Dapre, Angie Rodríguez, por orden de Petro les pidió a los exjefes de las Autodefensas Unidas de Colombia (AUC) que declararan contra el entonces candidato Abelardo De La Espriella…",
-   "enlace": "https://www.semana.com/politica/articulo/se-complica-situacion-de-gustavo-petro-en-la-comision-de-acusacion-tres-de-sus-investigaciones-quedaron-en-manos-de-opositores/202648/",
-   "fuente": "Semana",
-   "fecha": "2026-11-15T17:22:48Z",
-   "categoria": "mencion",
-   "tamano": "gran"
   },
   {
    "id": "8d266c8fbe6a",
@@ -2808,18 +2496,6 @@
    "tamano": "redes"
   },
   {
-   "id": "72c7bc0182a5",
-   "titulo": "\"Motivo de tranquilidad\": Uribe reaccionó y celebró decisión de Abelardo de la Espriella",
-   "resumen": "Noticias de Álvaro Uribe: el expresidente y su partido habían sido críticos con esa decisión de la Ley de Rescate.",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://www.pulzo.com/nacion/alvaro-uribe-celebro-decision-abelardo-espriella-con-iva-PP5356604",
-   "fuente": "Pulzo",
-   "fecha": "2026-11-15T16:04:00Z",
-   "categoria": "mencion",
-   "tamano": "nacional"
-  },
-  {
    "id": "96670501eab1",
    "titulo": "ExminHacienda hace recomendación a Ley de Rescate Fiscal de De La Espriella, habla de “artículo muerto” y hace dura advertencia",
    "resumen": "A la Ley de Rescate Fiscal del gobierno del presidente Abelardo De La Espriella le queda poco tiempo para estudiarse y aprobarse en el Congreso.",
@@ -2832,18 +2508,6 @@
    "tamano": "gran"
   },
   {
-   "id": "082d6cede30d",
-   "titulo": "🟠 El exmandatario destacó el buen ambiente que hubo en el encuentro y la receptividad para aceptar varias…",
-   "resumen": "🟠 El exmandatario destacó el buen ambiente que hubo en el encuentro y la receptividad para aceptar varias modificaciones. Los detalles en el enlace del primer comentario.…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxONWtOUkNzT2JzcHdZUzJtNzFMUXdLQUdfbzlMcGcwWlpKUXc5OUVWT3FNWnVrRk42TTliOFB2WWdEaGZkZFNDZElqc0Zua1liWmJDTGRuWFFXRTYwZEt3bGlsVHhZYk5jenJQMnF1MXJTZno0bkJfYWxIMnVYTmhQWENmQlFza2UtWk1mSEVGblhXakJ4TFplUUlnblpGckhpc2tVb0FQSVNNc3J1T2xLTlgxQkhLdldGZ1FadTBrYnlJVGI3WDBmcGZQc3p1TkpILW1Hc19waTU0VnM?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-15T14:31:19Z",
-   "categoria": "mencion",
-   "tamano": "redes"
-  },
-  {
    "id": "978ba453b3b3",
    "titulo": "Fiscalía archiva investigación contra Álvaro Uribe por presuntos pagos a testigos contra Iván Cepeda",
    "resumen": "",
@@ -2854,18 +2518,6 @@
    "fecha": "2026-11-15T13:58:44Z",
    "categoria": "mencion",
    "tamano": "nacional"
-  },
-  {
-   "id": "03db1573b349",
-   "titulo": "Últimas Noticias",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMWNZeDVVZERBN3RKaWh4TTNGenBhTEVlNTQ5ZlF3TXY5S0pPakZpT3VPb0o1VXA4Y0RoZDJrV3JSb0xmTVBjQnh1QkZ0WDZBMUtZMnQ5c05oQUpqVXh6R2FicWVkSFlsYkxwUmVnRmhrVXlmbjZoWkIwaDlWLW1HMjBJQzlQRVdTeGlwYTB3?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-15T13:49:55Z",
-   "categoria": "mencion",
-   "tamano": "redes"
   },
   {
    "id": "49f53eb80023",
@@ -2888,42 +2540,6 @@
    "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1NNEVVdFBRUE8zeDdKMjMtXzJnck5acUxRb3FXemViVWpyamVfUjl1eUpfSVVNMUlSc2w3LS1SMXozU2V0TE9FN0dVWURKOGxjTUE?oc=5",
    "fuente": "Instagram",
    "fecha": "2026-11-15T13:11:58Z",
-   "categoria": "mencion",
-   "tamano": "redes"
-  },
-  {
-   "id": "e7a0c364c581",
-   "titulo": "Días sin IVA y fusión de entidades, en vez de más impuestos a la gente: lo que propuso el Centro Democrático al Gobierno sobre la reforma fiscal",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPMWRxZ0hqRzR3YjdyREVkNldBcFNhaGMyTVk5T2txMGhkLVI3ZnBHRkk1cTRoTkR1T2l2QXBOVUxFSlpFY29iWWVZSFFoemVoSEktVU5XTndDdUlCa0pSV19PYUlwd3dib0R4M0hiSThNYnNBa2JoMTdYRWhMenBoMnZINjdYcF82dTRFRVB6T1RpaUJLQUhyYXczVGFEbloyejVzbzBiaTc1OFAyNnUyaVdiaWtjV2FrLTY0QVVNSnFyclpkYjRWME96RG00by1pN0FLd29mOHAxT0JEMklTV2lhbmFraTZpR2J3d0kxc1ExXzRIeE00aWtOdWxDWU1jTk1HYlJKal90VWlacVR3aTBR0gGXAkFVX3lxTE1XRFk0VUhWZVlpOVBzemtuLXZJSnMxa0s3RGNYX0FhX3Azd2EzV21Td0VOYU9saWREVVBYOUFCUkN1eDlOLVgtUjJuMjdQN3dkZ2NiT2pQa0gyMm1nTTJUakRVU09JM1FUWERhX0dpbkgwaHdHNG8zNkw4M3lMSnRBNDhEZXJ6aXFHdTZ4RldKVktvcnZGVG9XQU9UV2NsT09NTFNaSjFodWJxV0ZXbkhQSXF3Q0hXUXIzRDN5WUdYalU5WnRnb2pqMW56aVRLOEFzZ0RHUkpTYmZ0NEhrT3FVSzJMN3N3a0FBQmszamhaUzlvT0dBbUhIYW1oYmltOWVYc1Z3LVd1ZlNfTUlpdGxPaWQ5bWRMRQ?oc=5",
-   "fuente": "El Tiempo",
-   "fecha": "2026-11-15T12:56:28Z",
-   "categoria": "mencion",
-   "tamano": "gran"
-  },
-  {
-   "id": "d1bc263b15c8",
-   "titulo": "“Un antiguo funcionario sancionado por corrupción será el nuevo embajador de Colombia en Uruguay.",
-   "resumen": "“Un antiguo funcionario sancionado por corrupción será el nuevo embajador de Colombia en Uruguay. Tuvo que salir por la puerta de atrás del gobierno del presidente Andrés Pastrana cuando se descubrió que le pedía plata a un cont…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTGg4SzB0TGpEcVE4SGViOFlvQzBpdFA4RmNxaHE5WUEzVk5mMmR3Wnh3ckQ0emdvSXc2c19EV3FKN3BBdFUtTkFiWjdnTWQ2cDhJS1RiRFIzY1VJYVRoYWVzdG12WUtKcXlacGFJM2VjLTJXaERtcFV0bndocWpKc19QSTJZbm9CUXNiVzdZRDlHejdrdlJ1YXo4QWFNdTh5c1lCZHJsa3pKSXROUFRtRHFGeC16REhMaGVlZ3NYc3IxYzVJNzRpb1VUS3BsaTJCbnU5RlptZWRlaHozMDFqRG9WZ29oZEE?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-15T11:53:23Z",
-   "categoria": "mencion",
-   "tamano": "redes"
-  },
-  {
-   "id": "341b2398a337",
-   "titulo": "“Se lo puso y no se lo ha quitado”: habla Álvaro Moya, creador del reloj que usa Abelardo De La Espriella; esta es su…",
-   "resumen": "“Se lo puso y no se lo ha quitado”: habla Álvaro Moya, creador del reloj que usa Abelardo De La Espriella; esta es su historia…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNNkFEeDhqZ2xiZkJjd01ETkdjbE1ZMWxkdnVNZ1hqa0pfZXI0TkZKNTlZaG5KX1BDaDBqdzV6eG5BN2RGU0c4WGcxZVM3VjJTRHRROUwxdUZpeXNORWRnS1JQRnJoakdPMHM4Nm5UaGhFYUQtLUJPblEyMkR4YWhHeFlPVkxNMnBrTHJyVDRaOG5DaVlQcG50eFVELUhCT3cxcDZhMlRIRXhBU0E4eE9Nbk1tcklfQl9kUzZ3WnZPU29KZmc1TVYtXzVXNDZyVU9GSDhOZEdpMm90dWZmSmx3dURuU25Rall3?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-15T11:45:04Z",
    "categoria": "mencion",
    "tamano": "redes"
   },
@@ -3000,30 +2616,6 @@
    "tamano": "redes"
   },
   {
-   "id": "fab0a8ae644b",
-   "titulo": "Centro Democrático concluyó reunión con el Gobierno nacional sobre la Ley de Rescate Fiscal: esto concluyeron",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNckw1Z0VGaUxKTWtsdHFCWjVsQTRsTF84b2xxMnhnUHhsT0N1eW9ZY2JjOFFsU1RXb1FfbzYtYjRHS0xPOFNxVTZHR1otLWQ3N0xXeU1rMDB4NEhEQ29hWkp0SEFHMy1uUEVCcTB2MzBjS2VmdnhMelFBZXdPUkpsTXkyaWYydlVUN1RoUFRRZnVwaDhpb1dJWEdubUV2YUJUQ1AtSnd0czctZDRMbFpLVnFkdkZRUHpkQTFSSDFNYXF2Z3JIb3BtdWVRY0lDcjVLMmRlUk04SmdReEJkM0pyeEtRVmJiYUt00gGDAkFVX3lxTFBqdTVkNmVla0RaWEtlQVFQTDNwVXN0MmdQQnJ2eVdyOGRkaDR1R2Q2WmR5ZTUwYjdSSTFDV2gtNXA0a3kxdFlaUmxSRC1aV0QyLUJyTjlpWmtEZGRsOWR3cDhlRUwyb0dHd3NtaWFzTTFTdVpEX3RMbFZlaXI1MlJRSzFKODA0MTVqelRxZWRnbWUzV0FuaVkxQ2RhLWVKWFJiWl92eERtd1piNHFNOFA3YTAxdEswXzJ6RVdSUkVISkFMTm9Qb2lmNUU1d0VuTV94SWdvWlZEYmduU0xadzRXd0lHWFBkdVpBVWNLNGtZMGxDOFFsTE5EaWYtZGhOSzB4ak0?oc=5",
-   "fuente": "Infobae",
-   "fecha": "2026-11-14T23:00:00Z",
-   "categoria": "mencion",
-   "tamano": "gran"
-  },
-  {
-   "id": "ad4b1d77b38a",
-   "titulo": "“¿Es porque se dejaron pillar?”: Cepeda y Ordóñez siguen agarrados y ya hablan de denuncias",
-   "resumen": "El senador anunció que denunciará penalmente a Ordóñez por utilizar las cuentas oficiales del Ministerio del Interior para responder a sus cuestionamientos.",
-   "detalle": "El enfrentamiento entre el ministro del Interior, Alejandro Ordóñez, y el senador Iván Cepeda sigue subiendo de tono. Lo que comenzó con los cuestionamientos del senador a los millonarios salarios en el Fondo Milagro terminó en un anuncio de acciones penales contra el ministro. La controversia comenzó cuando Cepeda cuestionó la transparencia en el manejo del Fondo Milagro. El senador puso en duda la austeridad de la entidad y lanzó una crítica directa a sus responsables. “A esta declaración altisonante de De la Espriella sobre el “Fondo Milagro”, habría que agregar la frase: “Cuando seamos sorprendidos en flagrancia delinquiendo”: “¡EN EL GOBIERNO DE LA PATRIA MILAGRO LA AUSTERIDAD Y LA COHERENCIA NO SE NEGOCIAN!”.",
-   "cita": "",
-   "enlace": "https://www.vanguardia.com/politica/2026/11/14/es-porque-se-dejaron-pillar-cepeda-y-ordonez-siguen-agarrados-y-ya-hablan-de-denuncias/",
-   "fuente": "Vanguardia",
-   "fecha": "2026-11-14T22:55:16Z",
-   "categoria": "mencion",
-   "tamano": "regional"
-  },
-  {
    "id": "4045dacf665e",
    "titulo": "Fiscalía archiva investigación contra Álvaro Uribe por falta de pruebas en caso de presunto soborno a testigos",
    "resumen": "",
@@ -3046,30 +2638,6 @@
    "fecha": "2026-11-14T22:06:42Z",
    "categoria": "mencion",
    "tamano": "regional"
-  },
-  {
-   "id": "ac1abd89b30a",
-   "titulo": "Centro Democrático tuvo nueva reunión con el Gobierno para analizar Ley de Rescate Económico: hay optimismo",
-   "resumen": "El expresidente Álvaro Uribe Vélez se pronunció este sábado, 14 de noviembre, tras el encuentro entre el Centro Democrático y el Gobierno nacional, que terminó de manera favorable.",
-   "detalle": "El expresidente Álvaro Uribe Vélez se pronunció este sábado, 14 de noviembre, tras el encuentro entre el Centro Democrático y el Gobierno nacional, que terminó de manera favorable. En la reunión estuvieron el vicepresidente José Manuel Restrepo, el ministro del Interior, Alejandro Ordóñez, y los viceministros del Interior y de Hacienda, además de equipos técnicos del Gobierno nacional. La colectividad aseguró que ratifica su postura frente al IVA a la canasta familiar, al que le dicen no; también a nuevos impuestos que afecten al sector agrícola y al incremento del IVA en salud.",
-   "cita": "",
-   "enlace": "https://www.semana.com/politica/articulo/centro-democratico-tuvo-nueva-reunion-con-el-gobierno-para-analizar-ley-de-rescate-economico-hay-optimismo/202619/",
-   "fuente": "Semana",
-   "fecha": "2026-11-14T21:49:19Z",
-   "categoria": "mencion",
-   "tamano": "gran"
-  },
-  {
-   "id": "f477d3d9b747",
-   "titulo": "Así fue el procedimiento de captura de alias 'Pata de Palo' en el corregimiento El Sabanal, zona rural de Montería.",
-   "resumen": "Así fue el procedimiento de captura de alias 'Pata de Palo' en el corregimiento El Sabanal, zona rural de Montería. El operativo coordinado por la Dirección de Investigación Criminal e Interpol (Dijin) se reportó este 14 de noviembre. Alias 'Pata de…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPUHBxQnZnTkgza3ExdWxGWnFvck5DVHFtd292YnJCckdRd2Nkb1ExZXFLNFp1a0V0eE8wMWtmTWtOVUlkR0NmSHg5aVp1RlZXaHE3eEo3N0trYmgyeGEwZmhJSHoxZEVLV05Xay16a0FEbW1ZX2s4RXF3LXlXR2tXVFVQNkVETzZkdnBqLXdjSmJVaVhYc2I0RGR4MF9PLU1oWGJZcXhCakhZOGlWZjlhbXZEMUhzMmJMTlJ4ZGc4SHUyNU1QR1lpcDNyaUNNdUliNlEyMWYxRXVBRGFnY0JlYw?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-14T21:32:04Z",
-   "categoria": "mencion",
-   "tamano": "redes"
   },
   {
    "id": "db1c6432ebb6",
@@ -3098,12 +2666,24 @@
   {
    "id": "8af820f3d30b",
    "titulo": "El expresidente Álvaro Uribe Vélez participó este sábado en una reunión con el Gobierno nacional para discutir…",
-   "resumen": "El expresidente Álvaro Uribe Vélez participó este sábado en una reunión con el Gobierno nacional para discutir alternativas al proyecto de Ley de Rescate Fiscal y presentar las propuestas de la bancada del Centro Democrático frente al ajuste económico.…",
+   "resumen": "El expresidente Álvaro Uribe Vélez participó este sábado en una reunión con el Gobierno nacional para discutir alternativas al proyecto de Ley de Rescate Fiscal y presentar las propuestas de la bancada del Centro Democrático frente al ajuste económico…",
    "detalle": "",
    "cita": "",
    "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1sMkhUSTJhZE1rQm1LWFc0ZHFJSm5GbzBWYTQyWjFRTDF6TmFJeDdWWFNVZHc4NVhzTkdxbFBGYzlIZHc1MHFCOEhnVV8yQWRqSFE?oc=5",
    "fuente": "Instagram",
    "fecha": "2026-11-14T21:04:44Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
+   "id": "f5fd358a46c6",
+   "titulo": "La Fiscalía cerró una investigación contra Álvaro Uribe por presunto soborno a testigos, pero hay un detalle…",
+   "resumen": "La Fiscalía cerró una investigación contra Álvaro Uribe por presunto soborno a testigos, pero hay un detalle importante: el caso podría reabrirse. ⚖️ 📄 La decisión se tomó tras revisar información financiera, registros de propiedad y movimientos relacionados…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBHZDdDaTV6Tl9VMDJvZXlfN2Z3S3RvUWI2bzVPcDhnTUw2bXB2ak12RnRJUjVnMUVJa3VvbmlDb19XZkxYTEpPWWhmVUxodmwtR3c?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-14T21:00:01Z",
    "categoria": "mencion",
    "tamano": "redes"
   },
@@ -3144,6 +2724,30 @@
    "tamano": "regional"
   },
   {
+   "id": "5743673283ef",
+   "titulo": "#noticion El expresidente Álvaro Uribe Vélez entregó un balance positivo tras reunirse con el vicepresidente del…",
+   "resumen": "#noticion El expresidente Álvaro Uribe Vélez entregó un balance positivo tras reunirse con el vicepresidente del Gobierno de Abelardo De La Espriella, junto a otros integrantes del Centro Democrático, para presentar una propuesta alternativa a la ley de ajus…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ISk1XOC1DVy1wNUxyRmVfeElvRlE0c083SXNENHZBMFM2ZFBTZF85OUJ3cndzTTBJWndmOTFNNW93ck90Nnc1QkRvdXhRV3JPMWc?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-14T20:23:03Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
+   "id": "33c701eca76f",
+   "titulo": "El expresidente Álvaro Uribe Vélez calificó de positiva la reunión hoy en Rionegro entre el Centro Democrático y…",
+   "resumen": "El expresidente Álvaro Uribe Vélez calificó de positiva la reunión hoy en Rionegro entre el Centro Democrático y representantes del Gobierno nacional, entre ellos el vicepresidente José Manuel Restrepo y el ministro del Interior, Alejandro Ordóñez, para anal…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBpWGNLRWh1d1M0QlZLVzZTaHMyS0xLUnpOOWF5N2huZHBDS1B5ckVjZzN2UVpXSE0zMF80R1BMaU41Ml9kTmcyNDdiSFdaTWZtemlHSW5n?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-14T20:08:29Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
    "id": "0c4df936db25",
    "titulo": "Fiscalía archiva investigación contra Uribe por presunto soborno a testigos exparamilitares",
    "resumen": "",
@@ -3154,6 +2758,42 @@
    "fecha": "2026-11-14T20:08:26Z",
    "categoria": "mencion",
    "tamano": "gran"
+  },
+  {
+   "id": "63bf5e746a59",
+   "titulo": "El expresidente Álvaro Uribe Vélez y congresistas del Centro Democrático sostuvieron una reunión con el vicepresidente…",
+   "resumen": "El expresidente Álvaro Uribe Vélez y congresistas del Centro Democrático sostuvieron una reunión con el vicepresidente José Manuel Restrepo y representantes del Gobierno de Abelardo De La Espriella, en Rionegro, Antioquia. El encuentro tuvo como obj…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBlY0xNNGYtdndMbDFreXhaaHl4UWJnSGFXRGRheTVJWDZDVTNtWXN4SndhdWhhMm51VmZscmR6U1VwLUhHNDA5RXhrZUl1SHdKREE?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-14T20:00:23Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
+   "id": "d97cde33329e",
+   "titulo": "El Centro Democrático finalizó una reunión con el Gobierno nacional para evaluar la Ley de Rescate Económico.",
+   "resumen": "El Centro Democrático finalizó una reunión con el Gobierno nacional para evaluar la Ley de Rescate Económico. Álvaro Uribe aseguró que ve con optimismo una posible compensación para no afectar a sectores sociales. Vea más en semana.com…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11ODhuVjgyYTBRYjV6YzdFRk11VktZMUNrMWl3VzVRelFzQVoyQVFMUkdGNl9SN3ZNdlpjNWlrRl9pdkVTWHhHd0UyaExYcUF3OEhhN1Bn?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-14T19:54:57Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
+   "id": "59d35423b733",
+   "titulo": "Defensa de Álvaro Uribe se pronunció tras decisión de la Fiscalía. Visita Eldiario.com.co para leer la nota completa.",
+   "resumen": "Defensa de Álvaro Uribe se pronunció tras decisión de la Fiscalía. Visita Eldiario.com.co para leer la nota completa. #ÁlvaroUribe #FiscalíaColombia…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81TURGS2xoWnZ0ODB2aXptUW55cjIzTkRBVk9qYWo1UFFOb1RwcTFFbmFoRXVIWGVPWFhidmJwVG5MSzZJUkNTWjZJZVZodFhqbGc?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-14T19:40:16Z",
+   "categoria": "mencion",
+   "tamano": "redes"
   },
   {
    "id": "0692f9088fa5",
@@ -3168,6 +2808,18 @@
    "tamano": "regional"
   },
   {
+   "id": "a59d53cec2df",
+   "titulo": "Álvaro Uribe Vélez. Reunión sobre la Ley de Rescate.",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcHZTelN4SWFNQzJtdlg0U0RlUUVHSkJfTGpzTnRVQkNlR0l3WTN6UVZCcVBKWlFMdE9XdVdjZ0d5NThjY2NIU0JyQVp6X0RWUk85dThfalplSWFYa2NmTE5XRXFCcGRJUVdGNVMxSGEzRU03REdJcWRlcnNDMm94SWVJbVNzOXZyNG14WmdYczM1NUpQcVp1Z1daeVU0UE1LWlE?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-14T18:52:49Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
    "id": "8d50e6520ab4",
    "titulo": "Abogado de Álvaro Uribe, tras decisión de la Fiscalía de archivar caso por presunto soborno a testigos: “La deuda no se ha saldado”",
    "resumen": "",
@@ -3178,6 +2830,18 @@
    "fecha": "2026-11-14T18:37:00Z",
    "categoria": "mencion",
    "tamano": "gran"
+  },
+  {
+   "id": "6ae4a466e0c2",
+   "titulo": "El Centro Democrático comprometido con Colombia 🇨🇴🐝 El expresidente Álvaro Uribe Vélez participa presencialmente en la…",
+   "resumen": "El Centro Democrático comprometido con Colombia 🇨🇴🐝 El expresidente Álvaro Uribe Vélez participa presencialmente en la reunión de análisis del proyecto de Ley de Rescate Fiscal, junto al vicepresidente José Manuel Restrepo Abondano, ministros, func…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOdW5OcjQ4MlFtLTMtNXJvaXJCcU0zQnRtM1JaLTM4aEZqaUJKMTl5c19JdXBlaGxycHdXYWpIc21WYlNIS29xZWNLYkRrbHQ1Tm1KUjFBdXJMd1N3MXRrbDlheUlQd1plZktFQnQxT3BhalU3akN1MWhESl9JeDMzdWNYNjl5LVV6aEJTWmplc0lVTERLcXYzSWlTYTVSMV84N1ZuMU9fY2lOYjhRdV9LSFV3R0tFWmxRR1ozUGNxX3VndnVCckthd2k0MGdJUm5XSGxXZU1lSGRwZmdDSXByS3ZqV29COG15?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-14T18:28:28Z",
+   "categoria": "mencion",
+   "tamano": "redes"
   },
   {
    "id": "db45ad1f2c67",
@@ -3192,6 +2856,30 @@
    "tamano": "local"
   },
   {
+   "id": "eb3d4d2c5d1f",
+   "titulo": "🚨‼️ TANTOS AÑOS DE SEÑALAMIENTOS, ACUSACIONES Y PERSECUCIÓN CONTRA ÁLVARO URIBE VÉLEZ. Hoy, el caso queda ARCHIVADO.",
+   "resumen": "🚨‼️ TANTOS AÑOS DE SEÑALAMIENTOS, ACUSACIONES Y PERSECUCIÓN CONTRA ÁLVARO URIBE VÉLEZ. Hoy, el caso queda ARCHIVADO. No encontraron pruebas para continuar la investigación. ¡TANTAS ACUSACIONES Y NINGUNA PRUEBA!…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQNEFZT21PWEFac2NfSS03S3l5YllyS0RmVG9zWm5Fb3dESDd2UFJyOXlhaU9iZW9zdG1xVHdEMkxsdXdTX2pha3pUZzRRb05aQ2RXWnNaTGxRZDJCNTNGdlNaT1pfYUNVaGlEenc1TTh5dFJhNXFOc3M3ck9Bb1FqYlFaOU1fcGdTVk5VWXpzVndENzF0YUtqaFo2QlZPUnZEcWpkcTYyZVpsellaVHRhN1B0WGdXWFRvRnRnVk9ITnVzeUR3SWRmS0xIVVJDZE5SbE9NYTNYdEN3V1VzMUx5b2R5SnoyWGlDcm9mN1lGYnBmN1JQT21HUGJKV05xNk5yTFFuSXNYYk0?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-14T17:05:24Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
+   "id": "c1eaba17e5ed",
+   "titulo": "Fiscalía archiva caso de soborno a testigos contra Álvaro Uribe. Otros procesos siguen abiertos.",
+   "resumen": "Fiscalía archiva caso de soborno a testigos contra Álvaro Uribe. Otros procesos siguen abiertos. Visita Eldiario.com.co para leer la nota completa. #ÁlvaroUribe #FiscalíaColombia…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9UNk04T25ZQVIwd3dVcm15dUg2QWtROXdkREJZZUVrbjJMOXo3cS1Kb055US1VYzUzaWs0dkJ2NXJfSEZyWS1xRU1JT0Rkb2hBVUE?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-14T16:40:17Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
    "id": "d289983edafc",
    "titulo": "Fiscalía archiva investigación contra Álvaro Uribe por presunto soborno a testigos: estas son las razones",
    "resumen": "",
@@ -3202,6 +2890,18 @@
    "fecha": "2026-11-14T16:35:55Z",
    "categoria": "mencion",
    "tamano": "nacional"
+  },
+  {
+   "id": "3cb218fc8a78",
+   "titulo": "Se le cayó otro expediente a Álvaro Uribe: Fiscalía archiva caso por supuesto soborno a exparamilitares",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5HYVNzcEhpclZySnhEQnR1bS1xVkI0ckVQanI0TVhfS0RmUmQ0ZnRSSS03cVpIajdaeTJrWHFqVVVWYXhIMEtMa2dTSXo4M1c5dDdDcVZBcGlWWkhaU3VTV2ZVekFHaHRGQmZZ?oc=5",
+   "fuente": "Minuto30",
+   "fecha": "2026-11-14T16:25:05Z",
+   "categoria": "mencion",
+   "tamano": "regional"
   },
   {
    "id": "5a9a6e05a279",
@@ -3240,6 +2940,18 @@
    "tamano": "nacional"
   },
   {
+   "id": "146bd7649b3b",
+   "titulo": "#Noticias 🚨|| La Fiscalía General de la Nación ordenó archivar una investigación contra el expresidente Álvaro Uribe…",
+   "resumen": "#Noticias 🚨|| La Fiscalía General de la Nación ordenó archivar una investigación contra el expresidente Álvaro Uribe Vélez por presuntos pagos a exparamilitares para que modificaran sus testimonios judiciales. La decisión, fechada el 12 de noviembre de 2…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1DM3VLN2F5QnVralFyXzdPNGZGS3d0YUNYc09oR1VNS1AzdHZodG56dDNIblp4dzZ6djBEUkZGd3ZOQUkyUjRYZWxXQUpxTU1TNHc?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-14T16:06:05Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
    "id": "3989fbe35eb0",
    "titulo": "Tomás Uribe reaccionó al nombramiento de Luis Felipe Henao como nuevo gerente del Fondo Milagro",
    "resumen": "",
@@ -3274,6 +2986,54 @@
    "fecha": "2026-11-14T15:33:20Z",
    "categoria": "mencion",
    "tamano": "nacional"
+  },
+  {
+   "id": "5e96b92364f8",
+   "titulo": "#AtenciónCN ⚫🔴 La Fiscalía General de la Nación ordenó archivar de manera definitiva la investigación que cursaba en…",
+   "resumen": "#AtenciónCN ⚫🔴 La Fiscalía General de la Nación ordenó archivar de manera definitiva la investigación que cursaba en contra del expresidente Álvaro Uribe Vélez por presuntos sobornos a exparamilitares y fraude procesal. El ente investigador concluyó qu…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOQmhFckN6V3VQWG1QeXgyVE15S3lCQWJia2wwZnhKVEMyWDR6R3lJODNIeTRtbUtIYmFXZE1QMndtRy14bi1haUk5TzJkSWVJbmZoZUdYVDUxdnEyLVVaMHBIanlPTHBBNER5ZXhQM3Z0MWJWdXBGclcwa0R5QkZ4b0lYaDY0cFhpQ2VlTEFGMXg2VDYzNGhpYkQxODlSRXFsMWl6WERVQkZVNDd5MHlVXzMzTnNwYktEMHI5UUNVOFY5TGZaNHRsazFEY0JGSHEyZkRZT1hiMUVUSmJxbGZqaThsZEswdVBMQWRpMTFVNWpOUHAyemg4?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-14T15:27:45Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
+   "id": "be698512dd46",
+   "titulo": "l La decisión de la Fiscalía General de la Nación de ordenar el archivo de la denuncia interpuesta por el senador Iván…",
+   "resumen": "l La decisión de la Fiscalía General de la Nación de ordenar el archivo de la denuncia interpuesta por el senador Iván Cepeda contra el expresidente Álvaro Uribe por el presunto d3lito de soborno a testigos se fundamentó, de acuerdo con el ente…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1TaHhoa1ptaVVtQnBGY0FhX2YzWVdWS0ZFVTJydTNOZFhvTDJVcVlpTVdPM2prMHBjZXN1ZHNwajBMU2ZOcEpKOS1qWUFtVVQzZHc?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-14T15:02:03Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
+   "id": "0d78c0d08648",
+   "titulo": "La Fiscalía (FiscaliaCol) ordenó archivar la investigación contra Álvaro Uribe (@alvarouribevelez) por presunto soborno…",
+   "resumen": "La Fiscalía (FiscaliaCol) ordenó archivar la investigación contra Álvaro Uribe (@alvarouribevelez) por presunto soborno a testigos. El despacho concluyó que no encontró pruebas que demostraran los supuestos pagos de hasta $300 millones a exparamilitar…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5DWk9iaVU3VzNoY2FzOWVzblZWMXBvY2dRTzV2cEkwa29XY0FUZlJqQzcxbEFadjN2RkRRUTdLZVFBTjBzUGszLW9pd3VFUUlkWVE?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-14T15:00:23Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
+   "id": "3c0d2ad0cd67",
+   "titulo": "La Fiscalía ordenó archivar la investigación contra Álvaro Uribe por presunto soborno a testigos.",
+   "resumen": "La Fiscalía ordenó archivar la investigación contra Álvaro Uribe por presunto soborno a testigos. El despacho concluyó que no encontró pruebas que demostraran los supuestos pagos de hasta $300 millones a exparamilitares para cambiar sus declaraciones…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQaFZfZFBZUGwzOHlUdmZEeDExUUhZampMNXJ2Z1puM3l3dUF6VmhzaHpiaHN2enZfN0ViYVJfOUY4WTJhdDY5LS1Ma2kxU0NDY2FaczFRV3daTE9GcVZXSWxHVjVWMkM1T0pWZ2wxZlIwZ3B4bng1a28xRlhtZHc4aW1OS1g1NVozU3ZUT3JaTU5zUjdlVzNVTXVrV2hzXzhFYkNKbUxZQnROV3JEQnRENE5aUFFISlRqcEE2X29pZm8wM0lya0QzNFkyMV9RTV96bTBoZ1JVOUJyVVFxSXJMYVFiSy15YXN4ZjVWMWpB?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-14T15:00:03Z",
+   "categoria": "mencion",
+   "tamano": "redes"
   },
   {
    "id": "ee750d17b585",
@@ -3324,6 +3084,18 @@
    "tamano": "regional"
   },
   {
+   "id": "01fab07aed4b",
+   "titulo": "La Fiscalía General de la Nación ordenó cerrar y archivar una investigación sobre supuesto fraude procesal y soborno en…",
+   "resumen": "La Fiscalía General de la Nación ordenó cerrar y archivar una investigación sobre supuesto fraude procesal y soborno en la actuación penal en denuncia de Iván Cepeda contra Álvaro Uribe Vélez. “Resulta procedente ordenar el archivo de las diligencias, d…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aMXduN2x2NWVmZ3BUb1NGNVlaQUN3aU05US1vVEhEZzVzaEhoTEgtcm9kSENwdks2OUNKY2I1SWVORDFUTjNDaXV1NkJjQnpfMnc?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-14T13:00:11Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
    "id": "81fd27438ecd",
    "titulo": "Álvaro Uribe: “La Fiscalía archivó a mi favor una denuncia”",
    "resumen": "",
@@ -3336,6 +3108,18 @@
    "tamano": "gran"
   },
   {
+   "id": "9caaac77431a",
+   "titulo": "La Fiscalía General de la Nación ordenó archivar una investigación contra el expresidente Álvaro Uribe Vélez por el…",
+   "resumen": "La Fiscalía General de la Nación ordenó archivar una investigación contra el expresidente Álvaro Uribe Vélez por el presunto delito de soborno en la actuación penal, al concluir que no encontró pruebas que permitieran establecer que se hubieran realizado…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9rRGNNYUVFMG13eUlPX1dwWFlmNmRNOVRqY3h2andTRjhjTGRoNnlvZU5vRENHc2RiQjlfeFhOT3Q2N2xhc21xM2VIVzREcEVWb2c?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-14T12:46:56Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
    "id": "faf84c1880a7",
    "titulo": "Fiscalía archivó investigación contra el expresidente Álvaro Uribe por presunto soborno a testigos, hecho denunciado por el senador Iván Cepeda",
    "resumen": "",
@@ -3346,6 +3130,54 @@
    "fecha": "2026-11-14T12:43:00Z",
    "categoria": "mencion",
    "tamano": "gran"
+  },
+  {
+   "id": "d702ecf8167f",
+   "titulo": "Los nombres de los congresistas que tienen en sus manos la suerte de Petro, Uribe y magistrados en la Comisión de…",
+   "resumen": "Los nombres de los congresistas que tienen en sus manos la suerte de Petro, Uribe y magistrados en la Comisión de Acusación…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPOVY1MHpqVWJmcGpPeXNtTThqRmNqTFp4V1RpaDRYcmZVS3pTTEFyVXZXNzVwWTUwb0Qyc18zNUZ1MVd4dFpGWjh0amhkR25uWGxnbjBvS1F1ejhxRTV0c0RmbnhmY3lFemVnTVVsR0EzdUxnUDBRbW9YQWFwTkRaSTlUMlFqNHY1WmZVaHpmOURPMnJTcGdITHRXX3VJM0h5S0ttR1hQczREN3pOVmxHRVJZRzdPN3F2dW1mRjZUQnZ3ZWVhaFRwVGxPREhWaTJFYnVENnNrZGJydTJ1UGRiZGZn?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-14T12:25:13Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
+   "id": "5bf00b092add",
+   "titulo": "La Fiscalía General de la Nación ordenó archivar la investigación contra el expresidente Álvaro Uribe Vélez por los…",
+   "resumen": "La Fiscalía General de la Nación ordenó archivar la investigación contra el expresidente Álvaro Uribe Vélez por los presuntos delitos de soborno a testigos y fraude procesal. La decisión fue adoptada el 13 de noviembre de 2026, luego de revisar los element…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBYUDE5bkdRNkE1NTJNWjV4c0MxbjhYSU1rUm15b0VRTzRJcHlERTA2QkZSZ3R4TXBackM1YlZIV1E1VnRhS2xEUXhoVXM0VmQ1dXc?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-14T12:22:32Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
+   "id": "7f29db7e14a3",
+   "titulo": "Álvaro Uribe Vélez",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA0c1dsRzhxaGs4clBkTXJyRHRIWm5sbDNvQ05zS3d5MFBHdnAwTEVTSXBZU1RQeW0ycVBXY1cwM2o3M29nbFU1dlRKWkhRSkZOMzA5VUF3VzF4ZmFzVVBhM1RRVENIbHhHMWU3WldtTW4?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-14T12:10:06Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
+   "id": "b0dd5dca0577",
+   "titulo": "Photo by Álvaro Uribe Vélez (@alvarouribevelez) · November 14, 2026",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE52V2NtR3ZhNWJYS09EQmtobFJ0WTdqU2tTN0JtUUg5cmQzTmM2a0tNbmdZUldOVzZhT2dULU5fSndlZThrUWRnTFVRMDRiWXNtdVE?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-14T12:09:54Z",
+   "categoria": "mencion",
+   "tamano": "redes"
   },
   {
    "id": "69ee6810b456",
@@ -3396,6 +3228,18 @@
    "tamano": "gran"
   },
   {
+   "id": "3062d9263375",
+   "titulo": "La Fiscalía General de la Nación ordenó archivar la investigación que se adelantaba contra el expresidente Álvaro Uribe…",
+   "resumen": "La Fiscalía General de la Nación ordenó archivar la investigación que se adelantaba contra el expresidente Álvaro Uribe Vélez por los presuntos delitos de fraude procesal y soborno en la actuación penal. La noticia aquí:…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQUm54VE5rLUc2dDFxSFRUeEZuUlhjMWJOZU1hWlJhTHZENVREel9pOC1zLWtBeGJuSUNVSUx2TWY0QWV5bXpuRHZxX3NWT19fdHlTZE1DLW8xeDFnQWtONlhabk5MNzZISHZoZUhmWUxtR3RPRW1USUd2SXhyRkw0OFM4T0ZQa056aEZwLUhJVVh3U0w4VUt4ZVJfTzhRSlFpZVNYd2hvNWpKdWxYdjIxWXVINXB5eEg1c3pjcVZFUFMyOWlQOW5QVkZibXRITkxLMTd0dFQ4OEE2OHMzN1BoNXMwdENib043cy1DQzlrYWdoMXk3?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-14T04:18:43Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
    "id": "363fe43e60fb",
    "titulo": "Fiscalía archiva investigación contra Álvaro Uribe por presunto soborno a testigos",
    "resumen": "",
@@ -3420,6 +3264,18 @@
    "tamano": "regional"
   },
   {
+   "id": "9be1681c3b67",
+   "titulo": "#Judiciales • La Fiscalía ordenó archivar la investigación contra el expresidente Álvaro Uribe Vélez por el presunto…",
+   "resumen": "#Judiciales • La Fiscalía ordenó archivar la investigación contra el expresidente Álvaro Uribe Vélez por el presunto soborno a exparamilitares para que modificaran los testimonios en su contra. Según el ente acusador, las denuncias no tenían pruebas que la…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE95Q29HUkJ6aldwUmtOems0QzRiMkY4QUR1QXZ3S0UzUzhBVEdSUlBRTXVWdnJfZV90Qi1wVDJqVmdpOGdMcGstQU9iSXp2VnhOVXc?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-14T02:35:30Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
    "id": "fa9df8c4a80a",
    "titulo": "Fiscalía archivó investigación contra Álvaro Uribe por soborno a testigos: no halló pruebas de pagos",
    "resumen": "La resolución, firmada el 12 de noviembre, revisó movimientos financieros y predios en Cimitarra (Santander). El caso puede reabrirse.",
@@ -3432,6 +3288,18 @@
    "tamano": "nacional"
   },
   {
+   "id": "1feb693d2ff2",
+   "titulo": "Iván Cepeda y Álvaro Uribe, denuncia archivada por la Fiscalía en Colombia por falta de pruebas.",
+   "resumen": "Iván Cepeda y Álvaro Uribe, denuncia archivada por la Fiscalía en Colombia por falta de pruebas. La Fiscalía señaló que no es posible establecer los hechos denunciados por presunto soborno en actuación penal. #Colombia #Fiscalía #Uribe La nota compl…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3cmpRclplbVhxSzRMRnNObS00S0pZSmtIQUhURGpkN0s0Z0ljSmEzWmVTb3k5RU4wdVlmTE5vTU8wMGVaREZSZWplclIxQnU0N1E?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-13T23:47:30Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
    "id": "85e0539a501f",
    "titulo": "Fiscalía ordena archivar denuncia de Iván Cepeda contra Álvaro Uribe en la que lo acusan por supuesto soborno a exparamilitares",
    "resumen": "",
@@ -3442,6 +3310,18 @@
    "fecha": "2026-11-13T23:17:05Z",
    "categoria": "mencion",
    "tamano": "gran"
+  },
+  {
+   "id": "4d6dd2eec84c",
+   "titulo": "#UnidadInvestigativa - 🔴Hoy el presidente Abelardo De La Espriella le informó al país que acababa de aceptar la…",
+   "resumen": "#UnidadInvestigativa - 🔴Hoy el presidente Abelardo De La Espriella le informó al país que acababa de aceptar la renuncia de Jaime Andrés Uribe, gerente del llamado Fondo Milagro. En entrevista con EL TIEMPO aseguró que su salida fue una decisión per…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNa1pzOUdsUUpoZkRpWmpPSVJxTHF6UlpiSWl3RXdBMDRHUG94NzVQRUVRVE1Wdkx1Z2lvQzZFMHViS0JQbjVScTd0bkp2aVVCbm5WY0VXRmdVaXhrcU5RUUNEYzdLM21iNEgxb29fbGRUTVdwVnQzQnctZjNUREdiM3RZTEROZlR6a1RaaEZjVGxfUnFURlZMMDRZWkRfdnM1WFVqVXlGRFN6bDhWQXNUem1NOGtJWnBvY0U4U2pmMXQ0d0ZYRlVCRFJxVm9NSGlWNXhkMHE5NUp4Yy15dHhRTXZn?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-13T22:31:00Z",
+   "categoria": "mencion",
+   "tamano": "redes"
   },
   {
    "id": "83548554125f",
@@ -3468,16 +3348,16 @@
    "tamano": "gran"
   },
   {
-   "id": "0cf06607cdbf",
-   "titulo": "Centro Democrático rechazó IVA a alimentos en reforma tributaria",
-   "resumen": "",
+   "id": "2e21e37d7c9b",
+   "titulo": "El vicepresidente José Manuel Restrepo se pronunció sobre la propuesta del expresidente Álvaro Uribe de reducir de 18 a…",
+   "resumen": "El vicepresidente José Manuel Restrepo se pronunció sobre la propuesta del expresidente Álvaro Uribe de reducir de 18 a siete el número de ministerios en Colombia, como parte de una estrategia para disminuir el gasto público y reorganizar el Estado. Dur…",
    "detalle": "",
    "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVUZuUXBNbjJIWDUzSTZZTWh1NzIyYWllbDBfRVhzblZZbXFoMHJrSTlzX3EwbVVxQjhqeWR5ZjQwODhObnV1ZGRVNjZaclpEcUo5VGhOYmt5MjN2M3F2WjdKcDJlenhCelcyYnJ6OFZhVHRKWXB6MkQwTzMxOVQwT3AtOWpaOXFBTjBLRy1COF9MTll1eDRreXJQSUo3VFVodF96TUJ1dHhkWTk4Y2VyMWxDczNFUlFM0gG4AUFVX3lxTE9LcV84dVRZTG1FcEppSEo2d3NnNkdvZnNFSXRRNTEtNU1Lam1pSUVLajlqa3Y2cFFERHh3cHBCWHlFeHhBVWRBLWZuMElmYnJCQzJMemNZbi1VWWt1MlUybUxYZ0hZTTVuc09QRF80Sm1sN1Z2bmtpNXdLTHJjSTYzbTBZZ0QxX2p4VW5scEVfNm4tclpCZTdEcVN3MjY2d2xYN0d2RXVJWlBvWm5vMExwd0p2SHdRM3c?oc=5",
-   "fuente": "Asuntos Legales",
-   "fecha": "2026-11-13T18:22:34Z",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1hOHlvLUZfUTczSzkxLUZmUVhvQ3B3LTlFa2hpMnRaQWt1SFZCS2lnbzh1YktTbzRyOGo0dGxSejB3cGtaY2pUUEhpTzAzaFpmU0E?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-13T18:21:26Z",
    "categoria": "mencion",
-   "tamano": "nacional"
+   "tamano": "redes"
   },
   {
    "id": "dee74f1d40e9",
@@ -3490,6 +3370,18 @@
    "fecha": "2026-11-13T17:25:52Z",
    "categoria": "mencion",
    "tamano": "gran"
+  },
+  {
+   "id": "a2172a8669fd",
+   "titulo": "Cuestión Pública. ¿Monsalve estaba en la nómina? Registros desde 1998 sobre Monsalve en CASO URIBE | Cuestión Pública",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWkMzZzV0cktOdW8tVENKMzJEUmNuZGNUd3ZraXk5dk5sNjVQODlmNmd4VTBuNTROS044U1ZUSFFRZjhSX29hZm5NNGhPRmFzaE52V2ZseGZjMWFYa3pUZW93Q3pmNjVVYlllbXdfUWRqOVlVbk96VXBEZDdxVlZrVE5IcnAxOE5vSkJGdmppU28zWHNEWTVWLXRxU1g3UmpPSkRCX3c1ckM3TE1wVkx2eWx6ck5IaHI3dnVGTVNOZ0J4ejdoalBfa1lGR0dScU5xUWRHVWhFQzNDWm9hS2c?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-13T16:28:31Z",
+   "categoria": "mencion",
+   "tamano": "redes"
   },
   {
    "id": "0cc6de5dc36a",
@@ -3514,6 +3406,54 @@
    "fecha": "2026-11-13T14:26:00Z",
    "categoria": "mencion",
    "tamano": "gran"
+  },
+  {
+   "id": "ed35e483b362",
+   "titulo": "¿Colombia con solo siete ministerios? El vicepresidente José Manuel Restrepo reacciona a la propuesta del expresidente…",
+   "resumen": "¿Colombia con solo siete ministerios? El vicepresidente José Manuel Restrepo reacciona a la propuesta del expresidente Álvaro Uribe Vélez. Lo dijo en El Debate de SEMANA con @yesidlancheros ¿Qué opina? Vea más en semana.com…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pYWtqS1ZuZFh5Nkl4ZzFBQ3hDakZSVTJXMk9UQVVMMWljb3poanItWHNsNlN1c1NLeXZWWkNDMXVadXpxR2x6WUVLNTd4RUFFeWpnS29B?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-13T11:02:26Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
+   "id": "7960c92e5352",
+   "titulo": "Álvaro Uribe Vélez entendió que gobernar es servir a los colombianos, no servirse del poder.",
+   "resumen": "Álvaro Uribe Vélez entendió que gobernar es servir a los colombianos, no servirse del poder. Un liderazgo que deja huella y demuestra que el servicio público es una vocación, no un privilegio. Créditos: @legadouribevel…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOeGNjTWxkb1FqZzlCbDctemxNSldadGdVWVBpQnRlWGRwaVZfSUh1VUIxS3ZwU1JpaUZoc3FlMjl5cWZndGVkZ2V0ejNPZU8tRnRka1ZhZ1pvTzhvQ2d3MnZyaEdWbm95b2tTYl83SWFMV2NRZEtTVDBZZ0N1YWFaX2pLVDk5Wjk4b0dYYlJLWm5iNmVoOVBNZFZJbWVVSVJ5eHdMRWk4M3FBMW5KYm1EMVBwbFVLZHlXRXRhUmpqM05VVXduMUdUQjNpN05mLVdsZXVfOVlrYmdMLTdWWEtnZTFXX1dvVVdQRWk1ellIaG1pQQ?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-13T01:24:22Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
+   "id": "853a488cc1e7",
+   "titulo": "#NOTICIAS Giro DRÁSTICO al plan de Abelardo De la Espriella: Álvaro Uribe le pone tatequieto",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOd3VKVEJ4Z0pZQWpoLXFteVV1SlVVZlI1VnRybUxodG5vY0VwZ3QzQVJRNW4tcTFveXhzMUNNb2dtQ2E3MDNjUHlyMVRwRC1mdXVqdXl5YXVNbl9mYW92UmxuNWRSdmdScFFyMVJWdG8yM2M1RmdXeUNQUzJ4bVpqc05qNlJTcmVTaU1jSE1kQS1SUHBKSW1DMy0ycms4VGlGU2ZGOU1zTmxySnhrT1dLTEZRVldXYlBoUGd3YlUydzBmTVQ1eDE2anF3d0xIazZWY2xoczZjZkIwcnpaZENIRm1n?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-12T23:47:59Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
+   "id": "2375424007d9",
+   "titulo": "Álvaro Uribe y el Centro Democrático alistan borrador de reforma tributaria sin impuestos a la canasta familiar…",
+   "resumen": "Álvaro Uribe y el Centro Democrático alistan borrador de reforma tributaria sin impuestos a la canasta familiar Concluyó el encuentro entre el expresidente Álvaro Uribe Vélez y los congresistas de la bancada del Centro Democrático, una sesión dedicada a d…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBGVWdvZUItT2NjSUZ4blB3WnR2NGF6SmFzckl5dWkyWk9lVFU2UDB4Q3NrcmMwdWJlTVZjWldpNTVMNzlpVkFBR0g0VmItZEI2T2c?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-12T22:01:23Z",
+   "categoria": "mencion",
+   "tamano": "redes"
   },
   {
    "id": "7ed2a5d1ff3b",
@@ -3612,18 +3552,6 @@
    "tamano": "regional"
   },
   {
-   "id": "6b5a9bf15403",
-   "titulo": "Expresidente Uribe revela uso de sus redes sociales en pleno discurso de Petro: \"170 reacciones; fue en vivo, inmediato\"",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPYmpMRkM1allZbzVpV2thVUFqOFZUVUZlZ1doRXBRRHZ3MEM5OHNaNGl2Z09TQVZ1NGxmNmVyN08xMGtSZDB3bWJZTFFXSEVtb2hWd1pnMjRLZkhROEo2TlhCT0I5bDV3TDBqc082MTZ1Y1pMaFZUSG1yMk44OTZSTnVLdklmVWVLT0JndnI3d0ZEOW9YeUJfUWhkR250UEI2c3E2SHV2SmVNOGZHX3JQbW9WNmlDT2pubGItU2RKeVRKVTg5R0JvNU9lV3JCSFJ4R3dNR2dIcGxobEl1VmlmaF94Q0NzNjVIakg0LXZCc2xGRFU3cnVJ0gH3AUFVX3lxTFBPRnpITUlmeHFXaWQ1WkZYOEx5MFFqVWRzenE2azVteEFIOXNXd0puNXZHMWxvY0l4MEtiM3c4SS1ZOTFzQzBtenBGX3lqWUpGQkIzRW56NzJzWVF5ZFhxa1RqVVFpU0FrLUtPUEUtSGhJOE5vS3J3UkJHNHpBaGlvWHZtTldsOERFWkFaaDhlX3lBeXh3eHlsZTdlNGZkeGNZQXVpZ0lhMDl5WEhuWDNKZDNTU2dZVzFFZkdnTExsLWhodVExNmJYNnQydzJvbWIxSTZmRW5vSnE4R1B2MUxyRWtRd0J2LWdmQUVxS1QwdzVUYnBkN2M?oc=5",
-   "fuente": "NTN24",
-   "fecha": "2026-11-11T00:23:18Z",
-   "categoria": "mencion",
-   "tamano": "nacional"
-  },
-  {
    "id": "1e9b9314c3c9",
    "titulo": "Esmeralda Hernández prende las alarmas por proyecto que, según denunció, buscaría favorecer a Santiago Uribe: “Esta ley tiene nombre propio”",
    "resumen": "",
@@ -3634,6 +3562,18 @@
    "fecha": "2026-11-10T22:38:00Z",
    "categoria": "mencion",
    "tamano": "gran"
+  },
+  {
+   "id": "6b5a9bf15403",
+   "titulo": "Expresidente Uribe revela uso de sus redes sociales en pleno discurso de Petro: \"170 reacciones; fue en vivo, inmediato\"",
+   "resumen": "El expresidente habló en el panel 'Libertad de expresión e información, poder corporativo y libertades económicas', moderado por Claudia Gurisatti.",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://www.ntn24.com/noticias-actualidad/expresidente-uribe-revela-uso-de-sus-redes-sociales-en-pleno-discurso-de-petro-170-reacciones-fue-en-vivo-inmediato-665164",
+   "fuente": "NTN24",
+   "fecha": "2026-11-10T16:23:00Z",
+   "categoria": "mencion",
+   "tamano": "nacional"
   },
   {
    "id": "8d477665fbad",
@@ -3670,6 +3610,18 @@
    "fecha": "2026-11-10T00:16:00Z",
    "categoria": "mencion",
    "tamano": "gran"
+  },
+  {
+   "id": "7e0d091a833f",
+   "titulo": "Expresidente Uribe volverá a la Fiscalía el 11 de diciembre: así avanza la indagatoria por los casos de presuntos vínculos con grupos paramilitares",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNZEZNY3dvTEhVTnV3NkRmMEVRRlVEM0FIOGh5bjJQbmkxVlNfa0ZkaVh4cEgwVGdXV0xVVDZ4NXpSMHF3U0NYSnRkaFc1cWdhMHFWSXFTNDMtZFJWMWpEa0hTVDFsM1VJMHdRQkdMTGhkcmZiNEZqODZqNmlTTlh3UUQxenpfdVpUZWQ5N1FfT21lT2tMVGw1d25VME9kT1lwZ2ZLMTRnWGV1N3NiQnYwY2NkRmNodFhhX2ZGMTduYWRVRV9GVlF6VC1IeURyaE12WWlQWFdtaE84UGNQZFBaQy1fWjRSSXlqOUg4M1ZlUWVmSnp5SndHZFp4RTNKcDU0SWdB?oc=5",
+   "fuente": "Focus Noticias",
+   "fecha": "2026-11-10T00:12:51Z",
+   "categoria": "mencion",
+   "tamano": "local"
   },
   {
    "id": "1386dda59656",
@@ -4080,18 +4032,6 @@
    "tamano": "gran"
   },
   {
-   "id": "7e0d091a833f",
-   "titulo": "Expresidente Uribe volverá a la Fiscalía el 11 de diciembre: así avanza la indagatoria por los casos de presuntos vínculos con grupos paramilitares",
-   "resumen": "La Fiscalía General de la Nación continuará el 11 de diciembre la ndagatoria al expresidente Álvaro Uribe Vélez por las investigaciones relacionadas con las masacres de El Aro y La Granja, el asesinat.",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://focusnoticias.com/expresidente-uribe-volvera-a-la-fiscalia-el-11-de-diciembre-asi-avanza-la-indagatoria-por-los-casos-de-presuntos-vinculos-con-grupos-paramilitares/",
-   "fuente": "focusnoticias",
-   "fecha": "2026-11-08T16:00:00Z",
-   "categoria": "mencion",
-   "tamano": "local"
-  },
-  {
    "id": "bcf890fbc908",
    "titulo": "Corte Constitucional definirá en sesión extraordinaria quién investigará al expresidente Uribe",
    "resumen": "La Sala Plena estudiará este lunes el conflicto de competencias entre la Fiscalía General de la Nación y la Comisión de Investigación y Acusación de la Cámara de Representantes.",
@@ -4255,18 +4195,6 @@
    "cita": "",
    "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNUWpzZnVkMEdmQmFZWHo5Yk5XbnRnc0U1TThrZFp0LUxxSnZTMkJULWhLeVNvMFkwNF9tMG5nU2g2Xy04U29KcTUwRG91SWFUSjVrNWRZbEJNRXA1RzNlN29SYlZUMms5X0h0aWNMUDFteEx0Vmw0dUpQemh6Q0lCNUtUUG1lQnZjZVU5Tk16WTNfRWV2V0ZhZ3J0Q0VNU2xCMFc0WkNqRGtGU0RWWkFpeUVXS2pDUEFIQkRRRHhqY09YamZ6VTlJTkliU0N4Tm9idUIyaGRiRQ?oc=5",
    "fuente": "IFM Noticias",
-   "fecha": "2026-11-07T08:00:00Z",
-   "categoria": "mencion",
-   "tamano": "nacional"
-  },
-  {
-   "id": "57853ad6e2ed",
-   "titulo": "Centro Democrático presenta sus propuestas para la ley de rescate: ¿qué cambios plantea a la reforma?",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMDk3ZlBtR09oNWhNSkswTFk1T2VmZ0tMcDh0N0RmMHNSM2J1cHRwcDZmdngtcU5iWDdrQmRRSzJfNXJfRTRrSEhzY2dSMHhXc0pONzlwb2ZlM1QxRmZSV3dzQmJXS3dfUGFZRVR2UGQ0UURLRF9JZThDWmRHVHN0X3RHYmw?oc=5",
-   "fuente": "CAMBIO Colombia",
    "fecha": "2026-11-07T08:00:00Z",
    "categoria": "mencion",
    "tamano": "nacional"

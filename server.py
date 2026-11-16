@@ -120,6 +120,10 @@ FEEDS = [
      "url": "https://www.laopinion.co/rss.xml"},
 ]
 
+# Para comprobar que la mención se ve en el texto mostrado (y no es otro Uribe)
+RE_OTRO_URIBE = re.compile(r"miguel\s+uribe(?:\s+(?:turbay|londo[nñ]o))?|uribe\s+turbay|uribe\s+londo[nñ]o", re.IGNORECASE)
+RE_URIBE_VISIBLE = re.compile(r"\buribe\b|\buribis", re.IGNORECASE)
+
 RE_MENCION = re.compile(
     r"[aá]lvaro\s+uribe|uribe\s+v[eé]lez|ex\s?presidente\s+(?:[aá]lvaro\s+)?uribe|"
     r"presidente\s+uribe|senador\s+uribe",
@@ -352,7 +356,7 @@ def leer_feed(feed, medios):
             # Google entrega el texto de la publicación (cortado) como titular
             texto = re.sub(r"^(?:S[ií]guenos en \w+ @\S+|#\w+\s+[l|])\s*", "", titulo).strip()
             titulo = recortar(texto, 120)
-            descripcion = texto + "…" if len(texto) > len(titulo) else ""
+            descripcion = texto.rstrip(" .…") + "…" if len(texto) > len(titulo) else ""
             contenido = ""
 
         base = descripcion or contenido
@@ -362,6 +366,15 @@ def leer_feed(feed, medios):
         cita = ""
         if es_mencion and not RE_MENCION.search(titulo + " " + resumen):
             cita = frase_con_mencion(" ".join(x for x in (descripcion, contenido) if x))
+
+        if es_mencion:
+            # Solo cuenta como mención si el nombre se ve en lo que mostramos. Los buscadores
+            # devuelven resultados donde Uribe aparece en una parte del texto que no entregan.
+            visible = RE_OTRO_URIBE.sub(" ", " ".join((titulo, resumen, detalle, cita)))
+            if not RE_URIBE_VISIBLE.search(visible):
+                if feed["seccion"] == "mencion":
+                    continue
+                es_mencion = False
 
         clave = re.sub(r"[^a-z0-9]", "", normalizar(titulo))[:90]
         noticias.append({
