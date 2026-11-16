@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-16T23:17:02Z",
+ "generado": "2026-11-16T23:17:30Z",
  "origen": "vivo",
  "fuentes": [
   {
@@ -74,8 +74,8 @@
   },
   {
    "nombre": "Medios internacionales (vía Google Noticias)",
-   "ok": false,
-   "cantidad": 0
+   "ok": true,
+   "cantidad": 10
   },
   {
    "nombre": "El Tiempo",
@@ -1284,6 +1284,20 @@
    "tema": "Regiones"
   },
   {
+   "id": "89ca869dc1c5",
+   "titulo": "Calor extremo, enemigo “letal” para su smartphone",
+   "resumen": ". Controlar las fluctuaciones térmicas sin castigar la fluidez del sistema ni la autonomía se ha convertido en la prueba definitiva de madurez para los fabricantes de tecnología móvil.",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://www.elnuevosiglo.com.co/bienestar/calor-extremo-enemigo-letal-para-su-smartphone",
+   "fuente": "El Nuevo Siglo",
+   "fecha": "2026-11-16T20:45:50Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional",
+   "dominio": "elnuevosiglo.com.co",
+   "tema": "Economía"
+  },
+  {
    "id": "130c2d1266ee",
    "titulo": "Exdiplomáticos y exministros denuncian retrocesos en la política exterior del Gobierno de Abelardo de la Espriella",
    "resumen": "",
@@ -1535,6 +1549,20 @@
    "tamano": "nacional",
    "dominio": "larepublica.co",
    "tema": "Política y Congreso"
+  },
+  {
+   "id": "e8b1553c86c8",
+   "titulo": "Colombia tiene el tercer índice de mortalidad vial en Sudamérica",
+   "resumen": ". Con corte a 2024, Paraguay y Brasil superaron a Colombia en la tasa de mortalidad por siniestros viales, con registros de entre 19 y 20 y entre 17 y 18 fallecidos por cada 100 mil habitantes, respectivamente.",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://www.elnuevosiglo.com.co/nacion/colombia-tiene-el-tercer-indice-de-mortalidad-vial-en-sudamerica",
+   "fuente": "El Nuevo Siglo",
+   "fecha": "2026-11-16T20:13:08Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional",
+   "dominio": "elnuevosiglo.com.co",
+   "tema": "Justicia"
   },
   {
    "id": "2b89cd182276",
@@ -5710,6 +5738,21 @@
    "tema": "Seguridad y orden público"
   },
   {
+   "id": "cd47b513ed93",
+   "titulo": "Muere a los 80 años Miguel Ángel Félix Gallardo, el “Jefe de Jefes\" que revolucionó el narcotráfico en México al aliarse con carteles de Colombia",
+   "resumen": "El domingo falleció quien fuera el líder del todopoderoso Cartel de Guadalajara en la década de 1980 y quien cambió el negocio del narcotráfico al aliarse con el Cartel de Medellín.",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9md0ZncVh4NUtwQllybVk1LVlwVE9ZaWFDcVFDbXZmempSeTlkX0N4Nml0S0tJcTFyNDU4ajFSb0tHR2V1MWVWZVNkMW5hdFhMdGFNU2lBUkp2b2hi0gFiQVVfeXFMTjU5OENQWGhYMDh1NmFvb0dzVy1RUTVmajNFa1JkX3YwQzhjcW81NS1VSlNGVjJQRnViQS03M0J2OEMzblZUdURYR1R5RmJjZ1hDSUliRmJraHZtOGRmTGtTbXc?oc=5",
+   "fuente": "BBC",
+   "fecha": "2026-11-16T11:14:06Z",
+   "categoria": "coyuntura",
+   "tamano": "internacional",
+   "dominio": "bbc.com",
+   "buscado": true,
+   "tema": "Seguridad y orden público"
+  },
+  {
    "id": "403404654c47",
    "titulo": "\"La canasta familiar no pagará IVA\": Abelardo tras sus primeros 100 días",
    "resumen": "",
@@ -6358,48 +6401,6 @@
    "tamano": "regional",
    "dominio": "lapatria.com",
    "tema": "Seguridad y orden público"
-  },
-  {
-   "id": "49c40b97bb74",
-   "titulo": "Así se juegan la vida contra el crimen dos antioqueñas de la Policía: “una entra, pero no sabe si sale”",
-   "resumen": "Las tomas guerrilleras que sacudieron a su natal pueblo de Nariño, Antioquia, no acobardaron el corazón de Lina María Henao Naranjo. Apenas tenía 13 años de edad, cuando vio a los terroristas detonar bombas, matar paisanos y secuestrar…",
-   "detalle": "Las tomas guerrilleras que sacudieron a su natal pueblo de Nariño, Antioquia, no acobardaron el corazón de Lina María Henao Naranjo. Apenas tenía 13 años de edad, cuando vio a los terroristas detonar bombas, matar paisanos y secuestrar policías; pero no fue el miedo lo que le inundó el alma, sino el coraje para luchar por la justicia. El recuerdo le vuelve a la memoria en una conversación con EL COLOMBIANO, ahora que ostenta 40 abriles y el grado de intendente en la Policía. Lina es una de las investigadoras del Grupo de Acción Unificada por la Libertad Personal (Gaula) de la Policía Metropolitana del Valle de Aburrá, y le apasiona rescatar secuestrados.",
-   "cita": "",
-   "enlace": "https://www.elcolombiano.com/colombia/mujeres-de-la-policia-en-antioquia-asi-enfrentan-crimen-secuestros-y-bandas-ilegales-DC43633734",
-   "fuente": "El Colombiano",
-   "fecha": "2026-11-16T04:20:57Z",
-   "categoria": "coyuntura",
-   "tamano": "regional",
-   "dominio": "elcolombiano.com",
-   "tema": "Seguridad y orden público"
-  },
-  {
-   "id": "76d6db291923",
-   "titulo": "Las piezas clave del presunto plan en la DNI de Petro para atacar las elecciones: el hacker, el gemelo y las denuncias",
-   "resumen": "Durante la administración de Gustavo Petro, la Dirección Nacional de Inteligencia (DNI) dejó de ser un búnker de funcionarios de carrera.",
-   "detalle": "Durante la administración de Gustavo Petro, la Dirección Nacional de Inteligencia (DNI) dejó de ser un búnker de funcionarios de carrera. En cuatro años pasaron por su dirección cuatro exmilitantes del M-19 —Manuel Alberto Casanova; Carlos Ramón González, prófugo en Nicaragua; Jorge Lemus y René Guarín— y, según fuentes de la entidad consultadas por EL COLOMBIANO, terminó convertida en una especie de policía gubernamental, dedicada a defender intereses del gobierno de turno. La entidad llamada a anticipar y contrarrestar los riesgos contra la democracia habría terminado, según varias revelaciones, convertida en uno de ellos.",
-   "cita": "",
-   "enlace": "https://www.elcolombiano.com/colombia/dni-gobierno-petro-presunto-plan-para-atacar-elecciones-hacker-carlos-oyola-IC43634851",
-   "fuente": "El Colombiano",
-   "fecha": "2026-11-16T04:18:36Z",
-   "categoria": "coyuntura",
-   "tamano": "regional",
-   "dominio": "elcolombiano.com",
-   "tema": "Política y Congreso"
-  },
-  {
-   "id": "79e93744473e",
-   "titulo": "Abelardo de la Espriella anuncia reducción de gasto estatal, sin aumento de IVA y balance de primeros 100 días de gobierno",
-   "resumen": "Abelardo de la Espriella descarta subir el IVA en canasta familiar y anuncia reducción del gasto estatal y avances en seguridad.",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVUVoWDh0Tk9SOUh1Z2pGdVE3T1NaUXRFVUJ4RFhSYzdvalZZeTlJWnYxY1hjTWNpV2RLX3FOazdmUUlaSng5d2Zmd3VGTWNLMk15MnA1cUFmbjNpcHlOeHFKWHJxbEliTTZLUXlZRXgyenNBUE8xVTJxNFZfdW4waGEtdmFjSG1xTHJOUFdWbmJsMG5rUzBTS29vV1JNNHFNRkZBMDdoSU5TcG5iZUU2X0VFX3JmM1NkU1IzNzlaU0lBdEM4R2RkVlFCVnlCZ3hOd2fSAdcBQVVfeXFMTnF4OGszelkxdG9LSkhLTHdHUHhPVVo5VDdyNmR4VjdubjVkNkhHV3pJcXdBc3R3S0VpZUdYQ1dsZzJWdVcxWlAxLWlrelVSU1c2T1ZfdU4yYUR0Mlh3SnZLeTZyN05nVjgwN1lpNnU1cEZZVUotYkRVN1pjMDBNU2FDaHhpSGd0SFBIbkxSRWVNVlhPOHdyVUFBcTFGNDhnNWJPR09wcEI4U3FxVEFSYkQ3MGc1SmFDRUFoa2ozcHlMUmw3T0VaMU9vRnRYcUU2a0VFcjFScm8?oc=5",
-   "fuente": "Pulzo",
-   "fecha": "2026-11-16T04:15:47Z",
-   "categoria": "coyuntura",
-   "tamano": "nacional",
-   "dominio": "pulzo.com",
-   "tema": "Gobierno"
   },
   {
    "id": "58e9ab2ef416",
@@ -7623,20 +7624,6 @@
    "tema": "Justicia"
   },
   {
-   "id": "f60e66ce3ec9",
-   "titulo": "Jaime Uribe renuncia a la gerencia del Fondo Milagro",
-   "resumen": "Tras la polémica desatada por los salarios asignados a varios integrantes del equipo de la Gerencia del Fondo Milagro, Jaime Uribe decidió presentar su renuncia al puesto.",
-   "detalle": "Tras la polémica desatada por los salarios asignados a varios integrantes del equipo de la Gerencia del Fondo Milagro, Jaime Uribe decidió presentar su renuncia al puesto. Lo anterior tras un derecho de petición presentado por la senadora del Pacto Histórico, Kamelia Zuluaga, en donde se constata que Uribe recibe un salario superior por $8,7 millones al de un congresista. Dicho revelación causó indignación incluso dentro del Gobierno nacional, más específicamente del mismo presidente Abelardo de la Espriella, quien ha promovido total austeridad para las instituciones del Ejecutivo. El mandatario afirmó que no autorizó esos pagos y por ende se deberían reversar, además de solicitar la renuncia de Jaime Uribe.",
-   "cita": "",
-   "enlace": "https://360radio.com.co/jaime-uribe-fondo-milagro/236696/",
-   "fuente": "360 Radio",
-   "fecha": "2026-11-13T18:47:19Z",
-   "categoria": "mencion",
-   "tamano": "nacional",
-   "dominio": "360radio.com.co",
-   "tema": "Economía"
-  },
-  {
    "id": "2e21e37d7c9b",
    "titulo": "El vicepresidente José Manuel Restrepo se pronunció sobre la propuesta del expresidente Álvaro Uribe de reducir de 18 a…",
    "resumen": "El vicepresidente José Manuel Restrepo se pronunció sobre la propuesta del expresidente Álvaro Uribe de reducir de 18 a siete el número de ministerios en Colombia, como parte de una estrategia para disminuir el gasto público y reorganizar el Estado. Dur…",
@@ -8836,7 +8823,6 @@
    "categoria": "mencion",
    "tamano": "gran",
    "dominio": "eltiempo.com",
-   "buscado": true,
    "tema": "Gobierno"
   },
   {

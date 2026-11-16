@@ -223,10 +223,12 @@ def menciona_a_alvaro(texto):
     """True si el texto nombra al expresidente Álvaro Uribe Vélez y no a otra persona de apellido Uribe."""
     if re.search(r"\buribis", texto, re.IGNORECASE):
         return True
+    otra_persona = a_secas = False
     for m in RE_APELLIDO_URIBE.finditer(texto):
         previa, siguiente = m.group(1) or "", m.group(4) or ""
         anterior = normalizar(previa)
         if normalizar(siguiente) in OTROS_SEGUNDOS_APELLIDOS:
+            otra_persona = True
             continue
         if anterior in TITULOS_URIBE:
             return True
@@ -235,9 +237,11 @@ def menciona_a_alvaro(texto):
             inicio = texto[:m.start()].rstrip()
             inicia_frase = not inicio or inicio[-1] in ".!?:;\"“”«»(¿¡|-–—\n" or not inicio[-1].isalnum()
             if anterior in NOMBRES_DE_PILA or not inicia_frase:
+                otra_persona = True
                 continue
-        return True
-    return False
+        a_secas = True
+    # Si la nota presenta a otro Uribe, los "Uribe" sueltos que siguen se refieren a esa persona
+    return a_secas and not otra_persona
 
 RE_MENCION = re.compile(
     r"[aá]lvaro\s+uribe|uribe\s+v[eé]lez|ex\s?presidente\s+(?:[aá]lvaro\s+)?uribe|"
