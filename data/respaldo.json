@@ -1,16 +1,16 @@
 {
- "generado": "2026-11-16T22:58:16Z",
+ "generado": "2026-11-16T23:17:02Z",
  "origen": "vivo",
  "fuentes": [
   {
    "nombre": "Google Noticias: Álvaro Uribe",
    "ok": true,
-   "cantidad": 97
+   "cantidad": 96
   },
   {
    "nombre": "Google Noticias: Uribe Vélez",
    "ok": true,
-   "cantidad": 46
+   "cantidad": 43
   },
   {
    "nombre": "Google Noticias: Álvaro Uribe (hoy)",
@@ -20,7 +20,7 @@
   {
    "nombre": "Google Noticias: Uribe Vélez (hoy)",
    "ok": true,
-   "cantidad": 8
+   "cantidad": 9
   },
   {
    "nombre": "Bing Noticias: Álvaro Uribe",
@@ -40,12 +40,12 @@
   {
    "nombre": "Facebook (vía Google Noticias)",
    "ok": true,
-   "cantidad": 64
+   "cantidad": 63
   },
   {
    "nombre": "Instagram (vía Google Noticias)",
    "ok": true,
-   "cantidad": 93
+   "cantidad": 91
   },
   {
    "nombre": "Google Noticias: Colombia",
@@ -65,17 +65,17 @@
   {
    "nombre": "Google Noticias: Presidencia",
    "ok": true,
-   "cantidad": 99
+   "cantidad": 98
   },
   {
    "nombre": "Canales regionales (vía Google Noticias)",
    "ok": true,
-   "cantidad": 15
+   "cantidad": 16
   },
   {
    "nombre": "Medios internacionales (vía Google Noticias)",
-   "ok": true,
-   "cantidad": 10
+   "ok": false,
+   "cantidad": 0
   },
   {
    "nombre": "El Tiempo",
@@ -85,7 +85,7 @@
   {
    "nombre": "Semana",
    "ok": true,
-   "cantidad": 87
+   "cantidad": 89
   },
   {
    "nombre": "Infobae",
@@ -100,7 +100,7 @@
   {
    "nombre": "La República",
    "ok": true,
-   "cantidad": 21
+   "cantidad": 20
   },
   {
    "nombre": "Portafolio",
@@ -125,7 +125,7 @@
   {
    "nombre": "El Heraldo",
    "ok": true,
-   "cantidad": 67
+   "cantidad": 68
   },
   {
    "nombre": "El Universal",
@@ -160,12 +160,12 @@
   {
    "nombre": "El Espectador",
    "ok": true,
-   "cantidad": 5
+   "cantidad": 4
   },
   {
    "nombre": "Las2orillas",
    "ok": true,
-   "cantidad": 80
+   "cantidad": 81
   },
   {
    "nombre": "Valora Analitik",
@@ -285,6 +285,90 @@
  ],
  "noticias": [
   {
+   "id": "1cc7dab52339",
+   "titulo": "Ejército abatió a alias Isaías y capturó a tres personas tras combates contra el Clan del Golfo en Antioquia",
+   "resumen": "Las autoridades decomisaron cinco fusiles, cuatro pistolas y 1.414 cartuchos tras el enfrentamiento contra una comisión armada de la subestructura Jorge Iván Arboleda Garcés del grupo ilegal",
+   "detalle": "El Ejército Nacional informó que alias Isaías murió en desarrollo de operaciones militares en zona rural de Vegachí, Antioquia, durante un combate que además dejó tres personas capturadas y la incautación de armas y equipos de comunicación. La operación tuvo lugar en el nordeste antioqueño contra integrantes de la subestructura Jorge Iván Arboleda Garcés. Según el reporte de las autoridades militares, el hombre muerto fue identificado con el alias de Isaías y era señalado como cabecilla de una comisión armada de esa estructura. Las autoridades no divulgaron su nombre completo. La Séptima División del Ejército Nacional indicó que las unidades sostuvieron combates con presuntos integrantes de la organización en un área rural de Vegachí.",
+   "cita": "",
+   "enlace": "https://www.infobae.com/colombia/2026/11/16/ejercito-abatio-a-alias-isaias-y-capturo-a-tres-personas-tras-combates-contra-el-clan-del-golfo-en-antioquia/",
+   "fuente": "Infobae",
+   "fecha": "2026-11-16T23:13:33Z",
+   "categoria": "coyuntura",
+   "tamano": "gran",
+   "dominio": "infobae.com",
+   "tema": "Seguridad y orden público"
+  },
+  {
+   "id": "fe21009d1629",
+   "titulo": "Arranca la pelea por la Rectoría del Externado, un cargo con un salario de $ 75 millones mensuales",
+   "resumen": "En medio de la crisis se postuló el expresidente de la Corte Constitucional Humberto Sierra, la exministra Ángela María Buitrago y el profesor Juan Gómez.",
+   "detalle": "En medio de la crisis se postuló el expresidente de la Corte Constitucional Humberto Sierra, la exministra Ángela María Buitrago y el profesor Juan Gómez. El artículo Arranca la pelea por la Rectoría del Externado, un cargo con un salario de $ 75 millones mensuales fue publicado originalmente en Las2orillas.co: Historias, voces y noticias de Colombia. Copyrights Las2orillas.co",
+   "cita": "",
+   "enlace": "https://www.las2orillas.co/arranca-la-pelea-por-la-rectoria-del-externado-un-cargo-con-un-salario-de-75-millones-mensuales/",
+   "fuente": "Las2orillas",
+   "fecha": "2026-11-16T23:11:17Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional",
+   "dominio": "las2orillas.co",
+   "tema": "Economía"
+  },
+  {
+   "id": "320ef5492f8b",
+   "titulo": "Hombres armados secuestraron, a plena luz del día, al ganadero Juan Salazar Romero, en Tamalameque",
+   "resumen": "El reconocido ganadero y agricultor Juan Salazar Romero fue secuestrado a plena luz del día en el municipio de Tamalameque, Cesar. Imágenes del secuestro del ganadero Juan Salazar Romero en Tamalameque #Cesar pic.twitter.com/ZqXGLdhCUj.",
+   "detalle": "El reconocido ganadero y agricultor Juan Salazar Romero fue secuestrado a plena luz del día en el municipio de Tamalameque, Cesar. Imágenes del secuestro del ganadero Juan Salazar Romero en Tamalameque #Cesar pic.twitter.com/ZqXGLdhCUj. — Luchovoltio (@luchovoltios) November 16, 2026 En los videos de las cámaras de seguridad del sector se observa cómo un hombre portando un arma de largo alcance se baja de una camioneta blanca con platón. Inmediatamente se dirige al lugar donde estaba el ganadero, quien departía con un grupo de amigos. Tras amenazarlo, lo obliga a subirse al vehículo. En el video se observa a otros dos hombres fuertemente armados portando fusiles y con los rostros cubiertos.",
+   "cita": "",
+   "enlace": "https://www.semana.com/nacion/articulo/hombres-armados-secuestraron-a-plena-luz-del-dia-al-ganadero-juan-salazar-romero-en-tamalameque/202645/",
+   "fuente": "Semana",
+   "fecha": "2026-11-16T23:09:45Z",
+   "categoria": "coyuntura",
+   "tamano": "gran",
+   "dominio": "semana.com",
+   "tema": "Seguridad y orden público"
+  },
+  {
+   "id": "5c71657d3fdd",
+   "titulo": "Cartagena vivió las Fiestas de la Independencia con cero víctimas fatales por siniestros viales",
+   "resumen": "En seis días de celebraciones, que incluyeron el Bando, el Festival Náutico, el Bololó del Arsenal, conciertos, cabildos y fiestas populares en más de 12 barrios, no hubo decesos por accidentes de tránsito.",
+   "detalle": "Durante las Fiestas de Independencia de Cartagena, entre el 11 y el 16 de noviembre de 2026, la ciudad alcanzó un resultado positivo en materia de seguridad vial: cero víctimas fatales por siniestros de tránsito, en medio de una amplia agenda de celebraciones que convocó a miles de ciudadanos y visitantes en diferentes sectores de la ciudad. Este resultado representa un avance significativo frente al balance de 2025, donde para estas mismas fechas hubo cuatro siniestros viales con víctimas fatales.",
+   "cita": "",
+   "enlace": "https://www.elheraldo.co/colombia/2026/11/16/cartagena-vivio-las-fiestas-de-la-independencia-con-cero-victimas-fatales-por-siniestros-viales/",
+   "fuente": "El Heraldo",
+   "fecha": "2026-11-16T23:07:10Z",
+   "categoria": "coyuntura",
+   "tamano": "regional",
+   "dominio": "elheraldo.co",
+   "tema": "Regiones"
+  },
+  {
+   "id": "445472601c5b",
+   "titulo": "Reducción del IVA en productos de la canasta familiar sería compensada con otros cobros por caída en el recaudo de impuestos",
+   "resumen": "La ley de rescate fiscal, aún en elaboración, excluiría bienes básicos y al sector agropecuario de nuevas obligaciones tributarias, según el presidente Abelardo de la Espriella",
+   "detalle": "El presidente Abelardo de la Espriella anunció el 15 de noviembre que el proyecto de ley de rescate fiscal o reforma tributaria que presentó al Congreso de la República no buscará aumentar el IVA sobre productos de la canasta familiar, con la aspiración de reducir la carga tributaria sobre esos bienes. Pese a que en principio se había dicho que algunos productos tendrían la tarifa general, ahora la propuesta presidencial plantea excluir los bienes básicos de consumo y al sector agropecuario de nuevas obligaciones relacionadas con el IVA, por más de que las dificultades que señalaban los primeros análisis técnicos por el déficit fiscal de cerca del 10% del Producto Interno Bruto (PIB) que habría dejado el expresidente Gustavo Petro.",
+   "cita": "",
+   "enlace": "https://www.infobae.com/colombia/2026/11/16/reduccion-del-iva-en-productos-de-la-canasta-familiar-seria-compensada-con-otros-cobros-por-caida-en-el-recaudo-de-impuestos/",
+   "fuente": "Infobae",
+   "fecha": "2026-11-16T23:04:28Z",
+   "categoria": "coyuntura",
+   "tamano": "gran",
+   "dominio": "infobae.com",
+   "tema": "Economía"
+  },
+  {
+   "id": "325a38b6f3d7",
+   "titulo": "🛒 Sin IVA a la canasta familiar: el anuncio de De la Espriella que destacó Álvaro Uribe.",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQc3pjY3FCZkhYeEY3OWs2T0lfdFR3ZE8wMzU2OWZqNXExVklzcm93U2NVM1Q3cnNCOVFmZkdHYkxxcVRqYnBCbTBOVVZ1ejcwZ2x3dlVuMVpvVlUxbDRJRDFBV2RjOV9zOGtOa09xWDVBZVFvT1lrV2NXWW1sYTZmT1g3b3NVS0ZmTHJuUmpra2pkS0JvdG1SS21hb1lRdFhuZTJDaHlDR3NQUDU4T3NIcDI2QzBOTk95TWtfdk1iYmx4Q3lLT25DcFlqbkVzQzE5azRMeHRtbDdvdjNFeVB1WW43S3lzWThGVWdhTWVIb1hTZw?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-16T23:01:37Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "facebook.com",
+   "tema": "Economía"
+  },
+  {
    "id": "c5ae1ebc1f63",
    "titulo": "Se le despejó el camino a Abelardo de la Espriella con su Ley de Rescate, tras anuncio del IVA",
    "resumen": "",
@@ -402,7 +486,7 @@
    "id": "3e14b7ced82d",
    "titulo": "Patrullera de la Policía fue víctima de insultos racistas en Cali; el alcalde Alejandro Eder pide identificar autores",
    "resumen": "Una patrullera de la Policía Metropolitana de Cali recibió todo tipo de insultos racistas. En el video aparece la uniformada guardando la compostura mientras un hombre la ataca con todo tipo de palabras soeces por parte de un hombre.",
-   "detalle": "Una patrullera de la Policía Metropolitana de Cali recibió todo tipo de insultos racistas. En el video aparece la uniformada guardando la compostura mientras un hombre la ataca con todo tipo de palabras soeces por parte de un hombre. El agresor, como se le escucha, la graba y la recrimina por su trabajo y la ataca por su color de piel. Todo esto, mientras varios transeúntes pasan y miran. “Ríase”. Poco después aparece en escena una mujer que la ataca mientras intenta agredirla físicamente. Desde la @AlcaldiaDeCali rechazamos de manera contundente los insultos racistas y las expresiones de discriminación contra una uniformada de nuestra Policía Metropolitana. Detrás de cada uniforme hay un ser humano que merece respeto.",
+   "detalle": "Una patrullera de la Policía Metropolitana de Cali recibió todo tipo de insultos racistas. En el video aparece la uniformada guardando la compostura mientras un hombre la ataca con todo tipo de palabras soeces por parte de un hombre. Patrullera de la Policía fue víctima de insultos racistas en Cali. En las próximas horas denunciará al agresor. — Revista Semana (@RevistaSemana) November 16, 2026. El agresor, como se le escucha, la graba y la recrimina por su trabajo y la ataca por su color de piel. Todo esto, mientras varios transeúntes pasan y miran. “Ríase”. Poco después aparece en escena una mujer que la ataca mientras intenta agredirla físicamente.",
    "cita": "",
    "enlace": "https://www.semana.com/nacion/articulo/patrullera-de-la-policia-fue-victima-de-insultos-racistas-en-cali-el-alcalde-alejandro-eder-pide-identificar-autores/202607/",
    "fuente": "Semana",
@@ -462,7 +546,7 @@
    "cita": "",
    "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOd1NIVEgwQlZ6eHltZVlIeWt1U1o4ejlXSnoyTmFXMDQzZTJRTENPSGQwT0NOTi15MW0zQ1VNU0xHOHJieUR3cms0NWJTdlhQYmdPS3BwM1k3YWQtb0NOR3E2NWFNLXJRVFJwRFpTYl9XTHlXbkpiRWFSOUdFSWJ0ZlVqc0VhSWF2Nm04UkFlRmI0aUJFaHpocWNXWi1PSGdzcE1nM3FQWDVmVFFHTzNRZm9lLUkxa3NZN3otZGhQS1l6STZQdExFR3oxWk00ZXJsMkkwX3VaU0tZTFFuenc1YjJEUTNrZnlSSDNYRjRoOFE5NGc?oc=5",
    "fuente": "Resumen Latinoamericano -",
-   "fecha": "2026-11-16T22:34:07Z",
+   "fecha": "2026-11-16T22:34:09Z",
    "categoria": "coyuntura",
    "tamano": "local",
    "dominio": "resumenlatinoamericano.org",
@@ -496,6 +580,20 @@
    "tamano": "regional",
    "dominio": "elheraldo.co",
    "tema": "Seguridad y orden público"
+  },
+  {
+   "id": "2f4ef9776bd8",
+   "titulo": "El expresidente Álvaro Uribe Vélez celebró el anuncio del presidente Abelardo de la Espriella de no imponer nuevas…",
+   "resumen": "El expresidente Álvaro Uribe Vélez celebró el anuncio del presidente Abelardo de la Espriella de no imponer nuevas cargas de IVA a los productos de la canasta familiar. A través de sus redes sociales, Uribe calificó la decisión como positiva para los colombi…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51blRDWjd1SFl6akZHaXNqelVVYmJpS1hyMU1IcnQwbG5vMWZWNzVuMXBHeFoyNFBxeGRKMEhBOHF6azVWQmozNWJraDdTd09jOHc?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-16T22:28:55Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Gobierno"
   },
   {
    "id": "4cbb29c61bd9",
@@ -667,7 +765,21 @@
   },
   {
    "id": "1115ec7bdcc2",
-   "titulo": "Petro responde a Noboa, quien lo señaló de reunirse con políticos requeridos por narcotráfico",
+   "titulo": "Petro responde a Noboa, quien lo señalo de reunirse con políticos requeridos por narcotráfico",
+   "resumen": "El expresidente Gustavo Petro respondió a los señalamientos del presidente de Ecuador, Daniel Noboa, quien aseguró que el exmandatario colombiano se reunió en Manta con Jaime Estrada Bonilla, de 71 años, un empresario que fue alcalde de…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNlJHd3ptRkIzQnpyRFFWRldkRnBLSWlpZVhPdk1MUHBPU3BYUVFxYTlEU1JoU0FqNUJTTUxJM2h6dkhNTGRQUDFoWFFCNGFiX3M4OEhvNHR3aUVjZHpSZURrSFZ0YUd0RlRTdjlMX2h0eHgtN1dNNlhnQ1psd3d6TThKQ1FIWmVLM2gwekZHdjhmR1ZObkpsU2ZoZklydHBxaFZycFh2UlJBdEgyeDU3ek9SakMxZnJ4UWlPdzhXMXVtNWh6cUHSAdoBQVVfeXFMTWV2RkhxYWk0X2tYbEt3SG5sc3VuZlJBWUw1anRlZjdKamprZzNxYU5OcXBRNE92aEl0ZUtxMkJ6TXlUSVJET0xVYTJXdjA4RHRfeTFLVUZUMVp4RGpLakoyaG5XWXpRb3FJWE9PMzU2UUozVDk1WmdubXoxM1MxckJ1MXk3ZWdKeVkwRDZEeDZNWTQwWTR6MWpLY0c1SnlWQjJCN0hBV3pBMlBDNWFGU3V6TlZCVk1iZ2tPeU45b1Zhdl9VTXZEdW01N0hpWDA2WmtVZ1BiekdlQkE?oc=5",
+   "fuente": "Caracol Radio",
+   "fecha": "2026-11-16T22:05:10Z",
+   "categoria": "coyuntura",
+   "tamano": "gran",
+   "dominio": "caracol.com.co",
+   "tema": "Seguridad y orden público"
+  },
+  {
+   "id": "9b084a2e41d7",
+   "titulo": "Petro respondió a Noboa, quien lo señaló de reunirse con políticos requeridos por narcotráfico",
    "resumen": "El expresidente Gustavo Petro respondió a los señalamientos del presidente de Ecuador, Daniel Noboa, quien aseguró que el exmandatario colombiano se reunió en Manta con Jaime Estrada Bonilla, de 71 años, un empresario que fue alcalde de…",
    "detalle": "El expresidente Gustavo Petro respondió a los señalamientos del presidente de Ecuador, Daniel Noboa, quien aseguró que el exmandatario colombiano se reunió en Manta con Jaime Estrada Bonilla, de 71 años, un empresario que fue alcalde de esa ciudad y que está en la mira de los Estados Unidos por presuntos vínculos con el narcotráfico. Es de recordar que Jaime Estrada Bonilla y su hijo, políticos ecuatorianos, fueron detenidos hace unos días en Panamá para ser extraditados a Estados Unidos, que los requiere por presunto narcotráfico y tráfico de armas. Al respecto, el expresidente Petro aseguró: “Dice que fui a Manta y me reuní con su alcalde, que resultó ser narcotraficante. Otra enorme calumnia.",
    "cita": "",
@@ -960,20 +1072,6 @@
    "tamano": "regional",
    "dominio": "vanguardia.com",
    "tema": "Regiones"
-  },
-  {
-   "id": "2f4ef9776bd8",
-   "titulo": "El expresidente Álvaro Uribe Vélez celebró el anuncio del presidente Abelardo de la Espriella de no imponer nuevas…",
-   "resumen": "El expresidente Álvaro Uribe Vélez celebró el anuncio del presidente Abelardo de la Espriella de no imponer nuevas cargas de IVA a los productos de la canasta familiar. A través de sus redes sociales, Uribe calificó la decisión como positiva para los colombi…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51blRDWjd1SFl6akZHaXNqelVVYmJpS1hyMU1IcnQwbG5vMWZWNzVuMXBHeFoyNFBxeGRKMEhBOHF6azVWQmozNWJraDdTd09jOHc?oc=5",
-   "fuente": "Instagram",
-   "fecha": "2026-11-16T21:21:24Z",
-   "categoria": "mencion",
-   "tamano": "redes",
-   "dominio": "instagram.com",
-   "tema": "Gobierno"
   },
   {
    "id": "c07c2499e94c",
@@ -1481,8 +1579,8 @@
    "tema": "Otros temas"
   },
   {
-   "id": "08da266a87f4",
-   "titulo": "Gobierno comenzó ofensiva en Nueva York para atraer inversiones por US$41.000 billones",
+   "id": "63723406daf7",
+   "titulo": "Gobierno comenzó ofensiva en Nueva York para atraer inversiones por US$41.000 millones",
    "resumen": ". En reuniones preliminares, el vicepresidente José Manuel Restrepo anunció dos negocios que representan US$3.400 millones.",
    "detalle": "",
    "cita": "",
@@ -1619,20 +1717,6 @@
    "tamano": "regional",
    "dominio": "elnuevodia.com.co",
    "tema": "Seguridad y orden público"
-  },
-  {
-   "id": "4b49c40b6617",
-   "titulo": "\"En Útica y municipios de la región es pésimo el servicio de energía eléctrica\" (testimonio)",
-   "resumen": "\"\":",
-   "detalle": "Un poblador de Útica por más de 70 años, ocasional colaborador de este diario, comparte su vivencia personal de las penurias que vive esta zona de Cundinamarca con el servicio que presta Enel. Es desastroso, por decir lo menos, el servicio de prestacion de este servicio público en Cundinamarca, en municipios como Útica, Villeta, Nocaima, Guaduas, Quebradanegra, Caparrapi y otros más, lo que nos lleva a pensar lo que nunca imaginamos, que tuviera una similitud total a las electrificadoras que prestan este mismo servicio en la Costa Atlántica.",
-   "cita": "",
-   "enlace": "https://www.elespectador.com/colombia/en-utica-y-municipios-de-la-region-es-pesimo-el-servicio-de-energia-electrica-testimonio/",
-   "fuente": "El Espectador",
-   "fecha": "2026-11-16T19:53:23Z",
-   "categoria": "coyuntura",
-   "tamano": "gran",
-   "dominio": "elespectador.com",
-   "tema": "Regiones"
   },
   {
    "id": "7b2a6e7a205b",
@@ -1983,7 +2067,6 @@
    "categoria": "coyuntura",
    "tamano": "regional",
    "dominio": "zonacero.com",
-   "buscado": true,
    "tema": "Seguridad y orden público"
   },
   {
@@ -2188,13 +2271,12 @@
    "resumen": "La conflagración se reportó pasada la 1:00 de la mañana de este lunes festivo. Se trata de establecer qué causó el fuego.",
    "detalle": "",
    "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeWxEVkQ0VVFtaE5LQzZXSGdtZlNkd2VzOWY3clI1ajJha1pOX3QwWWJSeDU2LU9vVU9RdHZUeEZYeVE2V1VyTnBubXc1dnJkaEhRODl1cGxuMHZHV3dUVkhCRXZNdWZWTE4xSUxtRFdzUlprWVlqdmxCWkJBbzk1azVSTWM5Z3V2Tml3NmlNdlNEdlZXTXZTLUpNcXJ5aU93X1RlRHRpTGdnTEhiTDRKUTVkRQ?oc=5",
+   "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeWxEVkQ0VVFtaE5LQzZXSGdtZlNkd2VzOWY3clI1ajJha1pOX3QwWWJSeDU2LU9vVU9RdHZUeEZYeVE2V1VyTnBubXc1dnJkaEhRODl1cGxuMHZHV3dUVkhCRXZNdWZWTE4xSUxtRFdzUlprWVlqdmxCWkJBbzk1azVSTWM5Z3V2Tml3NmlNdlNEdlZXTXZTLUpNcXJ5aU93X1RlRHRpTGdnTEhiTDRKUTVkRdIBxwFBVV95cUxOc3FLaFNnYzVJVUpUdndTWEdMcHVJV3F6YzJoeVBSenZVTjdqRld1ZTlQODRLaFM5WmgzYlVySFl2d2QxNzl0U1dmVndObE9IXzZlNEtZWk44QVdhYWRCNEhjWW1sVUZuVUJRMFFMNG5kaTdsR2F0OUZyQ01kUmF6UWpPOS1MLUhvanMzeXk1Z01yelVZaTdCeGI5dWYtSmxzU3ZaWWotWGM1NkxyQzkyRy1Mbm9KbmxBNzJ1a0puRDFVUU00N2pn?oc=5",
    "fuente": "El Espectador",
    "fecha": "2026-11-16T18:46:00Z",
    "categoria": "coyuntura",
    "tamano": "gran",
    "dominio": "elespectador.com",
-   "buscado": true,
    "tema": "Otros temas"
   },
   {
@@ -2490,7 +2572,6 @@
    "categoria": "coyuntura",
    "tamano": "regional",
    "dominio": "elcolombiano.com",
-   "buscado": true,
    "tema": "Regiones"
   },
   {
@@ -2702,20 +2783,6 @@
    "tamano": "gran",
    "dominio": "eltiempo.com",
    "tema": "Gobierno"
-  },
-  {
-   "id": "7db43b054505",
-   "titulo": "Ordenan el traslado del expresidente Santiago Peña a una cárcel militar en Paraguay",
-   "resumen": "El juez Osmar Legal ordenó trasladar al expresidente de Paraguay Santiago Peña a la cárcel militar de Viñas Cué tras denuncias de privilegios en su reclusión.",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYjF2OG1WTENTZU5YQURiOENQUG1oaldTdEdrY2MtTVhXQ040Zmh0YzhHWWFhT0FmRlhIOHRGZTBEOFJVbjVWOGE4TjVSV1ZhczkyVGhuLV83MEtwNGV6OHdfUDBJVkRxUnp6UFlvTHFlaWdvMEVScFc0R1BrN0cydEtscm1fSHdZWG9heWJWX1VzSFFmc1hnZw?oc=5",
-   "fuente": "CNN",
-   "fecha": "2026-11-16T17:35:00Z",
-   "categoria": "coyuntura",
-   "tamano": "internacional",
-   "dominio": "cnnespanol.cnn.com",
-   "tema": "Seguridad y orden público"
   },
   {
    "id": "33372e61bc7d",
@@ -3183,6 +3250,21 @@
    "tema": "Otros temas"
   },
   {
+   "id": "35630b5f9084",
+   "titulo": "Murió alias Isaías, señalado cabecilla del Clan del Golfo, durante combates en Vegachí",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQc2NablpScnRiYl9BVVpyZXppTFF5b0J2SXJjZXFoeGNoOEt2aTJzNnRpaDc1T1hic1BHekg0eUw3NVRuRTZTRVpHZlQ0bFd4NjMzU0tqem5icTNia0c1VHBDcHJoMHFYNVJRY0NoVDY3ZnA5NnUzNVlqZ200WkprMzVRbngza0JmV240bU1uTjdIQkZMaUZzWklfN2VPcERWQk9rQjFLVk9iNlB0M2haRkJHMVk1UEN6Y2k1aXVoeEZkUzhtbUV6d0lZWmVhTWllZ3k3RNIB1AFBVV95cUxQc2NablpScnRiYl9BVVpyZXppTFF5b0J2SXJjZXFoeGNoOEt2aTJzNnRpaDc1T1hic1BHekg0eUw3NVRuRTZTRVpHZlQ0bFd4NjMzU0tqem5icTNia0c1VHBDcHJoMHFYNVJRY0NoVDY3ZnA5NnUzNVlqZ200WkprMzVRbngza0JmV240bU1uTjdIQkZMaUZzWklfN2VPcERWQk9rQjFLVk9iNlB0M2haRkJHMVk1UEN6Y2k1aXVoeEZkUzhtbUV6d0lZWmVhTWllZ3k3RA?oc=5",
+   "fuente": "Teleantioquia",
+   "fecha": "2026-11-16T16:44:36Z",
+   "categoria": "coyuntura",
+   "tamano": "regional",
+   "dominio": "teleantioquia.co",
+   "buscado": true,
+   "tema": "Seguridad y orden público"
+  },
+  {
    "id": "7284ee710a69",
    "titulo": "Presidente De la Espriella confirma que no habrá IVA para productos de la canasta familiar",
    "resumen": "La posibilidad de encarecer los alimentos por modificaciones al esquema tributario quedó en el centro del debate nacional, luego de que el presidente Abelardo de la Espriella anunciara…",
@@ -3391,20 +3473,6 @@
    "tamano": "gran",
    "dominio": "infobae.com",
    "tema": "Energía y ambiente"
-  },
-  {
-   "id": "2af0f3683608",
-   "titulo": "De La Espriella y empresarios definirán el futuro del Sena: ¿qué cambiaría para los estudiantes?",
-   "resumen": "Cerca de 1.000 representantes del sector productivo, el Gobierno y la academia participarán en la cumbre de este martes 17 de noviembre.",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNNUtKUjlja1ZMdUdFbFY3b3k4UW8wNnhoQVdzbWVLakh2b01yaXBra2Fkam9KbUwtV0hDYXNUUndlNk9yeU5lTVZpSjY5OHRGbWl3NHp6RWhtaEtoUHdXeUNHbTBkUGpOai1ORHAwTmhPTWhXOUNLUG9ZRmxHaDI4QXcwTWdMX3BzZ3oxN0p4bHY0d1FFSHhkNzZtbml5NTFBYlhyNWZFZWJZOV8wTGJwWm1KMk9NbHFLaDV0ZV9qZ0IwQmdZeHNELWVUMks4dG9BWE5LUDd3RjNWdw?oc=5",
-   "fuente": "Blu Radio",
-   "fecha": "2026-11-16T16:12:16Z",
-   "categoria": "coyuntura",
-   "tamano": "gran",
-   "dominio": "bluradio.com",
-   "tema": "Salud, educación y social"
   },
   {
    "id": "62ecdf3e7f4d",
@@ -4188,7 +4256,7 @@
    "enlace": "https://www.lasillavacia.com/en-vivo/de-la-espriella-retira-el-iva-de-la-canasta-familiar-de-su-tributaria/",
    "fuente": "La Silla Vacía",
    "fecha": "2026-11-16T14:58:54Z",
-   "categoria": "coyuntura",
+   "categoria": "mencion",
    "tamano": "nacional",
    "dominio": "lasillavacia.com",
    "tema": "Economía"
@@ -4317,7 +4385,6 @@
    "categoria": "coyuntura",
    "tamano": "local",
    "dominio": "bogota.gov.co",
-   "buscado": true,
    "tema": "Gobierno"
   },
   {
@@ -4909,7 +4976,6 @@
    "categoria": "coyuntura",
    "tamano": "gran",
    "dominio": "infobae.com",
-   "buscado": true,
    "tema": "Seguridad y orden público"
   },
   {
@@ -5191,7 +5257,6 @@
    "categoria": "coyuntura",
    "tamano": "local",
    "dominio": "bogota.gov.co",
-   "buscado": true,
    "tema": "Otros temas"
   },
   {
@@ -5446,7 +5511,6 @@
    "categoria": "coyuntura",
    "tamano": "regional",
    "dominio": "elcolombiano.com",
-   "buscado": true,
    "tema": "Economía"
   },
   {
@@ -5461,7 +5525,6 @@
    "categoria": "coyuntura",
    "tamano": "gran",
    "dominio": "semana.com",
-   "buscado": true,
    "tema": "Economía"
   },
   {
@@ -5563,6 +5626,20 @@
    "tema": "Salud, educación y social"
   },
   {
+   "id": "5d4feed2df93",
+   "titulo": "🔴 EN VIVO | Plan retorno a Bogotá: las principales vías de entrada y salida de la ciudad registran movilidad fluida",
+   "resumen": "El puente festivo de la Independencia de Cartagena llega a su último día este lunes, 16 de noviembre, y las autoridades mantienen un operativo especial para atender el regreso de miles de viajeros.",
+   "detalle": "El puente festivo de la Independencia de Cartagena llega a su último día este lunes, 16 de noviembre, y las autoridades mantienen un operativo especial para atender el regreso de miles de viajeros. La proyección para esta jornada es de 318.926 vehículos que ingresarían a Bogotá, en medio de restricciones, cambios en la circulación y medidas para evitar mayores congestiones. Según las estimaciones de las autoridades de movilidad de Cundinamarca, del 14 al 16 de noviembre del puente festivo se movilizarían 2.192.149 vehículos por los peajes de entrada y salida de la capital. De ese total, 1.088.866 corresponderían a desplazamientos de salida y 1.103.283 a recorridos de regreso.",
+   "cita": "",
+   "enlace": "https://www.semana.com/nacion/articulo/en-vivo-plan-retorno-a-bogota-horarios-del-pico-y-placa-regional-vias-reversibles-y-estado-del-trafico-hoy/202619/",
+   "fuente": "Semana",
+   "fecha": "2026-11-16T11:48:19Z",
+   "categoria": "coyuntura",
+   "tamano": "gran",
+   "dominio": "semana.com",
+   "tema": "Regiones"
+  },
+  {
    "id": "33cfec99c212",
    "titulo": "Así es la Colombia que promete el Plan de Desarrollo del presidente Abelardo De La Espriella para 2030",
    "resumen": "Con la aprobación de las bases del Plan Nacional de Desarrollo, el Gobierno trazó sus metas para los próximos cuatro años.",
@@ -5630,20 +5707,6 @@
    "categoria": "coyuntura",
    "tamano": "gran",
    "dominio": "eltiempo.com",
-   "tema": "Seguridad y orden público"
-  },
-  {
-   "id": "cd47b513ed93",
-   "titulo": "Muere a los 80 años Miguel Ángel Félix Gallardo, el “Jefe de Jefes\" que revolucionó el narcotráfico en México al aliarse con carteles de Colombia",
-   "resumen": "El domingo falleció quien fuera el líder del todopoderoso Cartel de Guadalajara en la década de 1980 y quien cambió el negocio del narcotráfico al aliarse con el Cartel de Medellín.",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9md0ZncVh4NUtwQllybVk1LVlwVE9ZaWFDcVFDbXZmempSeTlkX0N4Nml0S0tJcTFyNDU4ajFSb0tHR2V1MWVWZVNkMW5hdFhMdGFNU2lBUkp2b2hi0gFiQVVfeXFMTjU5OENQWGhYMDh1NmFvb0dzVy1RUTVmajNFa1JkX3YwQzhjcW81NS1VSlNGVjJQRnViQS03M0J2OEMzblZUdURYR1R5RmJjZ1hDSUliRmJraHZtOGRmTGtTbXc?oc=5",
-   "fuente": "BBC",
-   "fecha": "2026-11-16T11:14:06Z",
-   "categoria": "coyuntura",
-   "tamano": "internacional",
-   "dominio": "bbc.com",
    "tema": "Seguridad y orden público"
   },
   {
@@ -5745,7 +5808,6 @@
    "categoria": "coyuntura",
    "tamano": "regional",
    "dominio": "elcolombiano.com",
-   "buscado": true,
    "tema": "Seguridad y orden público"
   },
   {
@@ -6340,34 +6402,6 @@
    "tema": "Gobierno"
   },
   {
-   "id": "1f6c6f4e51f6",
-   "titulo": "Gobierno descarta IVA a la canasta familiar y abre puerta a bajar la tarifa general hasta el 17 %",
-   "resumen": "El presidente De La Espriella aseguró que no promoverá nuevas cargas de IVA para el campo y buscará consensos para ajustar la reforma tributaria.",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUkZXMTFOd3FOb21NREU0aS03dC1vMHp4VHBocVp6NDluWDlQSU1JVzRJRTZSS25xYXprZ0FZdlJEMEE5a3BaeGJ1aGlfb2RNMG1pX0pYczRCSkY4a0p6MEhXRWlKN3BfTUdlTWR0MFptSFhqLV80TlloWnlyOF96UXdCMGlORm1KRDQ4NDk2WFVNNG0xSUhBN09QVEx3cjZzaV9SMmdBVEhvSUhfVE5EXzM2dmI4bVU3cU1SaDFrVlVESkk0YzN2a2g0TDZnQlBNQVZodzZaUE5jRkHSAeABQVVfeXFMTU9zNFd4aEJXNndVWnJOOHdaMmJ1c2JjSk5QaUdBVHNwazNTVEVWYUlkOVY3UERYZEZqOUVaLTFtRS1rcXY4d0MwNkZxdUJVOE5ITWlHUVhKMjVZbENHaGFYUHNrMFItNzVsNWoyZ0xFRDZVUE5OR2dPb1cwbWpjYXJ1TS1ZT1VIMUk3eFIzalVYWUxwSW5HN3RRcTc4WDA4d0VmbmY3aDZ1NzJPU0x5NG5JQ1FCTzhGS3FNSUlNN1J4Qjl2VWhlbnltZUN3b2o0Ql9kVXN3d1J3LWlkbHV4V0E?oc=5",
-   "fuente": "El Tiempo",
-   "fecha": "2026-11-16T03:47:51Z",
-   "categoria": "coyuntura",
-   "tamano": "gran",
-   "dominio": "eltiempo.com",
-   "tema": "Economía"
-  },
-  {
-   "id": "82ebe0a29da3",
-   "titulo": "No se detiene andanada terrorista contra los peajes en distintas regiones",
-   "resumen": ". En las últimas horas fueron atacados con explosivos el de Neiva, en la vía que conduce a Bogotá, y el de Pipiral en la vía al Llano.",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://www.elnuevosiglo.com.co/nacion/no-se-detiene-andanada-terrorista-contra-los-peajes-en-distintas-regiones",
-   "fuente": "El Nuevo Siglo",
-   "fecha": "2026-11-16T03:43:16Z",
-   "categoria": "coyuntura",
-   "tamano": "nacional",
-   "dominio": "elnuevosiglo.com.co",
-   "tema": "Seguridad y orden público"
-  },
-  {
    "id": "58e9ab2ef416",
    "titulo": "\"Buen anuncio\": Uribe celebra decisión de De La Espriella de no poner IVA a la canasta familiar",
    "resumen": "El expresidente destacó el anuncio del mandatario, quien también confirmó que estudia reducir la tarifa general del impuesto.",
@@ -6380,21 +6414,6 @@
    "tamano": "gran",
    "dominio": "bluradio.com",
    "tema": "Economía"
-  },
-  {
-   "id": "691f037dc497",
-   "titulo": "¿Ha funcionado la estrategia de seguridad de Abelardo De La Espriella?",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTTZOS0JrdkhkTm1FZWRnQnJBN2VfVDRrZXJrMVRrMm0yZUUzYnpndFNlR25McWdRVmhoMHJJNjY0cXROV0l2QUItSm5MVEVueEg5cC1UVTB3OEFiQjRUazZXSTQySmY3b1luNUhZZDEwcFUwNXZvTUoxb1diU1NBWl9mTHhFT1ROcUZxVGFja25aM0RlR3JCdGRkLUt6Qks4d1MzUFhCRnBiZUFYaXdpUHNvendORXR0VDJPYzRFclpyQmhGTnhwM2xhd3BRZUJnd3c?oc=5",
-   "fuente": "City Tv",
-   "fecha": "2026-11-16T03:38:46Z",
-   "categoria": "coyuntura",
-   "tamano": "gran",
-   "dominio": "citytv.eltiempo.com",
-   "buscado": true,
-   "tema": "Gobierno"
   },
   {
    "id": "ce9cf1eb64a2",
@@ -6411,6 +6430,20 @@
    "tema": "Gobierno"
   },
   {
+   "id": "f5025b28130b",
+   "titulo": "El expresidente Álvaro Uribe Vélez volvió a pronunciarse sobre la carga tributaria en Colombia y pidió reducir los…",
+   "resumen": "El expresidente Álvaro Uribe Vélez volvió a pronunciarse sobre la carga tributaria en Colombia y pidió reducir los impuestos para aliviar la situación de restaurantes y empresas del sector servicios. A través de su cuenta de X, Uribe alertó que algunos estable…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA0ZXdKWjlhRjRlZWhxcExWM0dzcXlLaXFTdUU5NEtVOWlkOW9DVnNGWkVFZlBubFVVOUVCYzVVUV9zck9MenBYVTVmMnZVN1NaRnc?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-16T01:00:03Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Economía"
+  },
+  {
    "id": "643bebf6ad7d",
    "titulo": "🔴 El partido de Álvaro Uribe le presentó las iniciativas al vicepresidente, con las que, según sus cálculos, se podrían…",
    "resumen": "🔴 El partido de Álvaro Uribe le presentó las iniciativas al vicepresidente, con las que, según sus cálculos, se podrían conseguir cerca de $20 billones. Los detalles en el enlace del primer comentario…",
@@ -6423,6 +6456,20 @@
    "tamano": "redes",
    "dominio": "facebook.com",
    "tema": "Política y Congreso"
+  },
+  {
+   "id": "bdc8392ac4a8",
+   "titulo": "Photo by Álvaro Uribe Vélez (@alvarouribevelez) · November 15, 2026",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3NjdoSmE1VWdOUGFNQ3pwMXNhMUxPSmUwdmVOTWF5UmVFUjE2a09TY0NxdmU3LUtrQ3Q5ejA5UVk5OG0zZFhwN1dmQWhLNDF6Mnc?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-15T23:25:53Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Otros temas"
   },
   {
    "id": "b64a3a905a89",
@@ -6549,34 +6596,6 @@
    "tamano": "nacional",
    "dominio": "minuto60.com",
    "tema": "Economía"
-  },
-  {
-   "id": "bdc8392ac4a8",
-   "titulo": "Photo by Álvaro Uribe Vélez (@alvarouribevelez) · November 15, 2026",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1hdmM3UjBTOTgwUXk5YzRxeF9xc3poSl9EY0N2ajJxbHBMUU92bklXNTVjNE1ZajdBZW4xWFdkMjM4OGhnMjJhd1NoOTFxaXJHeGc?oc=5",
-   "fuente": "Instagram",
-   "fecha": "2026-11-15T19:53:07Z",
-   "categoria": "mencion",
-   "tamano": "redes",
-   "dominio": "instagram.com",
-   "tema": "Otros temas"
-  },
-  {
-   "id": "e6dbdde0be79",
-   "titulo": "Álvaro Uribe Vélez y el Centro Democrático analizan con el Gobierno la Ley de Rescate Económico en Bogotá.",
-   "resumen": "Álvaro Uribe Vélez y el Centro Democrático analizan con el Gobierno la Ley de Rescate Económico en Bogotá. El partido rechaza el IVA a frutas, café, lentejas y otros alimentos de la canasta familiar. #Colombia #Bogotá #LeyDeRescateEconómico La nota c…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1RUGxfd0VncUQwa2hPYl9lS0tVNEZ5bDM5TktTa1BIRTZ5ZWNnS1M5NkR0RkwxeV9TbkM5c3NRckxKa0hidXFpMjIyUUw4a0ZCdVE?oc=5",
-   "fuente": "Instagram",
-   "fecha": "2026-11-15T17:23:00Z",
-   "categoria": "mencion",
-   "tamano": "redes",
-   "dominio": "instagram.com",
-   "tema": "Política y Congreso"
   },
   {
    "id": "8d266c8fbe6a",
@@ -6731,20 +6750,6 @@
    "categoria": "mencion",
    "tamano": "redes",
    "dominio": "facebook.com",
-   "tema": "Gobierno"
-  },
-  {
-   "id": "e3643c5827ef",
-   "titulo": "El presidente Abelardo De La Espriella nombró a Luis Felipe Henao como nuevo gerente del Fondo Milagro, tras haberle…",
-   "resumen": "El presidente Abelardo De La Espriella nombró a Luis Felipe Henao como nuevo gerente del Fondo Milagro, tras haberle pedido la renuncia a Jaime Uribe, luego de los cuestionamientos por los altos costos en la nómina de esa entidad. Tomás Uribe, hijo de…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAzWFQteDJqZC1wLVFjUFJENWE3dW5tTHh3SXNsX0dMWUhnN1ByaTRUbDZSczNsU3hHaGplQWlGcFJXOU53d25TQU1lZmY4R29Wa2c?oc=5",
-   "fuente": "Instagram",
-   "fecha": "2026-11-15T11:00:12Z",
-   "categoria": "mencion",
-   "tamano": "redes",
-   "dominio": "instagram.com",
    "tema": "Gobierno"
   },
   {
@@ -7197,20 +7202,6 @@
    "tema": "Justicia"
   },
   {
-   "id": "3989fbe35eb0",
-   "titulo": "Tomás Uribe reaccionó al nombramiento de Luis Felipe Henao como nuevo gerente del Fondo Milagro",
-   "resumen": "El presidente Abelardo De La Espriella nombró a Luis Felipe Henao como nuevo gerente del Fondo Milagro, tras haberle pedido la renuncia a Jaime Uribe, luego de los cuestionamientos por los altos costo.",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQTHdIYWwzM2RKRHQxNXFqOXVTZXhaMDVXNEpKUHlneFdPZExBcWE0WlBmSU5GeFNoSTRCclNUeHlUb3lVRFZWMHdCSkJhQUhTcnU0cndZYTE0Vy1JdXo5ZnJvOU5iUXpYYW4xdkw1Zzh2aUFCcWxrS0dqNnIwdENfOUhtcmJvbDA4cldCQ2RoTUt3UHJBYU1fS2o3cVQxUkh0LTRSOFQyaFVQZ2FHRzJZZXNLOW9hb2Q0dHlsQzVDWHVjd2Q5NHQtMG94STNXMldhNzE4YmZPWG5xdVhxU21nZzVGVmvSAeoBQVVfeXFMT0NJSC1FVF8wT3MtWTl4T0c3Nnp3VF8ybzZuTHVUck1rTnlvNXZROXNZeTNuTTVwZTZyOEQ1Q2E4Qk93Sk5xOUNZWldPQTJsWkd5MEZLNDUzc1M0ZS1xaFJBN3g2ck40NmFvWG1URmVqR0tSWUwwMDZGelkyLWwxMDIycHgtTnQtSWRlU0c2VUZEWUpIU05QZGlmRHFPYWxMUmlySE5nZ2VQc2VXZE9Ec2J6bkxlVElmdmhvV3hsQl9nOXA5M3JxM1BzelplaGpCOUxiUkx4NzFfNGxxS18yWDRlLTd1TXNoSDZR?oc=5",
-   "fuente": "Revista Semana",
-   "fecha": "2026-11-14T16:04:23Z",
-   "categoria": "mencion",
-   "tamano": "gran",
-   "dominio": "semana.com",
-   "tema": "Gobierno"
-  },
-  {
    "id": "e4b49d8e7cc4",
    "titulo": "Giro inesperado en caso que involucra a Álvaro Uribe Vélez: Fiscalía toma contundente decisión sobre investigación en su contra",
    "resumen": "La Fiscalía General de la Nación tomó una decisión trascendental sobre una de las denuncias de Iván Cepeda contra el expresidente Álvaro Uribe.",
@@ -7562,20 +7553,6 @@
    "tema": "Justicia"
   },
   {
-   "id": "9be1681c3b67",
-   "titulo": "#Judiciales • La Fiscalía ordenó archivar la investigación contra el expresidente Álvaro Uribe Vélez por el presunto…",
-   "resumen": "#Judiciales • La Fiscalía ordenó archivar la investigación contra el expresidente Álvaro Uribe Vélez por el presunto soborno a exparamilitares para que modificaran los testimonios en su contra. Según el ente acusador, las denuncias no tenían pruebas que la…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE95Q29HUkJ6aldwUmtOems0QzRiMkY4QUR1QXZ3S0UzUzhBVEdSUlBRTXVWdnJfZV90Qi1wVDJqVmdpOGdMcGstQU9iSXp2VnhOVXc?oc=5",
-   "fuente": "Instagram",
-   "fecha": "2026-11-14T02:35:30Z",
-   "categoria": "mencion",
-   "tamano": "redes",
-   "dominio": "instagram.com",
-   "tema": "Justicia"
-  },
-  {
    "id": "fa9df8c4a80a",
    "titulo": "Fiscalía archivó investigación contra Álvaro Uribe por soborno a testigos: no halló pruebas de pagos",
    "resumen": "La resolución, firmada el 12 de noviembre, revisó movimientos financieros y predios en Cimitarra (Santander). El caso puede reabrirse.",
@@ -7618,20 +7595,6 @@
    "tema": "Justicia"
   },
   {
-   "id": "4d6dd2eec84c",
-   "titulo": "#UnidadInvestigativa - 🔴Hoy el presidente Abelardo De La Espriella le informó al país que acababa de aceptar la…",
-   "resumen": "#UnidadInvestigativa - 🔴Hoy el presidente Abelardo De La Espriella le informó al país que acababa de aceptar la renuncia de Jaime Andrés Uribe, gerente del llamado Fondo Milagro. En entrevista con EL TIEMPO aseguró que su salida fue una decisión per…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNa1pzOUdsUUpoZkRpWmpPSVJxTHF6UlpiSWl3RXdBMDRHUG94NzVQRUVRVE1Wdkx1Z2lvQzZFMHViS0JQbjVScTd0bkp2aVVCbm5WY0VXRmdVaXhrcU5RUUNEYzdLM21iNEgxb29fbGRUTVdwVnQzQnctZjNUREdiM3RZTEROZlR6a1RaaEZjVGxfUnFURlZMMDRZWkRfdnM1WFVqVXlGRFN6bDhWQXNUem1NOGtJWnBvY0U4U2pmMXQ0d0ZYRlVCRFJxVm9NSGlWNXhkMHE5NUp4Yy15dHhRTXZn?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-13T22:31:00Z",
-   "categoria": "mencion",
-   "tamano": "redes",
-   "dominio": "facebook.com",
-   "tema": "Gobierno"
-  },
-  {
    "id": "83548554125f",
    "titulo": "Álvaro Uribe celebra archivo de investigación por soborno de testigos y fraude procesal",
    "resumen": "El expresidente Álvaro Uribe aseguró que la determinación del ente acusador complementa la absolución que había obtenido del Tribunal Superior de Bogotá.",
@@ -7660,6 +7623,20 @@
    "tema": "Justicia"
   },
   {
+   "id": "f60e66ce3ec9",
+   "titulo": "Jaime Uribe renuncia a la gerencia del Fondo Milagro",
+   "resumen": "Tras la polémica desatada por los salarios asignados a varios integrantes del equipo de la Gerencia del Fondo Milagro, Jaime Uribe decidió presentar su renuncia al puesto.",
+   "detalle": "Tras la polémica desatada por los salarios asignados a varios integrantes del equipo de la Gerencia del Fondo Milagro, Jaime Uribe decidió presentar su renuncia al puesto. Lo anterior tras un derecho de petición presentado por la senadora del Pacto Histórico, Kamelia Zuluaga, en donde se constata que Uribe recibe un salario superior por $8,7 millones al de un congresista. Dicho revelación causó indignación incluso dentro del Gobierno nacional, más específicamente del mismo presidente Abelardo de la Espriella, quien ha promovido total austeridad para las instituciones del Ejecutivo. El mandatario afirmó que no autorizó esos pagos y por ende se deberían reversar, además de solicitar la renuncia de Jaime Uribe.",
+   "cita": "",
+   "enlace": "https://360radio.com.co/jaime-uribe-fondo-milagro/236696/",
+   "fuente": "360 Radio",
+   "fecha": "2026-11-13T18:47:19Z",
+   "categoria": "mencion",
+   "tamano": "nacional",
+   "dominio": "360radio.com.co",
+   "tema": "Economía"
+  },
+  {
    "id": "2e21e37d7c9b",
    "titulo": "El vicepresidente José Manuel Restrepo se pronunció sobre la propuesta del expresidente Álvaro Uribe de reducir de 18 a…",
    "resumen": "El vicepresidente José Manuel Restrepo se pronunció sobre la propuesta del expresidente Álvaro Uribe de reducir de 18 a siete el número de ministerios en Colombia, como parte de una estrategia para disminuir el gasto público y reorganizar el Estado. Dur…",
@@ -7686,20 +7663,6 @@
    "tamano": "gran",
    "dominio": "semana.com",
    "tema": "Gobierno"
-  },
-  {
-   "id": "a2172a8669fd",
-   "titulo": "Cuestión Pública. ¿Monsalve estaba en la nómina? Registros desde 1998 sobre Monsalve en CASO URIBE | Cuestión Pública",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWkMzZzV0cktOdW8tVENKMzJEUmNuZGNUd3ZraXk5dk5sNjVQODlmNmd4VTBuNTROS044U1ZUSFFRZjhSX29hZm5NNGhPRmFzaE52V2ZseGZjMWFYa3pUZW93Q3pmNjVVYlllbXdfUWRqOVlVbk96VXBEZDdxVlZrVE5IcnAxOE5vSkJGdmppU28zWHNEWTVWLXRxU1g3UmpPSkRCX3c1ckM3TE1wVkx2eWx6ck5IaHI3dnVGTVNOZ0J4ejdoalBfa1lGR0dScU5xUWRHVWhFQzNDWm9hS2c?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-13T16:28:31Z",
-   "categoria": "mencion",
-   "tamano": "redes",
-   "dominio": "facebook.com",
-   "tema": "Otros temas"
   },
   {
    "id": "0cc6de5dc36a",
@@ -7969,21 +7932,6 @@
    "tema": "Gobierno"
   },
   {
-   "id": "53e989d1a964",
-   "titulo": "¿Una ley que beneficiaría a Santiago Uribe Vélez? Senadora María Clara Posada responde",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOemluOU45Z1pTZzNIaEp6U29xaW9JdjQ4Q19XUHFfTlRVenVuckZRYXNxeGVfbUlWUnFzcFcyUkNhQmVPVXlCOHQtSGlaZzJZOGF4anBvNEhxMHVuZkJPWXlvOUc3U1I2VmlNRk1RNEpNbkdNRV8xYzM3ekJleVhGZFg2RHVUOWhRUVhwWjVmMm84TVQzZ1A1S1ZpU3lET0RPLUhrLXFzV01oVGFldlVtOGlvajRER3ByVEFR0gHPAUFVX3lxTFAyb2N6ZExaSnhoVnlHWHROaUp6cWFoS05nLXAzMElmd2RFQU9ZWmM2ZXVhNEs0Y25VSHM5emdVQ0tmbWZpOW1JbzI1T2Z5bi1FNm5xR3o3VDhCY3JaSE0wTXNSY2NJc19EWS1oTHZkQ1Z4MTdMWlVpcU0yMzNxM01MNXp5WWl1TEVxZE5JdkVlUm1KRnNKUk5XNWRHWGY1eXJkdmRUaGozcVJPN2xkT2hydzM2OWJ0ZGN0c2xTVlBXa3U3QlJ3M1NYcnQyU2Rvbw?oc=5",
-   "fuente": "Caracol Radio",
-   "fecha": "2026-11-11T13:31:23Z",
-   "categoria": "mencion",
-   "tamano": "gran",
-   "dominio": "caracol.com.co",
-   "buscado": true,
-   "tema": "Política y Congreso"
-  },
-  {
    "id": "897f8e6823c4",
    "titulo": "¡Atención! En la Comisión Primera del Senado se aprobó un proyecto de ley para dejar libre al hermano de Álvaro Uribe…",
    "resumen": "¡Atención! En la Comisión Primera del Senado se aprobó un proyecto de ley para dejar libre al hermano de Álvaro Uribe Vélez, el paramilitar Santiago Uribe. No debería llamarse proyecto de “Doble Conformidad”, sino “Ley Santiago Uribe”. Le van a crear un…",
@@ -8040,20 +7988,6 @@
    "tema": "Política y Congreso"
   },
   {
-   "id": "4b3cc10ed439",
-   "titulo": "¡PETRO LE PROPONE PACTO A URIBE! El giro inesperado en Medellín para acorralar a Abelardo.",
-   "resumen": "¡PETRO LE PROPONE PACTO A URIBE! El giro inesperado en Medellín para acorralar a Abelardo. Desde la capital antioqueña, el expresidente lanzó un discurso explosivo para acorralar las políticas económicas del presidente Abelardo de la Espriella. La…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4xR1VOT0dOUkFLbkxFTkFYazhoYmxQRENxbmFLMUtfOUJBM0ZicmdKYzl0MWh6dm92UGJ5Y1dKTXc4WjdQdy1uOGo0OGM4UVBXd2xWVHJn?oc=5",
-   "fuente": "Instagram",
-   "fecha": "2026-11-11T02:20:45Z",
-   "categoria": "mencion",
-   "tamano": "redes",
-   "dominio": "instagram.com",
-   "tema": "Regiones"
-  },
-  {
    "id": "8f82449d40b9",
    "titulo": "Álvaro Uribe y sus lugartenientes andan con el gran absurdo de privatizar más a Ecopetrol, vendiéndoles más de sus…",
    "resumen": "Álvaro Uribe y sus lugartenientes andan con el gran absurdo de privatizar más a Ecopetrol, vendiéndoles más de sus acciones seguramente a extranjeros. Enorme disparate porque es la empresa que más recursos nos ha transferido a los colombianos en to…",
@@ -8108,20 +8042,6 @@
    "tamano": "redes",
    "dominio": "instagram.com",
    "tema": "Gobierno"
-  },
-  {
-   "id": "1e9b9314c3c9",
-   "titulo": "Esmeralda Hernández prende las alarmas por proyecto que, según denunció, buscaría favorecer a Santiago Uribe: “Esta ley tiene nombre propio”",
-   "resumen": "La senadora del Pacto Histórico aseguró que la iniciativa impulsada por el Centro Democrático tendría como principal beneficiario al hermano del expresidente Álvaro Uribe Vélez, condenado por el caso.",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOYndicWJ5WUZoY3FEV2RaSkd1VWU0Ymc3TmNLXzMtaVVWQk5vQVNRdFFfbzB4QU9mbGpPcjZtTEktTmxiTWpYRUdyMWpzc05lZHh0VkRlTUFZX3pLeXVIdWdjRWJPbnhoanVLY0NzMmlVNEsxa2lWdzkyNVFUVU1MTm0xTUgtRjN0WG1Lczc4dXkyZF9mcjRjUDRCR2dnU0tSTmQxeHdfbWE3ajlZdWpCeXlEQU5nOFBDRzdUQmNDS25SOU9nNzkyRlkxblFfZ19HTUg5aVJYdmpYSV9Mc3hZWDBCNlZrSEVJVGdtTWU1ZzVPTGg4TXZJbUlHYXlYVVhXOXFBTnF6TVdOT0g50gGnAkFVX3lxTFBkc3FycEN1TjRTcVo2Z2FpUDhsenRGX1BxUVQ4ZXBTak1yYmw3ZzhoX1RQblg2Z3FBTC1BUTJOWjdDNS1uaTVZaEtWeklQOXp4VFUtTGVpTFNTbURsWTRFZnVwUlNRV0YwQ3loSEtSR2ZwaGdiZ0xwY0FxYS03bE1SQ3pKNlRnQTlJSmotTTJsdVpvNkRRcGlRTVFnUFhMODU2bVFTTlJKMzVIWXpxU1BCNTVXMWFzWmtLTmhkaHNYMUNlQ3dhcnR6aXFZbFJSalU1TUd2bDZlRFZBNWhBOV9tVy1RSURuYmdMOFZLZ2xNNUxmendvQzdQcDFQVjVjWTBYVjI0UDlTeUpWSDU5eFpUZDF6am1fdGNDdE54S2lqRld6Z2JiM00?oc=5",
-   "fuente": "Infobae",
-   "fecha": "2026-11-10T22:38:00Z",
-   "categoria": "mencion",
-   "tamano": "gran",
-   "dominio": "infobae.com",
-   "tema": "Política y Congreso"
   },
   {
    "id": "25b0f8f1ee9d",
@@ -8208,6 +8128,20 @@
    "tema": "Gobierno"
   },
   {
+   "id": "30de09058125",
+   "titulo": "| El expresidente Álvaro Uribe se pronunció sobre la iniciativa del líder del Pacto Histórico, Gustavo Petro, quien…",
+   "resumen": "| El expresidente Álvaro Uribe se pronunció sobre la iniciativa del líder del Pacto Histórico, Gustavo Petro, quien sorprendió al panorama político nacional al proponer un frente común de oposición durante el Primer Gran Encuentro Somos Resiste…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBMcGcwXzE5bkl5cHBsSFJjb2IzcS1VaDRRZUhtRld2N3VsLWxVeFJ4eWlHZ0NoNG5TTGVLLVhlUkhwSHh3TFZCenY4ZlhndmpyV0E?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-10T01:29:12Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Política y Congreso"
+  },
+  {
    "id": "8d477665fbad",
    "titulo": "Fiscalía definió fecha de continuación de indagatoria contra Álvaro Uribe por masacres de El Aro y La Granja | El Colombiano",
    "resumen": "A través de un comunicado, la Fiscalía General de la Nación anunció que para el próximo 11 de noviembre quedó programada la continuación de la.",
@@ -8234,6 +8168,20 @@
    "tamano": "gran",
    "dominio": "elespectador.com",
    "tema": "Justicia"
+  },
+  {
+   "id": "498c2da80a0b",
+   "titulo": "Álvaro Uribe descarta alianza con Gustavo Petro El expresidente Álvaro Uribe Vélez rechazó la posibilidad de que el…",
+   "resumen": "Álvaro Uribe descarta alianza con Gustavo Petro El expresidente Álvaro Uribe Vélez rechazó la posibilidad de que el Centro Democrático se una a una alianza política o electoral con el Pacto Histórico, tras la propuesta de Gustavo Petro de conformar un frent…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPQTd1ZHhabjNKVzdCMVFaNEdCaDNlLXl1cTgxemtiNXAwOTJLeE1OUlROX1pDVzBuOFROeEladzNEYUlhOGdTeWg5b1h3b1dldjRLRW94LTRhRFlZd1NCUktKSEhBR1c0LXl1ZGpCNE0wdW1vZWt1eXlCNWMxU0FkYko3a3RCeDA5NG1wRnRSS0NOclVENkJyZVo0QXhCRkZkeUd4clpmWGNfSFhpSDYyM3hod3VYeGw4eERkcEx1QmFOaFl3RGV3RVFRbUcwOUlZTHh1cHgtQ0d3UDNvZWpPM2d0UXg4d1dOVl9USl9QUkZpdFk?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-10T00:29:33Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "facebook.com",
+   "tema": "Política y Congreso"
   },
   {
    "id": "594b73977a46",
@@ -8266,6 +8214,20 @@
    "tema": "Justicia"
   },
   {
+   "id": "82ab668b6995",
+   "titulo": "El expresidente Álvaro Uribe Vélez zanjó de manera tajante la propuesta lanzada por el exmandatario Gustavo Petro…",
+   "resumen": "El expresidente Álvaro Uribe Vélez zanjó de manera tajante la propuesta lanzada por el exmandatario Gustavo Petro, quien tras su paso por Medellín en el marco del Encuentro Somos Resistencia en el Club Unión propuso un “Pacto por la Vida” y un acuerd…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQbTM5a1lpaGl3MzlOQ1VwOFpTWTN3XzVhMDAxTEdIMHNuUzJYdV8xTDZScGZpcFZ5Y283RjdJdU9zSlg4RDVuR0lJVWFkTl9nNE9tSXU5RUF1b1EyU0ZiUng0VThpdUFLaWpaNS1SVlNHSXJJVWY0bkw2c3JodDJJSEZCVFVIcUJmc3h3SlVoRm5Ha0ZYNkRjb0x1S3BIc1dGY1l6M0oxMUxFLVJhUlZrMzkyaVpmZ3B4WVprYS1Gd1Bma1hjYWc1NGZDYzVFcng2VkNCVFNjX2pWZDlvTjBIenFOdmhuM094MWFJ?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-10T00:00:12Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "facebook.com",
+   "tema": "Gobierno"
+  },
+  {
    "id": "1386dda59656",
    "titulo": "Fiscalía cita a Álvaro Uribe para continuar con la indagatoria por las masacres de El Aro y La Granja",
    "resumen": "El expresidente es investigado por su presunta participación en las masacres cometidas en Ituango en la década de los 90.",
@@ -8278,6 +8240,20 @@
    "tamano": "gran",
    "dominio": "eltiempo.com",
    "tema": "Justicia"
+  },
+  {
+   "id": "4334f9a91767",
+   "titulo": "El expresidente Álvaro Uribe rechazó la propuesta de Petro de establecer una alianza política, incluso electoral, para…",
+   "resumen": "El expresidente Álvaro Uribe rechazó la propuesta de Petro de establecer una alianza política, incluso electoral, para hacer oposición al Gobierno de Abelardo de la Espriella. La iniciativa fue planteada por Petro durante un discurso en Medellín. 🇨🇴🏛️ El ex…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ZRTNMUWtKSUZWaFRzS1VJWjJhUEpfWEpBVUFlUmg3alhzTnVsUXl2WDd6OWFTOFFYMnZESWZ0eFBJdktMZkpqSDk5c0lmbTV5cEE?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-09T23:35:55Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Gobierno"
   },
   {
    "id": "f58be37af2ef",
@@ -8754,7 +8730,7 @@
    "resumen": "El expresidente Álvaro Uribe publicó un trino en sus redes sociales sobre su posición frente a Ecopetrol. “En la actual estructura, así como unos gobiernos la manejan bien, se corre el riesgo de que o.",
    "detalle": "",
    "cita": "",
-   "enlace": "https://www.msn.com/es-co/noticias/nacional/debe-haber-una-norma-que-garantice-un-nombramiento-ajeno-al-capricho-del-presidente-expresidente-uribe-sobre-ecopetrol/ar-AA2h3Q39",
+   "enlace": "https://www.msn.com/es-co/noticias/other/debe-haber-una-norma-que-garantice-un-nombramiento-ajeno-al-capricho-del-presidente-expresidente-uribe-sobre-ecopetrol/ar-AA2h3Q39",
    "fuente": "Semana",
    "fecha": "2026-11-09T04:39:45Z",
    "categoria": "mencion",
@@ -8849,18 +8825,19 @@
    "tema": "Economía"
   },
   {
-   "id": "82e4fb71abc0",
-   "titulo": "Borrador de contrarreforma de Álvaro Uribe contempla vender otro porcentaje de Ecopetrol a inversionistas",
-   "resumen": "La propuesta hace parte de la reforma tributaria alternativa presentada por el Centro Democrático.",
+   "id": "7fd8ad921a9b",
+   "titulo": "Expresidente Álvaro Uribe pide al gobierno De La Espriella una reforma tributaria 'disruptiva' y un 'Estado sustancialmente pequeño y sin corrupción'",
+   "resumen": "El mensaje se conoce cuando el Centro Democrático publicó este sábado un informe que plantea cambios al texto.",
    "detalle": "",
    "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOS2RvNy01c1RZVm10T01OUGVMRFlCVnpxTnRVQ3dPSnRMb0tYeWNmNWRJTG44WFhmMkZtd0YwM19HRkcyVUJLZGNhYWJsUFRfc2pESVAyMUV4bDJQTDJqUVVEV1U1Z01ZbURmSV9kLTFmU1pqVk9TWGlTeTRpeDViT19hcXUwU08wTXEwZzMteUJzYmlmU0h0OVYybGpILUgtVmFYR2NwNnhWV2ZvcmtzeE5mZDVuVDBJM3BqTm9xVGZuTUpzQmIzMTA2YkNRU0dkNkIyUVBwUTE0cXA0S3fSAeMBQVVfeXFMTklsbkJjM25wUFE4TkQyY2Jpb19QNHFaNEhKR01zSUZTWjdxQ0tWVEhmRGp5WWR1MHowekpKRGd3eU81UHpKNXIwN1JqRlpDZTNoaEhzWXBIcU92NzljMVg1Mlg1eTcyOVFLUXpjMFFtWTdtWDZYMTdrVXkxRnZTSnAxRF9FaTVVYXRsQ2YxcE04WlZvZFRMMVJWVHJZSlJVR1p2T0Q3UG45QTI1c0c5anBXa2hVbDA3ZDRYdWItdU5lWlJuVWZfUWpZQUFfcTVvSE0xdllrMkhoY05DSTF5dFJCaTA?oc=5",
-   "fuente": "Portafolio.co",
+   "enlace": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNTGFtVWxWdlFtbmdmYXRxY2wwUEZhd084dGpLX2MyN0NEREhYelMwZFJGLUxoUnpKbHNuQjVFdUx5Zlk1cUxkbzBGZUJ1YXpaOVUwTVlOS0FIN0VwYzJZN19LRFRhd3lrSldHMnQxSWtXS3lOZnFabVE2SXVGSEMtNno2RV81aGpHTzRwU29lcmJwT2xEUkE4MG1JeElWaF9rS0JHcTRSaEE1aHhiTHQ1Y3ByQVhiam9lU1RrTW95WmFmTnlxdHIzMUxxZy1QcWZaZkhtVTd6LURUeWZ6R1p3bW8zX0drTU1wU2RHdUhsVVctTTM4aHVEVlpYaG5XTnl2YURjMi0tNjNWQVBkRVVha2QxeTdZeVI4NmYycEJ6THN3djhYUVoycC1abXk0RVnSAbQCQVVfeXFMUFVQeWtXazBsT3RaSGotNlFHdHRSWXRoYjZ6LTFvaGY0TTNEc0tZRW95dVY1V2tXSkZ0S3pHZUVnRWtxNVNGckQ4STNnSWx1YzdncFcwM1pSOFlta0F1eGUzUzQwemNTSWVaYzBBdXVHSjVBOVVCT29aRVEtM1FJUFdTczhremM5ODdTcVg3d3lMUWwzM2RrcFlPVm1SaUFjMEp2aHctZ0RsbklJRlo3Z0dmS1NjWE9JNEFYeW1tSFV6dkM4TjliVjdiQXkwWWRLVjZHZ0dSdHNFRU9IOFp5ZVU5Tk9NcDBMa2hIMVA3aU9INnZ2VUctVEY2R3VVd2ZPRVVabmJwRU5MMjhWNVVnWXVwbDlYNnhpM3RNMjJDb3RjNko5SmdPLU1Nc2x4U2JodlhoYzk?oc=5",
+   "fuente": "El Tiempo",
    "fecha": "2026-11-07T08:00:00Z",
    "categoria": "mencion",
-   "tamano": "nacional",
-   "dominio": "portafolio.co",
-   "tema": "Economía"
+   "tamano": "gran",
+   "dominio": "eltiempo.com",
+   "buscado": true,
+   "tema": "Gobierno"
   },
   {
    "id": "12934b6230cc",
@@ -8934,20 +8911,6 @@
    "tema": "Gobierno"
   },
   {
-   "id": "b926155fc5b2",
-   "titulo": "Santiago Uribe Vélez: Corte niega tutela y mantiene condena de 28 años y cuatro meses",
-   "resumen": "La situación judicial de Santiago Uribe Vélez tuvo un nuevo capítulo este miércoles, luego de que la Corte Suprema de Justicia resolviera la tutela presentada por su defensa contra una decisión que.",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUWdBblFITU5mSU5rM2VuTmNXT3VrTTQ0bjVOVW83Qk5LTnpTY0d5U3V0YWJjZ2lOaTBBMlVuVFBpVndDeU5senF6NlJYQUVGVF80ellSOE9qenZfTE0yeVVXenFqZlliRzdzcnJ4WjdtYkVhQ3YwcVRBSm5UZFd1MkdPZ29Da1lnSXNLdk5MVXMxdTAzTzBzeHppNnZYSVE2bUc1TWZqTm5fY0g4OUxtM2xEOE5McVpSbVNr?oc=5",
-   "fuente": "Análisis Urbano",
-   "fecha": "2026-11-07T08:00:00Z",
-   "categoria": "mencion",
-   "tamano": "local",
-   "dominio": "analisisurbano.org",
-   "tema": "Justicia"
-  },
-  {
    "id": "98ad8b51b299",
    "titulo": "El expresidente Álvaro Uribe Vélez presentó oficialmente el borrador de la alternativa a la reforma fiscal",
    "resumen": "El expresidente Álvaro Uribe, líder del Centro Democrático, presentó una propuesta alternativa de reforma fiscal que busca eliminar 200 entidades públicas.",
@@ -8961,5 +8924,7 @@
    "dominio": "ifmnoticias.com",
    "tema": "Economía"
   }
- ]
+ ],
+ "version_tono": 2,
+ "no_menciones": []
 }

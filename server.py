@@ -43,6 +43,7 @@ TIEMPO_ESPERA = 12
 DIAS_MENCIONES = 10
 DIAS_COYUNTURA = 3
 MAX_POR_CATEGORIA = 400
+VERSION_TONO = 2                  # súbala si cambia las instrucciones: obliga a reanalizar todo
 MODELO_TONO = "claude-opus-5-5"   # modelo de IA que juzga el tono de las menciones
 ESFUERZO_TONO = "low"             # low | medium | high: más esfuerzo = más preciso y más costoso
 MAX_TONO_POR_CORRIDA = 150        # menciones nuevas que se analizan por actualización
@@ -203,6 +204,40 @@ FEEDS = [
 # Para comprobar que la mención se ve en el texto mostrado (y no es otro Uribe)
 RE_OTRO_URIBE = re.compile(r"miguel\s+uribe(?:\s+(?:turbay|londo[nñ]o))?|uribe\s+turbay|uribe\s+londo[nñ]o", re.IGNORECASE)
 RE_URIBE_VISIBLE = re.compile(r"\buribe\b|\buribis", re.IGNORECASE)
+
+# "Uribe" a secas solo cuenta si no es el apellido de otra persona (Jaime Uribe, Tomás Uribe…)
+RE_APELLIDO_URIBE = re.compile(r"(?:([A-Za-zÁÉÍÓÚÑÜáéíóúñü]+)(\s+))?\b(uribe)\b(?:\s+([A-Za-zÁÉÍÓÚÑÜáéíóúñü]+))?", re.IGNORECASE)
+TITULOS_URIBE = {"alvaro", "expresidente", "presidente", "exmandatario", "senador", "exsenador", "ex",
+                 "lider", "jefe", "doctor", "dr", "don", "senor", "sr"}
+NOMBRES_DE_PILA = set("""jaime tomas jeronimo santiago miguel mario juan maria horacio mateus fernando andres
+    diego carlos luis jose rafael daniel camilo david jorge pablo sergio felipe nicolas manuel alberto eduardo
+    gabriel ricardo alejandro ana laura paola lina claudia diana julian oscar hector mauricio german ivan
+    gustavo francisco antonio pedro esteban sebastian cristian kevin brayan victor hugo cesar alfonso ernesto
+    rodrigo martin simon samuel mateo emilio enrique joaquin lucas marcos raul ruben william wilson john
+    jhon edwin fabio guillermo humberto ignacio javier leonardo marcela natalia patricia sandra sofia valentina
+    andrea carolina catalina daniela isabel juliana luisa monica paula adriana angela beatriz gloria martha""".split())
+OTROS_SEGUNDOS_APELLIDOS = {"turbay", "londono", "noguera"}
+
+
+def menciona_a_alvaro(texto):
+    """True si el texto nombra al expresidente Álvaro Uribe Vélez y no a otra persona de apellido Uribe."""
+    if re.search(r"\buribis", texto, re.IGNORECASE):
+        return True
+    for m in RE_APELLIDO_URIBE.finditer(texto):
+        previa, siguiente = m.group(1) or "", m.group(4) or ""
+        anterior = normalizar(previa)
+        if normalizar(siguiente) in OTROS_SEGUNDOS_APELLIDOS:
+            continue
+        if anterior in TITULOS_URIBE:
+            return True
+        if previa[:1].isupper():
+            # Palabra con mayúscula justo antes: es un nombre de pila, salvo que solo inicie la frase
+            inicio = texto[:m.start()].rstrip()
+            inicia_frase = not inicio or inicio[-1] in ".!?:;\"“”«»(¿¡|-–—\n" or not inicio[-1].isalnum()
+            if anterior in NOMBRES_DE_PILA or not inicia_frase:
+                continue
+        return True
+    return False
 
 RE_MENCION = re.compile(
     r"[aá]lvaro\s+uribe|uribe\s+v[eé]lez|ex\s?presidente\s+(?:[aá]lvaro\s+)?uribe|"
@@ -497,7 +532,7 @@ def leer_feed(feed, medios):
             descripcion = ""
 
         completo = " ".join(x for x in (titulo, descripcion, contenido) if x)
-        es_mencion = feed["seccion"] == "mencion" or bool(RE_MENCION.search(completo))
+        es_mencion = feed["seccion"] == "mencion" or menciona_a_alvaro(completo)
         if not es_mencion and (RE_RUTA_EXCLUIDA.search(enlace) or RE_TITULO_EXCLUIDO.search(titulo)):
             continue
         if not es_mencion and feed.get("filtrar") and not RE_TEMA_NACIONAL.search(titulo + " " + descripcion):
@@ -525,8 +560,7 @@ def leer_feed(feed, medios):
         if es_mencion:
             # Solo cuenta como mención si el nombre se ve en lo que mostramos. Los buscadores
             # devuelven resultados donde Uribe aparece en una parte del texto que no entregan.
-            visible = RE_OTRO_URIBE.sub(" ", " ".join((titulo, resumen, detalle, cita)))
-            if not RE_URIBE_VISIBLE.search(visible):
+            if not menciona_a_alvaro(" ".join((titulo, resumen, detalle, cita))):
                 if feed["seccion"] == "mencion":
                     continue
                 es_mencion = False
@@ -607,6 +641,7 @@ def recolectar():
     for n in final:
         n["tema"] = clasificar_tema(n)
     clasificar_tono(final)
+    final = retirar_no_menciones(final)
     return final, list(estado.values())
 
 
@@ -620,6 +655,9 @@ tiene hacia él, pensando en cómo afecta su imagen pública:
 - "desfavorable": el hecho o el enfoque lo perjudica. Ejemplos: acusaciones, críticas, decisiones judiciales
   en su contra, burlas, o que lo vinculen con hechos negativos.
 - "neutra": informa lo que dijo o hizo sin carga a favor ni en contra, o lo menciona de paso.
+- "no_aplica": la noticia no trata de él. Úsalo cuando nombra a otra persona de apellido Uribe
+  (por ejemplo Jaime Uribe, Miguel Uribe o un futbolista), o cuando solo habla de un familiar suyo
+  (un hijo, un hermano) sin referirse a lo que él dijo o hizo, o cuando su nombre no aparece.
 
 Juzga el hecho y también el encuadre: un titular puede sonar a problema judicial y ser una buena noticia
 para él. Si los datos no alcanzan para decidir, responde "neutra".
@@ -635,7 +673,7 @@ ESQUEMA_TONO = {
                 "type": "object",
                 "properties": {
                     "id": {"type": "string"},
-                    "tono": {"type": "string", "enum": ["favorable", "desfavorable", "neutra"]},
+                    "tono": {"type": "string", "enum": ["favorable", "desfavorable", "neutra", "no_aplica"]},
                     "motivo": {"type": "string"},
                 },
                 "required": ["id", "tono", "motivo"],
@@ -673,9 +711,28 @@ def _consultar_tono(cliente, anthropic, lote):
     validos = {n["id"] for n in lote}
     resultados = {}
     for r in json.loads(texto).get("resultados", []):
-        if r.get("id") in validos and r.get("tono") in ("favorable", "desfavorable", "neutra"):
+        if r.get("id") in validos and r.get("tono") in ("favorable", "desfavorable", "neutra", "no_aplica"):
             resultados[r["id"]] = (r["tono"], str(r.get("motivo", ""))[:160])
     return resultados, respuesta.usage
+
+
+_no_menciones = set()    # ids que la IA determinó que no tratan de Álvaro Uribe (se guardan en el respaldo)
+
+
+def retirar_no_menciones(noticias):
+    """Lo que la IA marcó como "no_aplica" deja de ser mención: las notas de medios pasan a
+    coyuntura y las publicaciones de redes sociales se retiran."""
+    resultado = []
+    for n in noticias:
+        if n.get("tono") == "no_aplica":
+            n.pop("tono", None)
+            n.pop("tono_motivo", None)
+            if n["tamano"] == "redes":
+                continue
+            n["categoria"] = "coyuntura"
+            n["cita"] = ""
+        resultado.append(n)
+    return resultado
 
 
 def clasificar_tono(noticias):
@@ -685,13 +742,20 @@ def clasificar_tono(noticias):
     (pip install anthropic). Cada mención se analiza una sola vez: el resultado se guarda en
     el respaldo y se reutiliza. Sin clave, el monitor funciona igual pero sin tono.
     """
-    previas = {n["id"]: n for n in (leer_respaldo() or {}).get("noticias", [])}
+    previo = leer_respaldo() or {}
+    vigente = previo.get("version_tono") == VERSION_TONO     # ¿se analizó con las instrucciones actuales?
+    previas = {n["id"]: n for n in previo.get("noticias", [])} if vigente else {}
+    _no_menciones.clear()
+    if vigente:
+        _no_menciones.update(previo.get("no_menciones", []))
     pendientes = []
     for n in noticias:
         if n["categoria"] != "mencion":
             continue
         previa = previas.get(n["id"], {})
-        if previa.get("tono"):
+        if n["id"] in _no_menciones:
+            n["tono"] = "no_aplica"          # ya se determinó que no trata de Álvaro Uribe
+        elif previa.get("tono"):
             n["tono"], n["tono_motivo"] = previa["tono"], previa.get("tono_motivo", "")
         else:
             pendientes.append(n)
@@ -729,6 +793,8 @@ def clasificar_tono(noticias):
         for n in lote:
             if n["id"] in resultados:
                 n["tono"], n["tono_motivo"] = resultados[n["id"]]
+                if n["tono"] == "no_aplica":
+                    _no_menciones.add(n["id"])
                 hechas += 1
     if hechas:
         print("  ✓ Tono de {} menciones ({} tokens de entrada, {} de salida)".format(hechas, entrada, salida))
@@ -820,6 +886,8 @@ def obtener_noticias(forzar=False):
                 "origen": "vivo",
                 "fuentes": fuentes,
                 "noticias": noticias,
+                "version_tono": VERSION_TONO,
+                "no_menciones": sorted(_no_menciones)[:5000],
             }
             _cache.update(datos=datos, momento=time.time())
             try:
