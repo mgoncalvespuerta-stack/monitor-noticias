@@ -45,7 +45,6 @@ const state = {
   filter: 'all',
   size: 'all',
   tema: 'all',
-  relevancia: 'all',
   query: '',
   visibles: POR_PAGINA,
   noticias: [],
@@ -403,7 +402,6 @@ function getFilteredNews() {
       (state.filter === 'all' || noticia.categoria === state.filter) &&
       (state.size === 'all' || noticia.tamano === state.size) &&
       (state.tema === 'all' || temaDe(noticia) === state.tema) &&
-      (state.relevancia === 'all' || (noticia.relevancia || 'media') === state.relevancia) &&
       coincideBusqueda(noticia, palabras)
   );
 }
@@ -421,7 +419,6 @@ function updateStats() {
     const clave = nodo.dataset.conteo;
     if (clave === 'all') nodo.textContent = todas.length;
     else if (clave === 'coyuntura' || clave === 'mencion') nodo.textContent = contar('categoria', clave);
-    else if (clave.startsWith('rel-')) nodo.textContent = contar('relevancia', clave.slice(4));
     else nodo.textContent = contar('tamano', clave);
   });
 }
@@ -441,7 +438,6 @@ function crearTarjeta(noticia) {
     ),
     crear('span', 'etiqueta etiqueta-tema', temaDe(noticia))
   );
-  if (noticia.relevancia === 'alta') etiquetas.append(crear('span', 'etiqueta etiqueta-alta', '★ Relevancia alta'));
 
   const titulo = crear('h3');
   const tituloEnlace = crear('a', '', noticia.titulo);
@@ -512,13 +508,6 @@ function crearTarjeta(noticia) {
     crear('dd', '', noticia.fuente),
     crear('dt', '', 'Tema'),
     crear('dd', '', temaDe(noticia)),
-    crear('dt', '', 'Relevancia'),
-    crear(
-      'dd',
-      '',
-      `${{ alta: 'Alta', media: 'Media', baja: 'Baja' }[noticia.relevancia] || 'Media'}` +
-        (noticia.motivo ? `. ${noticia.motivo}` : '')
-    ),
     crear('dt', '', 'Tipo de medio'),
     crear('dd', '', ETIQUETA_TAMANO[noticia.tamano] || ETIQUETA_TAMANO.local),
     crear('dt', '', 'Publicada'),
@@ -569,7 +558,6 @@ function renderNews() {
   if (state.filter !== 'all') partes.push(ETIQUETA_CATEGORIA[state.filter]);
   if (state.size !== 'all') partes.push(ETIQUETA_TAMANO[state.size]);
   if (state.tema !== 'all') partes.push(`tema «${state.tema}»`);
-  if (state.relevancia !== 'all') partes.push(`relevancia ${state.relevancia}`);
   if (state.query) partes.push(`búsqueda «${state.query}»`);
   $('filtrosActivos').hidden = !partes.length;
   $('filtrosActivosTexto').textContent =
@@ -577,7 +565,7 @@ function renderNews() {
 
   if (!filtradas.length) {
     const vacio = crear('div', 'vacio');
-    const hayFiltros = state.filter !== 'all' || state.size !== 'all' || state.tema !== 'all' || state.relevancia !== 'all' || state.query;
+    const hayFiltros = state.filter !== 'all' || state.size !== 'all' || state.tema !== 'all' || state.query;
     vacio.append(
       crear('h3', '', state.noticias.length ? 'No hay noticias con esos filtros.' : 'Todavía no hay noticias para mostrar.'),
       crear(
@@ -626,14 +614,12 @@ function quitarFiltros() {
   state.filter = 'all';
   state.size = 'all';
   state.tema = 'all';
-  state.relevancia = 'all';
   state.query = '';
   state.visibles = POR_PAGINA;
   searchInputEl.value = '';
   limpiarBusquedaEl.hidden = true;
   marcarActivo('.filtro-btn', 'filter', 'all');
   marcarActivo('.tamano-btn', 'size', 'all');
-  marcarActivo('.rel-btn', 'rel', 'all');
   renderNews();
 }
 
@@ -659,15 +645,6 @@ function bindEvents() {
       state.size = boton.dataset.size;
       state.visibles = POR_PAGINA;
       marcarActivo('.tamano-btn', 'size', state.size);
-      renderNews();
-    });
-  });
-
-  document.querySelectorAll('.rel-btn').forEach((boton) => {
-    boton.addEventListener('click', () => {
-      state.relevancia = boton.dataset.rel;
-      state.visibles = POR_PAGINA;
-      marcarActivo('.rel-btn', 'rel', state.relevancia);
       renderNews();
     });
   });
