@@ -498,6 +498,15 @@ function renderNews() {
     filtradas.length === 1 ? '1 noticia encontrada' : `${filtradas.length} noticias encontradas`;
   newsGridEl.replaceChildren();
 
+  // Aviso visible de que se está viendo solo una parte de las noticias
+  const partes = [];
+  if (state.filter !== 'all') partes.push(ETIQUETA_CATEGORIA[state.filter]);
+  if (state.size !== 'all') partes.push(ETIQUETA_TAMANO[state.size]);
+  if (state.query) partes.push(`búsqueda «${state.query}»`);
+  $('filtrosActivos').hidden = !partes.length;
+  $('filtrosActivosTexto').textContent =
+    `Está viendo solo: ${partes.join(' + ')} (${filtradas.length} de ${state.noticias.length} noticias).`;
+
   if (!filtradas.length) {
     const vacio = crear('div', 'vacio');
     const hayFiltros = state.filter !== 'all' || state.size !== 'all' || state.query;
@@ -604,6 +613,7 @@ function bindEvents() {
   });
 
   refreshButtonEl.addEventListener('click', () => handleRefresh(true));
+  $('quitarFiltros').addEventListener('click', quitarFiltros);
 
   botonLetraEl.addEventListener('click', () => {
     const grande = !document.documentElement.classList.contains('letra-grande');

@@ -42,8 +42,8 @@ MIN_ENTRE_FORZADOS = 45         # el botón "Actualizar" no golpea los feeds má
 TIEMPO_ESPERA = 12
 DIAS_MENCIONES = 10
 DIAS_COYUNTURA = 3
-MAX_POR_CATEGORIA = 150
-MAX_REDES = 60                  # publicaciones de redes sociales (cupo aparte)
+MAX_POR_CATEGORIA = 300
+MAX_REDES = 80                  # publicaciones de redes sociales (cupo aparte)
 MIN_NOTICIAS_VALIDAS = 8        # con menos que esto se considera que la carga falló
 
 USER_AGENT = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
@@ -64,6 +64,11 @@ FEEDS = [
      "url": GOOGLE.format(_q('"Álvaro Uribe" when:10d'))},
     {"nombre": "Google Noticias: Uribe Vélez", "tipo": "google", "seccion": "mencion",
      "url": GOOGLE.format(_q('"Uribe Vélez" OR "expresidente Uribe" when:10d'))},
+    # Las búsquedas de 10 días salen por relevancia; estas traen lo publicado hoy y ayer
+    {"nombre": "Google Noticias: Álvaro Uribe (hoy)", "tipo": "google", "seccion": "mencion",
+     "url": GOOGLE.format(_q('"Álvaro Uribe" when:2d'))},
+    {"nombre": "Google Noticias: Uribe Vélez (hoy)", "tipo": "google", "seccion": "mencion",
+     "url": GOOGLE.format(_q('"Uribe Vélez" OR "expresidente Uribe" when:1d'))},
     {"nombre": "Bing Noticias: Álvaro Uribe", "tipo": "bing", "seccion": "mencion",
      "url": BING.format(_q('"Álvaro Uribe"'))},
     {"nombre": "Bing Noticias: expresidente Uribe", "tipo": "bing", "seccion": "mencion",
@@ -78,6 +83,12 @@ FEEDS = [
     # --- Coyuntura nacional
     {"nombre": "Google Noticias: Colombia", "tipo": "google", "seccion": "coyuntura",
      "url": "https://news.google.com/rss/headlines/section/topic/NATION?hl=es-419&gl=CO&ceid=CO:es-419"},
+    {"nombre": "Google Noticias: titulares", "tipo": "google", "seccion": "coyuntura", "filtrar": True,
+     "url": "https://news.google.com/rss?hl=es-419&gl=CO&ceid=CO:es-419"},
+    {"nombre": "Google Noticias: Gobierno", "tipo": "google", "seccion": "coyuntura", "filtrar": True,
+     "url": GOOGLE.format(_q('gobierno Colombia when:1d'))},
+    {"nombre": "Google Noticias: Presidencia", "tipo": "google", "seccion": "coyuntura", "filtrar": True,
+     "url": GOOGLE.format(_q('"De la Espriella" when:1d'))},
     {"nombre": "El Tiempo", "tipo": "directo", "seccion": "coyuntura",
      "url": "https://www.eltiempo.com/rss/politica.xml"},
     {"nombre": "El Tiempo", "tipo": "directo", "seccion": "coyuntura",
@@ -280,7 +291,18 @@ def frase_con_mencion(texto):
 
 # ------------------------------------------------------------------ descarga
 
+_turno_google = threading.Semaphore(2)   # Google responde 429 si recibe muchas búsquedas a la vez
+
+
 def descargar(url):
+    if "news.google.com" in url:
+        with _turno_google:
+            time.sleep(0.5)
+            return _descargar(url)
+    return _descargar(url)
+
+
+def _descargar(url):
     req = urllib.request.Request(url, headers={
         "User-Agent": USER_AGENT,
         "Accept": "application/rss+xml, application/xml, text/xml, */*",
@@ -293,7 +315,7 @@ def descargar(url):
         except Exception:
             if intento == 2:
                 raise
-            time.sleep(1.2)
+            time.sleep(4 if "news.google.com" in url else 1.2)   # Google pide esperar tras un 429
 
 
 def leer_feed(feed, medios):

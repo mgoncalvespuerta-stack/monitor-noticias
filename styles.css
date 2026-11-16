@@ -497,6 +497,21 @@ input {
   color: var(--texto-suave);
 }
 
+.filtros-activos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin: 10px 0 4px;
+  padding: 14px 18px;
+  background: var(--ambar-suave);
+  border: 2px solid var(--ambar);
+  border-radius: 12px;
+  color: #4d2f00;
+  font-weight: 700;
+}
+
 .dia-titulo {
   grid-column: 1 / -1;
   margin: 22px 0 4px;

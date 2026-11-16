@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-16T22:27:10Z",
+ "generado": "2026-11-16T22:31:33Z",
  "origen": "vivo",
  "fuentes": [
   {
@@ -11,6 +11,16 @@
    "nombre": "Google Noticias: Uribe Vélez",
    "ok": true,
    "cantidad": 46
+  },
+  {
+   "nombre": "Google Noticias: Álvaro Uribe (hoy)",
+   "ok": true,
+   "cantidad": 33
+  },
+  {
+   "nombre": "Google Noticias: Uribe Vélez (hoy)",
+   "ok": true,
+   "cantidad": 9
   },
   {
    "nombre": "Bing Noticias: Álvaro Uribe",
@@ -35,12 +45,27 @@
   {
    "nombre": "Instagram (vía Google Noticias)",
    "ok": true,
-   "cantidad": 93
+   "cantidad": 91
   },
   {
    "nombre": "Google Noticias: Colombia",
+   "ok": false,
+   "cantidad": 0
+  },
+  {
+   "nombre": "Google Noticias: titulares",
    "ok": true,
-   "cantidad": 64
+   "cantidad": 8
+  },
+  {
+   "nombre": "Google Noticias: Gobierno",
+   "ok": true,
+   "cantidad": 58
+  },
+  {
+   "nombre": "Google Noticias: Presidencia",
+   "ok": true,
+   "cantidad": 97
   },
   {
    "nombre": "El Tiempo",
@@ -90,7 +115,7 @@
   {
    "nombre": "El Heraldo",
    "ok": true,
-   "cantidad": 63
+   "cantidad": 64
   },
   {
    "nombre": "El Universal",
@@ -100,7 +125,7 @@
   {
    "nombre": "Vanguardia",
    "ok": true,
-   "cantidad": 34
+   "cantidad": 35
   },
   {
    "nombre": "El País Cali",
@@ -119,6 +144,42 @@
   }
  ],
  "noticias": [
+  {
+   "id": "4e4273804af7",
+   "titulo": "Autoridades incautaron más de una tonelada de marihuana que iba a ser enviada a Brasil: el conductor fue capturado",
+   "resumen": "El hallazgo se produjo durante labores de interdicción terrestre, cuando los uniformados detuvieron el camión para efectuar una inspección.",
+   "detalle": "Un cargamento de 1.041 kilogramos de marihuana fue decomisado por tropas del Ejército Nacional durante un operativo adelantado en zona rural del municipio de Asunción de Popayán, en el departamento del Cauca. La droga era transportada en un vehículo tipo NPR y, según las primeras indagaciones, tendría como destino el mercado ilegal de Brasil. De acuerdo con información de inteligencia militar, el estupefaciente estaría vinculado con las actividades de financiación ilícita de la estructura Dagoberto Ramos, perteneciente a las disidencias de las Farc.",
+   "cita": "",
+   "enlace": "https://www.elheraldo.co/colombia/2026/11/16/autoridades-incautaron-mas-de-una-tonelada-de-marihuana-que-iba-a-ser-enviada-a-brasil-el-conductor-fue-capturado/",
+   "fuente": "El Heraldo",
+   "fecha": "2026-11-16T22:29:24Z",
+   "categoria": "coyuntura",
+   "tamano": "regional"
+  },
+  {
+   "id": "4cbb29c61bd9",
+   "titulo": "Autoridades interceptan cargamento de base de coca transportado en el Meta",
+   "resumen": "La Armada Nacional y la Policía Nacional interceptaron una camioneta que transportaba 30,04 kilogramos de base de coca por una vía del departamento del Meta.",
+   "detalle": "La operación se desarrolló en el sector La Balsa, sobre la vía nacional 40, jurisdicción del municipio de Puerto López (Meta), donde las autoridades interceptaron en un puesto de control una camioneta Toyota en la que era transportada la sustancia ilícita. Durante el procedimiento fue capturada una persona y se incautaron dos teléfonos celulares. Además, las autoridades encontraron 32 paquetes rectangulares de diferentes tamaños que, al ser sometidos a la Prueba de Identificación Preliminar Homologada, arrojaron resultado positivo para base de coca, con un peso neto de 30,04 kilogramos.",
+   "cita": "",
+   "enlace": "https://www.vanguardia.com/colombia/2026/11/16/autoridades-interceptan-cargamento-de-base-de-coca-transportado-en-el-meta/",
+   "fuente": "Vanguardia",
+   "fecha": "2026-11-16T22:27:20Z",
+   "categoria": "coyuntura",
+   "tamano": "regional"
+  },
+  {
+   "id": "b3b5e06f2ad8",
+   "titulo": "Terremoto: Gobierno reporta más de $343.513 millones en apoyos a damnificados",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOd0wtbHBPQU44NzdnM1VKbWRuV0Q4UXFldlVQNnd5eEdiTG1oTkhaa3A5WXd1ZUViS1FCTFFrZFVaRnpENDFSN0V2QklieHJQTTU1b3ZfU0xfaEU5dk51WlFGRUNrS1ZTNzVQOXRIS1RiY2o5cFA0MlMyTFF1b1daVlN4OA?oc=5",
+   "fuente": "CW+ Noticias",
+   "fecha": "2026-11-16T22:23:45Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
+  },
   {
    "id": "74882a8dd0ab",
    "titulo": "Salario mínimo de 2027: así están los cambios entre los trabajadores y los empresarios; quiénes son los que podrían definir el próximo aumento",
@@ -168,6 +229,30 @@
    "tamano": "gran"
   },
   {
+   "id": "586c504d3131",
+   "titulo": "“No ha desbordado ningún límite”: Experto sobre acusación de juez a De la Espriella por encarar criminales",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTlo3a0pjTm9YMmlIRXJNbXV2cXZOUEVEaS1LVUw0cV9Camp4WlRKd0hsd1RuNC1VdERVblljdEJsX2Z3bUVNdTFBQVJLOWMwM3RwWWgyVGxOMjR4LWxWRy1TaDRUaUgtdl9HZERlVmJPQmtuZ0QxTGRNWl9QTy1xT0RSMDVQSTJHUE1EQk9TV2Jwa2prYTVCcEpoa08wcEpiNGllWWtOQlNvZ0tBZ2UzQjZsbnZLTVdiVTdYUTJ5OGN0amxnY1N1Y1otRS1UQmNuYVJOb3U4b1BXOGhveUxYVnVZVTlZNWPSAecBQVVfeXFMTWJ5WTdIbkxtVmNrMXgxWklJcHhsTXBoX0JXOW5vblIwMVhLWXJKS2k1ZS1iNmhpWUVEb2ZRNGdWUHFXVl9uSTFzdTJnN3Y1TVhDTWxpTGtuel9wSUVpY3EwRnJTUEFLaTVXaWM1dkY2eFI0OTNnOWcyQTVJdzVsUDkxNjdESlM0QjdKUEVhRzJvV0dUQTRYbkpLZHZJZ3RCbXQ3RW1rQ29LbjdraVcwc1k3UC03LVo3aDZZbnVUaFpmVE9BZy1RVkZCalZJVHhtcm5lRkMtZV9SNWppbjY2Q1V2S21UWF9V?oc=5",
+   "fuente": "NTN24",
+   "fecha": "2026-11-16T22:03:24Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
+  },
+  {
+   "id": "166b50d82e49",
+   "titulo": "Controversia por presunto traslado de la hija de Abelardo de la Espriella",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQU9MeHdSRE1QVDBHYVV5LVRtRkFxYmo3Z2JzTE9lRzhrdnZwNUR4QlJMU2dfY0dWTFIteG5sZlNpQVl0UTdHaklnNUVZTEs3dUIyOXJtX0U2U2VfdXhrSG5obW5jYW0xQ0RxVmd5T210VnFhVndCclozcmotZWYtNzcydC1uRUxFOUNVN2dUTlQ5NmZWY1Zvb0hpdzB2bkJyQ0J4Rk1WRE9OWnc4d1F1alF3UFU4cG8?oc=5",
+   "fuente": "Diario del Cauca",
+   "fecha": "2026-11-16T22:01:38Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
+  },
+  {
    "id": "dc1fab78e2f2",
    "titulo": "El expresidente Álvaro Uribe Vélez informó este lunes, 16 de noviembre, a través de su cuenta en la red social X, que…",
    "resumen": "El expresidente Álvaro Uribe Vélez informó este lunes, 16 de noviembre, a través de su cuenta en la red social X, que la bancada de congresistas del Centro Democrático retomará esfuerzos en el Legislativo para impulsar un proyecto de ley enfocado en mo…",
@@ -190,6 +275,18 @@
    "fecha": "2026-11-16T21:48:14Z",
    "categoria": "coyuntura",
    "tamano": "gran"
+  },
+  {
+   "id": "b6031cfbc339",
+   "titulo": "Secuestro de Camila Pantoja y Nancy Gómez: lo que dijo el Gobierno",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWVo3NTRiUDBqR05UcldKaVBzT1hQbE5oanZVeVZreUwyRjJORGpSM1FyZlduS2l6SjFoU3dEUlVxSkIyUzY0bThPSnpOXzNsaGJaaE5MaS1kSnlNaUVlMmJDTzM4WTZJRkZlQlZOTUZKeWc2NEtrdXJjVTRJWkxyOVJR?oc=5",
+   "fuente": "CW+ Noticias",
+   "fecha": "2026-11-16T21:43:23Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
   },
   {
    "id": "3498f4da015b",
@@ -238,6 +335,18 @@
    "fecha": "2026-11-16T21:36:48Z",
    "categoria": "coyuntura",
    "tamano": "regional"
+  },
+  {
+   "id": "ebd2e4c88ed5",
+   "titulo": "Abelardo de la Espriella: balance de seguridad, salud y reconstrucción tras 100 días de gobierno en Colombia",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRUVyOXBXM1dtaVRPTjQybVl0b2poTW8ycVE5NjdZQ0VuQWkweHFQZG9OR3Vna2dNb0lOZy0wRGlpeGxvbng0eUswNmN0SGozQXNib2oxRHEwUnNPRF9aZjRuN19aWlN0aTNmVTVjR3hZZVRmVjhrMnNNLTNHWDk4aGxnU2t2RkNVZVp0bU1rTW1VRHNIWEp3RjlBbUc5cVhBa2RONzBNM3EwYVBBSk5oX0prcjBZcWc3SFFNd1QyWFVGekppR0c4ZNIBzgFBVV95cUxQRG56SEVkUkVvWGs3bi1hamp6OVpxQUV5UnY2MnpwNEFTME5sMmV1NmlTUERlYS1GbV9haGZhQmxLbmo2RzJlX2FXUURaWWRNeXFiQTdxb0tsRzd4djBfNlVTcUxxelVaWjdvUXNTSFI2RmZOdmlmMlRXVzBaV3pJUlZvZTc0ZC04aHZobVZpY3gxVEFJTUhaSHFfYlFyWWVBWUplVWt1UUdRYy1fOXNlWmZ0Y1Y0VHMtMXVtWVJhODdLNk9fTy1hREZ4UFNaZw?oc=5",
+   "fuente": "Pulzo",
+   "fecha": "2026-11-16T21:30:47Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
   },
   {
    "id": "2e65bad261c7",
@@ -384,6 +493,42 @@
    "tamano": "nacional"
   },
   {
+   "id": "cc064ed70749",
+   "titulo": "“Mi Gobierno no impondrá IVA a los productos de la canasta familiar”: De la Espriella",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMie0FVX3lxTE56LU42U0pDZmxlV2tveDJGTkxvdXYtMGJNVEJtZWhLRWVZald4VTBZbnhoUE5fdEhCMzAtX2FFY004aHhLQk5odFl1MnpxZFFndUFNdGI3SUtDZ1JzZmpndEVaNVBhekJHV3hqMFJEX2xxRnRJYlQzYm02Yw?oc=5",
+   "fuente": "Telemedellín",
+   "fecha": "2026-11-16T20:48:59Z",
+   "categoria": "coyuntura",
+   "tamano": "regional"
+  },
+  {
+   "id": "130c2d1266ee",
+   "titulo": "Exdiplomáticos y exministros denuncian retrocesos en la política exterior del Gobierno de Abelardo de la Espriella",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQVR6Z1p2SXJTME1nRUdCa2F3ZzZhOEM2bHRKMFFhN0p4bEdlWXRpZzZyZG5hRm1oS1hMZ09GUGN1dmY0QWxnVTkwblo2VkphZkphSzFycnRYQ1dIYS1XU2huTzFuYTZ1S2JSMTRBNHFFWjIzUTJVLTJldjNKZ2FSXzZVODJSb252SzJEUGxwNGtwU2p1RGpLYThUY3F1UjF4R2VjcUZtUDN1RWFVT3hKR2NmanZDaV9oWWZZblZock1uUlBLNUNLbER0ZG1ZSW9fMWRsUlJQZTNaV1V4Qm1qSzdWeFFSLWt5dkZlZWhJYw?oc=5",
+   "fuente": "CAMBIO Colombia",
+   "fecha": "2026-11-16T20:42:32Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
+  },
+  {
+   "id": "e4a4473300e6",
+   "titulo": "Así fue la imputación de cargos a alias ‘Primo Gay’, el peligroso criminal capturado y encarado por De la Espriella",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNWEJPX2I4eTZ2SkF4a0dQUWREUFJzZDg5UFJFT29EclA2MzZ5NmNxd1pvOEJKWVl4SEVDa1Z5dHBpNktNRkRMdGRiMHBPYWExbWtKT3VLaUNVdTBmUU9NWXFBR29qN0RLMHhqSWNCaHpCMXdJX2RDeVZvMi1YT1F1eUNxSjUzc3djUFNOWV9PWmdvWGdiX29Kck5tTHd6a0lSVHFmZklodG1OUkR0SkFNc2tDSHI4cWc3V2FsTDBfMEU4bUFDVDJPVmFxM3JfZmZxWW5GdDEyMDQwLUw4X25lNFBwS3lMZVZDcmI0WnhtMS1DVFnSAfMBQVVfeXFMUDNvTW1GdkVlYjRycW51ZUpQTVFyRE9Rbm0zU01TMkxwb21hcHhicEQ3VU5EMlJqOFN1Rm9FRjVEMmotTkhneGdsMUhHQ2hfT2lsQktwZzlzcFhkWkJmVURpUUtDUE5FcHNsTkN0Wk5hU3htaUM4ai1uVk1GVGxkaTQtVmhTSVNQUjlsU2pBVE15dTROZEozbU1FQzd6SkF4TGpLY3NWNTZic1RQMXF0em9XS0ZrSnZjX0E0S3F3RnNadWx2QjhUV2o3QmFNTllaRWpwanZTTHo0SzJ6YXpxMzRWSlAzUXltdTJNNlFYcVExZzg0?oc=5",
+   "fuente": "NTN24",
+   "fecha": "2026-11-16T20:41:18Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
+  },
+  {
    "id": "2c6b443c77f4",
    "titulo": "Golpe al Clan del Golfo en Antioquia deja un muerto en combate y tres capturados",
    "resumen": "El presidente Abelardo De la Espriella reportó el balance preliminar de la operación ejecutada contra la subestructura Jorge Iván Arboleda Garcés, donde además se incautó abundante material de guerra.",
@@ -432,6 +577,18 @@
    "tamano": "gran"
   },
   {
+   "id": "573a47adcbed",
+   "titulo": "Bajar el IVA al 18 % le costaría hasta $7 billones al país: ¿de dónde saldría la plata para compensarlo? | El Colombiano",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZGRmVVB6SDFKUDNZWWxpWktlR2ZXaF9WSlR4NDRCdFg2QWdFMDBzaEhOM1hleVlMUGM0RXk4cVF2OEx3SWJ0YzBpOThxaGh0STRra2d5WXlSeXNhU1JIcEVGRlowdDk5S3JrUUZFTWxmaDRuaXFDS0ppVFdLX3FHYVBBakItVnFReGhUN3RRWnJ1NmoxcVM4WktlTlRDZy1OcG9fdGM0RUvSAa4BQVVfeXFMTVpZN2dhSmZjY1ZaNGdYRHlOZTAxVDVENGhPTlFQbGliaEl2Z0hFMTJzYUNHRlUwYlFRRE0yUmVXRllJTDVWUWVJb1Z1ZkFPVlJFTEFQUnR2cWllZGNpQkVfYW1ISXV2b2w1NkFlTkp2Tk1TaGNmYUwwSzVscjhoUjJ6UWV5QnlGZng4d0tlZEhaN0tZZFNCbGhSOWVVZEliUnNCRmxFR2lnMVByMXJB?oc=5",
+   "fuente": "El Colombiano",
+   "fecha": "2026-11-16T20:22:40Z",
+   "categoria": "coyuntura",
+   "tamano": "regional"
+  },
+  {
    "id": "26644974ad51",
    "titulo": "El Cementerio Jardines de la Esperanza, en Montería, será intervenido una vez más",
    "resumen": "La Unidad de Búsqueda de Personas dadas por Desaparecidas (UBPD) iniciará la III fase de intervención forense entre el martes 17 y el viernes 20 de noviembre.",
@@ -442,6 +599,18 @@
    "fecha": "2026-11-16T20:21:13Z",
    "categoria": "coyuntura",
    "tamano": "regional"
+  },
+  {
+   "id": "e77590975e4d",
+   "titulo": "‘Plan Marshall’ para reconstruir Colombia: vicepresidente se reunió con congresista estadounidense en busca de apoyo",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOZnVKU2NvTHV1cWRvdTVKM25LbTdiMVRBanc4bXpmbDI3a0cwVFpPMENsU0JWc1d1djJJejZiM25Gd0M3bmJXM3pTRlNEQjRrclZpVXp3Um13dVNNSW1XMlBVbTJwOVNxaHk4cXlHR1F6Qi1ud3pjNFFERkI3VmdfZWw5cEdmSUlVZE9vQms1aG5nZFgzZ2UzY0NFRnp0cTRodHVKMGRGYTJPcUJYV3ZKeEltdVA1aWxHZmdoMjNlVUJ4LWpKVjdOSk0zN1pTbE5zZ1pJSllNLVpmV19fVHBxbTU5bEtsV1cySkhzcmhwZjBpZHN3dkJLcjdPLTBCN2Jwc0VuZHhJRdIBjAJBVV95cUxNM00zaEVlamo0ck9JbEw1aEtKTEg0MzNVdnBqalIzaDFhOHJLcUhfejBRckQ2OWY1X01aTm9LT0hPV1NoM0tpZ1NIdlF3QnhBTzMtUFJ6bmI3VzlMeGxyc1B4a0VjcTVoX09DTjZoVHNORmtxX0s2LUtRN0F1Njl4aEdRZlZZSXRmekh2VEh3T3Q1TVk3bnl0MjQ2amtTV05tZDdHUDBGcGFmX1FJbkFMYjd1MHZvclYxcHhvUkQteEhjUjAxOHFwTnV3U2ZYb2dSV2lBWVNuS0hPSVluMlFZM2NmdmIzbDBTOWI0NUtDczF2T1V5TnYtN1Uzb3JJSXZBSDd1YXczYnFFQ1B5?oc=5",
+   "fuente": "Revista Semana",
+   "fecha": "2026-11-16T20:19:12Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
   },
   {
    "id": "a20e98b9da37",
@@ -516,8 +685,8 @@
    "tamano": "nacional"
   },
   {
-   "id": "08da266a87f4",
-   "titulo": "Gobierno comenzó ofensiva en Nueva York para atraer inversiones por US$41.000 billones",
+   "id": "63723406daf7",
+   "titulo": "Gobierno comenzó ofensiva en Nueva York para atraer inversiones por US$41.000 millones",
    "resumen": "En reuniones preliminares, el vicepresidente José Manuel Restrepo anunció dos negocios que representan US$3.400 millones.",
    "detalle": "",
    "cita": "",
@@ -576,6 +745,18 @@
    "tamano": "nacional"
   },
   {
+   "id": "ffaa05ceb587",
+   "titulo": "Presidencia respondió críticas por traslado de Lucía de la Espriella al Festival Náutico",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZHhpamkxTnp1RVJ3Mm1odnVMRFZ5bFRKdkJuNGltbDlXdVRlVE1Id1lmZFkwcUJJS0VaaE41VFpvTnZhNE90eEszRGlBMjlXY3JwTlpUMmZKLXVLenlSWGhGZ2FkSWhXVC1yTXVFazJ5ODZyMWxLcDU5TFVqX3ZEYjRjOC1KeG50dXBDRnRZcHYzaHlKTlNoWHBzZEVwTGd6Tkh1alZKaHQ2Nm9oUEtEZk42N01rVjVnT3Z1QmJ4NjnSAdQBQVVfeXFMTkNZY0JLelBiUTFNM0pDOFNlVFlubHdZajg1MmNyME5SS0wtV2c3ZzdJZkNLS21hVGhKY2QxWjZ2ZmxDSU1wTXc1UThlTExWc1FaZlZGMlI1aVdCbFpZR2Z3YVpYQ05aZEJsb2N4aUFReEE3TzhqSU9vSTRTbkd4WGJQdF9DMDA3dDE0R2N1X1JRWGRpbUtlZW9USWZzS3MyQ1pMMVR5RFo1dWZVblQwY2YwQzNNRzFuay1oOG9Bbnh2ZDZSTGxfdXlpbl9mOTdNX1ZvajA?oc=5",
+   "fuente": "Caracol Radio",
+   "fecha": "2026-11-16T19:50:38Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
    "id": "3c85b675fde6",
    "titulo": "Revelan detalles del acta que pide investigar a De la Espriella tras exhibir a un capturado",
    "resumen": "Néider Yesid Uñates López, conocido como alias ‘Primo Gay’, fue enviado a prisión, junto al otro capturado en Briceño, Antioquia.",
@@ -610,6 +791,42 @@
    "fecha": "2026-11-16T19:43:12Z",
    "categoria": "coyuntura",
    "tamano": "gran"
+  },
+  {
+   "id": "a76feba5c3ee",
+   "titulo": "Gobierno defiende la polémica por la hija de Abelardo de la Espriella en lancha de la Armada",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTU1qbVYzMFNqM2Y1WUl1cnN6RTZ1YnQxUU45RllEZXpPQjVMTVhMZ0h0c0lFcWlPclBoSzJ2bDBCQkNBN29lSFEzcGtJSnVyNnVzNXNnYldOWmhVZWt5Y3RGbDdsTmpBcG43TnhSNGFUdjdoMkgxLXItQld6SEtlVmJsMGFZODdDcXdzUlRYOEJSTURwbGE0amhOOUpHaVlmc3FJYzZENmjSAagBQVVfeXFMTmhWWFZNRmtuUWhidnBadnNyN2JFcHB1aWRRTVhPbFczRmtvNUltRzlOVW53Mkg1aUl3MWFNVURsM1VwbndMWWlvYXdnWWlQdWkzSVktTXJ2VkNoQm9heS11NG42cVZyaGhXVVViWkpqRWticm03ZkhrZE9oYWxmRV94ZFJOYWZCZmxnWEhDZE1scVdkLXRjcnk3MUdxSGhkTmVEaEFlbEY0?oc=5",
+   "fuente": "MARCA",
+   "fecha": "2026-11-16T19:42:04Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
+  },
+  {
+   "id": "2646c3544595",
+   "titulo": "“Se respira un aroma diferente”: Dumek Turbay tras los primeros 100 días de Abelardo de la Espriella",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOYUxSU1lqUW5NcWl3bWlmMDZMOGhwZ1FTODJlS3RnajAtWlI0dVhEYmlNQVRKYTBxMDdKU2xrRkVoR3h3WDNwbFlSbDY4T05hOEJiME1EOW1NNWlDNEM4XzZwQmdTZnpUX3BaZTJnM041MndxY0FBNTEtVERIQXRZYUctdjJpeU1rRUtTc0t1ZVFvRGVUR0UwLXhycE1oYXhCQVpsOXFJelBlaEN1TmdOSzV0cTRNY1ZRTFNHRlpYNnBFMUJHSkJESHJrRWbSAeABQVVfeXFMT3FEVDJaakNQaTZ2Qk8yMFZNdk5wRGlzaEJfNDdZWXgtTEV4cTJSamdwei1raTU2NUtiaGF1cG5nb3hmdGczOXVuODVlWHR5bTRVZk1maHEwQW1oU3hUb0dnYlFtUjVjWFZJRC1nYmt4ZzVzeHVST3NyZ0RNYk84Yl9QLWJRNHlqSFFPQlVSdkNMUVZWdXE4bl8zbnVTRmVDZ0owVzVBSHZqNkJVcjJsWHgxeE1JckwyVmFaSi01VFM5LVdIcVNlWW5ITVJQRktwbUNMTHpRUFAzdE5OTExFeWM?oc=5",
+   "fuente": "Caracol Radio",
+   "fecha": "2026-11-16T19:40:46Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "b050d2f6fb13",
+   "titulo": "Aparece documento del juez que compulso copias contra De la Espriella por trato a 'Primo Gay'",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWGVlRVVfOTUzRkIyNDdzY3gzVHU1d0FRWHl3OWUzSVV2U2F5OEw3RzF2ekluS25Ibjh1REp4LUdBbnduU181em92TkZuU3JtTzVybnQ1OWpEd0o3Umppa243TmdRTDhFSmw1MkdTUm83WHVkcElEdUE2dTBzR1hpQ0Z4MjhnVXk2bkVTRmVxOUlCMzJIQUI1aFUwbTBSeHpWSnE5dFM2c1_SAa4BQVVfeXFMTkE2bnFZbU9jYmhGeDNxQlpDUzdmdGVnNjVPWVgwa1dNQUdoekNoUnBhcDRMSG9UeE9xQ0dHRTZEU2k3SV9tdUNtWEF1TG9aNVVQdl9NbGNMeTQ1c2l1NkpESm1DVlFzSDRvUy15bnJ4MldqeHozRzlEcndqeFVqcWJzSXV4bS1oUmhLQkFHRVRrR2JtanNKZkxLUHltT0s3ZWFneVNCRUNaYXI0X1FB?oc=5",
+   "fuente": "Pulzo",
+   "fecha": "2026-11-16T19:40:16Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
   },
   {
    "id": "75d5f026e2da",
@@ -684,6 +901,18 @@
    "tamano": "gran"
   },
   {
+   "id": "755fe1a8e51d",
+   "titulo": "Cambios en las Cámaras de Comercio de Bucaramanga y Cúcuta: De la Espriella releva delegados y designa nuevos representantes",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQmZaVDRkTW05R1BOUmtFbE9STEgyZG5pVE4zajVjRjVKSHhtUG9wcnQ0eUlpZHh1dHlndEQyVThib045dEZFM0xnd2QxdVJvXzdSX2ttajBxMVE2SkRJLXU2NnZRQ1E5TnYwbE5BNUVmSUY2NkkwekVWa0J6cVdJeVg5cnBrUjBZRVpaV2JLQTJWdw?oc=5",
+   "fuente": "Metropolitano",
+   "fecha": "2026-11-16T19:23:07Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
+  },
+  {
    "id": "97adeaad4585",
    "titulo": "En un puesto de control en vías de Sucre capturan a cuatro traficantes de estupefacientes",
    "resumen": "Los cuatro capturados y las sustancias incautadas fueron puestos a disposición de la Fiscalía General de la Nación para que respondan penalmente.",
@@ -718,6 +947,30 @@
    "fecha": "2026-11-16T19:13:14Z",
    "categoria": "coyuntura",
    "tamano": "gran"
+  },
+  {
+   "id": "15efe4f3b774",
+   "titulo": "Colombia rechaza ajuste neoliberal y violencia en gestión de la Espriella",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5rTnAtTG50U1VlMFNQZFhXcXc3OERSeVVJRHRKcFpSOXg5WWh6anB2em41eVpHNng4MG1vOWFwZTQyT2xrYW02SjhwWEtZQjVraWhjZmtFc3hLX3lORUN2Y0UxWmJTUWRlVkRxVkZ3cWM3d0VwbkJWWnJxNA?oc=5",
+   "fuente": "teleSUR",
+   "fecha": "2026-11-16T19:10:30Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "4135c4f701fe",
+   "titulo": "“Dentro de poco lo voy a dar de baja”: De la Espriella advierte a alias Chiquito Malo e Iván Mordisco",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORXFvSUplenlXZG5oRkwteVZZdEl3REV4bUh4RnhkcEZ3SDkxSjhHSTJVaVJiNmQ0SGdKT0x5TTVRakJQWnE2cHZMR3Y1VWZYMVBTOHNoSHN6N05CM3phWW1tVFZDcUp4NGZ6MTJqeVFXcy1yT0N3cXBNMlpYNUJBQlBMN280aXk2NndYd2JZZUY0R1M4ck9nN0tuSDAzWjlkcjd5RnFpM2M3a0ZSa3J4U3UteU1WZmpQVlE?oc=5",
+   "fuente": "LA RAZÓN.CO",
+   "fecha": "2026-11-16T19:10:26Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
   },
   {
    "id": "ae6b18ee6ea6",
@@ -792,16 +1045,16 @@
    "tamano": "gran"
   },
   {
-   "id": "eadb1e14976f",
-   "titulo": "Investigan causas de incendio en el Gran San: 22 locales resultaron afectados",
+   "id": "7dd8899aed45",
+   "titulo": "Primeros 100 días de De la Espriella: líderes sociales asesinados, masacres y miles de desplazados",
    "resumen": "",
    "detalle": "",
    "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeWxEVkQ0VVFtaE5LQzZXSGdtZlNkd2VzOWY3clI1ajJha1pOX3QwWWJSeDU2LU9vVU9RdHZUeEZYeVE2V1VyTnBubXc1dnJkaEhRODl1cGxuMHZHV3dUVkhCRXZNdWZWTE4xSUxtRFdzUlprWVlqdmxCWkJBbzk1azVSTWM5Z3V2Tml3NmlNdlNEdlZXTXZTLUpNcXJ5aU93X1RlRHRpTGdnTEhiTDRKUTVkRdIBxwFBVV95cUxOc3FLaFNnYzVJVUpUdndTWEdMcHVJV3F6YzJoeVBSenZVTjdqRld1ZTlQODRLaFM5WmgzYlVySFl2d2QxNzl0U1dmVndObE9IXzZlNEtZWk44QVdhYWRCNEhjWW1sVUZuVUJRMFFMNG5kaTdsR2F0OUZyQ01kUmF6UWpPOS1MLUhvanMzeXk1Z01yelVZaTdCeGI5dWYtSmxzU3ZaWWotWGM1NkxyQzkyRy1Mbm9KbmxBNzJ1a0puRDFVUU00N2pn?oc=5",
-   "fuente": "El Espectador",
-   "fecha": "2026-11-16T18:46:00Z",
+   "enlace": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPNGtiU2hhT0x3SlVKSjJTT1lCUFJwSVZTYVVUVTIzaHNHWkFPMlFFb0tfZ0dDZnBIMjVXbHdsNlQzNWZiQjZjNXVrZlBvY3FPajh3cGF3UkhETHlqbmFGRFJTVlhEZ0gybHBWcWVkVEMtSi10UkhOOERWOENLbExoRmtXNk5fUGhVNnJmdEw1ZFEybWdHZnpYZU94TW02S1ZGYlVieHRQWFRrR0hRcU1JZGowZmJ6TlhId3BNZzltX1ZwNG05TjNNdVV3NVJGdi1vd0ZFZko1TEFKaFlEV3ZUWml3QVNybng5NEVud1RKQU1GNkJibmFLWQ?oc=5",
+   "fuente": "Cubainformación",
+   "fecha": "2026-11-16T18:43:23Z",
    "categoria": "coyuntura",
-   "tamano": "gran"
+   "tamano": "local"
   },
   {
    "id": "5eba0a19030d",
@@ -828,6 +1081,54 @@
    "tamano": "gran"
   },
   {
+   "id": "f39bf272edf1",
+   "titulo": "“Los voy a dar de baja”: la advertencia de Abelardo de la Espriella a ‘Chiquito Malo’ e ‘Iván Mordisco’",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPc2gySi15akRDR1ZWSnpNR09CNkZWVVRMcXMwRUlrTU5PbDMzQUFuU3UweUZQQ1J4bmNwTHBUN3pPYm9peldYNWhpUk9YY3J2aE5fLVRZbTAtY1hxZUNmOTg0ZTQzdU5ORmgtNzBGNmFCbVNBQzRKamhONC05Y3F6eDREQ2MxdWNVVUJpZFVyRmtJSWtvWW0xUEt3UHpNc3o0OWxfdldjcGhGbnVISHZ6elJsa2tXaDcxMklSVG1wS2tpaTlJcThGN3hCbm8wcUU1MlBmVjNYRjY0OGRSVnfSAd4BQVVfeXFMUHF5VEdmVVV4M0NJTXliUm9JOVRrZHVaNDhPWC1mcVVwRVp3OEFzWVA1V2Y1V2tKZ1RTTmdMY1BqNDhnZ1p0XzFUNDB4M1NtVFFhX1hCVVJkS3Fjd0xNWTZiRjlvNXd3T25WaEdiSDA1NW1WSFgtRXA5LTNaeGZ1elF0MThjbFNTMEd3VVRKN25tMUh6YTlLaG5EQVRnRDhqZkw1WnRxUEdaLTl2RjJCMi15V2h5QXQ4dXFZLXRCcmFybDJObUpaTHctV3RjODJYSkhCaGlmcGQtcTBLclN3?oc=5",
+   "fuente": "NTN24",
+   "fecha": "2026-11-16T18:36:11Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
+  },
+  {
+   "id": "ae7607b88364",
+   "titulo": "MinTIC prioriza la protección digital en primeros 100 días del gobierno de Abelardo De La Espriella",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNd003RXN6Zmxwb2pzN2VMeVR4eFZDWWVWaVBsX0tHMFlIaWNrUXZ3MEpHZm9zXzhnX0NWbDJsZE93U1VnejZaQTR4YnByMkI4dTVlaThoR0R6UnJhU013allYN21GRnhsY1kyQ09UbVJQTF9kdTBkVTZkY2ZHc0JCNkhIZXFCZXo3V2ItR2JGVVNkQ3JxMTlzRDJhek9MeHBVWUhzMm13bGwtUlU5aGp0ZWl2clhyWHRROWtheUhERm5wR09lUFdv?oc=5",
+   "fuente": "BusinessCol.com",
+   "fecha": "2026-11-16T18:33:08Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
+  },
+  {
+   "id": "bc27dbaeb295",
+   "titulo": "El presidente cumple sus primeros tres meses y 10 días en medio de cambios frecuentes en su gabinete, una política de…",
+   "resumen": "El presidente cumple sus primeros tres meses y 10 días en medio de cambios frecuentes en su gabinete, una política de seguridad más ofensiva y medidas para reducir el gasto público. 🔗 Encuentre el link de la noticia en el primer comentario 🗞️…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOcTQwaTlsMDhSb1dQTkN2UXprQThXcVhlOXRYTGViRGFEZGRXcDZMR3R3Ti1UeEhSNGoxNFRXbGZfT2JQTkhGMVBJRlFtNFpDbzk0cFg1TVhGalJpWWR6YWhhZGowazdyVVdVa2JmN3ZObmlDQUpYQnE2NjFYVzNxRERPSmdIbWVCRUFIcmxwOXNwQWZmU0s3blB3cmVxcFYyVlVFVV8tYlNoZUpWbWR3d0VVaGk5N3FMMDFKNXh6VG96QW1STUNsZExSSlhWcHRMZWpjRW9hNDhkN2FmdHJFNWVOQWdUekZ1?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-16T18:21:07Z",
+   "categoria": "coyuntura",
+   "tamano": "redes"
+  },
+  {
+   "id": "8993906dfc86",
+   "titulo": "Gobierno de Colombia anuncia plan de choque por ataques con drones",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkJmZVQ4ajB4VVNZaVVPWE81eW5tUXo3dFlVeFFrTFhlUUxsbS1qRy1TU25pRlphQjZTdzN5ajRrdjdiczJJYmF0RGpkRGNPUXRreE1oMlhuN2w4cVdRM0F2U0ptcFVVZEZ5TS1yMjNyaVNCRmU4VTlHN00wVUtiR1FpSW1wUEVhcEFBU3Q0OWZMRms3Vzg5ZW13QTh1MTJaWlBmOTZPT0o4cFhXWXNzdQ?oc=5",
+   "fuente": "El Comercio",
+   "fecha": "2026-11-16T18:18:54Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
    "id": "29aa358561ee",
    "titulo": "Periodista de Cúcuta denuncia presunto acoso judicial tras publicaciones sobre irregularidades en la Cámara de Comercio",
    "resumen": "La Fundación para la Libertad de Prensa (Flip) encendió las alertas por lo que considera un grave riesgo para la libertad de expresión y el ejercicio periodístico en Norte de Santander.",
@@ -838,6 +1139,18 @@
    "fecha": "2026-11-16T18:16:01Z",
    "categoria": "coyuntura",
    "tamano": "gran"
+  },
+  {
+   "id": "9dec20b09d66",
+   "titulo": "Gobierno Nacional no impondrá IVA de 19% a los productos de la canasta familiar",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNVcyeW42UW1FYVNvam9DMnFyei1fN0ZyRk04UnJCTFdBRkFPM0dRUGpWbkMwYWtRU3FUWGV3Tk5VX2RUaVFzSHFFajVPcFdxZS1MY3FkdTJWSkdhMHp6UzlTMjJVd3I0OE5RSFF0aTBncVBjSmMxdHctZmNFNlF4MjQxRWFpOVRfbW9LUlNzNUpmRVNEanF6Q3dqQ2VUSU0?oc=5",
+   "fuente": "RTVC Noticias",
+   "fecha": "2026-11-16T18:15:50Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
   },
   {
    "id": "ad06a9ff99f4",
@@ -912,6 +1225,18 @@
    "tamano": "gran"
   },
   {
+   "id": "8350efcceb1b",
+   "titulo": "¿Habrá cortes de agua en Medellín esta semana? EPM confirma qué pasará del 16 al 22 de noviembre | El Colombiano",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdjY0SGEtWHF3UURPUXBjZG1fdkRGa3ZoZ0p1a09BSVFvNWs2TVBPdXhVMjNtbExwcGdlT0pZc09KVmtoRXM3ZXdicEhlN3plYUR1V2szU3dtU0xzMGxPcHVxdk5JMWdmYVlFTW9ibVJEY0FGWjI3blB4NlpsWUZhbUF30gGHAUFVX3lxTE1peDNJRzU1OC1sYzB5dEd6RFFUbkdnU2RTTDVvUEdsMG9CbWJDemw4bmpWVEMyM2tmTmlvQ2UwMTM4dzNtbmVDX1plc091YUljRDNqYTNHbjRWOXRncms4SlprYXUxQXc2cEtVajNxZ1N5UUZ6MElLcmtPbmRreVFVUzdWNGdiNA?oc=5",
+   "fuente": "El Colombiano",
+   "fecha": "2026-11-16T18:08:25Z",
+   "categoria": "coyuntura",
+   "tamano": "regional"
+  },
+  {
    "id": "d9929b84f6db",
    "titulo": "La papa se disparó: su precio aumentó 98 % en Colombia durante un año",
    "resumen": "Hacer mercado cuesta cada vez más. La papa, uno de los alimentos básicos en la mesa de los colombianos, registró un incremento del 98 % entre octubre de 2025 y octubre de 2026, convirtiéndose en uno de los productos que más presionó el…",
@@ -934,18 +1259,6 @@
    "fecha": "2026-11-16T17:55:01Z",
    "categoria": "coyuntura",
    "tamano": "gran"
-  },
-  {
-   "id": "a2b579b7bda5",
-   "titulo": "“El consumidor de Medellín es amarrado y muy diferente al de Bogotá: se encierra después de las 7 de la noche”: Carlos ‘Caloncho’, pionero de Rappi | El Colombiano",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYlgyYzFZMkxjRXU4WFIycHBUTEZmaHJjd2RFN3pzcTBOUzJ2eVhRTGtQbnpVWVp4SkxuRC14aFBLMDdnbTN6RWFQdFhSZzhMdXkzY0tCZUJDenEzV3B3MGZwaGpONTd5ZjRGOGpRcGxOY2JVelJQMHJIWlZLanFUOEV2SUdxbE94NEFvTC1tV3pMNmhGNUM4WlFHdXFvNDNud0Z1S2U1UVBrMVZtaFZOdG1CeDY?oc=5",
-   "fuente": "El Colombiano",
-   "fecha": "2026-11-16T17:54:31Z",
-   "categoria": "coyuntura",
-   "tamano": "regional"
   },
   {
    "id": "44145d084944",
@@ -1016,6 +1329,18 @@
    "enlace": "https://www.portafolio.co/economia/reforma-tributaria/no-proponer-iva-a-la-canasta-familiar-e-insumos-agricolas-es-senal-de-tranquilidad-para-hogares-y-productores-506460",
    "fuente": "Portafolio",
    "fecha": "2026-11-16T17:47:00Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
+  },
+  {
+   "id": "dd8f322c03c4",
+   "titulo": "Gobierno De la Espriella estudia cambio que tendría el IVA en Colombia: Bajaría a este porcentaje",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUGhjc2xOblRuVk80TDI4WkRJSjNJM3ZIaVFQMzl4Uzg5blZ1aUZSMk1lMk5HeWJJMjZ0am5JNWtWR3BhNEpSXzJtSDZDZktKV0Z1OWkzOEpsMXZKVUxQd1NaUWc0TFhyTTgwLTRhS1pSRFRuQWluTTBjM05OOEc4bVl6alBSNlFTS2NDT0hidXFPTDhVX05VOFZGZThCejFndFd4ZzlPR1gwZElRSjhVVE0xQWNtM2dseXduT0k0ZjNPT0xxWUdR0gHMAUFVX3lxTE5xRGRVbUR6SzkyeEgxQ0M4bC15NmhiNG9DWjJsSTVUczd0ZjlkS3Jtc0tIdGlvYU5OdjFreGt6dXVQTlVVSWRsNXhFTW5Ia3lJQjVYTlFxX0hlaVJLTDExZjEtYndaZjU2SjcxdDhoTGx1Nm9acE5mZXdzZ1EyUGF2UTdjTE12QmR3LWxBbi1uZ1hFWHlsb19LbmRoRGViTlJqcHkyQ0E5T2x6aGdzVVBBQzhFNW9iUTZXNFNBU0ZoMmdvVldfdW01cUFLaA?oc=5",
+   "fuente": "Valora Analitik",
+   "fecha": "2026-11-16T17:46:33Z",
    "categoria": "coyuntura",
    "tamano": "nacional"
   },
@@ -1212,6 +1537,18 @@
    "tamano": "regional"
   },
   {
+   "id": "59bdc1a7ee7e",
+   "titulo": "Este miércoles comienza la concertación del salario mínimo: ¿Qué propone la CUT para 2027?",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMF9nOG9ZaHBqOVRPREpTdko1aHNCcElZV1hQc2FUWEFoR1N5SDBKbVNiMkQ4emNBS0NsLXNjWnAzaFJWcW9aM3FRSXRkbkxRTUFqZDA2ZEYwNk1tVDFneGpSSGJXV2xSWkpab0JNOHY5dmJYNVVKRURiQnNZcmxkQlhYWHN2dHNZVzZsbnB5Sm9Nckd1WFpjSmdjc9IBmwFBVV95cUxPQ2dVYjh2M2dUT3Ric1BTU0xHLWhwb2lFWVR1MkpMU3paT25LVFZhTXptTWhLM2k3bW54MnFvSU4xZjl4eVdiVWI4UWxLU3E1bzB2UklIQV94aUFpekNKY2RZWWpoZl9SaE1qSHA4ZWF3ZjBvSmtzenRyNS1ldkpuaEljb3U0MlZwVHpJeWFFQXlHbC15dUptZzEzWQ?oc=5",
+   "fuente": "La FM",
+   "fecha": "2026-11-16T17:11:52Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
    "id": "47245234ac28",
    "titulo": "“Me recuerda por qué soy más feliz desde que dejé el feminismo”, congresista Carol Borda tras retuitear un video en X",
    "resumen": "La representante de Salvación Nacional, Carol Borda, retuiteó un video, a través de su cuenta en X, junto a un mensaje dirigido al feminismo.",
@@ -1284,6 +1621,18 @@
    "tamano": "nacional"
   },
   {
+   "id": "c9ed973b8eba",
+   "titulo": "¿Qué alimentos de la canasta familiar no tendrían IVA? Lo que anunció De La Espriella",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRlYtdFBpY3V0TVV3WmVwVTJBX3ZXR0ZGWklOS1dXTUpmM1hqVnlybDBHSW10R2FtMjRObTdLa0h6Yl8zeV9rTG9IdHBMZkh5andYUlNqZmVBWTRUZmFOdTZmN3gwTVVCQzY0WTZXOHJNakRnOExib3dvY0dkU2h1ZTlQakl6N2JvelJIdkhLSWxJSTY2Yl9WUnBiY0lzcGp2d3k5OTh6YzVtSV9ad0tCb0VaaWVwSEpSeVp2Tkw3azFUQzDSAcgBQVVfeXFMUFE4UmxCNktZcEdIbFpaekJVd3lWMlBwX2RFX0RrZFRmemthQXhXeXNIdk9xTVR6aWF6cV9SUk15NDc5VlB5c0FhMGViZXZSNEY4SkV3QmdXQlhnSEZrWWZ0Zk51Z3ZQZm11X0ZFZEVoU3FVak1vOGx3TnpCbmxuMEpoTHd0cTZVV1hYNDJSUXFGMm9PU0RWM21DVmVwaTVubHlQRFo1cWZieXJzTjBWaDdQWE02SnM2NWRGLTJFSmtOUTEydUQ2VG8?oc=5",
+   "fuente": "Portafolio.co",
+   "fecha": "2026-11-16T16:53:07Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
+  },
+  {
    "id": "56738497bca2",
    "titulo": "Daniel Briceño reaccionó al pronunciamiento de Álvaro Uribe sobre avalúos catastrales: pide derogar tres resoluciones",
    "resumen": "Daniel Briceño, representante a la Cámara por Bogotá, se pronunció sobre la discusión de los avalúos catastrales y respaldó el reclamo que ha tomado fuerza desde el Centro Democrático.",
@@ -1308,6 +1657,18 @@
    "tamano": "regional"
   },
   {
+   "id": "49e65245dc68",
+   "titulo": "Gobierno de De la Espriella cambia su propuesta tributaria: no aumentará el IVA a la canasta familiar y estudia reducirlo",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQalBwSlZnTXl5OTZBQklBWHJHeWh2X1l6UWR5SUxGSGNRd3ViY3Vfb0syTTNESGtYV1RzSWthenJLMjdmTDg2b3ZoWVNiN2JWTW5iWDFxQy1qVFliVlVxWGRzaHRubjBCbXZEaTNtMURUQlZrTFd4YU9QWTEtMXBxUEVXWDJJZkNuUF9OU1hxWFpEZW1lQUJhZDhWWFZXaVp4bkYwbzlHNDRZOG0xZ29rWEZJdzZOSEQ1MENzZFpRMklvdEYwNDdlc3BfNU54UVZxSlNSalk1UzBMUWlHbVhZeXZYZHQ2Sm1MMmRR?oc=5",
+   "fuente": "Análisis Urbano",
+   "fecha": "2026-11-16T16:48:52Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
+  },
+  {
    "id": "acd11b85ea9a",
    "titulo": "Así quedó el blindaje por los ataques contra peajes y torres de energía en el Huila: las acciones terroristas fueron atribuidas a disidencias",
    "resumen": "El Ejército y la Policía vigilarán todos los peajes del departamento y 350 hombres de la Fuerza de Despliegue Rápido reforzarán la seguridad.",
@@ -1330,6 +1691,54 @@
    "fecha": "2026-11-16T16:47:32Z",
    "categoria": "coyuntura",
    "tamano": "gran"
+  },
+  {
+   "id": "b9c2eead6b6d",
+   "titulo": "Juez pide investigar a presidente Abelardo de la Espriella por posibles vulneraciones en exhibición de capturados en Antioquia",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNX3lGQmFJNGN0SnJfeDl1dkV1eTZwYllNYThDWkw2NXdncFAtTzI3TjVOczZNNUZJaWZ2Tm02QWdRWnIzalpCOEZaOEVlYXRfa01vaVpIdmlyd0paRWF0WlpFZjRfQmctOXpCOERTUFBEelg1d1RkTUJzM0kySkxhR0hEVWt3dkZqV3ZiZENDZGsyY19GaEZPRWNJLUM4cDFJdm15NnZfSHduMzU3WjZNNzRkWnQ2TkphaXhHWFhTSWxhWVFtNWdULTV5MXNHYkxLY1p3eEExb9IB3AFBVV95cUxOZU5iWU5tQmlzOWViRGpNY2tkOWEzaWYtVGpJcmpZSl9oN2RXU0d2em1YYjhIV2JCaUl2alhuaDd3RjAydTk4cXlDNVJjV05jc1RGUDlROVM1UGxHaUFxUVBlUTN4c2h1OWd0dWVwUWZobnZnS0xjR1FPT1ZJbnJCRzJjLVVha1piSjBVcjhuRXRuLTFSUFFjQW1vRmNrNUFmeTk4dDUyYkZKVzhDc0pOWWhRVXdJczFEUTRfN0NUNUVjZW16ck1CWUU5TVJPQVBNRUVvbFhwam1UZXk1?oc=5",
+   "fuente": "Pulzo",
+   "fecha": "2026-11-16T16:45:51Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
+  },
+  {
+   "id": "8003c3a869d0",
+   "titulo": "MinTIC Colombia prioriza la “protección desde lo digital” en los primeros 100 días del gobierno de De La Espriella",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQeTI1ejc5enhWajlQYVJnYUtReF9saXRvenVBUXlTU2tzb0JJb1JHeFdxWUtocGpsV0d6aldpN0EzY0NpNm4xSmVta3NZN2xMZFp2eWdtNG82VmpKQWdUeHFSMWxiajBpNU9ZQzBPaDFQUDZ0bkoxUjd5b0stVlIzZUoxejdIX2ZKMkVTNVE2S1lYZFhISE1lMEJnQ1VOZ0RzelZqNTE5Um5tUVQ1eGN0V2dlNlJuQnJyTGJEV1cyTHpnUGlrcVRCV3A1QTVtdw?oc=5",
+   "fuente": "DPL News",
+   "fecha": "2026-11-16T16:44:49Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
+  },
+  {
+   "id": "b9873afb328c",
+   "titulo": "De La Espriella en campaña y sus ejecuciones en los primeros 100 días de Gobierno",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMixwJBVV95cUxQTjMxZ2dZMGFlUEhMVDlqZmxWSlpZYmVRNG9DQl9CalMxWHVjYU5BYm5VU2xvZ196NDVtT3Z5c0ltbjVQR2ZUUGpaSHhzMG40U1pGb014eXhoNTNPUE0yRkVzU3hCYURkMWVQQjBjSUticzNoTTYyWUhkUDVLTDF0dThlTGpERF9ZYnBURW1SRVhzbUllWmxUX1BzbUxNVWxIaC1xdmZWY0dvbDFoSm5kY1VtNE95THViMzNYV0pfa3pXc0tvUEZwazFuYmNGS2Z1VmtuaWtyUWxsNFlXQnNUZjhjZVBPRXJxTkl2S0JoN3pmRzZuSlpZTk1HZkVaUVBZdHV1Mi1yVzljRGR0cFp2YVlCYlVsU2NBSURIU3ZjbHdPMllQQUo3Wm5LVG84M2paaE5VSnRHYzNUajZVV04zcndkUE51TUk?oc=5",
+   "fuente": "Risaraldahoy.com",
+   "fecha": "2026-11-16T16:44:33Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
+  },
+  {
+   "id": "7284ee710a69",
+   "titulo": "Presidente De la Espriella confirma que no habrá IVA para productos de la canasta familiar",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZmhBY1VHNUJsMjJyU1pDRDNJQ3RpbU5WQzZYYk9ZYWdUZjY1T3pFakk0bHM0bmFLRzRfaU11ZlhZRjJyYWtxV1RuT0xZOWtvNlJ0V3BzekhibXNuSkstLTVzbkJvMEdxd3dEX3pLdHJjTndELUxlMVBxeVlGWWoza0sxOFZKUGhEX01LSVplcFpKWUxuaTZDTU9RMUV6eTFpUmhJYXRKM2s3Qkg4RGh3amE1QmRYV2pnMFpUazlPN3RXUUU?oc=5",
+   "fuente": "Diario del Norte",
+   "fecha": "2026-11-16T16:41:13Z",
+   "categoria": "coyuntura",
+   "tamano": "regional"
   },
   {
    "id": "acf5a6d83cbb",
@@ -1404,6 +1813,18 @@
    "tamano": "gran"
   },
   {
+   "id": "b8c546ffa226",
+   "titulo": "De la Espriella atribuye el aumento de ataques armados a que su antecesor no combatió el crimen",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOejg5OXhpNmd6cUJlVm1mUDh4Z2tZcXh5YXlZUjBfLXpPcnZ0d3hzaGllUEZSY2EzMlRjb0kyS1l0ek5JdU9Kamp0ZGtYYmpBcFRhTGdzVFFLWWpSejFWVW9RdDg0VzhrWjFwcGRrZW02TlZmRnI3YmlpdTRQc2dqZWxUdldfeTZvUVR1YWt0d3F4ZXJCMDY1akdKVnZQU24yMWg0UEQ0VXJIZmx3b3VlS095WUVMdw?oc=5",
+   "fuente": "LA RAZÓN.CO",
+   "fecha": "2026-11-16T16:17:36Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
+  },
+  {
    "id": "880eee472c00",
    "titulo": "Contraloría mantuvo advertencia de sobrecosto en compra de aviones Gripen, pese a no verificar el valor consignado: esto se sabe",
    "resumen": "El organismo de vigilancia calculó un riesgo de $2.130 millones al revisar una orden presupuestal de enero de 2026, pero aclaró que no comprobó el pago recibido por la empresa sueca",
@@ -1414,6 +1835,18 @@
    "fecha": "2026-11-16T16:15:38Z",
    "categoria": "coyuntura",
    "tamano": "gran"
+  },
+  {
+   "id": "59d663541c06",
+   "titulo": "¿Bajará el IVA en Colombia? De La Espriella anuncia cambios en el impuesto",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeWRjTlEtTy1XcmtuUllVRnRRZWdmZzB4R1ptM0dXQW8zRU9zWl9sclkwczE1VTVhbGN0dlQ1aHhZLUR5OTRBTHdyOTMwYzRTNkExLVl6VlYwRkJ5dmVOU2ttTEJrUTNZUzRoRUpQQUYwZTIwRGZ0aWRvUXNqOGxDc0QyQlhNNnRJaS05cTQ0WE95a1ZjREoyVHVZV1BEVnM0NmxzTA?oc=5",
+   "fuente": "Periodismo Público",
+   "fecha": "2026-11-16T16:15:00Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
   },
   {
    "id": "c8a687663766",
@@ -1436,6 +1869,18 @@
    "enlace": "https://www.infobae.com/colombia/2026/11/16/golpe-a-la-mineria-ilegal-en-el-amazonas-mas-de-170-equipos-fueron-destruidos/",
    "fuente": "Infobae",
    "fecha": "2026-11-16T16:14:03Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "2af0f3683608",
+   "titulo": "De La Espriella y empresarios definirán el futuro del Sena: ¿qué cambiaría para los estudiantes?",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNNUtKUjlja1ZMdUdFbFY3b3k4UW8wNnhoQVdzbWVLakh2b01yaXBra2Fkam9KbUwtV0hDYXNUUndlNk9yeU5lTVZpSjY5OHRGbWl3NHp6RWhtaEtoUHdXeUNHbTBkUGpOai1ORHAwTmhPTWhXOUNLUG9ZRmxHaDI4QXcwTWdMX3BzZ3oxN0p4bHY0d1FFSHhkNzZtbml5NTFBYlhyNWZFZWJZOV8wTGJwWm1KMk9NbHFLaDV0ZV9qZ0IwQmdZeHNELWVUMks4dG9BWE5LUDd3RjNWdw?oc=5",
+   "fuente": "Blu Radio",
+   "fecha": "2026-11-16T16:12:16Z",
    "categoria": "coyuntura",
    "tamano": "gran"
   },
@@ -1512,6 +1957,18 @@
    "tamano": "regional"
   },
   {
+   "id": "690051f043d3",
+   "titulo": "Presidente Abelardo de la Espriella retira el IVA a la canasta familiar en propuesta de ajuste fiscal tras presión política",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTDVuSEM3MEI1eVNPckY5Q0hWTExQNUUzMHJDbUZLRU1hN3B0Rm5PaFlfQmZVemxxMHJiQU5zZHY5Qnhyc2hLZmM1N2tiTkdDYmVYMmwtb3FBMzdBV3JyeG9ZMHN5NWR2ZnpBckNDVlRkYWxkd1lLR0VFdkZodFJCc0FoZFZBOGZUYUxtdmp0Sm9ueU5LR053cVE4dTNyY29TUkRubGVMSEp2NjhBUkw0endVRUxuY0p1UnVYcFdVS2xSV0JjUjFUc21uN1gtTUxLTnfSAdcBQVVfeXFMT3ZuVzk5cmxxMEtkVk84Unl6Tkc3UnhOOWxJcHJUMWROUlJFZVVJRFFMZURTdmRhSkRfZ3prZDR3RFl1V2c4bVgtSVZSVXJtQWFydnJkVkxKUHBmMk8wMEkzcV8ybzVkcExqR3RaRXY1YlMtV1k3akx4OUZVdTE3ZHVwdU9iMGNRVzZDS01OQnY0LXhzRl8wcUlobTJkRE5uYkRLaXJnNEVJZEhCXy0zZGdlZG5yYUVISERERlJLX0VxT3FPaDVTQmN1bnROZHRYVEZsLU1TaE0?oc=5",
+   "fuente": "Pulzo",
+   "fecha": "2026-11-16T16:05:47Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
+  },
+  {
    "id": "edcb04034b71",
    "titulo": "Presidente anuncia nuevo paquete de obras y más de un billón de pesos para proyectos viales en Córdoba",
    "resumen": "Uno de los proyectos que marca el inicio de estas inversiones es la intervención del paso urbano del municipio de Lorica, que corresponde a una de las peticiones elevadas por el gobernador Erasmo Zuleta Bechara.",
@@ -1520,6 +1977,18 @@
    "enlace": "https://www.elheraldo.co/colombia/2026/11/16/presidente-anuncia-nuevo-paquete-de-obras-y-mas-de-un-billon-de-pesos-para-proyectos-viales-en-cordoba/",
    "fuente": "El Heraldo",
    "fecha": "2026-11-16T16:05:17Z",
+   "categoria": "coyuntura",
+   "tamano": "regional"
+  },
+  {
+   "id": "e54411182413",
+   "titulo": "Gobierno anuncia plan de choque para enfrentar ataques con drones en 16 departamentos de Colombia",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZnc2ZkpzaDV3VkNoMVdoMzRXVEJsOUZzemJWdFdKcnJWZzl4ajVZZG8tR1EzaEx5UnpUcEhtU1VPVWxtMmZzRGRiRnB2aWtnLTBTYnB4STdVSDFTX1pkMF9DUTBpMUhITmJ4WjZMZ3Z2YVM0Z0FoTlFRTy1WZjZtR3JzR3Z5MXdjTW40WG8wQWdXRWx0MUFrWVQ4YjJLcHpaR2ItY1o1azV3d2g3UjRILUVEcWladEpZdVNoOGV5cGE4UEdxU1ZNRFkxejNZczJQV3hYRmZDN3pHZ9IB3wFBVV95cUxPY3I3WF96OGlsMnJpNWhIWXlHWUFhU182aW9LelQzUWt3NXFUaHk4VFI4VUFKc21TbVZoYU92dkFMcWhBaWNIaGV6UGNpcUdxYXFtckI5eXhuOVBEV1Bwd1lqVGt6Um1JMzBrclJISjAzRTk3MFF0SFZIMnRoMWt3RXB0RGg4bUhpMllxOGtzVEk2R3RuZE1FbGY5TV9HU25rNG1IY0NYdVdRT3BkelJ3QzNMWGZaY08tUjRBeVRhU0d1SG9WbFRSdzNWeEV2emNyMzJSZlpKMGVaSzMtNk1Z?oc=5",
+   "fuente": "El País",
+   "fecha": "2026-11-16T16:01:19Z",
    "categoria": "coyuntura",
    "tamano": "regional"
   },
@@ -1534,6 +2003,18 @@
    "fecha": "2026-11-16T15:56:52Z",
    "categoria": "mencion",
    "tamano": "redes"
+  },
+  {
+   "id": "443b365c91a4",
+   "titulo": "De La Espriella descarta IVA a la canasta familiar; Hacienda estudia bajar la tarifa",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9PM2V4SXVKalB3b09MR3JEd1F1ZUlmZU5CLV9YeEVPODFvUTZFQXg4OTJIekhiSmo2SXRpSFpkSkZGUTZ6VS1ISU5qNkR6enl3cnhtQVE2dGpGTW5fZ3JqRlY4QnhiaGFzck1jNjdiZUZZUXlJLXRYTQ?oc=5",
+   "fuente": "CW+ Noticias",
+   "fecha": "2026-11-16T15:52:40Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
   },
   {
    "id": "2d86e3133e0d",
@@ -1572,6 +2053,18 @@
    "tamano": "gran"
   },
   {
+   "id": "ccaa62a862dd",
+   "titulo": "Colombia vs Chile EN VIVO, hora y dónde ver por TV el partido preparatorio por Gol Caracol y Ditu",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNMkVjWlByZTBoQmZ5cjd1dm1qalB6QjEyNE4xXzE2TFZXTFBlMHZHeFJiekZjT3RGTm1zVWhuYVNoZXVKazJRTFBTUnVzejZ1dlg4d29hd3ZGeE92UWNaSUVOMllSRVg0TkZudk5ZRE9McHE0YmRybVI4Y183Y2dHcmlxUkNGNWtSZlc2NUVQZWZOWnY0S1dGemZfY0RMc3BETElzaEFfd1BZVmFuWWtZRVFtRXZCVk4ycVpVTkVBTFoxS2Z3VzJYQWtuajRqWTk3TnkyZ0hWYTg1T3JqMFFmTVotOS1PRDBkWjhBblVJSG9HcENJNkE?oc=5",
+   "fuente": "Noticias Caracol",
+   "fecha": "2026-11-16T15:44:28Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
    "id": "5ef9ed36d301",
    "titulo": "Uribe celebra que no habrá IVA a la canasta familiar El expresidente Álvaro Uribe Vélez respaldó el anuncio del…",
    "resumen": "Uribe celebra que no habrá IVA a la canasta familiar El expresidente Álvaro Uribe Vélez respaldó el anuncio del presidente Abelardo de la Espriella de excluir de la Ley de Rescate Económico el IVA a los productos de la canasta familiar. “Buen anuncio del P…",
@@ -1582,6 +2075,42 @@
    "fecha": "2026-11-16T15:43:05Z",
    "categoria": "mencion",
    "tamano": "redes"
+  },
+  {
+   "id": "6259744b7a26",
+   "titulo": "De la Espriella descarta IVA para productos de la canasta familiar en la Ley de Rescate Fiscal",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNREVfRUI4Nzd1MTBYV3VUUzhPb2RoV0xJb0lKanVKTGQ5LVVBMnQ0M090RGNad0RwcXlJN3BWMkhvb1UwckZkZVNIMWdTdkN3UnlHa2dZaDBBYUUtNUlCY29ud09zcVhnUGNSeHFmdnY0Q0JzVUNoUzBhUnRGZmVfS2VZaV9wMndyV19SWnNJQTRIWlc4OHM5Q0Q0VWtvSDYwbVlFWklBUTNQeGlRZ2ZXQlNOMXJmUWVMM1M0Qi05T00?oc=5",
+   "fuente": "La Nación.com.co",
+   "fecha": "2026-11-16T15:38:57Z",
+   "categoria": "coyuntura",
+   "tamano": "regional"
+  },
+  {
+   "id": "84d053f14814",
+   "titulo": "No habrá aumento del IVA para la canasta familiar: Abelardo de la Espriella anunció qué hará para tapar el hueco fiscal",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQZjVCOFRqalAwckFhdG9ndFFrZEpndW5WQmNTZEdtajVYQ2pBM2J6RE9aM2EyaHp5U1YwYzZZYkFoNDdmaU1OOUxSQWl5ZlZPV0p3a3NHc21idmhMc09qaG5faVQza3dnRk5ldnphUEU1STRSeHhJZXUwSi1VeWROak9ZSnhRRWhUQWxHWFprdGFxSkR2bGpnZXc0UnhkN2dNemF5bkZuRWp6Z21za18wbDdra0ZnRjFnNTY1dUE4aG40Y1RfcFBJbW5qMzdhbmdwNDhBWTFxeDZyZm1keWxKQ2FoOUU?oc=5",
+   "fuente": "El Pilón",
+   "fecha": "2026-11-16T15:38:01Z",
+   "categoria": "coyuntura",
+   "tamano": "regional"
+  },
+  {
+   "id": "88542bb4444e",
+   "titulo": "“La canasta familiar no tendrá IVA”: De la Espriella",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNjNaZldUOEp0U1AtTW5STlNGb2xaMDF2VzRQMU9lZlJRd0Iwc2xIblFlQVZxNGV5T2F1a29sWFhMOXlqazNhUnVId2tyLUlSQjZLZjF0NHk5Z3laMDdUMThlWmVLTExvdm1OOUJBYUdqV3ZpamRpT0JueVdzMWE4Y2RIQQ?oc=5",
+   "fuente": "El Olfato",
+   "fecha": "2026-11-16T15:35:36Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
   },
   {
    "id": "53e2dd641a93",
@@ -1620,6 +2149,18 @@
    "tamano": "regional"
   },
   {
+   "id": "9710906e4d92",
+   "titulo": "Giro del Gobierno sobre IVA a la canasta familiar destrabó debate de ley de ajuste fiscal",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPREo3ZnFaNTVsbzM5MUdlSDI1LWhtSlItczBxd0xVUUs1cllLV2lTX21IZVlfWUE4UENMeUl4RTJvWTBrdUdKQVUtSVlqN1hxUnAyak5HdnFvTDJTQlJmQWIwWHFyc2ZMZnc3a0tuY0JIUUNiR05oYVc4STlUeGt6dUdyN2ZCS050cU5IVXg4MzRhUWZkcWx2UVF1M3I1RUFWWjZFMmctUlgyX1ZhdzhuUVQ3RXJMNzlZSlgtd2VyWFpwcFFkSmfSAdoBQVVfeXFMUFZneDdXdk8ta2xxS3VMLW9LcGVLeUVQSlpER0MwcS1vYVBoczl0RTJWZXkxVnVYZXVNQ1JIRVdHWVF3bFFSV3k5TmlNcnFhUGNzZ0lKM01LbldkakxFdFVYSHJvVkwxRjBRanl0M3hnSFl0V2dDZ29DazFqcFlWZjMtR0NSamdjT0I2TlhRSDR4ZUVpcUJ3NlAzZTlKUDBrUmxwRnRPV1hwOERvMEw4Q3RvUU5Ldm1Hb29raG1FclNLeVVPLV9wZnRuTHhzLWxudnAwV1huaGVmdXc?oc=5",
+   "fuente": "El Espectador",
+   "fecha": "2026-11-16T15:32:00Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
    "id": "59df8fb130c5",
    "titulo": "A la cárcel cinco hombres que se escondían entre arbustos para atracar a turistas y ciudadanos en Medellín",
    "resumen": "La Fiscalía General de la Nación los vinculó con seis asaltos cometidos entre febrero de 2025 y octubre de 2026 en sectores como El Poblado, La Aguacatala y el Pueblito Paisa, dejando 12 víctimas y pérdidas superiores a los $80 millones.",
@@ -1656,6 +2197,54 @@
    "tamano": "redes"
   },
   {
+   "id": "8d5aeeed6204",
+   "titulo": "IVA, seguridad, reconstrucción y balance de sus primeros 100 días: claves de la última alocución de De La Espriella",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNR3RiVnZ1aW5XM3B3dmRHZnh2cHVrbmhUc2RIS0RYREcwWG41VWphOEFnV1JNaU54WVJ2UFdPWGs0Z0RVMElrcDcwYkNvZV9RWDI4ZE40eVl3ZURzeWJkVkVKUlM5aDVfNlJaZmxRUzRiazh6RjNJaDFtNkRVYTVaM2tCaTRlRUgyOVlvWEE4RUpHT0pQNV9NaUlHbXFKQzBGTE8tREVaU3k3Uk40MUc2OXBya0QxRHdsbDkxTWxPelMtbWV0dUlBNndBcHZjcVFrenFJUk9HVmFmRS1yeTE4a0cwTzhPVzAyVUJyZEJkUlI2VEhkUVHSAfsBQVVfeXFMTUwybTVpaTJuTEdPcms5Y1c3VnVreWYwN3BPNGNkMjZjLVJ5U2ZGUm9ySl9FejdsWU5WbE1hRXpVdWhmN0hpYlRVcGI5N2t0MTFEUVBYd0thaDlPME8tZ2tOXzBaR1c4cmxSX2NlUEZMd0ZtbU5tTE1TMGQzek1qQUlCUUd0MVV0SFA5aEd2V2lsV2Q5a052bDZVVU9pWFBrZGxQWDY0dzFCMkRNYVVYYkhHRGJTV3VkM214MTJfNTBTWTl3cjVmRjVSQ0lnMjhsRzJHeno3dVBRUDBGSzdWM2htWFN3Ui1qOTNHaHJBNU5sUEtVdVNOYUxRWVk?oc=5",
+   "fuente": "Portafolio.co",
+   "fecha": "2026-11-16T15:27:16Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
+  },
+  {
+   "id": "5627f03b4ae4",
+   "titulo": "“Derroté a un auspiciador del narcoterrorismo”: mensaje de De la Espriella contra Petro",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQU1ESTBId1ZJbGNWT1lMRV9aOXJzNndRalF6dWd0N0p5SXJFMW55cGhrWU8zWFhTT0dpWWxpMmdyXzZkYU5xeWJVaktrVXlKYjdyQ1JTNFZULUQtRWFtZFF0amt3YWs4RVp1SkxSeXc3YzhKWXJaTkc5Wl9OcmlGU0FKaVFTZzdpdGZrOVZkcllQUTVsRktkWGxzTDhlU2JtQUI1ZVVqM1U0WkRiM0FNVTlCX1BwSjVl?oc=5",
+   "fuente": "El Cronista",
+   "fecha": "2026-11-16T15:24:37Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
+  },
+  {
+   "id": "978f907046a8",
+   "titulo": "“Aquí sigue generando confianza el Gobierno de Abelardo De La Espriella”: José Manuel Restrepo dio inicio a la Milagro Week",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOZXJOZ3dxdld6UGhoUEhudEtZZ3Y0WmpmdTRaNHRrblllLVNQMExtQ0VQbHdhVVhMYUs5YnJaY0NVbWNGcFYwb2FONWFEUmdPbE8xakdMRkp4SkVmcllfdkVha21SZm5FZ1p6QzFmbDdaS1g5SGhycGg0OUlhZHZrNUtYT2FYX1pScEk3TmN0elRzc1ZfWUNoWUJRNTlKMzNIWE1SQ3ZoODRXdjBXTXFON2JqMjc0aXZDdGJwTVJBMllJeWRfZjFBSU96YW50Z1Rnb2syZTdrR1hJdDJPYlFXc2x6VFhUNFRVd0N4V3YxMkpjOWlfVm9NVFNvaVlabVROWGlxc1dn0gGLAkFVX3lxTE8zUWpjaHc2YXE0S2tfekFOTHd0SDB0RnlmRF9vSHFSYnBFTHByNy1JTHZURkoyNTdySjZwemtlcVB3V3RoVUlJVEJCOVh1QkRJX3hJV1phM2FYenVsMklEcDRkY0o3emdOdE5RQVROVjV1cmR3aG1nZ2J3cjBFNDF2eHhnSTVhNERQVUhnTjBzbWM5ZHAyanlENGdDMUh5SnZweFdhWHNrMDFJdmhNRVNiQUYwUWRMeDJfdWhUZGJIeUVudDR3bFY1Zm1PX0d2eG0tTzlWNGg5ME03a01RNnZlZklMcmtPZG5ueHg4Zk1VTDZlNzdhZVZpUko2Y2lJUnFEd2lQOE1VSEdVMA?oc=5",
+   "fuente": "Revista Semana",
+   "fecha": "2026-11-16T15:22:50Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "f3316a039bdc",
+   "titulo": "Las polémicas de la DNI durante el gobierno de Gustavo Petro: contratos y presuntos ataques electorales",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVk9Wem5yNkVfUGpBUzRaSUhuaXFNaXV4M21sUzc2ZHIwSlRiY2UtR2dzZmtQem80S19lbHh0RjZSQ0JEbjhpUU5JYy1GNGZjSnFGOFo5eHIxYUdzQm0wRVNpZW1wdlNHOFVkZkoxZktnQ2lZZ1BxMDJmdncydVNBdWNKZ0xhNkV6NHExZHNacGhZRWhZdTBHNDhwcG8wY2R3eHBpQ3dmUXBHRm9pQVFvQnZ5dC1Ud2dFUS15LV82YUgxYS1UYzc0?oc=5",
+   "fuente": "laopinion.com.co",
+   "fecha": "2026-11-16T15:22:15Z",
+   "categoria": "coyuntura",
+   "tamano": "regional"
+  },
+  {
    "id": "24efc9048509",
    "titulo": "Desde los 14 años en las disidencias: el historial criminal de alias Primo Gay",
    "resumen": "Authored by. crojas. Image. Colprensa. Lunes, 16 de Noviembre de 2026 Un juez ambulante de Antioquia con funciones de control de garantías envió a prisión a Neyder Yesid Uñates López, alias Primo Gay, quien fue capturado este 14 noviembre…",
@@ -1666,6 +2255,18 @@
    "fecha": "2026-11-16T15:17:39Z",
    "categoria": "coyuntura",
    "tamano": "regional"
+  },
+  {
+   "id": "5c4cad84ad29",
+   "titulo": "Gobierno descarta IVA a canasta familiar y evalúa bajarlo hasta 17%",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNczlGQTVDeVYzeU55S2JNbzA3OHBFSjNfOGwzbXFOWGxxVWxFSlpfcjk4Wm1xMlB0ZE9ZM0dJMUZmV1BTcWdpYkhWYXAtQmlyVmhNUEVkOXFWRjNDbDI0NjFWOUpPc3E0SDktZkprRVVHU0Iwa2ktbk5HUlpkRWgxVUtrdjlLdFlrQ1BEei1IeWZjUnV1M2dRX24yZw?oc=5",
+   "fuente": "Nos Cogió la Noche",
+   "fecha": "2026-11-16T15:16:41Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
   },
   {
    "id": "ea2c6762881d",
@@ -1700,6 +2301,54 @@
    "enlace": "https://www.elnuevosiglo.com.co/nacion/autoridades-golpean-economias-ilicitas-mineras-en-el-amazonas",
    "fuente": "El Nuevo Siglo",
    "fecha": "2026-11-16T15:04:05Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
+  },
+  {
+   "id": "9eb69d036244",
+   "titulo": "Colombia fortalece su sector minero con nuevos contratos y titulación en los primeros 100 días del Gobierno",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOLXNzR0hDaEp6M3dvVU1vdno3aldRcjU3VFUxYjFLNGU4cDgycEtPRmNsTDEzcGRJVERsamdMS3RNZkZkWWZISjFUczFLQS0yR250MEVXZ2xkVG5oT285YjlfYjNlWWtnVUQ2b0pob3FBUFFub3VpMjQycGU4cW9ON3cwdlNUalRsOFVWQW15MHdvQU5HNXE5Zk1SOXZraHQtdl9iRTN3bEY4cml2bWNRUEduVUVpc3BOcnRFSWhFZU5uQnJ3eVdfTC16YkNMSVpEMUE?oc=5",
+   "fuente": "BusinessCol.com",
+   "fecha": "2026-11-16T15:02:54Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
+  },
+  {
+   "id": "f805a6c965cb",
+   "titulo": "Avances clave en infraestructura tras 100 días del Gobierno de Abelardo De La Espriella",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSnhfdUxFd0d0UDJHaVN0WmNkOHh6WENpazU3SllXRExRWHdCWkt0OUtXNmItQVU2bGhjRWRYVFdGTDIwN1RGSDlnNnNGaExmTHR4MjVEeEZvaUpHcjY0Y1FXOUVEN3pLdWVLWXZZRDRkUS1nNkR1TXdBV0ZUczJRcUpDN2JhSXpUQ0NGMVlURWFZS3RrN2F6UDlqWEM4c2ZZX1lrODhJRGtrb05TYzdra09Gc3UtVlU?oc=5",
+   "fuente": "BusinessCol.com",
+   "fecha": "2026-11-16T15:02:54Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
+  },
+  {
+   "id": "04c8bfb0d81c",
+   "titulo": "MinAgricultura completa derogatoria de las APPA y recupera un millón de hectáreas en 100 días de Gobierno",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbXJmcWNSeXhjM1hVTC0tZi1UbFY4Y2RNaFl5TTUxM3EtWldDUk85eGwxU0gxRTFoamRWTERHbW1rcnNzN1Q0cnN6QUcydXJJN1VYNmtlVkFGeEdMSmg1MWVJOGdvZmF0TmM2ME9wMkhCSXdoUmU4ZkUtWC1POHFhcGZJbTZXdlRITmlvM3FPQm5ZZDhZcUlVbllCS1MxTFdiQXppMFNTdjRXQ3hhT2t4bThYRkVGaDl2TWc5dzBLQXd6X1pfQ3FqVmNuYWlnNWs?oc=5",
+   "fuente": "BusinessCol.com",
+   "fecha": "2026-11-16T15:02:54Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
+  },
+  {
+   "id": "299a52dc2db1",
+   "titulo": "Gobierno, sindicatos y empresarios definen cronograma para la negociación del salario mínimo de 2027 en Colombia",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOS1pKTlZzX2paNHFDNWY4YjZZV3NKSkRBbVBRZHE3UkJRZ2RBdzNua0N1dnlDa1dlV1IwZm0xUTJRUElGeGdheHl6RHhDSGNHdGlPb0NVNFQ4VGd6ZzB3NXlWTnRON2drSl90TVY4TV9EMEk4UERaLVByNTVnNmx6SldlQVVXbWJhNkhmOU82U1llUXRmMlYyeWFOZURQcXJjcmJ6NzBuVm1ocFp6eG9KTkk4a3hteE9oVkpv0gHAAUFVX3lxTE42d2dMTjdLeHpTVVc5anRMYlNmeWRUUmtxWEVrX3FMNy1oV0hYWnNsdkpjaDhiWVJMLUoxcTdOS0l6UkFNbDRrcGlhUU1FMXMtY3Z3eVFfWjY4UzVqLVB5SEctdnFQMHZ2dGRLTzZNSDBwLUxhTDFsTHQ2QlZmQ0F0bTl0dTlLMlNIdnZNdG9BX3huQ0hzSkR2dFk3Ykw1aTJ1SXhUVkNkMEp6d3h0TGpjUXZfVF92YUpDSzJ0ZVpUNQ?oc=5",
+   "fuente": "Pulzo",
+   "fecha": "2026-11-16T15:01:39Z",
    "categoria": "coyuntura",
    "tamano": "nacional"
   },
@@ -1752,6 +2401,30 @@
    "tamano": "gran"
   },
   {
+   "id": "8d5403c3dd46",
+   "titulo": "Gobierno ratifica apoyo al sector cafetero colombiano con contratos y nuevas inversiones",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOS2I2ajRUNFdhSlZSRTJ1T3QxV0hrWnVKVGp3aG9FNF9ycXpMX2NFd3lPeXE4WHdVZzkwTTcyUEQ2YmhJckR6THZVV2x0ZzBfVTk1X0lYV18zaHc5d015OW5DY2MxS0xGWVducFR1cU9JUnpDY2JYdnhMalJ0LUQ0aVJPWjVtdndKTW5qaXdKS1RuektvNXgzM3pQOUJEN1pPX2tXaVRmaHZuZUVwS3h3ckxYOE1aQ0hN?oc=5",
+   "fuente": "BusinessCol.com",
+   "fecha": "2026-11-16T14:57:51Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
+  },
+  {
+   "id": "09fbaef0e75c",
+   "titulo": "Ministerio del Interior elimina 557 contratos y ahorra $103.000 millones en 100 días de gobierno",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdExOVm5OdmlmVUEwZXZRbmRYQ0hDZ3FKUEhnZjhiRVZyVnZnMkpGZV9tNmFBNnJmMXdFZ3dnZDBrZ3piWmVlNE9QaWJnUjdQbEZ0QU5RQ0RGRHFkZnZsVUh5VnNiQWpFd04xWE1OME9qU0xUMENQOFdINmg4V3pKdEI4QnVxdXltMFJrRklUaTRJTDlVTmpuNjludVF4bFpOaUh0SFFhZmFPTmlvZUgxbXhTeTZxRHRJMTJKNndOZzVLdw?oc=5",
+   "fuente": "BusinessCol.com",
+   "fecha": "2026-11-16T14:57:51Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
+  },
+  {
    "id": "ff78f29342a2",
    "titulo": "Polémica por uso de lancha de la Armada para movilizar a la hija de Abelardo y sus amigas: ¿qué respondió el Gobierno?",
    "resumen": "En las últimas horas surgió una polémica luego de que se difundiera un video en el que se observa a la hija del presidente Abelardo de la Espriella transportándose con sus amigas en una embarcación de la Armada Nacional.",
@@ -1764,14 +2437,38 @@
    "tamano": "regional"
   },
   {
-   "id": "29cda64cd00e",
-   "titulo": "Desmanteladas bodegas de apuestas ilegales en Los Mártires: eran administradas por dos eslovenos",
+   "id": "66fe5b676f00",
+   "titulo": "Con Ley de Sometimiento, Colombia fortalece el desmantelamiento de estructuras criminales en primeros 100 días de Gobierno",
    "resumen": "",
    "detalle": "",
    "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbW9wUlljX3l3VXZ5cHQ0RTJ6bk81VnpKUFFoRDc0a2xvTl9Ta0NPNElzN01aRVl4MUI0TEwxazBqRXRiUlJ2NWo5bEFUU0plZ1JwMXBSRDJBMjBpc3hFb1BMNW5yblFObjYtakpvb2o1dmlhVkhiR2U4ZDRPVHZoVjNvOXpnZ0F6YmlpaHB5R3BBU1I3cTVBYmxPQjJoUTZuOExBc2hzSVk3WXZ6Y1k1SUNjRTVkV1M5dlE?oc=5",
-   "fuente": "Bogota.gov.co",
-   "fecha": "2026-11-16T14:51:48Z",
+   "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQUUxMNXo3aTFCTnUzN2lCNkdsaFVSemFTcHIwR1NnUUhpWGV3SHVoWkZkY2czMF9uTWgzVjN2dDNybmlTSTdpMGhjQVZnZ0pPN2NpU3RFWHdiZjlDZGJncFlRSGdqNk5IZ0NvQ0ZrS2FSbUx4Rk5QRkVlUDFDekRsQ1lSMUQ0c3Y2aVNVMWlYaHpvMGdDTEMzT3N2eF9GWVJ4NDU1YWxsQjg4QzBMcS05XzA2NkgzNUZrTFRQclZWd25DMTJlZmxvcTBtZGRaQ01mSEVPc3lRdm5SNVI3ZGNyRG1YLTQ?oc=5",
+   "fuente": "BusinessCol.com",
+   "fecha": "2026-11-16T14:52:47Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
+  },
+  {
+   "id": "20278d97e617",
+   "titulo": "Subsidio pensional amplió cobertura en más de 7.000 beneficiarios en primeros 100 días del Gobierno De La Espriella",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZTA5aEVkX3NpRDJKRTMybE41WUtiSF9EWHJjQXZ3MC13UVlfQnRHTm9TdURfbENXUFdqQ1lrQ1NDYWZqd2R6SWh2T3R3aWFmcDFkUzZqX253Qzc5MUl2NmFBdjBzNkRfMzVfRjUyYXF5QzhoRUZZTVdBY0ZSLUNnU21hSlVmYkViUmk0TnpOYjJ5QzgwZ2lnLXJzSXhRdmc1aTFzUFJCMkxNcS1nVUIyYWItOEd5bkZteEQ0bVF6TmVxRl9URW1JQURLcC1ZVlZfd05wakNWeXBzOTFo?oc=5",
+   "fuente": "BusinessCol.com",
+   "fecha": "2026-11-16T14:52:47Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
+  },
+  {
+   "id": "77e388939fde",
+   "titulo": "Asesinados 45 líderes sociales en Colombia durante los primeros 100 días de Abelardo de la Espriella como presidente",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeWhhazlGQzZxVnlGcGlLQm4zeElXZ1FkUk9RRWhrMGpsQ0IwQkpqaTE0OUZ6LXczQTFiLUcwZjNWMnc4ZDVOX3ZpVXpmSDVHTFJEVlRJTVFWNl81T0MwSjhMTnU5RHZ5aWllb1F4NURZZV9XVll6MzJ4V1FhODVvZVVNa0t3a1h1TV9iNktHbHAtd3k1MzMtemFqaUFEeXlyeVNHRXUwazNjYmplMTR6ZU1YZm1iOUV0UUVQbE1NT24tLVdMNVRfOFdvRdIBywFBVV95cUxPcmphY3lLdzRTZkxUdnhGX3lsSW1sbHhWb1hKOWFDcHJWSVdoMGh1LWh0czlTS2RjbjhxQkxiOHUtSUN0S1R1NHR3VHpxZFBHSzEtdnRvRGlHQ1BnTm5jb21LakV6QzZGMGVhSDBteUdTR0p1TzJyaUdJc2ZueHZ0QlJORVowSXQ2dkh4ODU1WUJnMnBRWFpJWkQ1Tzd2OVpobGZrYUVPWlFEay1DZjh2VTlWWjFrUlBhQjlzenhUcGtPLTI5UlBpd3JGYw?oc=5",
+   "fuente": "El Periódico",
+   "fecha": "2026-11-16T14:51:24Z",
    "categoria": "coyuntura",
    "tamano": "local"
   },
@@ -1798,6 +2495,18 @@
    "fecha": "2026-11-16T14:49:35Z",
    "categoria": "coyuntura",
    "tamano": "regional"
+  },
+  {
+   "id": "9b1b72dcd071",
+   "titulo": "Presidente De la Espriella anuncia que no impondrá IVA a productos de la canasta familiar -",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNUHg5cFExT1pkTkl2dHpXa0Zoa2V1TVdSTTZLX3pyenpwc0tWM3laUFdTTkVxTUl6YkY4MVUwNWVrbVBKZEdlX3c0TXhVcFBUTFdfYnhORjAzZzdtZkJ2R3d5bjZfeThaUGU5TjR0eTVwM1ZTbThLUmhVV1hqR3lPMGZhR3lRZU0wY1pkX2hINlQxN1pLWnFWNWtDY0p1MzJKMFQ4NFpfU1hZVDVXYldWNlpqUEZ1eGxicW9fcE1yQWQ0M1JLeTE1bTVVUnBOTGRYX05ZT1p3?oc=5",
+   "fuente": "https://www.ecospoliticos.com/",
+   "fecha": "2026-11-16T14:46:56Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
   },
   {
    "id": "88f2db06fb23",
@@ -1836,6 +2545,18 @@
    "tamano": "regional"
   },
   {
+   "id": "bf256fcfc70f",
+   "titulo": "Juez pide investigar a presidente De la Espriella por trato a “Primo Gay” y otros capturados",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOamUweEctVDJtY0hPUzgwazBxWHpRZTZmSEpPVnVEQzYyX1B2Mnl4TWVFX0dhRjdOa0FhT0FZTFdBaHdOLWpXUlFxMzZzTFJ2aFBuQkZXLWRUWWxYanZXaFltSnlRZUlnN3dEU0U0cm92YUpJMFl6TmJIX1ZxbmtfOEtiNmFlVGVFOUdrMHp4WXZMRkpUVE15NnpiY0dUR201TVZoeDEyVG52TkpxY2x5V2JtRU92SDdTd1ZwOFhheHhrWm9keG92cNIB3AFBVV95cUxQSUhpdlA0d3MxLS1icERYTGZYU0UwcjJJYk9EVEVDWGo0eXhUeWd4MHFNbkFQX1ctZHFLbjUyV0tpTWZhMnBRbl9iWGxTZzUySi1ITVpZU2YwNWRTLTVzLXBpRlZOVF90c3VUN1JqaUtiVzJzZld3enNoamVGTTJIaWdvTlpGTXBFSVBlOVgxb3NPVUZDX3dveDVuNVV1LUYyWlQzVzB0bjMydVBRcWMyZGpWdUxnb0dHMVdMRXNaaWpfanB4dE8yd1ozOG5INTRpd3ZtUGZ0UmIzX1FB?oc=5",
+   "fuente": "El Espectador",
+   "fecha": "2026-11-16T14:44:09Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
    "id": "d1eff9ef7700",
    "titulo": "Álvaro Uribe respalda decisión de De La Espriella sobre descartar IVA a la canasta familiar y reforma tributaria: ‘Motivo de tranquilidad’",
    "resumen": "El expresidente reaccionó al anuncio presidencial, que también contempla posibles cambios en la tarifa general del impuesto.",
@@ -1846,6 +2567,18 @@
    "fecha": "2026-11-16T14:38:46Z",
    "categoria": "mencion",
    "tamano": "gran"
+  },
+  {
+   "id": "8d1d5a54ca68",
+   "titulo": "Uribe respalda decisión sobre IVA a canasta y reforma tributaria",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWm9CeDZ6QlJCSG02Y1BlbEdpdGRpRjJqTnFCRi1uQlVlbHBUOE42TnNWRUV5cGp2SFF1TEVNVUN0LWxXbURkWlZ3cmtJUnJGcUdCS3JoTnFON0Z2V1RiQ09yU2hpcktmYmVPU2NCR3pXMnFDS2dwLWxQam92V1dMVEJSNA?oc=5",
+   "fuente": "Estrella Digital Colombia",
+   "fecha": "2026-11-16T14:38:46Z",
+   "categoria": "mencion",
+   "tamano": "local"
   },
   {
    "id": "f7e88d172125",
@@ -1908,6 +2641,30 @@
    "tamano": "redes"
   },
   {
+   "id": "3194655bae95",
+   "titulo": "De la Espriella está en modo combate contra los criminales: cifras de su ofensiva militar",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdHhKQVRGVkR5bEJEeUR3bEs5QmRFeXpMajY0M1FKYXpMcU4wTWhRbHRZRnB1alU2TUhsS0VmenpzcmRheGd4bFRKVTdSa0I5VXhhSFNQc2l1ZHZKQ2NKUWJldVV0eEY5SThiUDlvMkU5VjlOSzBqYlkzd3gyNWdhQTdyVHlBN0VHOUprX1RMNkNuMUEwUzFuc213ay1YWGxuRXVEYkRiYXBHSzFtSmNqSk56QURDc0NqNFE2c2FVUFBnbmhrWjNnUVMzQ2RqYS1XcTEw0gHTAUFVX3lxTE9yRDJkYTI2SXhSMHNBMVRYOUluamtWdl9yX3lDVnIzZEx0eGQ5RW9IaTRQeGZiQ0U3alNIbmlqMnlDUGV5cDU3YUw5T3drT0JFTkJnMU1tRjZJVW1waHpNX0JlX0Ewd010Q3MtUXR5bHphTnVXcHFFX3V6blV5ek5iYkhObHdyOXNHbzQ2cDZqUmo4bXJqTEZ2VF9XTzE3RDF6TTlmN2VpRWxmUXdla3ozX21HOUhkZUdGM3JxUU1fNlEtUldRNFRlWXc5a0ktX3hhbU0?oc=5",
+   "fuente": "NTN24",
+   "fecha": "2026-11-16T14:27:51Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
+  },
+  {
+   "id": "f44fb7c12e02",
+   "titulo": "Daniel Briceño se sinceró luego de que juez compulsara copias contra Abelardo De La Espriella por encarar a Primo Gay",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQLU9IM2Q0aXl3Skh3YW9sOEpZM1VyQnptQ043Z0JGZURTbG5qZkI2UXV4LW1BLU9iTnNvOHoyTWlqMmFBcDBIMzFHOVNmbFlmbWJSejU4cWJFNDg5bUl6b1NGUVl1Y0tKeTdOcjVVOTY4WGJfejVHdWFUVEswdEt2S2RSTDRWWXBYSXdCdk5OeDVWeVVQeGVpMjN5UGJ3Tld6UGhwTWM5UC05bnlaMWQ2VmhIdDR6NHdyNmx4NExXVTFMZGpIMG41ZFlDRUtiSXd1V05KdENsZF84OERfZmlwT0JuWWp5TElKSFpNM3FxVGFab1lUajZQdUhtbE1XakQ4cUHSAYcCQVVfeXFMUHJ0dGpNckVfeGlHR3JvbHhVOG12QjE2SjgzVDdVa3lhOGljWGhRYmt1MFZydVBsM2ZiTVBlZVBzVWloYXBleE9ISVNRNjdKaFZwTzE4YkRrUWtzb29MZmQ0MWtnQ1BIOUdhNjRJSVdzb19EUUZmei1HcHM0ajdjREJwT3ltVE84cFhPSXNndHFvdDBZYzN1VE55bTEtOGhQZGpZVkV1RmtMR2wxQ2kyUjBtOUd3QjlreUVoWU9DMU5kZ0kycUY0bHRyTE51b21CVDYzTEhvNVYyVDFzb0lFWUd2MTNjckFZWWdYNEhxaGlhby16UVZfc3hvVlJQRWw5NEt5SXlVMms?oc=5",
+   "fuente": "Revista Semana",
+   "fecha": "2026-11-16T14:23:43Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
    "id": "f474ee3d4aca",
    "titulo": "La representante del barrio Olaya Herrera, sector Stella, fue electa Reina popular de las fiestas Cartagena",
    "resumen": "En el Centro de Convenciones Cartagena de Indias fue electa la soberana de los barrios y corregimientos que representará la tradición festiva de la ciudad.",
@@ -1966,6 +2723,30 @@
    "fecha": "2026-11-16T14:12:00Z",
    "categoria": "coyuntura",
    "tamano": "gran"
+  },
+  {
+   "id": "14559ba3de12",
+   "titulo": "\"Derroté a un aliado de la guerrilla\": De la Espriella enrostró triunfo suyo a Petro en los 100 días",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQ2Yyb214WXlFY09HTm81dEF6ckhzV1FJc1BzbHlOVko0YkxLWWpOYUlQVkpOV2JseVJKcEEzWUlXOThFbmVzYi03eG1YbkZ4YVdNS2dheFJJWGV3WklGVENuTFNVRDdqZHZFd1hGWnJjczFNYzB4WTFCS1RkLXB4WXBIWXkwTlB4Mmc5Nk9IUGRDTkpJd1hSZ00xR01hZzE5c3hockw1MlZOa3fSAbABQVVfeXFMT0hYaWFPMkJWaEFpeEJpM0lJMGR6YUt0V0Z2M2VXQnAyZVN0U21NN2p3dlN6b0ExMzVYUkFCYlZqNmU2SnNqOWN3MGpaQ0J4QmlEekhLLVRNTmZMQk1BdVp6WFR3UzBwNmFkRlctN2doYkltR01HbXRqWXFKOUJCbzZaU0tKczJfbEhvY0pjUHpfM091Z3JzUHl0SUNZSjdvaHlxekRrbVNQa0lBckdfWjg?oc=5",
+   "fuente": "Pulzo",
+   "fecha": "2026-11-16T14:10:44Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
+  },
+  {
+   "id": "2c0460b3a8f7",
+   "titulo": "Alocución presidencial: De la Espriella anuncia que la canasta familiar no tendrá IVA",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPd0kxRDZIT1RTZHNudWdVZjYwT25OVEdqcUhIXzRXdGpDZ2RTZ2dyellraWFsVmk5MVlBbnBZRFE1LXg1aGRaMGR1eGJXdV9CRHFIeDhTdUgtUnV6c3k4ZnR5LUE3ZTNoRjdrbVd3UTduZnpCVlRYUDRUSHZscXV0enFlNndvMEVkRS1ILWFpdHNPVUdRc21mQjRGRFhYS2R5NHk5OWhyak16OUlGSG5wZzVTNHZwUFnSAbwBQVVfeXFMTjJmNWZVbDNMc1V6ZHRwblpPRXZEVjROdWNrWDZDWWF3WjFMSTV4LWhuWEZHcGx0a2dhdDBjODNmSTlXRTdnMW5kYUVQeXdUNW5aNER3djVfVEVWMXYzWjVEM3oxU2JKdFZYY0x3RkhBakJtZWFQbUtFZEM0THNFbW9DSDNoNF84blBFM1RhOTlCQ3U1Y0Y0bDF3aW9UQ2FudllqdDFYd1RzNUZLWFVSd2xTdnFYQWdMaXYxalc?oc=5",
+   "fuente": "Canal 1 En vivo",
+   "fecha": "2026-11-16T14:05:49Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
   },
   {
    "id": "0e8b9b5e7484",
@@ -2040,16 +2821,28 @@
    "tamano": "regional"
   },
   {
-   "id": "238236d31ba6",
-   "titulo": "Por qué están atacando los peajes en Colombia: van siete atentados en noviembre",
+   "id": "a92985d88d07",
+   "titulo": "Salud en Colombia: Gobierno reporta avances en la atención de 1,6 millones de pacientes",
    "resumen": "",
    "detalle": "",
    "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSVNDc1JfX0lPSWdMMEM4NVl1dXNLOGZXVlYtbEloZlZ0Nkd4bjZlVUFwYS0td3ZPdWxCR0kwNFlfVXFUTl9RZEh6R01weVVfVHBHcG9xNS0tcWFYU3dMcEU2RV9nUWlPaEcyTkRlMUItQ3l3Wkl5Y1lkTDdSaDVmbXVLSW94b0M4d0dsTnBlLVVmMzAzaTd1ZTBwZTZFUUJ4QmhpQ1hxV0RLVXdlVlI1VGFGaHc0T1BieEVRTDRLVjDSAdsBQVVfeXFMTUVRa3o1NnFHSlI5Xy1peGlOakpNdDUwNVk1ZV9ST1VmYnY1bENsV2RKaGNXVXZXVW9fc0FvZ1JVMmxWM0R3TXVvUkVRTi1aRHhCWUpsRzhrbjBVWkJ3TlEySzd0MERBeXlfQk90ZjJBOVk2YWpwSDhwamdNZkVGMzVhSWRkaDBHNGY2MElBSzJ6Ync2T3lTTkJacnFWc1d5T3FIcGZmelk2UnE2dzN0UklyajFtNkYxam4zMzU4M0cxYW4tTlBseWV4OFhXOEVYOTdlOVFlWmdEdXE0?oc=5",
-   "fuente": "Infobae",
-   "fecha": "2026-11-16T13:37:00Z",
+   "enlace": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdkxELVZqQ1NJbFFzeElpZ1dEWkpXRWk5YTNGc0xCZG9SRVp6OGpxTUpoLTc4YWd1UlhCNW9ud0tYQUpuLW9Gc00tak5xaVJEYzdWZEVZdXJIak1JTVJrMEZyQUcyRnhmbndBSXM1R2hUUVRTRnM3TXl1ZFRsTmVKSi03YVc3ZVVkb0VvcEg4ZlBGUWw2aXV6RjBKMVVEWjhTbUVuT0VhNTRQUdIBqgFBVV95cUxNa2xqa1ZJRkpVVVhXMUl6b1YzQmpXTXR0dU1wcXVlRzNTOXo3dGdyQy11NnVfM2J5ZUF1UDI3UDdfRzFTcDFGRHN6T0p4TDFhUmJ2cVZ6d0hJNUVJY2pGWVFOZGR3UFdDaVhMZ1laTE0zUF9iQ3Z6c1Bhbm9NSzNZTVRXTnpPcFQ2VjBLMVhzUzUya3ZUNXBmbjZjSEU4RWU3TUM0Q2VPMVJBUQ?oc=5",
+   "fuente": "La FM",
+   "fecha": "2026-11-16T13:47:18Z",
    "categoria": "coyuntura",
    "tamano": "gran"
+  },
+  {
+   "id": "b26e5d1a4e8b",
+   "titulo": "Gobierno anuncia plan de choque ante aumento de ataques con",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZFFUYjJycDl4Z0xvUm1scHYteVNWY2FoaWxsbGVwSUNZVERhd3lwYVVHMWNQX0NfQi1kZ2pFWG4zSTVsOGVnMnpON2ljbEtUZjBteUwyN19SSy1JYXBHZG80ZWotS3BQRDV3WkdJVzNOUXhoVVVKYnVqWmJBVl9oOVVTVnBZcG4tMmg4M292anFoOElXbDc0emNxTnRDZXpyODRQY1RtM3hrcDdvdkg1czB6b3dLNk1EV1dFTGhGcw?oc=5",
+   "fuente": "Diario del Cauca",
+   "fecha": "2026-11-16T13:35:40Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
   },
   {
    "id": "7d3d52173315",
@@ -2086,6 +2879,18 @@
    "fecha": "2026-11-16T13:28:54Z",
    "categoria": "mencion",
    "tamano": "redes"
+  },
+  {
+   "id": "c519cd6d1ea3",
+   "titulo": "Álvaro Uribe respalda decisión de De la Espriella de no cobrar IVA a los productos de la canasta familiar",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMid0FVX3lxTE50bi1Qa1RfVUNMc3ppR01NcW1VRk44ZFN5bGdpVndSeEZta1lqcnVaZDZJd1JzQXhqbmlmX3BNVHl6T1c5VVpsNV9hZlg0UmpHT2hPYmUzQms1b3lNN2k2Q3pzZzh0VHVDX0FwcW5NaDhVTWpZamlv?oc=5",
+   "fuente": "Chica Noticias",
+   "fecha": "2026-11-16T13:23:05Z",
+   "categoria": "mencion",
+   "tamano": "local"
   },
   {
    "id": "bf23f06e8b41",
@@ -2148,6 +2953,18 @@
    "tamano": "redes"
   },
   {
+   "id": "1c7ac73b504e",
+   "titulo": "\"Mi Gobierno no impondrá IVA\": Presidente De La Espriella confirma inesperado cambio que tendría el impuesto en Colombia",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPV3QtOEVGbzhST2Iycmg5WTUzV3IwVDRUUEtXNUxYNlVuT2Ixd0wtNWFBSkgtNU9sMzhJdmpZd1QyM0pyNWtYOFVwYVZVWXUwTUJSbktjdGdJTmdoRWhhV19uTkV5ci1rS0Z5M0xwR2Z5SUdLeW1TVkJwcTlLUnhkS1JwTWhXT3FpRlBjNElBWVZwdklFWDROcndVUGRvMDdSSVhlU2ZnQ0xpUnhuMlRrRWdZT3Bpd041R3J3TUhWdWVQQldkWDNfeVpSMDNLMkdzMUhmc0h2dHUyeldhOGFvSGwwV2VHOXhSZjVhb3lGLWFBQXpwNzh6bjNkSjc?oc=5",
+   "fuente": "RED+ Noticias",
+   "fecha": "2026-11-16T13:14:39Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
+  },
+  {
    "id": "efe540f40a0c",
    "titulo": "Padres de María Camila Pantoja, subteniente secuestrada, hablaron con SEMANA y enviaron contundente mensaje al ELN",
    "resumen": "La incertidumbre y la preocupación continúan para la familia de la subteniente María Camila Pantoja Hernández, quien permanece secuestrada por el ELN en el departamento de Arauca.",
@@ -2160,6 +2977,78 @@
    "tamano": "gran"
   },
   {
+   "id": "3a603eda53ae",
+   "titulo": "Las pistas detrás del presunto plan orquestado desde la DNI para sabotear la Registraduría: el hacker condenado, visitas sospechosas y las alertas de Penagos",
+   "resumen": "La Fiscalía recibió el 5 de marzo de 2026 una denuncia del registrador Hernán Penagos sobre intentos de intervenir los sistemas informáticos de la Registraduría durante la campaña legislativa y presidencial",
+   "detalle": "En medio del revuelo generado al interior de la Dirección Nacional de Inteligencia por cuenta del reciente escándalo que involucra a Carlos Andrés Oyola Tovar, señalado de coordinar una presunta red de activistas digitales, bodegueros y hackers para atacar a la Registraduría y alterar los resultados de la segunda vuelta presidencial del 21 de junio, poco a poco las autoridades continúan armando el rompecabezas y estableciendo responsabilidades. El supuesto plan, que no tiene una investigación pública conocida, se suma a las alertas sobre campañas destinadas a erosionar la confianza en el sistema electoral colombiano.",
+   "cita": "",
+   "enlace": "https://www.infobae.com/colombia/2026/11/16/las-pistas-detras-del-presunto-plan-orquestado-desde-la-dni-para-sabotear-la-registraduria-el-hacker-condenado-visitas-sospechosas-y-las-alertas-de-penagos/",
+   "fuente": "Infobae",
+   "fecha": "2026-11-16T13:12:41Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "35836acc4518",
+   "titulo": "Gobierno colombiano propone restringir los carros oficiales a todos los congresistas",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRHFBbGdXRHJ2eTNJUndpSDVoREs0c09IU2ZYQ0p5YVZudlgzMk1pMEw0c0FjYm9KeThWdmhSbzZoX3lOMmFBb2REY0c2dV9mU3dkcGs1NjNIUVByallpeWpEaHVNUjRNNW5uZHFqU3pReUVTLU5QTk9xRy1rMERuOU5LLUVieG9oamR6ajhvYS1xUlBQVUhLcldsWk5TZFJQY1NYSm5uUmhiZUQ0Q2NNNUV6cTdOeVgw?oc=5",
+   "fuente": "HSB Noticias",
+   "fecha": "2026-11-16T13:01:55Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
+  },
+  {
+   "id": "a2eb347263a5",
+   "titulo": "Pisa midió la pobreza y la llamó calidad",
+   "resumen": "Cada vez que salen los resultados de Pisa, Colombia mira el ranking y concluye que sus estudiantes son malos. Pero las cifras también hablan de pobreza, desigualdad y colegios sin recursos. La tabla no cuenta toda la historia.",
+   "detalle": "Cada vez que la Ocde publica los resultados de Pisa, en Colombia se repite el mismo ritual. Sale la tabla, buscamos nuestro nombre en la parte de abajo y los medios escriben que somos un país de malos estudiantes. Este año el titular estaba servido: 414 puntos en ciencias, 399 en lectura y 381 en matemáticas, frente a promedios de la Ocde de 482, 461 y 463. Solo el 29 % de nuestros jóvenes de 15 años alcanza el nivel básico en matemáticas. En los países de la Ocde lo alcanza el 65%. Las cifras son ciertas y duelen. Pero quien lea el informe completo, y no solo la tabla, encontrará que la propia Ocde cuenta otra historia, más incómoda y bastante menos citada. Empecemos por una frase del capítulo sobre el contexto económico.",
+   "cita": "",
+   "enlace": "https://www.lasillavacia.com/red-de-expertos/red-de-la-educacion/pisa-midio-la-pobreza-y-la-llamo-calidad/",
+   "fuente": "La Silla Vacía",
+   "fecha": "2026-11-16T13:00:00Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
+  },
+  {
+   "id": "bdf511ab7922",
+   "titulo": "La lista detallada de alimentos que no tendrían IVA en Colombia tras anuncio de De La Espriella",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUFNmVVlVWFhNSDEtXzBkc1NRM2Z3dHo0UVZGem1iV1MyVDJQS3JJUm9KSUhVUkR4b2lBNV9EMVAtYXZPMjZZallSLVIyMk1HRlJSNllHb3RwYmdPTnRoWmtCUUhtTEFiaGJzTWFxQkp4ejlUNEVzY09QbnZBcVZIMnRlY0N4WVE5bjFsUU9Wb0NZTkdnNF9kM1kxT3FPbm12S3N1MjhyOHXSAa4BQVVfeXFMTnRXQ1pacEZNa3VQaERoX3BnVm5rZnh6bHVZbXduMVo4N2pIanFzYnBGWUhjOWd0eUhtTGpEUlZsRWNnU3U4Znhqb1pXaGctWVpBak1QWUxMREVQNTVTS005NGNnZVdxdjVGMzZaNTlleFhGQ1hhLVlCN3QzODI2Yk5jRHMwcGRDS0gzSklrZXh6eUUyZUVIRUVleHlIN3VUNjNPR04ycUVHUGJjWFp3?oc=5",
+   "fuente": "Pulzo",
+   "fecha": "2026-11-16T12:58:32Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
+  },
+  {
+   "id": "f574e8dffa65",
+   "titulo": "“Candidato para el buque cárcel”: De la Espriella le cantó la tabla a alias Primo Gay, pero juez pidió investigarlo",
+   "resumen": "“Bienvenido a la Patria Milagro”. Con su ya usual frase recibió el presidente Abelardo de la Espriella a Néider Yesid Uñates López, alias Primo Gay, capturado este fin de semana en la vereda Santa Ana, zona rural de Briceño, en el Norte de…",
+   "detalle": "“Bienvenido a la Patria Milagro”. Con su ya usual frase recibió el presidente Abelardo de la Espriella a Néider Yesid Uñates López, alias Primo Gay, capturado este fin de semana en la vereda Santa Ana, zona rural de Briceño, en el Norte de Antioquia. El detenido, uno de los cabecillas más buscados del departamento, escuchó con la mirada baja los reclamos del mandatario. “Este es candidato para el barco. Lo vamos a meter en altamar, a donde no llegue ni la señal de la santa cruz”, dijo De la Espriella. Y así, planteó la posibilidad de que Primo Gay sea el primero que termine en uno de los buques cárcel que tiene en planes el Gobierno como lugar de reclusión para criminales de alta peligrosidad.",
+   "cita": "",
+   "enlace": "https://www.elcolombiano.com/colombia/abelardo-de-la-espriella-encaro-alias-primo-gay-seria-primer-recluso-de-buque-carcel-NC43636218",
+   "fuente": "El Colombiano",
+   "fecha": "2026-11-16T12:58:25Z",
+   "categoria": "coyuntura",
+   "tamano": "regional"
+  },
+  {
+   "id": "9ce0da83bb5f",
+   "titulo": "A la cárcel alias Primo Gay, señalado de cometer secuestros, homicidios y otros delitos para las disidencias y el Clan del Golfo",
+   "resumen": "La Fiscalía indicó que este hombre será vinculado en los próximos días por su posible participación en graves violaciones a los derechos humanos.",
+   "detalle": "Un juez impuso medida de aseguramiento preventiva en centro carcelario a Neyder Yesid Uñates López, alias Primo Gay, quien habría sido cabecilla de la estructura 36 de las disidencias de las Farc y actualmente estaría vinculado al Clan del Golfo, según indica la Fiscalía. Su captura y la de otro señalado “narcoterrorista” fue anunciada el pasado 14 de noviembre por el presidente Abelardo De la Espriella. Entre las actividades criminales que la Fiscalía le atribuye a ‘Primo Gay’ figuran el control de rentas ilícitas, las disputas violentas con otras organizaciones armadas y una serie de hechos delictivos contra la población civil.",
+   "cita": "",
+   "enlace": "https://www.elheraldo.co/colombia/2026/11/16/a-la-carcel-alias-primo-gay-senalado-de-cometer-secuestros-homicidios-y-otros-delitos-para-las-disidencias-y-el-clan-del-golfo/",
+   "fuente": "El Heraldo",
+   "fecha": "2026-11-16T12:54:39Z",
+   "categoria": "coyuntura",
+   "tamano": "regional"
+  },
+  {
    "id": "31d089606ede",
    "titulo": "“También voy por ellos y los voy a dar de baja con ayuda de la fuerza pública”: De la Espriella sobre ‘Iván Mordisco’ y ‘Chiquito Malo’",
    "resumen": "En lo que llamó ‘El milagro de recuperar la autoridad’, habló de los resultados de la ofensiva contra grupos ilegales, como el Clan del Golfo y las disidencias, aprovechando para enviarles un mensaje a alias Chiquito Malo y alias Iván…",
@@ -2170,6 +3059,54 @@
    "fecha": "2026-11-16T12:54:29Z",
    "categoria": "mencion",
    "tamano": "regional"
+  },
+  {
+   "id": "65e6a18304d1",
+   "titulo": "Gobierno formaliza el retorno a la normalidad tras el desast",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZGVoakJOZmZ4Sm9BdWY4SlNxLXZZY2xYeGU5SlBIRERIdWZJQWZFdE9ZXzJPSkV1bi1zOEVTbVNGWUpXYkpDdzVyWGxDSENyRl9pa3NiTkltSE1IS0ltS3VvaGZaYUFiMkxLZXpOLXZHSHZtNHVPb1RvWWxTM1VrdlBZNTc2dm45VDFia3BpRWt5RE82MHhtVjVkeS1IZEVucm8yUUVnYVM1ekk?oc=5",
+   "fuente": "Diario del Sur",
+   "fecha": "2026-11-16T12:50:46Z",
+   "categoria": "coyuntura",
+   "tamano": "regional"
+  },
+  {
+   "id": "63f11411ca7b",
+   "titulo": "Falleció Nicole Andrea Pedraza, la estudiante de 16 años atropellada en el norte de Bogotá: comunidad exige justicia",
+   "resumen": "Los familiares denunciaron que el vehículo carecía del seguro obligatorio y señalaron que la conductora intentó irse del sitio, aunque residentes la retuvieron hasta que llegaron las autoridades",
+   "detalle": "La muerte de la adolescente Nicole Andrea Pedraza García, de 16 años, causó conmoción entre sus familiares, amigos y la comunidad del colegio Alameda Norte, en el norte de Bogotá. La estudiante murió tras permanecer hospitalizada por las lesiones que sufrió en un siniestro vial en la localidad de Usaquén. El atropellamiento ocurrió el martes 10 de noviembre, cerca de las 6:20 a. m., cuando Nicole se desplazaba por el sector y fue embestida por una camioneta Honda azul. La joven fue llevada a un centro asistencial después del impacto. Allí recibió atención médica debido a la gravedad de sus heridas, pero su fallecimiento fue confirmado el domingo 15 de noviembre.",
+   "cita": "",
+   "enlace": "https://www.infobae.com/colombia/2026/11/16/fallecio-nicole-andrea-pedraza-la-estudiante-de-16-anos-atropellada-en-el-norte-de-bogota-comunidad-exige-justicia/",
+   "fuente": "Infobae",
+   "fecha": "2026-11-16T12:49:40Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "40290987a589",
+   "titulo": "Abelardo de la Espriella envió un mensaje a ‘Chiquito Malo’, del Clan del Golfo, y a alias Iván Mordisco, de las disidencias de las Farc: “Los voy a dar de baja”",
+   "resumen": "El presidente colombiano, durante su alocución por los 100 de gobierno, destacó los recientes operativos de la fuerza pública, que derivó en la muerte de alias Negro Perea y la captura de alias Primo Gay’.",
+   "detalle": "El presidente de la República, Abelardo de la Espriella, pronunció una alocución el domingo 15 de noviembre de 2026 por sus 100 días como jefe de Estado, en la que advirtió a alias Chiquito Malo, máximo jefe del Clan del Golfo, y a alias Iván Mordisco, cabecilla del Estado Mayor Central de las disidencias de las Farc. El mandatario colombiano afirmó que ambos cabecillas figuran entre las prioridades de la fuerza pública, tras las recientes capturas de “Primo Gay” y alias Pata de Palo. Abelardo de la Espriella presentó la estrategia de seguridad denominada “El milagro de recuperar la autoridad”, en la que resaltó las operaciones militares y policiales contra los grupos armados ilegales.",
+   "cita": "",
+   "enlace": "https://www.infobae.com/colombia/2026/11/16/abelardo-de-la-espriella-envio-un-mensaje-a-chiquito-malo-del-clan-del-golfo-y-a-alias-ivan-mordisco-de-las-disidencias-de-las-farc-los-voy-a-dar-de-baja/",
+   "fuente": "Infobae",
+   "fecha": "2026-11-16T12:46:38Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "28e7c72823a8",
+   "titulo": "Gobierno lanza plan de choque tras aumento de ataques con drones en 16 departamentos",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQb3RUTUIwRFJTeW45T0xTaTV6YU5BZzlTQlkwem15dWE5MFlneG5CdmtULWE0R1JfOVZhd3VkR1RGcEZHeHhnLUl3MUx2RnRRc3hhZF9ONzRpLU9laV9EM0lWbUxURm1fWjB1TUtsSzNhZzg4eEYyRmo1M01vd0NkdHh2MHpzbm54UTl6Q1dwNHBwb3ZiOVBMM2ppc2JuZUpMejRaV19pblRGSnRaWF90bl9xOEZHRE1rVFE3ZnZlS2tCZGxzNmk5d1lsaEZnUjgxY3JF?oc=5",
+   "fuente": "Radio Santa Fe",
+   "fecha": "2026-11-16T12:41:58Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
   },
   {
    "id": "96e3ebc6da0e",
@@ -2196,6 +3133,18 @@
    "tamano": "regional"
   },
   {
+   "id": "5e5ed5ccd2e8",
+   "titulo": "Gobierno nacional entrega 120 kilómetros de dobles calzadas en corredor central",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWm1iMF92WDloVDVpTmU5ZUdLWWpLOWJZTlNfRVB1MWJCX2NvLU9QTXljMmpFSm1fb2VBMThVelpqYmxYRlhxNkwycHRMVGZYTlozZTVpckhSYmNISy1yWHdaTkZ6M2JEZl9PeWNleVRmcGhKNGQ5ajk2TmU5ZjloYmsySXVZc0dvTzV5WTRnbDBxY3l2eFBCNDFJYkp4Q282bENFQU82bldnUXdOeUFLUUZR?oc=5",
+   "fuente": "HSB Noticias",
+   "fecha": "2026-11-16T12:33:12Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
+  },
+  {
    "id": "6491749240f0",
    "titulo": "“Motivo de tranquilidad”: Álvaro Uribe celebra decisión del Gobierno de no imponer IVA a la canasta familiar",
    "resumen": "El presidente Abelardo De la Espriella dijo que el proyecto de Ley de Rescate Económico está en construcción, por lo que su administración seguirá buscando consensos con todos los partidos y sectores.",
@@ -2208,6 +3157,234 @@
    "tamano": "regional"
   },
   {
+   "id": "be1891407064",
+   "titulo": "Tras la captura de ‘Primo Gay’, Gobernación de Antioquia presentó nuevo cartel de los más buscados en el departamento: Quiénes están en la mira",
+   "resumen": "La estrategia interinstitucional había priorizado a 19 personas buscadas desde julio de 2026 y mantiene recompensas por datos sobre cabecillas de las disidencias de las Farc, el Clan del Golfo, el ELN y El Mesa",
+   "detalle": "La Gobernación de Antioquia actualizó el cartel de los más buscados de la Operación Cazador Antioquia (OCA) tras las capturas de Néider Yesid Uñates López, alias Primo Gay, y Luis Daniel Terán Baldovino, conocido como alias Chuzo, “Niño” o “Matías”. Ambos formaban parte de los 19 objetivos priorizados cuando la estrategia fue presentada en julio de 2026; con sus detenciones, el listado quedó conformado por 17 personas.",
+   "cita": "",
+   "enlace": "https://www.infobae.com/colombia/2026/11/16/tras-la-captura-de-primo-gay-gobernacion-de-antioquia-presento-nuevo-cartel-de-los-mas-buscados-en-el-departamento-quienes-estan-en-la-mira/",
+   "fuente": "Infobae",
+   "fecha": "2026-11-16T12:21:13Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "8560470bd061",
+   "titulo": "El mensaje de Carlos Suárez, estratega del presidente, luego de que De La Espriella descartara gravar con IVA la canasta familiar",
+   "resumen": "Luego de que el presidente Abelardo De La Espriella confirmara en medio de su alocución que no grabará con IVA los productos de la canasta familiar, tras la radicación en el Congreso del proyecto de Ley de Rescate Económico, quien no…",
+   "detalle": "Luego de que el presidente Abelardo De La Espriella confirmara en medio de su alocución que no grabará con IVA los productos de la canasta familiar, tras la radicación en el Congreso del proyecto de Ley de Rescate Económico, quien no guardó silencio fue Carlos Suárez, estratega de la campaña del jefe de Estado. En un mensaje en la red social X, Suárez, quien actualmente es presidente de la Junta Directiva de Ecopetrol, dijo que ahora el vicepresidente de la República, José Manuel Restrepo, “se pone la 10 para liderar la tarea más exigente de la legislatura”. “El Tigre lo deja claro: NO habrá IVA para la canasta familiar; instruye a su Gobierno para que busque fórmulas concertadas que financien el rescate fiscal.",
+   "cita": "",
+   "enlace": "https://www.semana.com/nacion/articulo/el-mensaje-de-carlos-suarez-estratega-del-presidente-luego-de-que-de-la-espriella-descartara-gravar-con-iva-la-canasta-familiar/202609/",
+   "fuente": "Semana",
+   "fecha": "2026-11-16T12:21:12Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "b895f782c491",
+   "titulo": "Alimentos sin IVA en Colombia: cambios tributarios del Gobierno",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQR08yLU9xMkhldmhFSWk0RF9ZbGlaMF9zb2RQaEhmZHJ6akpnQUVfdHlCbURyODRqam9IWHFqVXVMUzFfQXhRSFJVSUR3VTBYZWluRWFVM0xkUmE4bHRrU1M4MXZsamF3cUlsMzRuaGV5Nkdzc0hOLTVHdHRBSXZQdm52ZTF0ZFE?oc=5",
+   "fuente": "Estrella Digital Colombia",
+   "fecha": "2026-11-16T12:16:39Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
+  },
+  {
+   "id": "7396c32f3859",
+   "titulo": "¿Qué alimentos de la canasta familiar no tendrían IVA en Colombia? Esta es la lista tras anuncio del presidente Abelardo De La Espriella",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNekVIc0dDRi1QZlVGX2l2WGhNRnV5cUZraEd4QXpUSnFKVzdJTTRpNlRSXzMzSzJmcU1QdEpIQm9VRkF6dk9PSFE0b2NTMTBvR3p5Nzd2WmdXcnB4dS1GQWhjcGJzOUNIbzZnRnNjM1RCSmVwLWNwNTA4cFk3UDZBM05FRGNqMndQTlRWTDZhXy1GaGxwSm1BZW9PdjNUeE1WV3RxdG1qU0tCYnVTc2ViTmVnbnBweFllemkwdjQ3cmZ5cThoRXRRR3FBV0cwLXlnSDQ4T1NhanNDUTdWSmJWYU5HSEljU1picFYzcVBHZ3pfc19LbXAtdURLeTRaM01lQVhYVk4zU0V5RDE0SUFVY0Y1RzBnU3RwTDRSUWRfaXdYUdIBpwJBVV95cUxNTnlWRW9HLS1NUU03Rmc3U1oxNDNuU1BlNWRQRjRVcDdhVGZBWDZpaDd6aTJzVTZfT2dMN3JzRE5fLVh1NW5oWVFrU3ljY2lhR2hUbmw5cmxZRXJYWUpyMkl6QVJQU0JDemh6R05IQVRjemJQaFY2aWRJZHZDWVVKU3VqNTREenp6V2wwZEVxY2lnb0E4aldsR1k1M0pqUXZwX09ocENKV0djUmlnejExQVVPN3RPTlBkT1FwZERtMlNXbUxtSFNXMWRENGc3WnVZNEt1ejZWTktQbnVNQUE2MXRlZHA1aFFhTldXRTZFU2NNanlVWlpwQWVfMnhoclUyc2R3Y1ZTLS1CVnROUUlwSXl3RVlEZVhuZHhiUXpRNG9UMkNWWmFR?oc=5",
+   "fuente": "El Tiempo",
+   "fecha": "2026-11-16T12:16:39Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "fc66cf8b2f2d",
+   "titulo": "Uribe reaccionó al anuncio de De la Espriella sobre el IVA a la canasta familiar: “Motivo de tranquilidad”",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQRFN6YWd1T2tpbG00dldhRy0ySFd6am1haWZ0NlU0UDhBMnZKVmJCSmMxcTRrSks1ZGtQSXF0RHZ2SGVqQW5hdVVoekRhRmhJSGxFOEk3TTdrY0JNdUp3Q2F2MHh3bUlIMFVDMkw4bXhwR2d1WVBRRG9OanpxTS1sMW9LbHo1Q1RtU2FMdmlfczVIOU1KX29zWjI4U0o2NHBlQ1d6QVFUY280LW5lS0JEWXZrNGxKejJuUTdhWWVKQ3A5WDhzdi15SU84cm5BVDE0ODJqUnY2bGJCNWdRdmVGQ1FxdmU?oc=5",
+   "fuente": "Publimetro Colombia",
+   "fecha": "2026-11-16T12:12:05Z",
+   "categoria": "mencion",
+   "tamano": "nacional"
+  },
+  {
+   "id": "33cfec99c212",
+   "titulo": "Así es la Colombia que promete el Plan de Desarrollo del presidente Abelardo De La Espriella para 2030",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPeXBxNGUtbFhuNDJsa0V1WExmZGFieVZpOXRDVVVqYlZIZ1A5Y2pObFVlVXliVHlVbWtRYWE5UVFjcTh6UmZzd3FOZmJ3bzRNOTVyaHU5V0d1cGY5WlhMN3JHY3dqWFJsMlNaYzl3aU5wTFkzX0lYTEo0WDRLTVFNT3BHbEdiemx0RmdnTkVhRFYwUjB2TDFLMXQ2UHNLbjFQajNzNEI5RzB4V1RPcWswYU5SMl84dndLT2hIY3JxNU4zSWFlUWVqS0VMNnAwQUV4QzJBZ3U0emFqcWhqYnI3a3VB?oc=5",
+   "fuente": "El Tiempo",
+   "fecha": "2026-11-16T11:37:59Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "5096966129fc",
+   "titulo": "Ley de Rescate Económico en Colombia: debate por cambios tributarios, IVA y su impacto en la canasta familiar",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNWJ2QW1vRlM3MUNYRHRnTjZmODNyREYtQUNVWk1fZ2RyZXhVcTVlNlEyaHFhUmlQV2ppem16VW13MnJHaUNoV0h2YUdtRFhDb2F0eDU3c3Flc281WkkzV1FGWU9iRjVrOFBxamNrRjR5MTRtTVIteUN4b0FLQVVxUjNKa2oxeUhqcENSRzk5dUFhWEEzVVhaeTVpSnlPSFlWOXZ1TUZ6cTYzM3VvcGoxazdpRTRidERRRVdmckVsZUtCcVV3Q3d5bzZxQ3LSAdIBQVVfeXFMT2VxU21FUDlZdE0zUEZrYmF2UXVTbzd5dVlaLTBKVE5XZjlaQ1R2dkFWb1lVcUZMSnd0blpzY0NTbXpRalhhVERWOVF4RkZITU9ybFA2aFVTaGpCMTg1SDJJcTJJZWdfdXY2SFF4ZDhUR2dOZGNQZWRPQ09LVzdIT2dVZVJfVGxJRERFeUZQN0pPS0hiWXdxcmM2MU91Y2xTWTFUc090M1NERV8xLWpYbFBDUWdxc3g1TGdqeGg5bUExRW81ZmJ4TnY2bk1Rcks2c3ZB?oc=5",
+   "fuente": "Pulzo",
+   "fecha": "2026-11-16T11:36:25Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
+  },
+  {
+   "id": "856113fe72db",
+   "titulo": "José Manuel Restrepo dejó algo claro tras anuncio del presidente De La Espriella de no gravar con IVA la canasta familiar",
+   "resumen": "Este domingo, 15 de noviembre, el presidente Abelardo De La Espriella confirmó que no habrá IVA para la canasta familiar y que, por el contrario, se estudia la posibilidad de bajarlo.",
+   "detalle": "Este domingo, 15 de noviembre, el presidente Abelardo De La Espriella confirmó que no habrá IVA para la canasta familiar y que, por el contrario, se estudia la posibilidad de bajarlo. El jefe de Estado hizo el anuncio en medio de una alocución presidencial, luego del ruido que se generó tras la radicación en el Congreso del proyecto de Ley de Rescate Económico. “ La canasta familiar no pagará IVA. Quiero comenzar por un asunto que preocupa a millones de familias colombianas y sobre el cual quiero hablarles con absoluta claridad. Desde el primer momento le indiqué al equipo económico que no se tocara el IVA de la canasta básica.",
+   "cita": "",
+   "enlace": "https://www.semana.com/nacion/articulo/jose-manuel-restrepo-dejo-algo-claro-tras-anuncio-del-presidente-de-la-espriella-de-no-gravar-con-iva-la-canasta-familiar/202642/",
+   "fuente": "Semana",
+   "fecha": "2026-11-16T11:22:29Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "5fbcd11a6010",
+   "titulo": "Este es el ‘plan choque’ que anunció el Gobierno ante el aumento de ataques con drones en 16 departamentos",
+   "resumen": "Desde abril de 2024, se han documentado 708 ataques con estos dispositivos y el lanzamiento de aproximadamente 1.865 granadas.",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://www.eltiempo.com/justicia/conflicto-y-narcotrafico/este-es-el-plan-choque-que-anuncio-el-gobierno-ante-el-aumento-de-ataques-con-drones-en-16-departamentos-3601313",
+   "fuente": "El Tiempo",
+   "fecha": "2026-11-16T11:19:11Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "28c34e602b02",
+   "titulo": "‘Se dice que entregamos el país a las Farc y tal me parece que son leyendas’: Humberto de la Calle habla de lo 10 años del acuerdo de paz",
+   "resumen": "El exjefe negociador de los diálogos con las Farc hace un balance de los 10 años del acuerdo. Asegura que hubo fallas, pero que era necesario.",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://www.eltiempo.com/politica/proceso-de-paz/se-dice-que-entregamos-el-pais-a-las-farc-y-tal-me-parece-que-son-leyendas-humberto-de-la-calle-habla-de-lo-10-anos-del-acuerdo-de-paz-3601321",
+   "fuente": "El Tiempo",
+   "fecha": "2026-11-16T11:17:55Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "403404654c47",
+   "titulo": "\"La canasta familiar no pagará IVA\": Abelardo tras sus primeros 100 días",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYWY4d3RlcmhGSjJLc0lXY3dwUXE4U1RuXzlVMl9SNlVZQzhZRmNxejhwaGNYbDI3eGlobnI5VUlRNlVyVFpQRExoZTU1T1VIT0I3dGI2MHdXc1B4QVoySlJ1dXJLb01uWlhXMHpGaVBreU5ZY21nbWJHVnVTV1JuSXJramVzVEQwTE5relFhTVAyVmxGWVZOWFlFS0JoSXZRMEZBM1NMU1Fib0FmT0FvNm56alZqckcxMFZfaDVieldBUTgx?oc=5",
+   "fuente": "El Nuevo Dia (Colombia)",
+   "fecha": "2026-11-16T11:09:53Z",
+   "categoria": "coyuntura",
+   "tamano": "regional"
+  },
+  {
+   "id": "d87667b63022",
+   "titulo": "‘La DNI del gobierno Petro fue una policía política para perseguir a sus contradictores’: exsenador David Luna habla del escándalo",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQUFAzSFJ5Zm9iVEtnbW1SSjhOV1JBb1NDUVRfZ2R0YXM3T0VyMEdVNjRWbWUxMVk0LV9GTEdueXRSQmx3SnVHd01EdjJrQnptd2IweV9SQUpiNjhGTGM5bHF3b0U4NmJxTmFtV2ZnZlg0QlNFV2hwV0N5RmlVTHJrdnBLTU5PYThGdW9NMzdOMy1rNFdjWl9aOGlhM0M3UnZIN2JEbzdDM3JnZllDMjBYa0RCWHM3MGo0VzZiUFM0YXdOVlM4aWdLbmluQkx5SjR0am5xdHlBVnFEMjhmb1Q3MVNJRTFOTXdNWnNTSk84ZTF1aU8tSTBPaktPNXpCd25GX3FsLU5OSDJtSDNaQ3NSOGotbVZjZTTSAZwCQVVfeXFMTkVLWjhWZEhoQWxMY2xURjN0ZU9DVU5lRldMNHVBT1Bkd0hpMmZYNjJZZVlWRzFoRnpzLUxVQW9hNVdhMjJlbGVzWU50akFFOHNvVElKUEV0c2lldUxTR21WWFhqTzA5RENmclF6TFgtOWpYdEJGMWlET3MxTEM3NjJpdHVrZ05ZeExZOHFKSThuVEh0NnlGbHVReTFsZDNkWEQ4MTNyRE8xLUp5YWxpdXFUTDVjTkhtZjg4YlpBM3VXUS02YzBrZHpiM1hPU1ZiekYzZ0ZaSFVFZS1FVjNkMzIwZUFFUWhZbDEwR1BqLTRWS0hCYTY5RnVDLTJaSm1UanZHTmNfb3lZNlk2Y2xqa3Q4aDFRZDgtSU5WMmE?oc=5",
+   "fuente": "El Tiempo",
+   "fecha": "2026-11-16T10:58:00Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "ead920578b1d",
+   "titulo": "Andrea Ramírez, la intocable en el caso UNGRD, declaró en otro proceso por cupos indicativos",
+   "resumen": "Andrea Carolina Ramírez Oliveros era una asesora y coordinadora legislativa del Ministerio de Hacienda que terminó en la picota pública después de que su nombre apareciera en el escándalo de corrupción de la Unidad Nacional para la Gestión…",
+   "detalle": "Andrea Carolina Ramírez Oliveros era una asesora y coordinadora legislativa del Ministerio de Hacienda que terminó en la picota pública después de que su nombre apareciera en el escándalo de corrupción de la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD) durante la era del expresidente Gustavo Petro. Lo particular es que la Fiscalía no ha hecho muchos avances en la investigación contra Ramírez, pese a los señalamientos que ha recibido de figuras como el exministro de Comercio y exdirector de la Dian, Luis Carlos Reyes, quien la vinculó con el manejo de matrices de contratos y cupos indicativos durante varios periodos presidenciales.",
+   "cita": "",
+   "enlace": "https://www.semana.com/nacion/articulo/andrea-ramirez-la-intocable-en-el-caso-ungrd-declaro-en-otro-proceso-por-cupos-indicativos/202600/",
+   "fuente": "Semana",
+   "fecha": "2026-11-16T10:55:00Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "213cd22807fa",
+   "titulo": "Alerta en Villavicencio: policía implicado en crimen de su propio amigo podría quedar libre",
+   "resumen": "El 1.° de mayo de 2026, Jerson Elías Chaparro Díaz, un joven emprendedor y propietario de una veterinaria en Villavicencio, habría sido asesinado por un policía activo identificado como Carlos Fabián Ramírez, quien sería su amigo de la…",
+   "detalle": "El 1.° de mayo de 2026, Jerson Elías Chaparro Díaz, un joven emprendedor y propietario de una veterinaria en Villavicencio, habría sido asesinado por un policía activo identificado como Carlos Fabián Ramírez, quien sería su amigo de la infancia y le tenía una deuda pendiente por pagar de 20 millones de pesos. SEMANA contó dos días después del crimen el grave caso de violencia que involucra a un uniformado de la Policía Nacional, que habría utilizado un vehículo institucional para aparentemente cometer el hecho sobre las 7:00 a. m. en la avenida Maracos, a escasos metros del comando de la Policía de Villavicencio.",
+   "cita": "",
+   "enlace": "https://www.semana.com/nacion/articulo/alerta-en-villavicencio-policia-implicado-en-crimen-de-su-propio-amigo-podria-quedar-libre/202600/",
+   "fuente": "Semana",
+   "fecha": "2026-11-16T10:45:00Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "9d2cf9955b8c",
+   "titulo": "Juez deja libre a la esposa de alias Pinocho, máximo jefe de las Autodefensas",
+   "resumen": "El juez Quinto Penal del Circuito de Santa Marta anuló la decisión con la que impusieron medida de aseguramiento intramural a Yolima Johana Murgas Guzmán, quien es la compañera sentimental de Freddy Castillo, alias Pinocho, máximo jefe de…",
+   "detalle": "El juez Quinto Penal del Circuito de Santa Marta anuló la decisión con la que impusieron medida de aseguramiento intramural a Yolima Johana Murgas Guzmán, quien es la compañera sentimental de Freddy Castillo, alias Pinocho, máximo jefe de las Autodefensas Conquistadoras de la Sierra Nevada, que delinquen en Magdalena, La Guajira y parte del Cesar. Lo que ha llamado la atención después de esta polémica decisión del togado es quién es el abogado que ha defendido a varios integrantes del grupo antes mencionado, pero también a otros peligrosos criminales del Caribe colombiano.",
+   "cita": "",
+   "enlace": "https://www.semana.com/nacion/articulo/juez-deja-libre-a-la-esposa-de-alias-pinocho-maximo-jefe-de-las-autodefensas/202600/",
+   "fuente": "Semana",
+   "fecha": "2026-11-16T10:40:00Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "ff17800f3eeb",
+   "titulo": "Con la agitada temporada de viajes en ciernes, ¿qué posibilidad hay de que ocurra otra suspensión de vuelos por la FAA?",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRUhpeDRHOEd4OHBoWUVMZTY3SUZlUTdRUENJaEp5TTBFUFhRbnlhellqd1Z4N1ZnMkRYNVB5ckVrZTlGQjZZNmpIc2dldU9VWGhETktGU2FXUE5mVVZqa2xkM0xEUUhFM3U1UzczbGc5bHpJX09BT19rZFl1N001UXVORWpXX2UxbVdTZm1mM3V6WDA?oc=5",
+   "fuente": "CNN",
+   "fecha": "2026-11-16T10:38:00Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "a9922cdd1714",
+   "titulo": "Fiscalía archiva investigación contra Álvaro Uribe por presunto soborno a testigos denunciado por Iván Cepeda",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUzFyanpkUDUtcjdNUWdVeEdIbVdTaWxwRWlSZFdtajJxcDlIeTV4aENRZ2owQnFOaktGeE8tdzJiSXZHdkhBMmZRTVpiSkh5eUgyYl9ZblhJb296YmpqVjNTc0lHenpFdENFMzA1dnVvV1d6anZaR3M1YW5sdFdxSXNRQnJyN1UyZ0RqY0J3SE9UMHhiMmJqTWRfaVlRbUxjdnZ1S0YtZlZaWXFOclV5UDA5TWJYVU1QNnZoRUxfQ2U1RkxQWUxaM1M5M2tKUQ?oc=5",
+   "fuente": "LaVibrante.Com",
+   "fecha": "2026-11-16T10:02:45Z",
+   "categoria": "mencion",
+   "tamano": "local"
+  },
+  {
+   "id": "252e1689fee2",
+   "titulo": "ANT reporta más de $12.160 millones para proyectos productivos y la entrega de 1.054 títulos de propiedad rural en 100 días",
+   "resumen": "La entidad también informó la aprobación de acuerdos para la constitución y ampliación de resguardos indígenas.",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://www.eltiempo.com/politica/gobierno/ant-reporta-mas-de-12-160-millones-para-proyectos-productivos-y-la-entrega-de-1-054-titulos-de-propiedad-rural-en-100-dias-3601374",
+   "fuente": "El Tiempo",
+   "fecha": "2026-11-16T10:00:49Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "74fb7396b505",
+   "titulo": "A 10 años del acuerdo de paz, Humberto de la Calle hizo balance: qué se logró con las Farc y qué falló en su implementación",
+   "resumen": "El exjefe negociador destacó la dejación de armas de la antigua guerrilla, pero cuestionó los retrasos en las reformas, el funcionamiento de la JEP y los compromisos pendientes con las víctimas",
+   "detalle": "A diez años de la firma del acuerdo de paz entre el Gobierno colombiano y las extintas Farc, Humberto de la Calle, quien encabezó la delegación gubernamental durante las negociaciones, hizo un balance de los resultados del proceso y de las dificultades que ha enfrentado su implementación. En entrevista con El Tiempo, el exnegociador destacó que la antigua guerrilla dejó las armas después de seis décadas de confrontación y que la mayoría de sus integrantes no regresó al combate. Sin embargo, señaló que los gobiernos posteriores no han cumplido plenamente los compromisos establecidos en el documento firmado en 2016.",
+   "cita": "",
+   "enlace": "https://www.infobae.com/colombia/2026/11/16/a-10-anos-del-acuerdo-de-paz-humberto-de-la-calle-hizo-balance-que-se-logro-con-las-farc-y-que-fallo-en-su-implementacion/",
+   "fuente": "Infobae",
+   "fecha": "2026-11-16T09:58:51Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
    "id": "cba4d79fc903",
    "titulo": "Photo by Álvaro Uribe Vélez (@alvarouribevelez) · November 16, 2026",
    "resumen": "",
@@ -2218,6 +3395,42 @@
    "fecha": "2026-11-16T09:48:29Z",
    "categoria": "mencion",
    "tamano": "redes"
+  },
+  {
+   "id": "adf6ee0a60da",
+   "titulo": "Alejandro Ordóñez se estrena en el Ministerio del Interior atacando a la izquierda y al acuerdo de paz",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQTEU4WWdLSWIweUJ0UUt1cE8xSW1qOGdGR2hmaUNWNjZWSTR0YS1lUGFLNFhXclRQQm94Sm80bUtfV0ZTZmZTYzdoWWktSkJNbmthLVZXTGpCU3JuUHRCLXJkSnpUVU1na3JzLWVkTTRqX0VEV2xHRC1WSW05Z0V4Z1YwMTYxYkd4b0RicHhoOHJLMmxVV1dzTDNoeEFlZ1lmNTN5V1AxX1FnY0xnY2FBVkJfb0ZZMmRpTWluS3hONG1kUXVwcU82ckRDbWhFRzVHQjE1U1ZTMXgyXzBWelJiaFZtWDRjcnZoTnfSAf4BQVVfeXFMTk03X0xkZ0ZRUFRrbm1seTlEMFJoZUpHMFJmWnEwZHFMNmRpWmY0QVhOTklWMWRRdmk1N3V6ZlFrUkFnLXIwYUN1Y0w1ZndzLWtkcUs2aXVhd1I3eXBMQ0txQmx0OGFSa1YzV2FOMXQzUWhWbmJrLTNQSXdvYmxwYWtyNHBKY1RXSWVVa1NTTXp0OEotZ2hSU05zVTJ2ZzZCSGR6d0YxcURReWY3d29rUDhHUmdBT2Q0bUJ6Q2JwU2FaSmJqQ3VCVTNYcldIakNGUDgzb3ByUXp5QkRaeGVTc0hMRWJMREdMSGhWSVBHQXlERC05NzNqd2syVWh4M0E?oc=5",
+   "fuente": "EL PAÍS",
+   "fecha": "2026-11-16T09:30:00Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "52c756c9f8f2",
+   "titulo": "Los primeros 100 días de De la Espriella",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB5ZjhiZUtkVVdOZ3ItYmJ5NnFBVDJQRVQzMVFyd25mVXI2b0tmVXlNdzF6eTFVUktLU055cDlFeFljUWhqWllRSG1ra0Y0NV8wZ0F5Um8xdGVZcU54RUxLZHZ5a1NZcjVBdFVxQXpDT18tYTZyOGYxeDNkLVJUbkk?oc=5",
+   "fuente": "Eje21",
+   "fecha": "2026-11-16T09:04:01Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
+  },
+  {
+   "id": "2dc7b47bc903",
+   "titulo": "14 bibliotecas públicas siguen cerradas en Colombia tres meses después del terremoto: estos son los departamentos afectados",
+   "resumen": "El Gobierno anunció una alianza con Uniminuto, gestiones con Invías y una convocatoria al sector privado para habilitar espacios alternativos y financiar la recuperación de las bibliotecas afectadas",
+   "detalle": "Tres meses después del terremoto del 10 de agosto, 14 bibliotecas públicas de Colombia continúan cerradas debido a los daños ocasionados por el movimiento sísmico. La situación afecta a seis departamentos y mantiene suspendidos los servicios de lectura, consulta y formación que prestaban estas instituciones. De acuerdo con información publicada por El Tiempo, el balance de la Biblioteca Nacional de Colombia indica que 99 de las 1.569 bibliotecas que conforman la Red Nacional de Bibliotecas Públicas reportaron afectaciones por el terremoto. De ese total, 45 están en proceso de recuperación y 54 requieren acompañamiento e intervención. Entre las instituciones afectadas, 14 permanecen cerradas al público.",
+   "cita": "",
+   "enlace": "https://www.infobae.com/colombia/2026/11/16/14-bibliotecas-publicas-siguen-cerradas-en-colombia-tres-meses-despues-del-terremoto-estos-son-los-departamentos-afectados/",
+   "fuente": "Infobae",
+   "fecha": "2026-11-16T08:47:44Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
   },
   {
    "id": "386a79b71015",
@@ -2268,6 +3481,66 @@
    "tamano": "gran"
   },
   {
+   "id": "6611fda0da23",
+   "titulo": "La pruebas de Cepeda contra Uribe eran rumores, por eso archivaron",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPb3V1TVIxZElUR2V2UFp0Z2t3S1FJaFVSQXBzbmtzM2hMX2ZyWVdkS3daU2kyWlRFYTlveWdJd2hGU2JCZXBkdHl0c1QxZGcxU1A4ZGUycVd1cmlZUklEX0hwTEppdXFCMmFlX05FR2JCY3BIaGY5dC1UUEVDTHhjQzFJNGVhMDdBRWNBR1hJa3VsTTdwTDJoZUFqSXQ1cE9LUmFwYjJrVnFteXh0?oc=5",
+   "fuente": "El Meridiano",
+   "fecha": "2026-11-16T06:05:00Z",
+   "categoria": "mencion",
+   "tamano": "regional"
+  },
+  {
+   "id": "ed3895dd5806",
+   "titulo": "Giro de Venezuela contra el ELN es alentador, pero se necesitará mucho más",
+   "resumen": "Por primera vez en 3 décadas el chavismo atacó a la guerrilla. Pero no hay indicios de una operación sostenida, ni siquiera desde Colombia.",
+   "detalle": "El mes pasado, las fuerzas de seguridad venezolanas atacaron al ELN por primera vez en casi 30 años, con un bombardeo en Apure. Poco después, la Cancillería de Venezuela ofreció en un comunicado cooperar con el gobierno colombiano para mejorar la seguridad en la frontera. Es un giro importante en la política de seguridad de Venezuela, que desde la llegada del chavismo ha sido retaguardia de los grupos ilegales que operan en Colombia. Lo es en dos frentes: frente al ELN, que en los últimos 10 años operó con libertad en territorio venezolano con el beneplácito del régimen de Nicolás Maduro, y en la relación con Colombia, marcada por una profunda enemistad durante 26 años.",
+   "cita": "",
+   "enlace": "https://www.lasillavacia.com/silla-nacional/el-bombardeo-y-la-cooperacion-con-venezuela-no-seran-suficientes-para-acabar-con-el-eln-en-la-frontera/",
+   "fuente": "La Silla Vacía",
+   "fecha": "2026-11-16T06:00:00Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
+  },
+  {
+   "id": "fcf574f3e642",
+   "titulo": "Corte Suprema confirma sentencia contra el hermano del expresidente Álvaro Uribe",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTlI3UkQyNlBrT3Z2NmF0M214eVlHUjcxYWRNT0N6Qlc3dGQwM3E3bGtHb2tRNHptdVhuNkIwVFlZLU1ZUXlGS3FvWUJ3bzN0TW9XRnAwdkxiYjhjM01MNElrdFFDanJyWmZjejBMLWRUMzNqQzZDQ1U4RDJVMExUX21Rb094MGdrRkZrdkNNY011ODI0cktXSzk4emE5WnUwRlJwdUJWQzdzTzRzX1Rkc1VJZDR6VGVfX2xQNw?oc=5",
+   "fuente": "El Quindiano",
+   "fecha": "2026-11-16T05:40:33Z",
+   "categoria": "mencion",
+   "tamano": "regional"
+  },
+  {
+   "id": "1461e37b147d",
+   "titulo": "Colombia — Los 100 días de gobierno de De la Espriella|¿Qué ha cambiado en Colombia?",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPU3B3VHJqYWxTVTJJQ2I2ZFVvakgyWHVwLU9IRGx1Tm5vUWJGc1ZCVmQ2d2ZlS0JFUG1rM3pSZEJzOXdxWmpNS2N0WXJtbEhCN3IyVWFPUHdxREpaaTJDRWNoeUlUQlZQdEdVeFU5U2hpeHdmYkhJbWcteWlzUTEwV1FST0dSaER5cG1tTmVWa2ZZMkhxbzNNelU5X0FPNGFVcFNSYmpWa1BoQ3E0U05WenJ6aXJ2cjF1eXc?oc=5",
+   "fuente": "Prensa Mercosur",
+   "fecha": "2026-11-16T05:32:31Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
+  },
+  {
+   "id": "dd75d63c6ad8",
+   "titulo": "Denuncian ante la Fiscalía presuntas irregularidades en contratos por más de $45.800 millones con recursos de multas de tránsito del SIMIT",
+   "resumen": "La denuncia señala posibles conflictos de intereses, adjudicaciones directas y subcontrataciones entre empresas vinculadas.",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://www.eltiempo.com/justicia/delitos/denuncian-ante-la-fiscalia-presuntas-irregularidades-en-contratos-por-mas-de-45-800-millones-con-recursos-de-multas-de-transito-del-simit-3601370",
+   "fuente": "El Tiempo",
+   "fecha": "2026-11-16T05:19:18Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
    "id": "8bb3a7e2fdac",
    "titulo": "Primer comentario 👇 Noticias de Álvaro Uribe: el expresidente y su partido habían sido críticos con esa decisión de la…",
    "resumen": "Primer comentario 👇 Noticias de Álvaro Uribe: el expresidente y su partido habían sido críticos con esa decisión de la Ley de Rescate…",
@@ -2292,6 +3565,126 @@
    "tamano": "nacional"
   },
   {
+   "id": "714e4e55fb92",
+   "titulo": "Bancos y operadores deberán reforzar protección contra la suplantación",
+   "resumen": "Según estudios de la Superintendencia de Industria y Comercio del año 2020 a 2026, se han presentado más de 40.000 denuncias por falsedad personal",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://www.larepublica.co/analisis/juan-carlos-betancourth-4008518/llego-el-dia-a-los-bancos-y-operadores-de-telecomunicaciones-para-garantizar-proteccion-a-los-consumidores-por-el-delito-de-falsedad-personal-4525684",
+   "fuente": "La República",
+   "fecha": "2026-11-16T05:01:48Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
+  },
+  {
+   "id": "59dc1d31d0ca",
+   "titulo": "El gasto que no pasa por el presupuesto",
+   "resumen": "Dos de cada tres pesos se concentran en el IVA, que en 2023 dejó de recaudar $88,5 billones. La mayor parte corresponde a bienes y servicios excluidos, con $68,2 billones",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://www.larepublica.co/analisis/carlos-david-alape-gamez-3820864/el-gasto-que-no-pasa-por-el-presupuesto-4525678",
+   "fuente": "La República",
+   "fecha": "2026-11-16T05:01:28Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
+  },
+  {
+   "id": "8cdeaa286789",
+   "titulo": "El Santo",
+   "resumen": "Se descubrió que el presidente Gustavo Petro utilizaba el pseudónimo de \"Andrés Maldonado Beltrán\" para navegar e interactuar en las sombras de las redes sociales",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://www.larepublica.co/analisis/german-d-pino-arboleda-3987479/el-santo-4525680",
+   "fuente": "La República",
+   "fecha": "2026-11-16T05:01:20Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
+  },
+  {
+   "id": "403fe57119ac",
+   "titulo": "Gobernar la IA que no fabricamos",
+   "resumen": "Según Synergy Research, 20 mercados concentran 60% de la capacidad de nube a gran escala del mundo y ninguno está en América Latina",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://www.larepublica.co/analisis/santiago-jimenez-londono-4353436/gobernar-la-ia-que-no-fabricamos-4525688",
+   "fuente": "La República",
+   "fecha": "2026-11-16T05:01:15Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
+  },
+  {
+   "id": "eb41a4e3ea39",
+   "titulo": "Celebración de Día de la Policía",
+   "resumen": "Alejandro Calderin Lun, 16/11/2026 - 00:00 El pasado cinco de noviembre se conmemoraron los 135 años de la Policía Nacional. En Manizales festejaron con una ofrenda floral y diferentes actividades en la Escuela de Carabineros Alejandro…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://www.lapatria.com/galerias/celebracion-de-dia-de-la-policia",
+   "fuente": "La Patria",
+   "fecha": "2026-11-16T05:00:00Z",
+   "categoria": "coyuntura",
+   "tamano": "regional"
+  },
+  {
+   "id": "49c40b97bb74",
+   "titulo": "Así se juegan la vida contra el crimen dos antioqueñas de la Policía: “una entra, pero no sabe si sale”",
+   "resumen": "Las tomas guerrilleras que sacudieron a su natal pueblo de Nariño, Antioquia, no acobardaron el corazón de Lina María Henao Naranjo. Apenas tenía 13 años de edad, cuando vio a los terroristas detonar bombas, matar paisanos y secuestrar…",
+   "detalle": "Las tomas guerrilleras que sacudieron a su natal pueblo de Nariño, Antioquia, no acobardaron el corazón de Lina María Henao Naranjo. Apenas tenía 13 años de edad, cuando vio a los terroristas detonar bombas, matar paisanos y secuestrar policías; pero no fue el miedo lo que le inundó el alma, sino el coraje para luchar por la justicia. El recuerdo le vuelve a la memoria en una conversación con EL COLOMBIANO, ahora que ostenta 40 abriles y el grado de intendente en la Policía. Lina es una de las investigadoras del Grupo de Acción Unificada por la Libertad Personal (Gaula) de la Policía Metropolitana del Valle de Aburrá, y le apasiona rescatar secuestrados.",
+   "cita": "",
+   "enlace": "https://www.elcolombiano.com/colombia/mujeres-de-la-policia-en-antioquia-asi-enfrentan-crimen-secuestros-y-bandas-ilegales-DC43633734",
+   "fuente": "El Colombiano",
+   "fecha": "2026-11-16T04:20:57Z",
+   "categoria": "coyuntura",
+   "tamano": "regional"
+  },
+  {
+   "id": "76d6db291923",
+   "titulo": "Las piezas clave del presunto plan en la DNI de Petro para atacar las elecciones: el hacker, el gemelo y las denuncias",
+   "resumen": "Durante la administración de Gustavo Petro, la Dirección Nacional de Inteligencia (DNI) dejó de ser un búnker de funcionarios de carrera.",
+   "detalle": "Durante la administración de Gustavo Petro, la Dirección Nacional de Inteligencia (DNI) dejó de ser un búnker de funcionarios de carrera. En cuatro años pasaron por su dirección cuatro exmilitantes del M-19 —Manuel Alberto Casanova; Carlos Ramón González, prófugo en Nicaragua; Jorge Lemus y René Guarín— y, según fuentes de la entidad consultadas por EL COLOMBIANO, terminó convertida en una especie de policía gubernamental, dedicada a defender intereses del gobierno de turno. La entidad llamada a anticipar y contrarrestar los riesgos contra la democracia habría terminado, según varias revelaciones, convertida en uno de ellos.",
+   "cita": "",
+   "enlace": "https://www.elcolombiano.com/colombia/dni-gobierno-petro-presunto-plan-para-atacar-elecciones-hacker-carlos-oyola-IC43634851",
+   "fuente": "El Colombiano",
+   "fecha": "2026-11-16T04:18:36Z",
+   "categoria": "coyuntura",
+   "tamano": "regional"
+  },
+  {
+   "id": "79e93744473e",
+   "titulo": "Abelardo de la Espriella anuncia reducción de gasto estatal, sin aumento de IVA y balance de primeros 100 días de gobierno",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVUVoWDh0Tk9SOUh1Z2pGdVE3T1NaUXRFVUJ4RFhSYzdvalZZeTlJWnYxY1hjTWNpV2RLX3FOazdmUUlaSng5d2Zmd3VGTWNLMk15MnA1cUFmbjNpcHlOeHFKWHJxbEliTTZLUXlZRXgyenNBUE8xVTJxNFZfdW4waGEtdmFjSG1xTHJOUFdWbmJsMG5rUzBTS29vV1JNNHFNRkZBMDdoSU5TcG5iZUU2X0VFX3JmM1NkU1IzNzlaU0lBdEM4R2RkVlFCVnlCZ3hOd2fSAdcBQVVfeXFMTnF4OGszelkxdG9LSkhLTHdHUHhPVVo5VDdyNmR4VjdubjVkNkhHV3pJcXdBc3R3S0VpZUdYQ1dsZzJWdVcxWlAxLWlrelVSU1c2T1ZfdU4yYUR0Mlh3SnZLeTZyN05nVjgwN1lpNnU1cEZZVUotYkRVN1pjMDBNU2FDaHhpSGd0SFBIbkxSRWVNVlhPOHdyVUFBcTFGNDhnNWJPR09wcEI4U3FxVEFSYkQ3MGc1SmFDRUFoa2ozcHlMUmw3T0VaMU9vRnRYcUU2a0VFcjFScm8?oc=5",
+   "fuente": "Pulzo",
+   "fecha": "2026-11-16T04:15:47Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
+  },
+  {
+   "id": "1f6c6f4e51f6",
+   "titulo": "Gobierno descarta IVA a la canasta familiar y abre puerta a bajar la tarifa general hasta el 17 %",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUkZXMTFOd3FOb21NREU0aS03dC1vMHp4VHBocVp6NDluWDlQSU1JVzRJRTZSS25xYXprZ0FZdlJEMEE5a3BaeGJ1aGlfb2RNMG1pX0pYczRCSkY4a0p6MEhXRWlKN3BfTUdlTWR0MFptSFhqLV80TlloWnlyOF96UXdCMGlORm1KRDQ4NDk2WFVNNG0xSUhBN09QVEx3cjZzaV9SMmdBVEhvSUhfVE5EXzM2dmI4bVU3cU1SaDFrVlVESkk0YzN2a2g0TDZnQlBNQVZodzZaUE5jRkHSAeABQVVfeXFMTU9zNFd4aEJXNndVWnJOOHdaMmJ1c2JjSk5QaUdBVHNwazNTVEVWYUlkOVY3UERYZEZqOUVaLTFtRS1rcXY4d0MwNkZxdUJVOE5ITWlHUVhKMjVZbENHaGFYUHNrMFItNzVsNWoyZ0xFRDZVUE5OR2dPb1cwbWpjYXJ1TS1ZT1VIMUk3eFIzalVYWUxwSW5HN3RRcTc4WDA4d0VmbmY3aDZ1NzJPU0x5NG5JQ1FCTzhGS3FNSUlNN1J4Qjl2VWhlbnltZUN3b2o0Ql9kVXN3d1J3LWlkbHV4V0E?oc=5",
+   "fuente": "El Tiempo",
+   "fecha": "2026-11-16T03:47:51Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "82ebe0a29da3",
+   "titulo": "No se detiene andanada terrorista contra los peajes en distintas regiones",
+   "resumen": "En las últimas horas fueron atacados con explosivos el de Neiva, en la vía que conduce a Bogotá, y el de Pipiral en la vía al Llano.",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://www.elnuevosiglo.com.co/nacion/no-se-detiene-andanada-terrorista-contra-los-peajes-en-distintas-regiones",
+   "fuente": "El Nuevo Siglo",
+   "fecha": "2026-11-16T03:43:16Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
+  },
+  {
    "id": "58e9ab2ef416",
    "titulo": "\"Buen anuncio\": Uribe celebra decisión de De La Espriella de no poner IVA a la canasta familiar",
    "resumen": "El expresidente destacó el anuncio del mandatario, quien también confirmó que estudia reducir la tarifa general del impuesto.",
@@ -2304,6 +3697,378 @@
    "tamano": "gran"
   },
   {
+   "id": "691f037dc497",
+   "titulo": "¿Ha funcionado la estrategia de seguridad de Abelardo De La Espriella?",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTTZOS0JrdkhkTm1FZWRnQnJBN2VfVDRrZXJrMVRrMm0yZUUzYnpndFNlR25McWdRVmhoMHJJNjY0cXROV0l2QUItSm5MVEVueEg5cC1UVTB3OEFiQjRUazZXSTQySmY3b1luNUhZZDEwcFUwNXZvTUoxb1diU1NBWl9mTHhFT1ROcUZxVGFja25aM0RlR3JCdGRkLUt6Qks4d1MzUFhCRnBiZUFYaXdpUHNvendORXR0VDJPYzRFclpyQmhGTnhwM2xhd3BRZUJnd3c?oc=5",
+   "fuente": "City Tv",
+   "fecha": "2026-11-16T03:38:46Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "582466e8a92d",
+   "titulo": "Claves de la alocución de presidente De la Espriella al cumplirse 100 días de su Gobierno",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxONUp2YWZBcjVhS3hHRFFkeGh4RC13anJxZlJCenNBZW9tQVRucFd1LUV2a2pEZUY3Zy1LWE56T2h1a0RwbFBvVDFzdWtmZVNzT1g5cGppWGJmcnM4b05ENkR1LVQ4cFdGWmtiZ19CTEFMQTRMZzFhdGt0cDFoR3R5Nzl1R2JBM25wcVlhNEdLRGM5b3RkQXRYRF95OXFibnpLU3lRRXRXc2J2azFWeHZoelBSMW4wampQVUZZdE1qZXRJODA4SWViTk5rR1o0TjJL0gHeAUFVX3lxTE5qRHFPcWhpWFNZM0xDb3JmWVdKX2psOFRJbE5nbTd0Tm5nR3NGSG9EYXhjLWVUTjItQWdIZXZrRE84TzlLNFVpUEtXWnZnMmk2cG5NbmhnX1ItVlMtdnk4dWl5V3hhQ21NbGMtbWFWV1VJOVNMLWNaQTJQLWNIbzlELXZFX2VuOVI2YzJpblAzVWtnTUZQSTByelJaSW5fTUVjclhVRjlrcVd2OE11Q1RrclZoeFJqZHJFM2JYV2VkbjMzM3M5ZXdXaG9jZXE2T0FydWduYjl4MGJzcGVsZw?oc=5",
+   "fuente": "Noticias Caracol",
+   "fecha": "2026-11-16T03:32:56Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "b40256cc4b19",
+   "titulo": "¡El Cortissoz estrena nueva sala internacional y zona de inmigración!: alcalde Char",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNnZ2OTV3MnNJWTh2QUdQbENpWW8zLXdydUdhdFdNbUhXOVlTeXVUV290OXNzQkJNeWJpaUZ0RkJ0bmlRN09BZnU5MC11aWlHNjFZYXFfNUx2akZ4aDIwQkotanBRLXZpa2YyYTVnRXFBZnlpM1h6TUFYVV9VWnU1T3N4M1QtT1dVS1kxYkxoT1RNcnNncFB5WHlrOXV4Z3BYckphYTFjemdvQXA1dVdWUHVKTWRYcEVUUWt2Nm84ODBNZw?oc=5",
+   "fuente": "Alcaldía de Barranquilla, Distrito Especial, Industrial y Po",
+   "fecha": "2026-11-16T03:32:40Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
+  },
+  {
+   "id": "b21d19cfae86",
+   "titulo": "Presidente Abelardo De la Espriella envía mensaje a 'Chiquito Malo' y a 'Iván Mordisco' durante alocución: 'Los voy a dar de baja'",
+   "resumen": "El presidente se refirió a los principales cabecillas del Clan del Golfo y las disidencias de las Farc durante su alocución.",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://www.eltiempo.com/politica/abelardo-de-la-espriella/presidente-abelardo-de-la-espriella-envia-mensaje-a-chiquito-malo-y-a-ivan-mordisco-durante-alocucion-los-voy-a-dar-de-baja-3601361",
+   "fuente": "El Tiempo",
+   "fecha": "2026-11-16T03:24:54Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "0c5ac5c3a78f",
+   "titulo": "Portada 16 de noviembre del 2026",
+   "resumen": "Metadescripción. Portada 16 de noviembre del 2026.",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://www.lapatria.com/publicacion/portada-16-de-noviembre-del-2026",
+   "fuente": "La Patria",
+   "fecha": "2026-11-16T03:24:47Z",
+   "categoria": "coyuntura",
+   "tamano": "regional"
+  },
+  {
+   "id": "0a24fc4af3ee",
+   "titulo": "Insólito partido en Armenia: tras una hora de suspensión por invasión, Quindío perdió con Real Cartagena y no pudo asegurar su clasificación en la B",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPS1dPUVhnUnVQNzdnMU1ycy00VkVKT3hkMXhQWXpkdkFyZGYtbFRWa2VkN21ZN3pEb2I2bklhMzM0ZlVLaFdzdmtJQmVGaDBBWWl2YTNZNW0wVTQ2RUdHdzNVdmloamoxSThWQlFqamZMc092YUtYVWZBRDBmcTJwTUh0dEVtLTFMTGtVc2pNSGtRcTBaN21hcFFmVlpBSzBwTXFmM0lxNTBqZ084TWhzdGcyTld0LWhUd2dMOFVQZjlKSGxXWDRMR1JkcVJsR2dTODdjcTVvcEh3WHNnbmktNlhLSWo3T0VJY0lRSW81SDllMnVMcjVVbFduRDFRRS1uRllWUXBoVXJ1akN3U0lJa0FwdEFWSDBJQXRiZmZyaWZqRWtoYVRHS3BWbkJUU0HSAbQCQVVfeXFMTU1kVFdacHl3Ny0xanRFbkNiek4tUWtrSUswcUhnWHcxcFRYRW5WQWhzMWhlRnFQMlZQQzl6ZEFLSTNsem5QVGdTbjBGTVZ1N2hPOTlUcGdPQlVXV1ZhbEVrZFJuYXFiYkZNRml3eU5yNVhITXVWRkZRbUhzdGl5V09ZenF1blZQazBXSHFMT2tCSXJTUjgtMkZ3Z1pQRUVNaGduek1FRFB0eVVOVmdMbTRvdnpvTUhlc1lsQk50ZzFCZ3NZMGpkM2pCR1ZBZDRMRmluS0pPZGpUOGFKdzZuMExwd1g5TXlEQ2Y5VW5MUGF6a1NYaGdINEoway1IaWRYOG5LXzlsYjhhMTdQWnJQb2puZk5zNndpNXNxTllhaERKbFlKWlAzUVEtV21Ta1JjdnNZWVI?oc=5",
+   "fuente": "El Tiempo",
+   "fecha": "2026-11-16T03:23:44Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "8b052950830c",
+   "titulo": "“La canasta familiar no pagará IVA”: De la Espriella en su balance de 100 días | El Colombiano",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMmdwVjNtX21JVHdfMjRRcHR4VU0tb0RaX2tGbzNjelU4Nm1WZ0d4dm5NckIyX0xRdEh0ZmVGMVJZSEpZaHY5Z0p3a3hSUzVkeGxSdlNET001NDBiUWFBRWhmT2pQNkRCOHRLTVBvRGlSMFZpTzVESTJMZDJDVnE0eUFiemx4YUhWWE9WSW5BcXhFLWZjX1RqeXdVZ1RmT29WdkJz0gGoAUFVX3lxTE5TZnRreEpDSmlKVGpMV21hMWhyZHJNRmVoT0EySVFRZDhjRVViZlplT1ZfMi1qTGltc3VTZHJGWUR6RUlyZ004UjRTbnpsQ3JXTHBad1ZTUERXZ0JvSmlaSjI3WXpuby1tTmtBbXlac0M0OV93ZGIwZko3Nm1xNWNLOHB4b1MyQk4zdkdmc1VTVVEtMDQwNG1OTU04WDFKcGRLcEVlaWoyTg?oc=5",
+   "fuente": "El Colombiano",
+   "fecha": "2026-11-16T03:22:26Z",
+   "categoria": "coyuntura",
+   "tamano": "regional"
+  },
+  {
+   "id": "294c7a452ad0",
+   "titulo": "Abelardo de la Espriella envía mensaje a damnificados por el terremoto y presenta balance de ayudas para la reconstrucción: 'No voy a descansar'",
+   "resumen": "El mandatario informó sobre los recursos para reconstruir viviendas, recuperar negocios y atender a las familias afectadas por el sismo.",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://www.eltiempo.com/politica/abelardo-de-la-espriella/abelardo-de-la-espriella-envia-mensaje-a-damnificados-por-el-terremoto-y-presenta-balance-de-ayudas-para-la-reconstruccion-no-voy-a-descansar-3601354",
+   "fuente": "El Tiempo",
+   "fecha": "2026-11-16T03:15:15Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "4b52d86dd079",
+   "titulo": "Colombia y EE. UU.: la nueva etapa de una relación que exige algo más que afinidad política",
+   "resumen": "La llegada de ADLE abrió un periodo de acercamiento con la administración Trump, con avances en seguridad, comercio e inversión. Sin embargo, el triunfo demócrata en las elecciones de medio término obliga al Gobierno colombiano a ampliar…",
+   "detalle": "La relación entre Colombia y Estados Unidos atraviesa uno de los momentos de mayor transformación de los últimos años. Después de un periodo marcado por diferencias políticas, episodios de tensión diplomática y desencuentros entre los gobiernos de Bogotá y Washington, la llegada de Abelardo De la Espriella a la Presidencia abrió una nueva etapa de entendimiento con la administración de Donald Trump. El cambio de orientación se ha traducido en una agenda de cooperación más cercana, con énfasis en seguridad, lucha contra el narcotráfico, comercio, inversión y estabilidad regional. La apuesta del nuevo gobierno colombiano ha sido recuperar la confianza de Washington y convertirla en resultados concretos.",
+   "cita": "",
+   "enlace": "https://www.elheraldo.co/politica/2026/11/16/colombia-y-ee-uu-la-nueva-etapa-de-una-relacion-que-exige-algo-mas-que-afinidad-politica/",
+   "fuente": "El Heraldo",
+   "fecha": "2026-11-16T03:04:29Z",
+   "categoria": "coyuntura",
+   "tamano": "regional"
+  },
+  {
+   "id": "2662b4db4bee",
+   "titulo": "“De todos los proyectos de inversión, una grandísima mayoría está en el Caribe”: vicepresidente Restrepo",
+   "resumen": "El vicepresidente de la República habló con EL HERALDO de la ‘Milagro Week’, que arranca este lunes en Nueva York con un centenar de proyectos sobre los que ya hay interés.",
+   "detalle": "El vicepresidente José Manuel Restrepo lidera desde este lunes y hasta el jueves en Nueva York la primera ‘Milagro Week’ del gobierno de Abelardo De la Espriella para conectar proyectos públicos, privados y mixtos del país con fondos de inversión, banca multilateral, empresarios e inversionistas internacionales. ¿Qué es la ‘Milagro Week’? Es parte de la misión que me encomendó el presidente Abelardo De la Espiella como vicepresidente de la República. Dijo: “Yo necesito que usted me ayude a coordinar los actores de gobierno alrededor de una misión, que Colombia crezca, la Misión Crecer”. Pero la mejor forma para poder crecer o uno de los caminos para poder crecer es que llegue más inversión a nuestro país.",
+   "cita": "",
+   "enlace": "https://www.elheraldo.co/colombia/2026/11/16/de-todos-los-proyectos-de-inversion-una-grandisima-mayoria-esta-en-el-caribe-vicepresidente-restrepo/",
+   "fuente": "El Heraldo",
+   "fecha": "2026-11-16T02:53:53Z",
+   "categoria": "coyuntura",
+   "tamano": "regional"
+  },
+  {
+   "id": "c2f5b74d33db",
+   "titulo": "De la Espriella descarta aumento del IVA en ley de ajuste fiscal",
+   "resumen": "Al entregar el reporte de los 100 días de gobierno, el jefe de Estado afirmó que incluso este impuesto podría reducirse al 18 % o al 17 %, pero que es una propuesta en evaluación técnica.",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://www.elnuevosiglo.com.co/politica/de-la-espriella-descarta-aumento-del-iva-en-ley-de-ajuste-fiscal",
+   "fuente": "El Nuevo Siglo",
+   "fecha": "2026-11-16T02:44:44Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
+  },
+  {
+   "id": "3fade53e2765",
+   "titulo": "Salario mínimo en Colombia 2027: esta es la fecha clave en la que se conocerá el aumento",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQT3RKTjZrcDBrWGRPSUlsN0VkOFZlSmNCWEtOU3hnOWQwRmw2eURsUVZfSXJiVnkzZUI3ZFp1b01xX2dXNWVlNGY2YW5QOV9VVXF3VHN5Y2U4N0xENWRVSjFKaXh3MDVLVUk3UVBFMkpDZS1MZjVzLUpXckRveWlKR2theFIzejdKM29kUnJSX3ZsSGRyay1kUzVvZEctU0nSAZ8BQVVfeXFMUE90Sk42a3Awa1hkT0lJbDdFZDhWZUpjQlhLTlN4ZzlkMEZsNnlEbFFWX0lyYlZ5M2VCN2RadW9NcV9nVzVlZTRmNmFuUDlfVVVxd1RzeWNlODdMRDVkVUoxSml4dzA1S1VJN1FQRTJKQ2UtTGY1cy1KV3JEb3lpSkdrYXhSM3o3SjNvZFJyUl92bEhkcmstZFM1b2RHLVNJ?oc=5",
+   "fuente": "MARCA",
+   "fecha": "2026-11-16T02:42:16Z",
+   "categoria": "coyuntura",
+   "tamano": "local"
+  },
+  {
+   "id": "bdd1342a872a",
+   "titulo": "Abelardo De La Espriella frena su discurso para enviar mensaje: “Por el sacrificio que hacen ustedes”",
+   "resumen": "Abelardo De La Espriella se dirigió a los integrantes de las Fuerzas Militares y de Policía para agradecerles por las labores de seguridad que han desarrollado durante los últimos 100 días y reiterarles su respaldo para el cumplimiento de…",
+   "detalle": "Abelardo De La Espriella se dirigió a los integrantes de las Fuerzas Militares y de Policía para agradecerles por las labores de seguridad que han desarrollado durante los últimos 100 días y reiterarles su respaldo para el cumplimiento de sus funciones, dentro del marco de la Constitución y la ley. En su alocución, hizo referencia a los hombres y mujeres de la Fuerza Pública que, según señaló, han recorrido diferentes regiones del país para proteger a la población. “Ahora quiero detenerme un momento para hablarles a nuestros héroes ”, puntualizó. Mencionó las selvas, montañas, ríos, carreteras, pueblos y ciudades como escenarios en los que los uniformados desarrollan sus actividades.",
+   "cita": "",
+   "enlace": "https://www.semana.com/nacion/bogota/articulo/abelardo-de-la-espriella-frena-su-discurso-para-enviar-mensaje-por-el-sacrificio-que-hacen-ustedes/202615/",
+   "fuente": "Semana",
+   "fecha": "2026-11-16T02:35:15Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "3ff2bda80329",
+   "titulo": "Arma al cinto y frases de combate: el sello comunicacional de De la Espriella",
+   "resumen": "El mandatario ha convertido sus apariciones junto a la Fuerza Pública en escenarios para proyectar autoridad y enviar advertencias a las organizaciones criminales.",
+   "detalle": "Un arma al cinto, el uniforme militar, las cámaras encendidas y un mensaje duro y condunete dirigido a los delincuentes. Así ha querido mostrarse el presidente Abelardo De la Espriella en varias de sus apariciones públicas. No es la imagen convencional de un presidente que comunica los resultados de sus organismos de seguridad desde un escritorio, sino de uno que se aleja del escritorio para acompañar a la fuerza pública, desprestigiada en gran parte por la izquierda colombiana. La fórmula tiene su propio lenguaje. «“¡Se les acabó la guachafita!”, “¡La autoridad se respeta!» y “¡No habrá tregua contra el narcoterrorismo!” son algunas de las expresiones con las que acompaña sus anuncios de seguridad.",
+   "cita": "",
+   "enlace": "https://www.elheraldo.co/colombia/2026/11/16/arma-al-cinto-y-frases-de-combate-el-sello-comunicacional-de-de-la-espriella/",
+   "fuente": "El Heraldo",
+   "fecha": "2026-11-16T02:34:56Z",
+   "categoria": "coyuntura",
+   "tamano": "regional"
+  },
+  {
+   "id": "ef67e619216b",
+   "titulo": "Abelardo de la Espriella: 100 días de gobierno y el IVA",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOM2V4bElsaV96cEg0U1NxbWNGNVVuclRBb19GeUVHSEVQeFBfMjhlRlFGX0pRTDM0UmViNGN0bVJiUnZMamhPaUtjOEVfMGhaQ1U5NjdXZzY1eUtSTUFiTnNhSXpmYW44b1BzZVRfMzNweHhkOVhNRGE1VlpxeUtnNVBxa3EwNUpybXZhUUI0b1JIQ1VvUjBtNnBDMGxKZUpnRjRsRzgtUWo2am0xeVpzRWs4YkkzajBTWlE?oc=5",
+   "fuente": "Colombia.com",
+   "fecha": "2026-11-16T02:32:35Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
+  },
+  {
+   "id": "a8b83be1c875",
+   "titulo": "Gobierno estudia reducir el IVA del 19% al 17% en Colombia",
+   "resumen": "Abelardo de la Espriella anunció que el Ministerio de Hacienda analiza una reducción de la tarifa general del impuesto.",
+   "detalle": "El presidente de la República, Abelardo de la Espriella, anunció que su Gobierno estudia una posible reducción de la tarifa general del Impuesto al Valor Agregado (IVA), que actualmente se encuentra en el 19 %. Durante su más reciente alocución presidencial, el mandatario explicó que el Ministerio de Hacienda analiza la posibilidad de disminuir el impuesto al 18 % o incluso al 17 %, como parte de las medidas que estudia su administración para estabilizar las finanzas del Estado. «Mi Gobierno no impondrá IVA a los productos de la canasta familiar. No quiero que la comida de los colombianos pague IVA. El Ministerio de Hacienda está estudiando la posibilidad de reducir la tarifa general del IVA del 19 al 18 %, incluso al 17 %.",
+   "cita": "",
+   "enlace": "https://www.eluniversal.com.co/colombia/2026/11/15/gobierno-estudia-reducir-el-iva-del-19-al-17-en-colombia/",
+   "fuente": "El Universal",
+   "fecha": "2026-11-16T02:30:20Z",
+   "categoria": "coyuntura",
+   "tamano": "regional"
+  },
+  {
+   "id": "274e238aaf6f",
+   "titulo": "Primo Gay fue enviado a la cárcel: Fiscalía describió los macabros hechos que habría cometido",
+   "resumen": "Primo Gay, el sanguinario cabecilla de las disidencias de las Farc, fue enviado a la cárcel por los múltiples delitos que habría cometido en el departamento de Antioquia.",
+   "detalle": "Primo Gay, el sanguinario cabecilla de las disidencias de las Farc, fue enviado a la cárcel por los múltiples delitos que habría cometido en el departamento de Antioquia. La Fiscalía lo judicializó por concierto para delinquir agravado, secuestro simple, delitos relacionados con armas y explosivos, y utilización ilegal de uniformes e insignias. Se conoció que el ente de investigación también adelanta actuaciones para vincularlo en los próximos días por homicidios y otras graves violaciones a los derechos humanos. Según la investigación, Primo Gay estaría relacionado con extorsiones a ganaderos y mineros, tráfico de estupefacientes, planeación de ataques terroristas y homicidios.",
+   "cita": "",
+   "enlace": "https://www.semana.com/nacion/medellin/articulo/primo-gay-fue-enviado-a-la-carcel-fiscalia-describio-los-macabros-hechos-que-habria-cometido/202615/",
+   "fuente": "Semana",
+   "fecha": "2026-11-16T02:24:15Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "100a3b11b718",
+   "titulo": "Ministerio de Defensa reportó 47.873 capturas y 9 bombardeos en los primeros 100 días de gobierno de Abelardo de la Espriella",
+   "resumen": "El balance presentado por el ministro Jorge Mora incluyó la destrucción de más de 637 laboratorios de drogas, la incautación de 212 toneladas de estupefacientes y operaciones contra grupos armados en varias regiones del país",
+   "detalle": "El Ministerio de Defensa presentó los resultados de orden público y seguridad de los primeros 100 días del gobierno de Abelardo de la Espriella, periodo en el que registró nueve bombardeos contra grupos armados, 47.873 capturas y la destrucción de más de 637 laboratorios para el procesamiento de drogas. El informe fue entregado el domingo 15 de noviembre por el ministro de Defensa, Jorge Mora, que afirmó que las Fuerzas Militares y la Policía Nacional intensificaron las operaciones contra el ELN, las disidencias de las Farc, el Clan del Golfo y las Autodefensas Conquistadoras de la Sierra Nevada.",
+   "cita": "",
+   "enlace": "https://www.infobae.com/colombia/2026/11/16/ministerio-de-defensa-reporto-47873-capturas-y-9-bombardeos-en-los-primeros-100-dias-de-gobierno-de-abelardo-de-la-espriella/",
+   "fuente": "Infobae",
+   "fecha": "2026-11-16T02:17:57Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "89c5941473b0",
+   "titulo": "Avianca, PepsiCo, Falabella, Claro y Coca-Cola: las inversiones privadas anunciadas en los primeros 100 días del gobierno de Abelardo de la Espriella",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPdFc3MWJpdmFWdnYyT1VOdDQzSDlZYXl4NXdRMW9yYXFpTFI4UGpXUFRHeThMUnJfUDVJVlIxUFRjcVR4NmlweC10V2VnODFLRXdTal9VRjRPbXRDdThkQVBDdTQxcmNhQ0xxWWVVcldOWEFiWnY3aEtqVHdNcUhzMmFDUzhxaWNxZUNyVENvcW5icFJxUXplZFNLdEY0c2gxRWlDbTZTTUZkbUEyb191ZmV0YVprbFpoelpicHVYZzVnT3lPdGRmNmItMEc5WUJGQmdnUXd6MW85T3N2cjdYUkEydjRSWEVnTHZ5OG1wUGluTGdoMXdjNzY5dGtDczQ?oc=5",
+   "fuente": "El Expediente",
+   "fecha": "2026-11-16T02:17:56Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
+  },
+  {
+   "id": "47a3a1cc51bc",
+   "titulo": "De la Espriella retrocede en la propuesta de aumentar impuestos a la canasta familiar",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSDlnZDdqRFlrWDdWZ2dqRWVaZUFQS293bkswNXFFOVF2TWRkMncxS2dOX2F6Nm1RbHVBeEhqNVl1bkRKMURkamNiQnFocTZ0b2pfR3J5MVczM0tVbDFEdlpQYWhVYm5hTnhwNFQ0aEYxU2QxbEprQ2NjczlpZmtDNXpSam1TZXhoUEtuWWVyMGJPSW1lQmV0dDZkcnZmWi1iYlg2THZPSkNzd1BENEhKR0hrbXp0alVyczFLMHRzblI5OUZNMXNOMUdvRTFzSnk2UDk0?oc=5",
+   "fuente": "EL PAÍS",
+   "fecha": "2026-11-16T02:17:18Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "c7b11cd5c3c3",
+   "titulo": "Abelardo de la Espriella presentó cifras de seguridad y orden público en sus primeros 100 días de gobierno: “A los narcoterroristas se les acabaron los santuarios”",
+   "resumen": "Durante la alocución presidencial del domingo 15 de noviembre, el mandatario reportó capturas, incautaciones de armas y drogas, extradiciones, operativos en cárceles y sometimientos de presuntos integrantes del Clan del Golfo, el ELN y…",
+   "detalle": "El presidente de Colombia, Abelardo de la Espriella, afirmó que su administración desplegó una ofensiva contra grupos armados y redes criminales durante sus primeros 100 días en el poder. En una alocución presidencial emitida la noche del domingo 15 de noviembre, el mandatario sostuvo que ordenó recuperar el control territorial, suspendió los diálogos del proceso de paz y presentó cifras de capturas, incautaciones, extradiciones y operativos en cárceles. De la Espriella asumió la Presidencia el 7 de agosto de 2026. Durante su intervención, dedicó buena parte del discurso a la situación de seguridad y orden público, que ubicó como uno de los ejes de su gestión junto con la economía y otros asuntos de Gobierno.",
+   "cita": "",
+   "enlace": "https://www.infobae.com/colombia/2026/11/16/abelardo-de-la-espriella-presento-cifras-de-seguridad-y-orden-publico-en-sus-primeros-100-dias-de-gobierno-a-los-narcoterroristas-se-les-acabaron-los-santuarios/",
+   "fuente": "Infobae",
+   "fecha": "2026-11-16T02:15:18Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "ef69927ee119",
+   "titulo": "Primeros 100 días de Abelardo de la Espriella dejan avances en medicamentos, pero persisten dudas por las cifras y la financiación",
+   "resumen": "La promesa de campaña contempló destinar $10 billones en 90 días para estabilizar el sistema, pagar a las EPS con buen desempeño y garantizar tratamientos y fármacos a los usuarios del sistema",
+   "detalle": "El presidente Abelardo de la Espriella aseguró que su plan de choque en salud permitió distribuir más de 7,25 millones de unidades de medicamentos, atender a 177.048 pacientes y realizar 120.586 procedimientos represados durante sus primeros 100 días. Sin embargo, esas cifras no coinciden de forma directa con las divulgadas por el Ministerio de Salud, que responden a cortes y mediciones diferentes: la cartera informó posteriormente 16,1 millones de entregas, avances para 306.207 pacientes y 1.220.285 registros de procedimientos resueltos.",
+   "cita": "",
+   "enlace": "https://www.infobae.com/colombia/2026/11/16/primeros-100-dias-de-abelardo-de-la-espriella-dejan-avances-en-medicamentos-pero-persisten-dudas-por-las-cifras-y-la-financiacion/",
+   "fuente": "Infobae",
+   "fecha": "2026-11-16T02:07:26Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "d03a036f2c77",
+   "titulo": "Conductor en presunto estado de embriaguez atropelló a soldado en medio de emergencia vial en Cauca; Ejército se pronunció",
+   "resumen": "Un soldado del Ejército Nacional resultó herido luego de ser atropellado por un vehículo en el sector de El Estrecho, municipio de Patía, en el departamento del Cauca.",
+   "detalle": "Un soldado del Ejército Nacional resultó herido luego de ser atropellado por un vehículo en el sector de El Estrecho, municipio de Patía, en el departamento del Cauca. El hecho ocurrió cuando las tropas prestaban seguridad en la vía a un camión de carga que había sufrido un accidente de tránsito y cuyo contenido estaba siendo saqueado por algunas personas de la comunidad. De acuerdo con la información entregada por la Tercera División del Ejército Nacional, los uniformados pertenecientes a la Fuerza de Despliegue Rápido n.º 4 se encontraban atendiendo la situación derivada del volcamiento del vehículo de carga, cuando se presentó un segundo accidente.",
+   "cita": "",
+   "enlace": "https://www.semana.com/nacion/cali/articulo/conductor-en-presunto-estado-de-embriaguez-atropello-a-soldado-en-medio-de-emergencia-vial-en-cauca-ejercito-se-pronuncio/202601/",
+   "fuente": "Semana",
+   "fecha": "2026-11-16T02:07:01Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "f9ac434a52ed",
+   "titulo": "Presidente Abelardo de la Espriella afirmó que la canasta familiar no tendrá IVA, tras controversia por su reforma tributaria",
+   "resumen": "Durante su alocución por televisión nacional, a propósito de sus 100 días de Gobierno, el presidente Abelardo de la Espriella comenzó por el tema de la reforma tributaria, el proyecto presentado ante el Congreso llamado “Ley de Rescate…",
+   "detalle": "Durante su alocución por televisión nacional, a propósito de sus 100 días de Gobierno, el presidente Abelardo de la Espriella comenzó por el tema de la reforma tributaria, el proyecto presentado ante el Congreso llamado “Ley de Rescate Fiscal”, asegurando en un principio que la “canasta familiar no pagara IVA”. El Mandatario, al parecer, contradijo los anuncios de su Administración, indicando que “mi Gobierno no impondrá IVA a los productos de la canasta familiar ni promoverá nuevas cargas de IVA sobre el sector agropecuario. No quiero que la comida de los colombianos pague IVA. Mi propósito es proteger la canasta familiar y aliviar la carga tributaria de los ciudadanos”. Luego, aclaró que en realidad, “esto no es una ley.",
+   "cita": "",
+   "enlace": "https://www.elpais.com.co/politica/presidente-abelardo-de-la-espriella-asegura-que-la-canasta-familiar-no-tendra-iva-tras-controversia-por-su-reforma-tributaria-1520.html",
+   "fuente": "El País Cali",
+   "fecha": "2026-11-16T02:05:20Z",
+   "categoria": "coyuntura",
+   "tamano": "regional"
+  },
+  {
+   "id": "26806ee8e3eb",
+   "titulo": "Conductor borracho arrolló a militar que controlaba saqueo de otro vehículo de carga en Cauca",
+   "resumen": "De acuerdo con el reporte oficial del caso, la Fuerza de Despliegue Rápido N.º 4 del Ejército atendía una contingencia sobre la vía Panamericana cuando ocurrió el accidente que afectó a un integrante de la unidad",
+   "detalle": "Un soldado resultó lesionado tras ser arrollado en el sector conocido como El Estrecho, ubicado en el municipio de Patía, Cauca, mientras se encontraba en el equipo de militares que protegían un vehículo de carga accidentado y trataban de impedir el saqueo de su mercancía. El hecho ocurrió sobre la vía Panamericana, según informó la Tercera División del Ejército Nacional, que aclaró que allí estaban presentes las tropas de la Fuerza de Despliegue Rápido N.º 4, cuyos miembros acudieron al lugar después de que el camión sufriera un volcamiento. Su presencia buscaba garantizar la seguridad del automotor y permitir que se atendiera la emergencia sin que terceros retiraran los bienes transportados.",
+   "cita": "",
+   "enlace": "https://www.infobae.com/colombia/2026/11/16/conductor-borracho-arrollo-a-militar-que-controlaba-saqueo-de-otro-vehiculo-de-carga-en-cauca/",
+   "fuente": "Infobae",
+   "fecha": "2026-11-16T02:02:55Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "3f0c1630b5eb",
+   "titulo": "Abelardo de la Espriella lanzó críticas a Gustavo Petro en alocución por sus primeros 100 días de Gobierno: “Derroté a un aliado de la guerrilla”",
+   "resumen": "El mandatario cuestionó la gestión de su antecesor en materia económica y de seguridad, defendió la Ley de Rescate Fiscal y reiteró su postura frente a posibles acercamientos con organizaciones criminales",
+   "detalle": "La confrontación política con el gobierno anterior fue uno de los ejes centrales del discurso que Abelardo de la Espriella dirigió a los colombianos este domingo 15 de noviembre. Durante su intervención, el mandatario cuestionó la gestión del expresidente Gustavo Petro, a quien responsabilizó por el deterioro de las finanzas públicas y por la situación de seguridad que, según afirmó, recibió al llegar a la Casa de Nariño. La alocución, titulada ‘100 días y más de 100 milagros’, sirvió para que el jefe de Estado defendiera las primeras decisiones de su administración y expusiera las diferencias con el proyecto político de su antecesor.",
+   "cita": "",
+   "enlace": "https://www.infobae.com/colombia/2026/11/16/abelardo-de-la-espriella-lanzo-criticas-a-gustavo-petro-en-alocucion-por-sus-primeros-100-dias-de-gobierno-derrote-a-un-aliado-de-la-guerrilla/",
+   "fuente": "Infobae",
+   "fecha": "2026-11-16T01:57:16Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "87a703295148",
+   "titulo": "“En mi Gobierno todos los funcionarios están en periodo de prueba”: la advertencia del presidente De La Espriella",
+   "resumen": "Durante la alocución donde entregó un balance de sus primeros 100 días de gestión al frente del país, el presidente Abelardo De La Espriella envió un mensaje contundente sobre la ética y el nivel de exigencia que regirán la administración…",
+   "detalle": "Durante la alocución donde entregó un balance de sus primeros 100 días de gestión al frente del país, el presidente Abelardo De La Espriella envió un mensaje contundente sobre la ética y el nivel de exigencia que regirán la administración pública bajo su mandato. Entre sus declaraciones sobresale una advertencia directa que hizo a todo su equipo de trabajo: “En mi gobierno, todos los funcionarios están en periodo de prueba hasta el 7 de agosto del año 2030 ”. Esta frase resume, según el jefe de Estado, una filosofía de gobierno que busca romper con las viejas prácticas de la política tradicional y priorizar el rendimiento y el compromiso con la patria.",
+   "cita": "",
+   "enlace": "https://www.semana.com/politica/articulo/en-mi-gobierno-todos-los-funcionarios-estan-en-periodo-de-prueba-la-advertencia-del-presidente-de-la-espriella/202606/",
+   "fuente": "Semana",
+   "fecha": "2026-11-16T01:56:06Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "37ba2786c992",
+   "titulo": "Abelardo De La Espriella arremete contra Gustavo Petro: “El gobierno anterior era cómplice y socio del narcoterrorismo”",
+   "resumen": "El presidente Abelardo De La Espriella relacionó al gobierno Petro con tener cercanía con los grupos armados ilegales y el narcoterrorismo.",
+   "detalle": "El presidente Abelardo De La Espriella relacionó al gobierno Petro con tener cercanía con los grupos armados ilegales y el narcoterrorismo. La declaración la emitió en medio del balance de los cien días de su gestión, donde enfatizó los resultados que han alcanzado la Policía y las Fuerzas Militares. Él empezó diciendo: “ Mis odiadores dicen que los ataques se han intensificado, por supuesto, porque el gobierno anterior no se enfrentaba a la criminalidad. El gobierno anterior era cómplice, socio, del narcoterrorismo. Hoy la fuerza pública ha golpeado a algunas de las estructuras más peligrosas del país”. Golpes a ilegales.",
+   "cita": "",
+   "enlace": "https://www.semana.com/politica/articulo/abelardo-de-la-espriella-arremete-contra-gustavo-petro-el-gobierno-anterior-era-complice-y-socio-del-narcoterrorismo/202614/",
+   "fuente": "Semana",
+   "fecha": "2026-11-16T01:47:55Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "68798a1f390b",
+   "titulo": "“No voy a descansar”: Abelardo De La Espriella envía mensaje a los damnificados por el terremoto en Colombia",
+   "resumen": "El presidente Abelardo De La Espriella presentó un balance de las acciones adelantadas por su gobierno para atender a las familias afectadas por el terremoto del pasado 10 de agosto y avanzar en la reconstrucción de los territorios…",
+   "detalle": "El presidente Abelardo De La Espriella presentó un balance de las acciones adelantadas por su gobierno para atender a las familias afectadas por el terremoto del pasado 10 de agosto y avanzar en la reconstrucción de los territorios impactados por la emergencia. Durante una alocución, el mandatario informó que, a través de la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD), se han autorizado más de $343.513 millones para entregar apoyos económicos a las personas damnificadas. “No voy a descansar hasta que se ponga la última piedra, el último ladrillo”, afirmó al señalar que el objetivo es que las personas que perdieron sus viviendas puedan recuperar sus hogares y retomar sus proyectos familiares.",
+   "cita": "",
+   "enlace": "https://www.semana.com/politica/articulo/no-voy-a-descansar-abelardo-de-la-espriella-envia-mensaje-a-los-damnificados-por-el-terremoto-en-colombia/202626/",
+   "fuente": "Semana",
+   "fecha": "2026-11-16T01:42:26Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "0afa6fc5e20a",
+   "titulo": "De la Espriella descarta IVA a la canasta familiar y abre la puerta a bajar la tarifa general",
+   "resumen": "Según explicó, los técnicos de Hacienda consideraron inicialmente inviable esa petición, pero posteriormente ajustaron la propuesta para mantener la meta de recaudo",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://www.larepublica.co/economia/de-la-espriella-descarta-iva-a-la-canasta-familiar-y-estudia-bajar-la-tarifa-general-hasta-17-4525692",
+   "fuente": "La República",
+   "fecha": "2026-11-16T01:42:26Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
+  },
+  {
+   "id": "e73da4277c45",
+   "titulo": "Presidente ADLE asegura que la canasta familiar no pagará IVA: “La Ley de Rescate Económico no es una imposición”",
+   "resumen": "El jefe de Estado señaló este domingo, en medio de una alocución presidencial, que “el país quedó destruido, quedo hecho añicos” con el Gobierno Petro, y que su Gobierno va a enfrentar como nunca a los grupos narcoterroristas.",
+   "detalle": "El presidente Abelardo De la Espriella realizó una alocución en la noche de este domingo 15 de noviembre, en el marco de sus primeros 100 días de gobierno, destacando su ardua labor en temas relacionados a la seguridad. El jefe de Estado se refirió al golpe contundente contra las ACSN tras la muerte de alias Bendito Menor, así como la captura de otros delincuentes y la masiva extradición desde que inició su mandato. “Vengo a rendirles cuentas, a contarles que hemos hecho y cuáles son los primeros resultados de un gobierno que decidió enfrentar los problemas en lugar de esconderlos. Tengo claro que esperan resultados con mis decisiones”, dijo el mandatario.",
+   "cita": "",
+   "enlace": "https://www.elheraldo.co/colombia/2026/11/16/la-ley-de-rescate-economico-no-es-una-imposicion-es-un-camino-serio-presidente-adle-asegura-que-la-canasta-familiar-no-pagara-iva/",
+   "fuente": "El Heraldo",
+   "fecha": "2026-11-16T01:38:35Z",
+   "categoria": "coyuntura",
+   "tamano": "regional"
+  },
+  {
    "id": "ce9cf1eb64a2",
    "titulo": "Álvaro Uribe reacciona al anuncio del presidente Abelardo De La Espriella: “Motivo de tranquilidad”",
    "resumen": "",
@@ -2313,6 +4078,150 @@
    "fuente": "Revista Semana",
    "fecha": "2026-11-16T01:33:57Z",
    "categoria": "mencion",
+   "tamano": "gran"
+  },
+  {
+   "id": "fb3a4612f897",
+   "titulo": "Presidente Abelardo De La Espriella da su balance de los primeros 100 días: propone bajar el IVA y destaca acciones de la Fuerza Pública",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPaUd0Q3FTUUUwaXRVQ1FBTENsbjVIZ1NDb3dFZTdCUWl5OUdBMWhKZUR1dVkyZmpTRERvczBFQnNqVnMyenZtTlhZOTYwMXozZUhjOXRHYXpqV210NGhVUVJWYlY1TlJIUEVNczNEOWo0akpYQ3FyM05fUmRUX2Z6d1FJUks5azF0M1o1RENXVkoxak9FVlo2NE1VOGlicHRZSnlsQUUwSm1xUk9tNEdzUHQtWXd6eGVib3hPY2lNaG1CNXROZXppWTBlWl9qQXZZV0dMSGV0WFBSYWoxQWd0UFpSZnZ1NDB5d3Q1dnJWaXdrQmxwU19JSFVBU1FDQWlpM0hycHVhcHpManM0U2ozclpjXzVHT0txSkZxQUdDRk5aQmRTYjFMODNB0gGvAkFVX3lxTE9CNHBIamF2VW1NLUlyZDlXNnNoQUl0OUhmMjlkRFp6ZlNfWktQMWZuMFdqYVR6YlQ5ZDRaLXM3cDVFVXpXV2RWanV0alJLd05UNTdxTGV1cUlyd0lyeWd4MXVZYWFYX1I5bnpJcWowVU8ySVpyODFNWXFDWkNsME5aTTFTM2pnc01vblpoZkxwYU0teDdNTS04MDhPTE5xRENDb2YzMjlvZThXMG8yaF9SOWd5RWQzSEloV3UwUE1SNGY3QU1jWm1hY0VlX0tLZDItUTUyNDVKby1iXzRsUlU3R21qMzgyaGhYekVWRnRyVWpCSFBZSTJVV2duakxxdUlOMkdpVUNNS1BTOElLczM2Sy1BbDFEZG41SzNzTU5iSUl0RkFuZnJpZ2V2S0dfcw?oc=5",
+   "fuente": "El Tiempo",
+   "fecha": "2026-11-16T01:31:01Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "3d6605bc420c",
+   "titulo": "Procesos contra Gustavo Petro en la Comisión de Acusación empiezan a moverse: oposición asumió dos expedientes clave",
+   "resumen": "Los casos están relacionados con las cuentas de la campaña presidencial de 2022 y la divulgación de la historia clínica de un niño fallecido. Los nuevos ponentes deberán revisar las pruebas y definir si hay motivos para avanzar.",
+   "detalle": "Dos expedientes relacionados con decisiones del gobierno de Gustavo Petro quedaron en manos de congresistas de oposición y deberán avanzar en la Comisión de Investigación y Acusación de la Cámara de Representantes. Uno está relacionado con la financiación de la campaña presidencial de 2022 y el otro con la divulgación de información médica privada de un menor de edad. La asignación de nuevos ponentes abre una etapa de revisión para estos procesos, que durante meses estuvieron sin avances. Los representantes deberán estudiar los documentos, evaluar las pruebas y determinar si existen motivos para impulsar investigaciones formales contra el exmandatario o si corresponde tomar otras decisiones.",
+   "cita": "",
+   "enlace": "https://www.infobae.com/colombia/2026/11/16/procesos-contra-gustavo-petro-en-la-comision-de-acusacion-empiezan-a-moverse-oposicion-asumio-dos-expedientes-clave/",
+   "fuente": "Infobae",
+   "fecha": "2026-11-16T01:22:55Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "4c81d9f3afd4",
+   "titulo": "Presidente De la Espriella destituyó al director de Coljuegos por presuntas irregularidades en su título: “Respete”",
+   "resumen": "Un escándalo sacude al gobierno de Abelardo de la Espriella, luego de que la senadora Jennifer Pedraza, del partido Dignidad y Compromiso, denunciara que el director de Coljuegos, Jaime Vives, obtuvo su título de posgrado de forma exprés…",
+   "detalle": "Un escándalo sacude al gobierno de Abelardo de la Espriella, luego de que la senadora Jennifer Pedraza, del partido Dignidad y Compromiso, denunciara que el director de Coljuegos, Jaime Vives, obtuvo su título de posgrado de forma exprés para ser nombrado en su cargo. Ante esa información, el Jefe de Estado pidió su salida de la dirección de la entidad. Mediante su cuenta de X, la congresista Pedraza denunció “el verdadero milagro: un título de posgrado en 21 días. Jaime Vives, director de @ColjuegosCo pagó casi 15 millones de pesos por un posgrado exprés para que Abelardo De La Espriella lo pudiera nombrar en su cargo”. Esta confesión se produjo tras un informe de investigación de La Silla Vacía, que reveló el paso a paso de lo sucedido.",
+   "cita": "",
+   "enlace": "https://www.elpais.com.co/colombia/presidente-de-la-espriella-destituyo-al-director-de-coljuegos-por-presuntas-irregularidades-en-su-titulo-respete-1514.html",
+   "fuente": "El País Cali",
+   "fecha": "2026-11-16T01:20:14Z",
+   "categoria": "coyuntura",
+   "tamano": "regional"
+  },
+  {
+   "id": "ea40577d3d65",
+   "titulo": "Ley de Rescate Económico: Daniel Briceño le hace una contundente petición al presidente Abelardo De La Espriella",
+   "resumen": "El martes 17 de noviembre se hará la primera reunión de coordinadores y ponentes del proyecto de Ley de Rescate Económico impulsado por el Gobierno, una iniciativa que busca estabilizar las finanzas públicas, reducir el gasto y generar…",
+   "detalle": "El martes 17 de noviembre se hará la primera reunión de coordinadores y ponentes del proyecto de Ley de Rescate Económico impulsado por el Gobierno, una iniciativa que busca estabilizar las finanzas públicas, reducir el gasto y generar condiciones para el crecimiento económico del país. Por esa razón, diferentes sectores políticos están revisando el proyecto a fondo, aunque han dicho que no apoyarán más impuestos para los colombianos. Uno de esos partidos es el Centro Democrático, colectividad que ha sostenido varias reuniones y ha dejado claro su respaldo al Ejecutivo, pero también ha lanzado propuestas para que la iniciativa salga adelante sin afectar a los colombianos.",
+   "cita": "",
+   "enlace": "https://www.semana.com/politica/articulo/ley-de-rescate-economico-daniel-briceno-le-hace-una-contundente-peticion-al-presidente-abelardo-de-la-espriella/202617/",
+   "fuente": "Semana",
+   "fecha": "2026-11-16T01:19:17Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "18398232b4ea",
+   "titulo": "Abelardo De La Espriella aseguró que su gobierno no impondrá IVA a los productos de la canasta familiar",
+   "resumen": "El presidente Abelardo De La Espriella aseguró que su gobierno no impondrá el impuesto al valor agregado (IVA) a los productos de la canasta familiar ni promoverá nuevas cargas tributarias sobre el sector agropecuario, en medio de la…",
+   "detalle": "El presidente Abelardo De La Espriella aseguró que su gobierno no impondrá el impuesto al valor agregado (IVA) a los productos de la canasta familiar ni promoverá nuevas cargas tributarias sobre el sector agropecuario, en medio de la discusión de la propuesta de rescate económico que adelanta su administración. Durante una alocución, el mandatario se refirió a las inquietudes de los ciudadanos frente a un posible incremento de los impuestos sobre los alimentos y afirmó que desde el comienzo de la formulación de la iniciativa impartió instrucciones para excluir estos productos de cualquier modificación tributaria. \"La canasta familiar no pagará IVA.",
+   "cita": "",
+   "enlace": "https://www.semana.com/politica/articulo/abelardo-de-la-espriella-aseguro-que-su-gobierno-no-impondra-iva-a-los-productos-de-la-canasta-familiar/202601/",
+   "fuente": "Semana",
+   "fecha": "2026-11-16T01:16:01Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "2422c712dca1",
+   "titulo": "Daniel Noboa señala a Gustavo Petro de reunirse con políticos ecuatorianos requeridos por narcotráfico en Estados Unidos",
+   "resumen": "El presidente de Ecuador, Daniel Noboa, lanzó nuevos señalamientos contra el expresidente colombiano Gustavo Petro, al asegurar que durante una visita a la ciudad de Manta, en 2025, sostuvo una reunión con el exalcalde de esa localidad…",
+   "detalle": "El presidente de Ecuador, Daniel Noboa, lanzó nuevos señalamientos contra el expresidente colombiano Gustavo Petro, al asegurar que durante una visita a la ciudad de Manta, en 2025, sostuvo una reunión con el exalcalde de esa localidad, Jaime Estrada Bonilla, y su hijo, Jaime Estrada Medranda, dos políticos ecuatorianos que fueron detenidos recientemente en Panamá y son requeridos por Estados Unidos por presuntos vínculos con el narcotráfico y el tráfico de armas.",
+   "cita": "",
+   "enlace": "https://www.elpais.com.co/politica/daniel-noboa-senala-a-gustavo-petro-de-reunirse-con-politicos-ecuatorianos-requeridos-por-narcotrafico-en-estados-unidos-1554.html",
+   "fuente": "El País Cali",
+   "fecha": "2026-11-16T01:10:54Z",
+   "categoria": "coyuntura",
+   "tamano": "regional"
+  },
+  {
+   "id": "392726700886",
+   "titulo": "Nuevo escándalo salpica al gobierno Petro con procesos de paz",
+   "resumen": "Recientemente, el gobierno de Abelardo de la Espriella denunció gastos excesivos en las zonas de reubicación durante la administración anterior.",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://www.elnuevosiglo.com.co/politica/nuevo-escandalo-salpica-al-gobierno-petro-con-procesos-de-paz",
+   "fuente": "El Nuevo Siglo",
+   "fecha": "2026-11-16T01:10:18Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
+  },
+  {
+   "id": "741f5d15c8d8",
+   "titulo": "En vivo: alocución del presidente de Colombia Abelardo De La Espriella",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUm9HMHl3WkpkNnFRZXFQYnpjYm9PVExIM1UwUGFDZ1pJVFdQUmhUWDRjaFB4ZWl2R1JtVmNQX3NiSlROOUJiREl5elF0R0xpdmRSUDlzUklqU0l3c3JHTl9aMG8taTFLb2NrQ29pQmI5TE1xSnNUQ01YaFA5UW1WR0p2TnVYSUpsSG4wVmE4NmpfdXllSHNCdnFNNTI4VHZKWW03WFRBY0xoQmJCeFpKcy1FWmo0VFFaMDZYd9IBwgFBVV95cUxNU0E1TW01N1BRcFNMSXBhYVRWZk5KdVZPdFNmcFduUE9ON2ZHZDNqX0xXRzVyM1Y4ZERzTnlfS1BxclVTZDlxZmY2WU1icDExMkdGQlRMYWxhM3ZlSGpkZUcwQkVQbUw3YjV1bnNMV09TSXZWQ1NNVFpxOWNsaFY3T28tdUlwUnhRRnBzczlROU4yU3pXQks3V0NrS2ZQVmYzRG45U0FLclE0NkdWN2dUUDhtMHhwZUhsSUNaMWw0VVlIUQ?oc=5",
+   "fuente": "El Tiempo",
+   "fecha": "2026-11-16T01:08:39Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "088c17e99b86",
+   "titulo": "Alocución de presidente Abelardo De La Espriella, en sus 100 días de Gobierno",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd3ZlSTUxM3BMWUUtT3I0Nm9EcXpfYVowYUhHRmxVZVdpcHpSanVXXzlFeXY5cmtFcE1wWVg5b0VncjhhYVozUTJraU03ZnBubzhkaDZjX1JTQVplYzF1T25YdWRWRHhjY1lCYXBlU09JdENBRC1sNDFhMTVha1Y4SjFmODQ0OXlIeEVpdS1JbUpUVHZsb01nU1Fwa0MyUlFuOERFNkxnME9UVTYwZm9FZGFTREtQSXdPeFRzbWZVU3ZNWUlUbUHSAcsBQVVfeXFMUENvdjFhTFBlV3FrcTdhT3Z1a1pwSXJNRVZUMXBET3VHSWhtZVhFVlVQLTJnOGo5S1l2NVVIaUFXUWN0OGR5WGR5eGI0OHp3clB4MmVpeU0wMTNSNGRGSTkzUU8wM3hfRXU1NFB0QTJrZ0tMa1FxQkVJOUNYbUFzMmxoalVNcFBweVhGVGUyYjFScWhGZE9KVS1kcFprTkZib1VFeDNjbENOTklCSWN5S3o4RC16Und1QUFhNmU0Y1JBVGxLN2xOb3dQdXM?oc=5",
+   "fuente": "Portafolio.co",
+   "fecha": "2026-11-16T01:05:20Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional"
+  },
+  {
+   "id": "50fbc30512ee",
+   "titulo": "Seguridad, terremoto, salud y tributaria: De la Espriella explicó sus 100 primeros días de Gobierno",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNczRYSko3cE9DNWdPVkxiMlVGQmRtMk5xYnZWMUR2dmNBQ1h0VnMwVFRwUkdBQkR3SDNnZmt3a1FBNk50N2t0LThaT1BGa1hmU2Q5UDlUZURSc0ctZHdMeEZlY1IyN0JrbkJrUEptUnhLV2t2S3RvTnl1V24xLTMtVGN3Um5NYXVpUllGb2tOSGZ2RndIMW1F?oc=5",
+   "fuente": "Caracol Radio",
+   "fecha": "2026-11-16T00:58:33Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "332ecf271e5c",
+   "titulo": "La ANT informó expidió 1.054 títulos y destinó $12.160 millones al campo en los primeros 100 días de Abelardo de la Espriella",
+   "resumen": "La inversión alcanzó a organizaciones campesinas, mujeres rurales y comunidades étnicas, mientras la agencia anunció nuevas convocatorias productivas por más de $20.000 millones",
+   "detalle": "La Agencia Nacional de Tierras (ANT) afirmó que, durante los primeros 100 días de gestión del Gobierno de Abelardo de la Espriella, destinó más de $12.160 millones a iniciativas productivas, expidió 1.054 títulos de propiedad y recuperó 13 tractores agrícolas. La entidad presentó las cifras como parte de una etapa de reorganización institucional, formalización de predios y respuesta a trámites acumulados. La entidad, dirigida por Lina María Garrido, informó que los recursos se orientaron a organizaciones campesinas, mujeres rurales y comunidades indígenas y negras de distintos departamentos.",
+   "cita": "",
+   "enlace": "https://www.infobae.com/colombia/2026/11/16/la-ant-informo-expidio-1054-titulos-y-destino-12160-millones-al-campo-en-los-primeros-100-dias-de-abelardo-de-la-espriella/",
+   "fuente": "Infobae",
+   "fecha": "2026-11-16T00:57:09Z",
+   "categoria": "coyuntura",
+   "tamano": "gran"
+  },
+  {
+   "id": "01b53bf8804a",
+   "titulo": "Carolina Restrepo advirtió a quienes buscan frenar renovación del ICBF: “A veces pienso que no he sido lo suficientemente clara”",
+   "resumen": "La directora del Instituto Colombiano de Bienestar Familiar (ICBF), Carolina Restrepo, defendió públicamente el proceso de renovación que adelanta la entidad y aseguró que continuará ejecutándose, pese a las presiones, cuestionamientos e…",
+   "detalle": "La directora del Instituto Colombiano de Bienestar Familiar (ICBF), Carolina Restrepo, defendió públicamente el proceso de renovación que adelanta la entidad y aseguró que continuará ejecutándose, pese a las presiones, cuestionamientos e inconformidades que puedan surgir de sectores interesados en mantener las condiciones de contratación anteriores. A través de una publicación en su cuenta de X, Restrepo envió un mensaje contundente a quienes, según indicó, estarían intentando frenar los cambios institucionales.",
+   "cita": "",
+   "enlace": "https://www.semana.com/nacion/bogota/articulo/carolina-restrepo-advirtio-a-quienes-buscan-frenar-renovacion-del-icbf-a-veces-pienso-que-no-he-sido-lo-suficientemente-clara/202645/",
+   "fuente": "Semana",
+   "fecha": "2026-11-16T00:56:45Z",
+   "categoria": "coyuntura",
    "tamano": "gran"
   },
   {
@@ -2348,6 +4257,18 @@
    "enlace": "https://www.vanguardia.com/politica/2026/11/15/congreso-convoca-primera-reunion-para-discutir-la-reforma-tributaria-tras-dialogo-entre-uribe-y-el-gobierno/",
    "fuente": "Vanguardia",
    "fecha": "2026-11-15T23:10:07Z",
+   "categoria": "mencion",
+   "tamano": "regional"
+  },
+  {
+   "id": "bed2e43742d2",
+   "titulo": "Uribe pide bajar los impuestos y alerta por cierres de restaurantes en Colombia",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTm10b0dGeWJyMUx0eGFxNXBZRlFIanVpdGR2aEVHRjdMbnJZamF1cWhmQXVZV2JkWm5SR0xyVFV0VDNqcENHQUJUQW5kOXBOUkxlOWNWSnF4djNMSlR0NnRNc1JTaUs2VXJIZlhsM3NUbEh4bWRiU1l5QWdUcXd0SnBCa0E4eVdQT0dVV0ZTTjhGTWhMWDNZaHlwTG1wZnRYMzZ6eExEWExITTRKTnVWRXc1bVB5bmtmUTBTSQ?oc=5",
+   "fuente": "Diario La Libertad",
+   "fecha": "2026-11-15T22:45:47Z",
    "categoria": "mencion",
    "tamano": "regional"
   },
@@ -2544,6 +4465,18 @@
    "tamano": "redes"
   },
   {
+   "id": "eb3cfe42ee35",
+   "titulo": "´Nunca es tarde para rectificar la persecución contra Álvaro Uribe´",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWlBmNmkyUU9nNDQySWU5Slo1ZWhUdG8wM29SZzlhTlR6eHA0VDJ1WGZ4QlRxeXd6ejY0Z19hbkpEbWM1LTFxcXlFdkhkeExPaXJSbVNzb3RyVzFrQlc0V1ZVem1LSXluaTVFVEk1N2FPUVVBNTRleFZrMUtQd3pKdE1ZaFZFcHFtSXNYaHdKcHpUZ3pyYndhamZXM2RCdDYwMEhoc0FEUVBxbmt3WUNaUV9FVHk5UEloZVk0?oc=5",
+   "fuente": "hoy diario del magdalena",
+   "fecha": "2026-11-15T11:11:00Z",
+   "categoria": "mencion",
+   "tamano": "regional"
+  },
+  {
    "id": "597d055440dc",
    "titulo": "Así fue el encuentro entre el expresidente Álvaro Uribe, el vicepresidente José Manuel Restrepo y el ministro del…",
    "resumen": "Así fue el encuentro entre el expresidente Álvaro Uribe, el vicepresidente José Manuel Restrepo y el ministro del Interior, Alejandro Ordóñez. Esto en el marco de un reunión en la que el Centro Democrático le pidió al Gobierno eliminar el IVA a la canasta fam…",
@@ -2580,6 +4513,18 @@
    "tamano": "gran"
   },
   {
+   "id": "e886dc6c9ea6",
+   "titulo": "Defensa de Álvaro Uribe celebra archivo de investigación de la Fiscalía",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMXBKZnQ2NVUtMWRfNVViVUNhc1NScE94aEd5TDhJU0dJVmU4NUtLUno4OUhlVEhjd3BEaWpnTjJCR3NBVGRNeDBMOV92aWlPai1MTi0wWWswM0hnLVpDMENtbDFYNG1Ja0hEVVdsTGpCcUhNNndNanNtVEVCOHlvaEpVSmtOUUU4X2VPWENXUHR5em92UFg1dGRyVFhmZw?oc=5",
+   "fuente": "Tolima Online",
+   "fecha": "2026-11-15T01:15:07Z",
+   "categoria": "mencion",
+   "tamano": "local"
+  },
+  {
    "id": "2fedf0ec60b1",
    "titulo": "💵Expresidente Álvaro Uribe da balance positivo tras reunión con el vicepresidente para entrega de propuesta alterna a…",
    "resumen": "💵Expresidente Álvaro Uribe da balance positivo tras reunión con el vicepresidente para entrega de propuesta alterna a la ley de ajuste fiscal. Le dejamos los detalles.🔽…",
@@ -2614,6 +4559,18 @@
    "fecha": "2026-11-14T23:26:46Z",
    "categoria": "mencion",
    "tamano": "redes"
+  },
+  {
+   "id": "122ae3f1d2f3",
+   "titulo": "Defensa de Uribe celebra archivo de investigación por presunto pago a testigos contra Cepeda",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5JcF90MkpUcjFLOENINXJCYmNNY2lrbk02ZjN0RmlJdHh2TVNsRFlVRWdFN1E4dnNqM2ZCTDM0a1RVZDZnZ0dHQ2xfTlcwVVFGTGI1aEdCdzh6eHlYeUtR?oc=5",
+   "fuente": "Chica Noticias",
+   "fecha": "2026-11-14T22:50:10Z",
+   "categoria": "mencion",
+   "tamano": "local"
   },
   {
    "id": "4045dacf665e",
@@ -2688,18 +4645,6 @@
    "tamano": "redes"
   },
   {
-   "id": "6cd9ea065ce2",
-   "titulo": "Fiscalía de Colombia archiva investigación contra Álvaro Uribe por presunto soborno a testigos",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNLWFPLUJ3QVprVlhHQldwU042UC10X2ZkVlhyZmw3eE9WVlA4YVBfYmEzZE9ERUZReFpTUWhZQ3VXdWZOZWFybTExV0RNOGdhY0Fsb3pKWGIxa09kSFhDMklmOWE4WllTUEFsSXd1aTlzVzlwbHhZMXVjaFY0OU9oNzNzVGt1SXhBZVhsQlVVNjhtS01DNS1JQTUzTlFtVkR1RzA0S0VXX2E4ZXhIU0FlcU9xWkViN1hDNzlHcXJHUjg1YWs2Z0E?oc=5",
-   "fuente": "CRprensa.com",
-   "fecha": "2026-11-14T20:51:32Z",
-   "categoria": "mencion",
-   "tamano": "local"
-  },
-  {
    "id": "64278890a8c1",
    "titulo": "Fiscalía archiva la investigación contra Álvaro Uribe por presunto soborno a testigos: no halló pruebas de pagos por declaraciones",
    "resumen": "",
@@ -2710,30 +4655,6 @@
    "fecha": "2026-11-14T20:36:02Z",
    "categoria": "mencion",
    "tamano": "nacional"
-  },
-  {
-   "id": "1c310264765a",
-   "titulo": "Uribe se reunió con el Gobierno para presentar propuestas alternativas a la Ley de Rescate Fiscal: “El diálogo va a seguir”",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNWVlaVW1DN1BrLU1yckRQT0J0SF9rUjhjWklOdG9HZWlibTFBYnZYeFhHengxdHlLeDV4U1B4LXVfRXh1ek1pdDBicUkzc3hYSGFHOWtQeGdRMXlTRmNFSmtiZ3FFeTU5X2JxQlJvSXRTb2FkY3JNaHd6MllPbW1Yc2NvNkQxZkppMF9zV09yLWdCR2lhREpNR2JzeW8xNGx6em9DYURkenFrMFJ1UXgwd2FZaXNnbE1EYzhaNEtnOGVmNVdSMkpyQ090OTRYcVNrb3pBM2ZFUlFabWUwek5zbEpmeWxCZVdKazhPMnpWZnJaRUU1WDRUSk5R?oc=5",
-   "fuente": "ELHERALDO.CO",
-   "fecha": "2026-11-14T20:30:53Z",
-   "categoria": "mencion",
-   "tamano": "regional"
-  },
-  {
-   "id": "5743673283ef",
-   "titulo": "#noticion El expresidente Álvaro Uribe Vélez entregó un balance positivo tras reunirse con el vicepresidente del…",
-   "resumen": "#noticion El expresidente Álvaro Uribe Vélez entregó un balance positivo tras reunirse con el vicepresidente del Gobierno de Abelardo De La Espriella, junto a otros integrantes del Centro Democrático, para presentar una propuesta alternativa a la ley de ajus…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ISk1XOC1DVy1wNUxyRmVfeElvRlE0c083SXNENHZBMFM2ZFBTZF85OUJ3cndzTTBJWndmOTFNNW93ck90Nnc1QkRvdXhRV3JPMWc?oc=5",
-   "fuente": "Instagram",
-   "fecha": "2026-11-14T20:23:03Z",
-   "categoria": "mencion",
-   "tamano": "redes"
   },
   {
    "id": "33c701eca76f",
@@ -2820,6 +4741,18 @@
    "tamano": "redes"
   },
   {
+   "id": "f1c174c33cdd",
+   "titulo": "Defensa de Álvaro Uribe celebró la decisión de la Fiscalía de archivar investigación",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONW5uanU1aDVpam41dmI5UGgwOHhtd3VLdUdob1daYmdfRDZCM0N5cDFZbldTVzZlWHRhcnJ2Z0dCNWN5T3A0N3hDdWxtTUFhb3F3Tml3US1ZelZCM05QOEphdkZJTFdBN00zdmQ3TDFwNEVlcTBfWDE4dUpORUxnQ2FZaWJQY2IzQmpZTW5rOThlRmhUUDlJeV9JVVAzUlVYSERaZ2xQaVJncVJucG82RF9Ya05pN0p5cGxXcWh1UmRLVWs?oc=5",
+   "fuente": "Diario La Libertad",
+   "fecha": "2026-11-14T18:39:32Z",
+   "categoria": "mencion",
+   "tamano": "regional"
+  },
+  {
    "id": "8d50e6520ab4",
    "titulo": "Abogado de Álvaro Uribe, tras decisión de la Fiscalía de archivar caso por presunto soborno a testigos: “La deuda no se ha saldado”",
    "resumen": "",
@@ -2842,18 +4775,6 @@
    "fecha": "2026-11-14T18:28:28Z",
    "categoria": "mencion",
    "tamano": "redes"
-  },
-  {
-   "id": "db45ad1f2c67",
-   "titulo": "Fiscalía archiva investigación contra Álvaro Uribe por soborno",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdU00SHlqMlZMdFdNdlIxUlRFc21tbVRyVjhHU1N0eGdSTlVEUmF1cmJJVVVkbjFOa1NNN0MzbUtmakk2ZkRtR0JvSW5fN1h2bDVJaWg1RHpNaWp6YWVtN3JLM0xkYnhrVTc5YjdPTkRsdzBrME91b0VibG5TQnZNMTVsV004ZTFwYVNjMkw1WmNNNkQxTlRjZ3A0Zw?oc=5",
-   "fuente": "Proclama del Pacifico",
-   "fecha": "2026-11-14T17:22:37Z",
-   "categoria": "mencion",
-   "tamano": "local"
   },
   {
    "id": "eb3d4d2c5d1f",
@@ -2880,6 +4801,18 @@
    "tamano": "redes"
   },
   {
+   "id": "f55788d63c78",
+   "titulo": "El fuerte sablazo del hijo de Álvaro Uribe al presidente De La Espriella: 'Por encima del amiguismo'",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYW5oV1NvRzVWeVdHWmhNeVZtSVNzZWJUYXE3ZXFfcThWQXQ5cnplT2FCYUtRS2J3aTdkWGY1TEV0SDVYanpEUGpCYUpqRExIQzFhRWdGQVdCZlYzSXZrbVFBTWFMNWNKLWJaV3pUbmJHcGdFM2UwemRvY0YzRXhLN3JjZEtUUUZVOUNKeVNKeGdGdFlCR1dCWWxsYW5yVi0xRnZFT0RBTzNYZ2oyeWx0TG9KTGZZUVNGY1hTYWI5XzlXbGFmUnlHaVFmOXpRZnlHdEQwLUQwZXo2MmhT?oc=5",
+   "fuente": "redmas.com.co",
+   "fecha": "2026-11-14T16:38:09Z",
+   "categoria": "mencion",
+   "tamano": "nacional"
+  },
+  {
    "id": "d289983edafc",
    "titulo": "Fiscalía archiva investigación contra Álvaro Uribe por presunto soborno a testigos: estas son las razones",
    "resumen": "",
@@ -2902,18 +4835,6 @@
    "fecha": "2026-11-14T16:25:05Z",
    "categoria": "mencion",
    "tamano": "regional"
-  },
-  {
-   "id": "5a9a6e05a279",
-   "titulo": "Fiscalía archivó investigación contra Álvaro Uribe por soborno en proceso denunciado por Iván Cepeda",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMEk5em9IbTNyelJIcTRmTUxrWkh0Ukc2UEZ5bmtzdlA2U2h0Q2FaRE9aWXNCZGNIU3JwUnZYWVFwaW5xejJSeXNrS2Zvc3AwY2h5VlBrQ19NRlJMOGpaaWlFa3NUWnN6OF9BUEhQN0xQNU5CWURGY1g1S2dkWDktWnBOYzAtaUlXbEtMVElralVxMWhTVjdJRFZmWmVoVk50aC1rNU42bHBWU2FwbnZPNVF5d1JhdGY4OXN3VlR3aUhYbUV4LV83OHVoVW5zUVZy?oc=5",
-   "fuente": "Ke se dice",
-   "fecha": "2026-11-14T16:23:27Z",
-   "categoria": "mencion",
-   "tamano": "local"
   },
   {
    "id": "80c540a04cf5",
@@ -2976,18 +4897,6 @@
    "tamano": "nacional"
   },
   {
-   "id": "7beb3b2b5083",
-   "titulo": "¡Giro en el caso Álvaro Uribe! Fiscalía tomó decisión sobre investigación por presuntos sobornos",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcUNYakdkZ0tXMVd5LXpFdUtWQlN1SUVZWklUc2w2TjdKQmh6ckNHdURrRU1oSU9iSVpvcWdoV2hublF2S2cteENzYkZ1N3J4MzJWVU9aWXcyUVdqN0V6M3REOVVCNFB5UFZWcGxmcnZFc2R4Rzk1SHlfVXFvcS1KZkJINHo1blIzcE95VlhwWmhqSTA1eFFmVzFBOEhkbHVKYUJadEd4Q3M3Q1M1QmNkYTdQMmhRSkFIU2MzbjJVSHRUakthWUNTeU1ocUdfZUtJS1E?oc=5",
-   "fuente": "Colombia.com",
-   "fecha": "2026-11-14T15:33:20Z",
-   "categoria": "mencion",
-   "tamano": "nacional"
-  },
-  {
    "id": "5e96b92364f8",
    "titulo": "#AtenciónCN ⚫🔴 La Fiscalía General de la Nación ordenó archivar de manera definitiva la investigación que cursaba en…",
    "resumen": "#AtenciónCN ⚫🔴 La Fiscalía General de la Nación ordenó archivar de manera definitiva la investigación que cursaba en contra del expresidente Álvaro Uribe Vélez por presuntos sobornos a exparamilitares y fraude procesal. El ente investigador concluyó qu…",
@@ -3046,6 +4955,18 @@
    "fecha": "2026-11-14T15:00:00Z",
    "categoria": "mencion",
    "tamano": "nacional"
+  },
+  {
+   "id": "f27122fdf4e2",
+   "titulo": "Fiscalía archivó investigación contra Álvaro Uribe por presunto soborno de testigos y fraude procesal",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOR1dMcThVRkVxTWNYNXJfWnpzTHlBcHFscV9UZnQ2emVrTm05dk9uYk9mTUpYcXRrUEFZMkl4SUlydWpHYjRnMEtJa1ctS2VuNFl2bHZpWUdmZHpPU3dUNndIOG4wMVZ3Xy1aM0E4c2E5cERXZ2tqRFRic2RLY3hYV3BnUHVuNEpKbm1pVFJ4ZVA4SmRpUWpFU1BINktUWUh0bUFodXFzcWJUVEx4UXJIeTZyQjE3eG9zOUk3VFpTRWhQOHRfVG5vNHhaVlN2TmN1Q21iNE1LbDV6QQ?oc=5",
+   "fuente": "Diario La Libertad",
+   "fecha": "2026-11-14T13:55:33Z",
+   "categoria": "mencion",
+   "tamano": "regional"
   },
   {
    "id": "bc8867c55ce5",
@@ -3190,6 +5111,18 @@
    "fecha": "2026-11-14T11:44:28Z",
    "categoria": "mencion",
    "tamano": "gran"
+  },
+  {
+   "id": "264add95b1b9",
+   "titulo": "Fiscalía archivó investigación contra Álvaro Uribe por presunto soborno a exparamilitares: esto concluyó el ente acusador",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxORG5IdUE3TFdDVVp4dDZTdVlmTUQtejhzMjNMbkFrZ2JCQkxrYXQ0MWZRUDFMbVFka0NsTXl6a0NRbnlqazF0eTd4RkFCa3F3YjNScVFDaFdwcXlQZWF6c1dVM3hBVmlqZ0w4ZHg0dmNidndRcy04cGZWWndUQUMxdWlHZDBFWVBzMDVXVm1taGMxa1V6Q19WSlJQRjFmblF2clMyVzl5QWJrSTNuZHlfMHhOcFBRSGpHVU9PZFhqb01URTlka3BudS1BdTZqUy1tTTJKb0E2MFp3VDhGSnN4MC0tSlN1ZDhNREgyb3lPQnR2UThLcEJ2dm9wTQ?oc=5",
+   "fuente": "Publimetro Colombia",
+   "fecha": "2026-11-14T11:20:19Z",
+   "categoria": "mencion",
+   "tamano": "nacional"
   },
   {
    "id": "0e9dc41365ae",
@@ -3480,6 +5413,54 @@
    "tamano": "nacional"
   },
   {
+   "id": "e32d9ce9fb60",
+   "titulo": "Según informó el expresidente Álvaro Uribe Vélez en sus canales oficiales, la bancada parlamentaria del Centro…",
+   "resumen": "Según informó el expresidente Álvaro Uribe Vélez en sus canales oficiales, la bancada parlamentaria del Centro Democrático adelanta una nueva sesión de trabajo enfocada en el análisis y las propuestas en torno a la Ley de Rescate de la economía, evalu…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE45d2FVLXg5Wk5KbVdVVlc3U2FtN0RmWDd5bjRPQXh2Nzc2NllsM0JiemgyYWhvZkRBalNvUW5HX0NRR3VTdTBlZHFYbkFYWVZFMHFFYjhR?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-12T19:33:10Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
+   "id": "462312a4e955",
+   "titulo": "EnPunto | La bancada del Centro Democrático, liderada por el expresidente Álvaro Uribe, se reúne para analizar el…",
+   "resumen": "EnPunto | La bancada del Centro Democrático, liderada por el expresidente Álvaro Uribe, se reúne para analizar el informe de la subcomisión encargada de estudiar la Ley de Rescate de la Economía y de Ajuste Fiscal. Durante el encuentro, los congresistas…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1kU0h5RFJWNGp5V3JUNVNhVVpiNnMyLVB6Wl9WZnVwdThzVkVneXhjbnotNE1KbzdJZHQzRVpjUkpDeUt4ZTV4NTB6aVh4djJDNEE?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-12T16:24:01Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
+   "id": "96b1a2e1945c",
+   "titulo": "La bancada del Centro Democrático, liderada por el presidente Álvaro Uribe Vélez, se reúne nuevamente para revisar el…",
+   "resumen": "La bancada del Centro Democrático, liderada por el presidente Álvaro Uribe Vélez, se reúne nuevamente para revisar el informe de la subcomisión designada para estudiar y construir propuestas frente a la Ley de Rescate de la Economía y de Ajuste Fiscal…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNaTAzOXJSRGNGSUV3N3pYVFAxWlNtNl9NdzJmdWQ5ajlXWWNhZDV1a1JJSmR1RDUyZzJ1bDZGV01RRmZXQ1ZJRXlOUUxNREtMd2F3YW5sbGkzQzI0Z3E0MnhIQ01VWm1FQ3I0aXpzT3lZU25wOWd0NU1naFY0Um5Fc1h3dWxtNWY4LW5mVHAxdExNa2hiTmFvaDNIZXZJM2U5cHR1cWRHWjBTSUdPLVphaGRRRVNTQW9oQXBkQ21hbkFId2xHUjFURmlWOVpUVnZfN2N3ckR6NTN5c1NnNTY4OE16NHJiMURMNkR0eWlaRQ?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-12T14:06:50Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
+   "id": "d8093270eb4d",
+   "titulo": "Enlace transmisión en las historias o en el canal YouTube de Álvaro Uribe Vélez.",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE55UEZSNUF0dmtlYzBvSURwbmxydzlmYnFsQUQ1Sm1FSHVNSDFzS01qMGIzcmU2b2pTNmZTbEpMdWJYWVhqMlo1Rkw2M3ZCV2xkS1E?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-12T11:22:05Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
    "id": "27b905fd3f25",
    "titulo": "Fiscalía archivó investigación contra Álvaro Uribe por presunto soborno a testigos",
    "resumen": "",
@@ -3528,6 +5509,54 @@
    "tamano": "gran"
   },
   {
+   "id": "72829de7eb2c",
+   "titulo": "Photo by Álvaro Uribe Vélez (@alvarouribevelez) · November 11, 2026",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1OWDhGNXF4Y2tSOXkzWGZoSWMxejVVODBUVmFCSWlUbEUtVXpyalpKcTRHbUJYcHlwMHRjMkNHRTNmTTNUZ0ItSjlpckhvU3hIaEE?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-11T19:12:03Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
+   "id": "7859d0aa51c5",
+   "titulo": "COLOMBIA | El Centro Democrático, liderado por Álvaro Uribe, presentó una contrapropuesta a la Ley de Rescate Económico…",
+   "resumen": "COLOMBIA | El Centro Democrático, liderado por Álvaro Uribe, presentó una contrapropuesta a la Ley de Rescate Económico o Fiscal del presidente Abelardo de la Espriella. Su eje es exigir un recorte mucho mayor del gasto público, en lugar de aumentar i…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9qWlBXeGtTSFphUzJ1ZGhtbGxBVGVPT2RoZURUS1JMOWh2QzVxWG8wN2E4TjFsMzFOUVl3UGYzOXBqTjVFUmN2dG1mVWdiZnA1YXc?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-11T19:08:23Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
+   "id": "0e8adda7260d",
+   "titulo": "Noticias Uno. Álvaro Uribe seguirá bajo investigación por las M4S4CR3S de El Aro y La Granja | Noticias UNO",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNLUhDczg5ZGZXUlRBR3c1LXVHaklDX3NqRF9qcGhBUm5GNGctRmhIWl90V3Z4QmhtOGZJRmFUckR6a2VQT3FkcVU0U3IteEVTemF5MHcyRWZsbWQtRVJDNXduLWZESnl0Qm5Vbm5RVmZLa2JWalFVSEt1RXV3YUZNQkQ0ei1JaXVROV95WG80YmpUeTNWcUhzcVFLN1p1SG13aXFOZkZoNkZmdEZsaUh3aW5xYlcwM1FkWW5mMC1XM0RxOFFwdGtWOTRnWGxSNnRCaFdzR283M25Ya0VUb0p3RGh2elNhWkUwcVJ0QTdKXy1LMVZoUVRDRw?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-11T15:11:51Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
+   "id": "79e17572cd93",
+   "titulo": "#Política🚨🇨🇴 ¡Petro lanzó la propuesta y Uribe respondió sin rodeos: “Eso nunca” 🗣️El expresidente Gustavo Petro…",
+   "resumen": "#Política🚨🇨🇴 ¡Petro lanzó la propuesta y Uribe respondió sin rodeos: “Eso nunca” 🗣️El expresidente Gustavo Petro sorprendió al proponer una alianza política y electoral con Álvaro Uribe para enfrentar al Gobierno de Abelardo de la Espriella. Pero la respu…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9fbzZyOGZTY25saDRrZ1hCdER1RC1GRmJXN01wVHJzeHJjY09QU01Kd0tjUUNkcmFKQm15UUJMS1Bhc2M0VU8tMzNwdFJ0a1c4NUE?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-11T14:37:09Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
    "id": "53e989d1a964",
    "titulo": "¿Una ley que beneficiaría a Santiago Uribe Vélez? Senadora María Clara Posada responde",
    "resumen": "",
@@ -3538,6 +5567,18 @@
    "fecha": "2026-11-11T13:31:23Z",
    "categoria": "mencion",
    "tamano": "gran"
+  },
+  {
+   "id": "897f8e6823c4",
+   "titulo": "¡Atención! En la Comisión Primera del Senado se aprobó un proyecto de ley para dejar libre al hermano de Álvaro Uribe…",
+   "resumen": "¡Atención! En la Comisión Primera del Senado se aprobó un proyecto de ley para dejar libre al hermano de Álvaro Uribe Vélez, el paramilitar Santiago Uribe. No debería llamarse proyecto de “Doble Conformidad”, sino “Ley Santiago Uribe”. Le van a crear un…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQSEttZndPaVhlYk9KNXVGalNNZkJPSVd3ajE4VWdNMTNtMG9BV2Q0VzBYY1o2b1FaMGh5Si1ub3V2MkZxWllOMm9ZcDBaWTBYVmpaeUNoXzRmSnAzdXJaVmVVazV4aFU1emRkMnhKMlpuVURuZDJKbk9HVFBjekdxNXFhdVktVy1rcUM2Nk5fX0dYcHhObTJwUWo4V3NXT2owY2xvTWZKTG9oalZxYk5KcmhEMFBOS3VwemZ4SGhrdkFrYzNkWnVQcXNVdmxmMldPQWRxY2RXQUszYUJCaHh2NTJuZ3JENUR5cnhXZndqTFp6RE9GT1E?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-11T12:40:45Z",
+   "categoria": "mencion",
+   "tamano": "redes"
   },
   {
    "id": "4048f3aafaf3",
@@ -3552,6 +5593,78 @@
    "tamano": "regional"
   },
   {
+   "id": "a9614b777b2c",
+   "titulo": "El expresidente y máximo líder del Centro Democrático, Álvaro Uribe Vélez, descartó de manera categórica y contundente…",
+   "resumen": "El expresidente y máximo líder del Centro Democrático, Álvaro Uribe Vélez, descartó de manera categórica y contundente cualquier posibilidad de concretar una alianza política entre su colectividad y el Pacto Histórico. La tajante negativa se dio luego de qu…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE84ZkF6S3dXbXpzSkRud3FPd3ZNV21ZQWxYMEJnTnpKTDdfYkdTV1BKa25tbkJXZkcyQkRGcjZJV0k2OGVqY3BaMG9HR2hqWXctVlE?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-11T04:00:11Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
+   "id": "4b3cc10ed439",
+   "titulo": "¡PETRO LE PROPONE PACTO A URIBE! El giro inesperado en Medellín para acorralar a Abelardo.",
+   "resumen": "¡PETRO LE PROPONE PACTO A URIBE! El giro inesperado en Medellín para acorralar a Abelardo. Desde la capital antioqueña, el expresidente lanzó un discurso explosivo para acorralar las políticas económicas del presidente Abelardo de la Espriella. La…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4xR1VOT0dOUkFLbkxFTkFYazhoYmxQRENxbmFLMUtfOUJBM0ZicmdKYzl0MWh6dm92UGJ5Y1dKTXc4WjdQdy1uOGo0OGM4UVBXd2xWVHJn?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-11T02:20:45Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
+   "id": "8f82449d40b9",
+   "titulo": "Álvaro Uribe y sus lugartenientes andan con el gran absurdo de privatizar más a Ecopetrol, vendiéndoles más de sus…",
+   "resumen": "Álvaro Uribe y sus lugartenientes andan con el gran absurdo de privatizar más a Ecopetrol, vendiéndoles más de sus acciones seguramente a extranjeros. Enorme disparate porque es la empresa que más recursos nos ha transferido a los colombianos en to…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOdEJYVU5zVkx6TkwzNnVuQ0R3bVh3cWs5X29ROEdSVy1UOVhsOGdZNTB5SmhaS1daT3lnUnlKNEZDVHpZRFRUSnhSaW9tQVhKWGNXSXJCYzJEMUJiSEhCNFpETTRtLVBPVm5pNTF3UmxjdGQ4OVVRQzFLMldtWUVkLWd5dzdNTEZsNVROcHBjdXR4SFBib1k4TDI3LXA1cEFKcnpFVS15blQtYjh1RmZPYTBIVE52aHQzLVN6UzM2MlhzU0V0YkZFT3Z0TnJ3Q09rWDRNQ2JsQktmekdmMjJ5RTdLOE0tY1ZPUGU1TWRCb202WXNT?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-11T01:07:34Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
+   "id": "00f66b41bb1e",
+   "titulo": "El expresidente de Colombia Álvaro Uribe estuvo en la reunión del Grupo IDEA y habló acerca del uso de las redes…",
+   "resumen": "El expresidente de Colombia Álvaro Uribe estuvo en la reunión del Grupo IDEA y habló acerca del uso de las redes sociales y cómo él las utilizó durante los discursos de Gustavo Petro cuando fue presidente. “En mi concepto la tiene que controlar el individu…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBFQ1V6TlI2enFqUDl2Z2VHeVRNeUN2RUNIRUFUNjJ4YUF4THh0WWRyTno2S0xGbWp3UWtWc2p5REhHakxSWjJqZ2VSZm0xS2JQY3hhUHlB?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-10T23:51:01Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
+   "id": "4ceae9d339f2",
+   "titulo": "NTN24. El expresidente de Colombia Álvaro Uribe estuvo en la reunión del Grupo IDEA y habló acerca del uso de las redes…",
+   "resumen": "NTN24. El expresidente de Colombia Álvaro Uribe estuvo en la reunión del Grupo IDEA y habló acerca del uso de las redes sociales y cómo él las utilizó durante los discursos de Gustavo Petro cuando fue presidente. “En mi concepto la tiene que controlar e…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRmdTQWx0Z0RTaHZBNXVEdnlEOEI0eGVhT2E3bzhZOEpNU2ZRemlyS1hzenVVX2VEaEViVkhsbmZVVFpIeGRwU0xKMFdWNmdoTU1SekxiRmRBRl9ObUl6VDJoVFFZVEstVWJ5OUpQbTVOOHFCaXN6TElsWmxvcjU5S1c1blhEdFRpbThtajZTZEx6ZXNqTUZ1T21fc3VQbDNXaTZNUzhOeXJwNTd1S3hWZEJFNTFwUERSYVJVcGlDdmNseHEwYWlNdDlLS0pUWC13V04yU2lHS3RCYU8wTHc4?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-10T23:36:32Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
+   "id": "728efe8f0b94",
+   "titulo": "El expresidente Álvaro Uribe Vélez rechazó categóricamente la propuesta del exmandatario Gustavo Petro de consolidar un…",
+   "resumen": "El expresidente Álvaro Uribe Vélez rechazó categóricamente la propuesta del exmandatario Gustavo Petro de consolidar un pacto político-electoral para hacerle frente al Gobierno del presidente Abelardo De La Espriella y frenar el trámite de la Ley de Resca…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGdkFWNmNGMXB5RFg5eUFlWmhrbWdtVkZuVmlFZXE0MVBkdnowM21Yb2h2YndQQmtueFFpTU1saENvWkxwTEZSeC1BODNZcmg5b2RPV1JB?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-10T23:01:23Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
    "id": "1e9b9314c3c9",
    "titulo": "Esmeralda Hernández prende las alarmas por proyecto que, según denunció, buscaría favorecer a Santiago Uribe: “Esta ley tiene nombre propio”",
    "resumen": "",
@@ -3564,6 +5677,18 @@
    "tamano": "gran"
   },
   {
+   "id": "d0b5686c703c",
+   "titulo": "¿Salida de emergencia para el bolsillo de la Nación o un error estratégico?",
+   "resumen": "¿Salida de emergencia para el bolsillo de la Nación o un error estratégico? 🛢️🚨 El expresidente Álvaro Uribe propuso evaluar la venta de una mayor participación en Ecopetrol como fórmula para obtener recursos ante la crisis fiscal que vive Colombia. La in…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9xVzJteUtlNHVxY0pOU2h5MDNkZFdqdEM2M0RsQVJZWGQ3c2J2WHRjTlVWYVc3VFJxRWU1MVdWTmc4ajMtWEFuZlJJQXhrdTRmdTdWb2pn?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-10T17:27:24Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
    "id": "6b5a9bf15403",
    "titulo": "Expresidente Uribe revela uso de sus redes sociales en pleno discurso de Petro: \"170 reacciones; fue en vivo, inmediato\"",
    "resumen": "El expresidente habló en el panel 'Libertad de expresión e información, poder corporativo y libertades económicas', moderado por Claudia Gurisatti.",
@@ -3574,6 +5699,54 @@
    "fecha": "2026-11-10T16:23:00Z",
    "categoria": "mencion",
    "tamano": "nacional"
+  },
+  {
+   "id": "2badd0f78f8e",
+   "titulo": "El Centro Democrático que lidera el expresidente Álvaro Uribe Vélez propuso vender cerca de 8,49% de Ecopetrol como una…",
+   "resumen": "El Centro Democrático que lidera el expresidente Álvaro Uribe Vélez propuso vender cerca de 8,49% de Ecopetrol como una de las alternativas para enfrentar el deterioro de las finanzas públicas y modificar la Ley de Rescate Fiscal presentada por el Gobier…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPcTFVRWFPczVPcC1jSEZhMmp4S1J5RWc1SnBQQURlWEpFZzlEOVdWYVB4Ymk4MUtGQzFnQnNpcjZOdkU5NjFpVXBIN3U1SURhRGVhOEV6QXZhWUZpbGFIMWs5ZmY5YVBiT2UtaC1YZjlXX2VQNGtoSHkwTEdoZFZGUkNSMzk1VDZJMnFqNzY5ajg5bDFoV25JUzZWZ1pFdHNjQzFmQ3BHMnBQMDkwQzBYa2R3X2szelBZbndrVmh6TV9QTWRaOV9Sbmpaak93XzVJV1piUy1HOHVGUkc4V0lUV0FLQWRPRlBHcS1yRU1GVF9ZOXcxQ2laaWx1Yw?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-10T16:12:24Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
+   "id": "faf14952adcc",
+   "titulo": "COLOMBIA | Gustavo Petro propuso a Álvaro Uribe una alianza electoral de cara a las elecciones regionales de 2027, como…",
+   "resumen": "COLOMBIA | Gustavo Petro propuso a Álvaro Uribe una alianza electoral de cara a las elecciones regionales de 2027, como propuesta de oposición al gobierno de Abelardo de la Espriella. El Centro Democrático la rechazó: su director nacional, Gabriel Vall…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE82NmpBVzg2V0t5ZEh0dHJUbzJqY2JMd3lENXNPRWJpSWxGMGxYeW5KQ0lmUU9lVnRIdXpMQXg1OHlmM3RUX3FOdV9YUDFLb2cxeWdpNWJB?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-10T15:45:27Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
+   "id": "f03418b3a5e9",
+   "titulo": "🇨🇴 El expresidente colombiano Álvaro Uribe Vélez defendió en Miami una economía con menos impuestos y mayor…",
+   "resumen": "🇨🇴 El expresidente colombiano Álvaro Uribe Vélez defendió en Miami una economía con menos impuestos y mayor participación del sector privado, durante el XI Diálogo Presidencial del Grupo IDEA. 🔴 Sus declaraciones se produjeron tras el llamado de G…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9qUnVnX3d0UkYyU3pkc1dfclFxeXNZMmdsZ0VvTWN6Z1FBQlhPb0R2RFpoOVI5SnhQZHE2M1Vvazd5aDlUbTFrYm5tMjJFdFNPa0E?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-10T12:06:03Z",
+   "categoria": "mencion",
+   "tamano": "redes"
+  },
+  {
+   "id": "c2b104ee0c37",
+   "titulo": "🚨 ¿Alianza entre Petro y Uribe? El expresidente respondió a la inesperada invitación del mandatario.",
+   "resumen": "🚨 ¿Alianza entre Petro y Uribe? El expresidente respondió a la inesperada invitación del mandatario. Gustavo Petro invitó a Álvaro Uribe Vélez a construir una alianza electoral. Durante una entrevista con SEMANA, el expresidente rompió el silencio y respon…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0yQndVQUh1eXk2c1dVWGQyVHUyb244SzJzdzdzdG54LWV5dkdFd3JVcU1CMEVmQTNNcWJySk1SN3RZNTdZNzQ1WFlsSzhtSHNvQVZJSjl3?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-10T02:24:57Z",
+   "categoria": "mencion",
+   "tamano": "redes"
   },
   {
    "id": "8d477665fbad",
@@ -4116,18 +6289,6 @@
    "tamano": "nacional"
   },
   {
-   "id": "12934b6230cc",
-   "titulo": "Reforma tributaria alternativa del expresidente Álvaro Uribe propone eliminar impuesto al patrimonio y 4 x 1.000",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQbTc3ck5DRXJIQ3BRdjJpUmViMVNpbnpkZllhakJzNlJUODhsU0otTy1jb0wxXzRabERPRngtd3BJVXZTSk5rQmVIdmhBRERlMWNtNXVORUVhNnQtWjhndkFFQ0FyMEJKUzNTS25MQnRzOW1RYzBtVEdteS1vNzdEZU5lTGlnT1RiVDhReW93eC1OcXhjcS1hNm5uM1kzbktQbXJxOFliTWtrOFg2UE1SYkFXdm9QNk1KY2ZGdUZOcVBoUXJVUjVPYWxINGdUdk1GRGV4ZHpWSGlmQVFSd01IYjlJendwV0ZSZDVpQUZsS2NIUdIB9wFBVV95cUxPSERkQ3pmZUl6ZU0yTUo1UU5sRTlOOU4yNG92dnhGd0ZIWTZQSnphZk0yVTdPbEZjQjRRSWJXUzRIWEVDWHA4dXNIS0MwWlVfYzlmeXAwdktYeTRWQzhoZFFDUWtTai1iVy1rUW9GckNHdFAySngwUE9Gd2VFYW9ON2tEWmc3V3dtcVVnRzRjS0MydEF2b09GSk9Ma3Z4UDFoNWh5dnhjMlJRQno2OXVfUlVjQno3dUh4aEVUblVsTDNIY0tBTDhldy1KaW5xVEpMOHAwak85bnZWejFfUnhNT3RDTmVCYll5WFdtMmZsWl9OS3ZSX2p3?oc=5",
-   "fuente": "Portafolio.co",
-   "fecha": "2026-11-07T08:00:00Z",
-   "categoria": "mencion",
-   "tamano": "nacional"
-  },
-  {
    "id": "d4b988ddb19f",
    "titulo": "Francisco Santos afirmó que Álvaro Uribe es el “Messi de la política” y defendió su influencia sobre De la Espriella: \"Si Abelardo escuchara más.\"",
    "resumen": "",
@@ -4138,6 +6299,18 @@
    "fecha": "2026-11-07T08:00:00Z",
    "categoria": "mencion",
    "tamano": "gran"
+  },
+  {
+   "id": "12934b6230cc",
+   "titulo": "Reforma tributaria alternativa del expresidente Álvaro Uribe propone eliminar impuesto al patrimonio y 4 x 1.000",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQbTc3ck5DRXJIQ3BRdjJpUmViMVNpbnpkZllhakJzNlJUODhsU0otTy1jb0wxXzRabERPRngtd3BJVXZTSk5rQmVIdmhBRERlMWNtNXVORUVhNnQtWjhndkFFQ0FyMEJKUzNTS25MQnRzOW1RYzBtVEdteS1vNzdEZU5lTGlnT1RiVDhReW93eC1OcXhjcS1hNm5uM1kzbktQbXJxOFliTWtrOFg2UE1SYkFXdm9QNk1KY2ZGdUZOcVBoUXJVUjVPYWxINGdUdk1GRGV4ZHpWSGlmQVFSd01IYjlJendwV0ZSZDVpQUZsS2NIUdIB9wFBVV95cUxPSERkQ3pmZUl6ZU0yTUo1UU5sRTlOOU4yNG92dnhGd0ZIWTZQSnphZk0yVTdPbEZjQjRRSWJXUzRIWEVDWHA4dXNIS0MwWlVfYzlmeXAwdktYeTRWQzhoZFFDUWtTai1iVy1rUW9GckNHdFAySngwUE9Gd2VFYW9ON2tEWmc3V3dtcVVnRzRjS0MydEF2b09GSk9Ma3Z4UDFoNWh5dnhjMlJRQno2OXVfUlVjQno3dUh4aEVUblVsTDNIY0tBTDhldy1KaW5xVEpMOHAwak85bnZWejFfUnhNT3RDTmVCYll5WFdtMmZsWl9OS3ZSX2p3?oc=5",
+   "fuente": "Portafolio.co",
+   "fecha": "2026-11-07T08:00:00Z",
+   "categoria": "mencion",
+   "tamano": "nacional"
   },
   {
    "id": "ea883af51aef",
