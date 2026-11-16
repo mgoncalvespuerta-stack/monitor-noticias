@@ -1,0 +1,57 @@
+# Publica el monitor en GitHub Pages y renueva las noticias cada 45 minutos.
+name: Actualizar y publicar monitor
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    # Cada 45 minutos exactos (hora UTC): 0:00, 0:45, 1:30, 2:15, 3:00…
+    - cron: "0 0-23/3 * * *"
+    - cron: "45 0-23/3 * * *"
+    - cron: "30 1-23/3 * * *"
+    - cron: "15 2-23/3 * * *"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Recuperar la última copia publicada (por si los medios no responden)
+        continue-on-error: true
+        run: |
+          curl -fsSL --max-time 30 "${{ steps.pages.outputs.base_url }}/data/respaldo.json" -o /tmp/publicado.json
+          python3 -c "import json; d=json.load(open('/tmp/publicado.json')); assert len(d['noticias']) > 8"
+          cp /tmp/publicado.json data/respaldo.json
+
+      - name: Descargar noticias
+        run: python3 server.py --respaldo
+
+      - name: Preparar sitio
+        run: |
+          mkdir -p _site/data
+          cp index.html styles.css script.js _site/
+          cp data/respaldo.json data/medios.json _site/data/
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: despliegue
+        uses: actions/deploy-pages@v4
