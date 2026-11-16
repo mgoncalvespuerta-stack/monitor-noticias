@@ -448,6 +448,16 @@ input {
   gap: 22px;
 }
 
+.filtros-cuerpo {
+  display: grid;
+  gap: 22px;
+}
+
+/* En computador los filtros están siempre a la vista; el botón solo existe en celular */
+.filtros-toggle {
+  display: none;
+}
+
 .filtro-titulo {
   display: block;
   font-weight: 700;
@@ -981,7 +991,35 @@ input {
   }
 
   .heroe {
-    padding-top: 28px;
+    padding-top: 22px;
+  }
+
+  /* En celular la franja superior se acorta para que las noticias queden más arriba */
+  .heroe h1 {
+    font-size: 1.65rem;
+  }
+
+  .bajada {
+    display: none;
+  }
+
+  .heroe-acciones {
+    margin-top: 18px;
+    gap: 14px;
+  }
+
+  .cabecera-fila {
+    padding: 12px 0;
+  }
+
+  .cabecera-fila .boton {
+    min-height: 46px;
+    padding: 6px 16px;
+    font-size: 0.9rem;
+  }
+
+  .marca-nombre {
+    font-size: 1rem;
   }
 
   .cifras {
@@ -1007,6 +1045,32 @@ input {
 
   .buscador {
     flex-direction: column;
+  }
+
+  .filtros {
+    gap: 16px;
+  }
+
+  .filtros-toggle {
+    display: flex;
+    width: 100%;
+    min-height: 58px;
+    justify-content: space-between;
+    padding-inline: 24px;
+    font-size: 1.05rem;
+  }
+
+  .filtros-toggle.abierto {
+    background: var(--azul-suave);
+    border-color: var(--azul);
+  }
+
+  .filtros-toggle.abierto .flecha {
+    transform: rotate(180deg);
+  }
+
+  .filtros-cuerpo:not(.abierto) {
+    display: none;
   }
 
   .filtro-btn,

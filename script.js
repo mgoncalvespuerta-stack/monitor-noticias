@@ -563,6 +563,12 @@ function renderNews() {
   $('filtrosActivosTexto').textContent =
     `Está viendo solo: ${partes.join(' + ')} (${filtradas.length} de ${state.noticias.length} noticias).`;
 
+  // Botón «Filtros» del celular: indica cuántos filtros hay puestos
+  const puestos = [state.filter, state.size, state.tema].filter((valor) => valor !== 'all').length;
+  const abierto = $('filtrosCuerpo').classList.contains('abierto');
+  $('botonFiltrosTexto').textContent =
+    (abierto ? 'Ocultar filtros' : 'Filtros') + (puestos ? ` (${puestos} activo${puestos === 1 ? '' : 's'})` : '');
+
   if (!filtradas.length) {
     const vacio = crear('div', 'vacio');
     const hayFiltros = state.filter !== 'all' || state.size !== 'all' || state.tema !== 'all' || state.query;
@@ -670,6 +676,14 @@ function bindEvents() {
   });
 
   refreshButtonEl.addEventListener('click', () => handleRefresh(true));
+
+  $('botonFiltros').addEventListener('click', () => {
+    const abierto = !$('filtrosCuerpo').classList.contains('abierto');
+    $('filtrosCuerpo').classList.toggle('abierto', abierto);
+    $('botonFiltros').classList.toggle('abierto', abierto);
+    $('botonFiltros').setAttribute('aria-expanded', String(abierto));
+    renderNews();
+  });
   $('quitarFiltros').addEventListener('click', quitarFiltros);
 
   botonLetraEl.addEventListener('click', () => {

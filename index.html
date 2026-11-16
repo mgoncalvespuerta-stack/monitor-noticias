@@ -101,6 +101,17 @@
           </div>
         </div>
 
+        <button
+          id="botonFiltros"
+          class="boton boton-borde filtros-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="filtrosCuerpo"
+        >
+          <span id="botonFiltrosTexto">Filtros</span> <span class="flecha" aria-hidden="true">▾</span>
+        </button>
+
+        <div id="filtrosCuerpo" class="filtros-cuerpo">
         <div class="filtro-bloque">
           <p class="filtro-titulo" id="tituloTipo">Tipo de noticia</p>
           <div class="grupo-botones" role="group" aria-labelledby="tituloTipo">
@@ -146,6 +157,7 @@
         <div class="filtro-bloque">
           <p class="filtro-titulo" id="tituloTema">Tema</p>
           <div id="grupoTemas" class="grupo-botones" role="group" aria-labelledby="tituloTema"></div>
+        </div>
         </div>
       </section>
 
