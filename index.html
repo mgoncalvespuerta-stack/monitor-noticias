@@ -144,6 +144,22 @@
         </div>
 
         <div class="filtro-bloque">
+          <p class="filtro-titulo" id="tituloRelevancia">Relevancia</p>
+          <div class="grupo-botones" role="group" aria-labelledby="tituloRelevancia">
+            <button class="tema-btn rel-btn activo" data-rel="all" aria-pressed="true" type="button">Todas</button>
+            <button class="tema-btn rel-btn" data-rel="alta" aria-pressed="false" type="button">
+              ★ Alta <span class="conteo" data-conteo="rel-alta"></span>
+            </button>
+            <button class="tema-btn rel-btn" data-rel="media" aria-pressed="false" type="button">
+              Media <span class="conteo" data-conteo="rel-media"></span>
+            </button>
+            <button class="tema-btn rel-btn" data-rel="baja" aria-pressed="false" type="button">
+              Baja <span class="conteo" data-conteo="rel-baja"></span>
+            </button>
+          </div>
+        </div>
+
+        <div class="filtro-bloque">
           <p class="filtro-titulo" id="tituloTema">Tema</p>
           <div id="grupoTemas" class="grupo-botones" role="group" aria-labelledby="tituloTema"></div>
         </div>

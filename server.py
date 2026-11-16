@@ -602,7 +602,53 @@ def recolectar():
         n["dominio"] = n["dominio"] or dominios.get(normalizar(n["fuente"]), "")
     for n in final:
         n["tema"] = clasificar_tema(n)
+    calcular_relevancia(final)
     return final, list(estado.values())
+
+
+RE_CLAVE_NACIONAL = re.compile(
+    r"presidente|reforma|fiscal[ií]a|corte\b|congreso|centro democr|elecci|paro\b|ministr|"
+    r"tributari|iva\b|eln\b|disidencia|acuerdo de paz|constituyente|emergencia", re.IGNORECASE)
+
+
+def calcular_relevancia(noticias):
+    """Asigna relevancia alta, media o baja.
+
+    Suma puntos por: mención a Uribe (más si está en el titular), tamaño del medio,
+    cuántos medios distintos publicaron la misma historia y temas centrales de la agenda.
+    """
+    # 1. Agrupar titulares parecidos para saber cuántos medios cubren cada historia
+    grupos = []      # [palabras del titular de referencia, medios, noticias]
+    for n in noticias:
+        propias = _palabras(n["titulo"])
+        destino = None
+        if len(propias) >= 4:
+            for grupo in grupos:
+                if len(propias & grupo[0]) / len(propias | grupo[0]) >= 0.45:
+                    destino = grupo
+                    break
+        if destino is None:
+            destino = [propias, set(), []]
+            grupos.append(destino)
+        if n["tamano"] != "redes":
+            destino[1].add(normalizar(n["fuente"]))
+        destino[2].append(n)
+
+    # 2. Puntuar
+    peso_medio = {"gran": 2, "internacional": 2, "nacional": 1.5, "regional": 1, "local": 0.5, "redes": 0}
+    for _, medios, miembros in grupos:
+        for n in miembros:
+            n["cobertura"] = max(1, len(medios))
+            puntos = peso_medio.get(n["tamano"], 0)
+            if n["categoria"] == "mencion":
+                puntos += 3 if RE_URIBE_VISIBLE.search(RE_OTRO_URIBE.sub(" ", n["titulo"])) else 1.5
+            if n["cobertura"] >= 5:
+                puntos += 2
+            elif n["cobertura"] >= 2:
+                puntos += 1
+            if RE_CLAVE_NACIONAL.search(n["titulo"]):
+                puntos += 1
+            n["relevancia"] = "alta" if puntos >= 5 else "media" if puntos >= 3 else "baja"
 
 
 def _palabras(texto):
