@@ -450,6 +450,22 @@ function crearTarjeta(noticia) {
   const inicial = (noticia.fuente.match(/[A-Za-zÁÉÍÓÚÑáéíóúñ0-9]/) || ['•'])[0].toUpperCase();
   const avatar = crear('span', 'avatar', inicial);
   avatar.setAttribute('aria-hidden', 'true');
+  // Logo del medio (su ícono oficial). Si no carga, queda la inicial.
+  if (/^[a-z0-9.-]+\.[a-z]{2,}$/.test(noticia.dominio || '')) {
+    const logo = crear('img');
+    logo.alt = '';
+    logo.loading = 'lazy';
+    const opciones = [
+      `https://icons.duckduckgo.com/ip3/${noticia.dominio}.ico`,
+      `https://www.google.com/s2/favicons?domain=${noticia.dominio}&sz=64`,
+    ];
+    logo.addEventListener('error', () => {
+      if (opciones.length) logo.src = opciones.shift();
+      else logo.remove();
+    });
+    logo.src = opciones.shift();
+    avatar.append(logo);
+  }
   const metaTexto = crear('span', 'meta-texto');
   metaTexto.append(crear('strong', '', noticia.fuente), crear('span', 'meta-hora', haceCuanto(fecha)));
   meta.append(avatar, metaTexto);

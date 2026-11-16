@@ -539,6 +539,7 @@ def leer_feed(feed, medios):
             "fecha": fecha.strftime("%Y-%m-%dT%H:%M:%SZ"),
             "categoria": "mencion" if es_mencion else "coyuntura",
             "tamano": tamano,
+            "dominio": dom if re.fullmatch(r"[a-z0-9.-]+\.[a-z]{2,}", dom or "") else "",
             "_calidad": (2 if feed["tipo"] == "directo" else 1 if feed["tipo"] == "bing" else 0)
                         + (2 if resumen else 0),
         })
@@ -595,6 +596,10 @@ def recolectar():
         n.pop("_calidad", None)
         final.append(n)
     completar_resumenes(final)
+    # El dominio sirve para mostrar el logo del medio; si falta, se toma de otra nota del mismo medio
+    dominios = {normalizar(n["fuente"]): n["dominio"] for n in final if n["dominio"]}
+    for n in final:
+        n["dominio"] = n["dominio"] or dominios.get(normalizar(n["fuente"]), "")
     for n in final:
         n["tema"] = clasificar_tema(n)
     return final, list(estado.values())
