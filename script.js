@@ -56,6 +56,7 @@ const state = {
   visibles: POR_PAGINA,
   noticias: [],
   abiertas: new Set(),
+  historiasAbiertas: new Set(),
   ultimaCarga: 0,
   cargando: false,
 };
@@ -435,7 +436,125 @@ function updateStats() {
   });
 }
 
-function crearTarjeta(noticia) {
+// Círculo con el logo del medio (su ícono oficial). Si no carga, queda la inicial.
+function crearAvatar(noticia) {
+  const inicial = (noticia.fuente.match(/[A-Za-zÁÉÍÓÚÑáéíóúñ0-9]/) || ['•'])[0].toUpperCase();
+  const avatar = crear('span', 'avatar', inicial);
+  avatar.setAttribute('aria-hidden', 'true');
+  if (/^[a-z0-9.-]+\.[a-z]{2,}$/.test(noticia.dominio || '')) {
+    const logo = crear('img');
+    logo.alt = '';
+    logo.loading = 'lazy';
+    const opciones = [
+      `https://icons.duckduckgo.com/ip3/${noticia.dominio}.ico`,
+      `https://www.google.com/s2/favicons?domain=${noticia.dominio}&sz=64`,
+    ];
+    logo.addEventListener('error', () => {
+      if (opciones.length) logo.src = opciones.shift();
+      else logo.remove();
+    });
+    logo.src = opciones.shift();
+    avatar.append(logo);
+  }
+  return avatar;
+}
+
+const PESO_MEDIO = { gran: 4, internacional: 4, nacional: 3, regional: 2, local: 1, redes: 0 };
+
+// Junta las noticias que cuentan el mismo hecho. Cada grupo queda con una nota principal
+// (la del medio más grande que traiga resumen) y el resto como "otras publicaciones".
+function agruparHistorias(noticias) {
+  const grupos = new Map();
+  noticias.forEach((noticia) => {
+    const clave = noticia.historia || noticia.id;
+    if (!grupos.has(clave)) grupos.set(clave, []);
+    grupos.get(clave).push(noticia);
+  });
+  return [...grupos.entries()].map(([clave, miembros]) => {
+    const valor = (n) => (PESO_MEDIO[n.tamano] || 0) + (n.resumen ? 3 : 0);
+    const principal = miembros.reduce((mejor, n) => (valor(n) > valor(mejor) ? n : mejor), miembros[0]);
+    return {
+      clave,
+      principal,
+      otras: miembros.filter((n) => n !== principal),
+      todas: miembros,
+      fecha: new Date(miembros[0].fecha), // la más reciente: las noticias ya vienen ordenadas
+    };
+  });
+}
+
+function coberturaDe(grupo) {
+  const medios = new Set(grupo.todas.filter((n) => n.tamano !== 'redes').map((n) => n.fuente)).size;
+  const redes = grupo.todas.filter((n) => n.tamano === 'redes').length;
+  const partes = [];
+  if (medios) partes.push(`${medios} ${medios === 1 ? 'medio' : 'medios'}`);
+  if (redes) partes.push(`${redes} ${redes === 1 ? 'publicación' : 'publicaciones'} en redes`);
+  return partes.join(' y ');
+}
+
+function tonosDe(grupo) {
+  return ['favorable', 'neutra', 'desfavorable']
+    .map((tono) => [tono, grupo.todas.filter((n) => n.tono === tono).length])
+    .filter(([, cantidad]) => cantidad);
+}
+
+// Lista desplegable con los demás medios que publicaron la misma historia
+function crearOtrasPublicaciones(grupo) {
+  const caja = crear('div', 'historia');
+  const cabecera = crear('p', 'historia-resumen');
+  cabecera.append(crear('strong', '', 'Misma historia en '), coberturaDe(grupo));
+
+  const tonos = tonosDe(grupo);
+  if (tonos.length) {
+    const fila = crear('span', 'historia-tonos');
+    tonos.forEach(([tono, cantidad]) => {
+      fila.append(
+        crear('span', `etiqueta etiqueta-tono-${tono}`, `${cantidad} ${ETIQUETA_TONO[tono].toLowerCase()}${cantidad === 1 ? '' : 's'}`)
+      );
+    });
+    cabecera.append(fila);
+  }
+
+  const lista = crear('ul', 'historia-lista');
+  lista.id = `historia-${grupo.clave}`;
+  lista.hidden = !state.historiasAbiertas.has(grupo.clave);
+  grupo.otras.forEach((n) => {
+    const item = crear('li');
+    const texto = crear('span', 'historia-texto');
+    const enlace = crear('a', '', n.titulo);
+    enlace.href = enlaceSeguro(n.enlace);
+    enlace.target = '_blank';
+    enlace.rel = 'noopener noreferrer';
+    const pie = crear('span', 'historia-pie');
+    pie.append(crear('strong', '', n.fuente), ` · ${haceCuanto(new Date(n.fecha))}`);
+    if (ETIQUETA_TONO[n.tono]) pie.append(' · ', crear('span', `tono-texto tono-texto-${n.tono}`, ETIQUETA_TONO[n.tono]));
+    texto.append(enlace, pie);
+    item.append(crearAvatar(n), texto);
+    lista.append(item);
+  });
+
+  const cuantas = grupo.otras.length;
+  const rotulo = (abierta) =>
+    abierta
+      ? 'Ocultar las demás publicaciones'
+      : `Ver ${cuantas === 1 ? 'la otra publicación' : `las otras ${cuantas} publicaciones`}`;
+  const boton = crear('button', 'boton boton-borde historia-boton', rotulo(!lista.hidden));
+  boton.type = 'button';
+  boton.setAttribute('aria-expanded', String(!lista.hidden));
+  boton.setAttribute('aria-controls', lista.id);
+  boton.addEventListener('click', () => {
+    lista.hidden = !lista.hidden;
+    if (lista.hidden) state.historiasAbiertas.delete(grupo.clave);
+    else state.historiasAbiertas.add(grupo.clave);
+    boton.textContent = rotulo(!lista.hidden);
+    boton.setAttribute('aria-expanded', String(!lista.hidden));
+  });
+
+  caja.append(cabecera, boton, lista);
+  return caja;
+}
+
+function crearTarjeta(noticia, grupo) {
   const fecha = new Date(noticia.fecha);
   const enlace = enlaceSeguro(noticia.enlace);
   const tarjeta = crear('article', `tarjeta ${noticia.categoria}`);
@@ -462,25 +581,7 @@ function crearTarjeta(noticia) {
   titulo.append(tituloEnlace);
 
   const meta = crear('p', 'meta');
-  const inicial = (noticia.fuente.match(/[A-Za-zÁÉÍÓÚÑáéíóúñ0-9]/) || ['•'])[0].toUpperCase();
-  const avatar = crear('span', 'avatar', inicial);
-  avatar.setAttribute('aria-hidden', 'true');
-  // Logo del medio (su ícono oficial). Si no carga, queda la inicial.
-  if (/^[a-z0-9.-]+\.[a-z]{2,}$/.test(noticia.dominio || '')) {
-    const logo = crear('img');
-    logo.alt = '';
-    logo.loading = 'lazy';
-    const opciones = [
-      `https://icons.duckduckgo.com/ip3/${noticia.dominio}.ico`,
-      `https://www.google.com/s2/favicons?domain=${noticia.dominio}&sz=64`,
-    ];
-    logo.addEventListener('error', () => {
-      if (opciones.length) logo.src = opciones.shift();
-      else logo.remove();
-    });
-    logo.src = opciones.shift();
-    avatar.append(logo);
-  }
+  const avatar = crearAvatar(noticia);
   const metaTexto = crear('span', 'meta-texto');
   metaTexto.append(crear('strong', '', noticia.fuente), crear('span', 'meta-hora', haceCuanto(fecha)));
   meta.append(avatar, metaTexto);
@@ -561,6 +662,7 @@ function crearTarjeta(noticia) {
 
   acciones.append(botonDetalle, botonLeer);
   tarjeta.append(etiquetas, titulo, meta, resumen, detalle, acciones);
+  if (grupo && grupo.otras.length) tarjeta.append(crearOtrasPublicaciones(grupo));
   return tarjeta;
 }
 
@@ -568,10 +670,13 @@ function renderNews() {
   updateStats();
   renderTemas();
   const filtradas = getFilteredNews();
-  const visibles = filtradas.slice(0, state.visibles);
+  const historias = agruparHistorias(filtradas);
+  const visibles = historias.slice(0, state.visibles);
 
   resultCountEl.textContent =
-    filtradas.length === 1 ? '1 noticia encontrada' : `${filtradas.length} noticias encontradas`;
+    historias.length === filtradas.length
+      ? `${filtradas.length} ${filtradas.length === 1 ? 'noticia' : 'noticias'}`
+      : `${historias.length} historias · ${filtradas.length} publicaciones`;
   newsGridEl.replaceChildren();
 
   // Aviso visible de que se está viendo solo una parte de las noticias
@@ -616,18 +721,112 @@ function renderNews() {
   }
 
   let diaActual = '';
-  visibles.forEach((noticia) => {
-    const fecha = new Date(noticia.fecha);
-    if (claveDia(fecha) !== diaActual) {
-      diaActual = claveDia(fecha);
-      newsGridEl.append(crear('h3', 'dia-titulo', tituloDia(fecha)));
+  visibles.forEach((grupo) => {
+    if (claveDia(grupo.fecha) !== diaActual) {
+      diaActual = claveDia(grupo.fecha);
+      newsGridEl.append(crear('h3', 'dia-titulo', tituloDia(grupo.fecha)));
     }
-    newsGridEl.append(crearTarjeta(noticia));
+    newsGridEl.append(crearTarjeta(grupo.principal, grupo));
   });
 
-  const restantes = filtradas.length - visibles.length;
+  const restantes = historias.length - visibles.length;
   botonMasEl.hidden = restantes <= 0;
-  botonMasEl.textContent = `Mostrar más noticias (quedan ${restantes})`;
+  botonMasEl.textContent = `Mostrar más (quedan ${restantes} ${restantes === 1 ? 'historia' : 'historias'})`;
+}
+
+/* ------------------------------------------------------------ resumen para compartir */
+
+// Texto listo para pegar en WhatsApp (los *asteriscos* salen como negrita)
+function construirResumen() {
+  const ahora = new Date();
+  let delDia = state.noticias.filter((n) => claveDia(new Date(n.fecha)) === claveDia(ahora));
+  let periodo = 'hoy';
+  if (delDia.length < 5) {
+    delDia = state.noticias.filter((n) => ahora - new Date(n.fecha) < 24 * 60 * 60 * 1000);
+    periodo = 'en las últimas 24 horas';
+  }
+
+  const medios = (grupo) => new Set(grupo.todas.map((n) => n.fuente)).size;
+  const ordenar = (grupos) => grupos.sort((a, b) => medios(b) - medios(a) || b.fecha - a.fecha);
+  // Los enlaces de los buscadores son larguísimos: se prefiere el enlace directo de algún medio del grupo
+  const enlaceCorto = (grupo) => {
+    const directa = [grupo.principal, ...grupo.otras].find(
+      (n) => /^https?:/.test(n.enlace || '') && !/news\.google\.|bing\.com|msn\.com/.test(n.enlace)
+    );
+    return directa ? directa.enlace : '';
+  };
+  const linea = (grupo, numero) => {
+    const cuantos = medios(grupo);
+    const tono = ETIQUETA_TONO[grupo.principal.tono] ? ` [${ETIQUETA_TONO[grupo.principal.tono]}]` : '';
+    const cobertura = cuantos > 1 ? ` (${cuantos} medios)` : '';
+    const enlace = enlaceCorto(grupo);
+    return `${numero}. ${grupo.principal.titulo} — ${grupo.principal.fuente}${cobertura}${tono}${enlace ? `\n${enlace}` : ''}`;
+  };
+
+  const menciones = delDia.filter((n) => n.categoria === 'mencion');
+  const historiasMencion = ordenar(agruparHistorias(menciones));
+  const historiasCoyuntura = ordenar(agruparHistorias(delDia.filter((n) => n.categoria === 'coyuntura')));
+  const contarTono = (tono) => menciones.filter((n) => n.tono === tono).length;
+  const desfavorables = agruparHistorias(menciones.filter((n) => n.tono === 'desfavorable'));
+
+  const texto = [
+    '*Monitor de noticias · Álvaro Uribe*',
+    fmtCompleta.format(ahora),
+    '',
+    `*Menciones a Uribe ${periodo}:* ${menciones.length} publicaciones en ${historiasMencion.length} historias`,
+  ];
+  if (menciones.some((n) => n.tono)) {
+    texto.push(
+      `Tono: ${contarTono('favorable')} favorables · ${contarTono('neutra')} neutras · ${contarTono('desfavorable')} desfavorables`
+    );
+  }
+  if (historiasMencion.length) {
+    texto.push('', '*Lo principal sobre Uribe*', ...historiasMencion.slice(0, 5).map((g, i) => linea(g, i + 1)));
+  }
+  if (desfavorables.length) {
+    texto.push('', '*Menciones desfavorables*', ...desfavorables.slice(0, 5).map((g, i) => linea(g, i + 1)));
+  }
+  if (historiasCoyuntura.length) {
+    texto.push('', '*Coyuntura nacional*', ...historiasCoyuntura.slice(0, 5).map((g, i) => linea(g, i + 1)));
+  }
+  if (typeof location !== 'undefined' && /^https?:/.test(location.href)) {
+    texto.push('', `Ver todo: ${location.href.split('#')[0].split('?')[0]}`);
+  }
+  return texto.join('\n');
+}
+
+async function copiarTexto(texto) {
+  try {
+    await navigator.clipboard.writeText(texto);
+    return true;
+  } catch (error) {
+    // Navegadores antiguos o sin permiso: se copia desde un cuadro de texto temporal
+    const caja = document.createElement('textarea');
+    caja.value = texto;
+    caja.setAttribute('readonly', '');
+    caja.style.position = 'fixed';
+    caja.style.opacity = '0';
+    document.body.append(caja);
+    caja.select();
+    let copiado = false;
+    try {
+      copiado = document.execCommand('copy');
+    } catch (fallo) {
+      copiado = false;
+    }
+    caja.remove();
+    return copiado;
+  }
+}
+
+async function compartirResumen() {
+  const texto = construirResumen();
+  const rotulo = $('botonResumenTexto');
+  const copiado = await copiarTexto(texto);
+  rotulo.textContent = copiado ? '✓ Copiado. Péguelo en WhatsApp' : 'No se pudo copiar';
+  setTimeout(() => {
+    rotulo.textContent = 'Copiar resumen del día';
+  }, 4000);
 }
 
 function marcarActivo(selector, atributo, valor) {
@@ -718,6 +917,7 @@ function bindEvents() {
     renderNews();
   });
   $('quitarFiltros').addEventListener('click', quitarFiltros);
+  $('botonResumen').addEventListener('click', compartirResumen);
 
   botonLetraEl.addEventListener('click', () => {
     const grande = !document.documentElement.classList.contains('letra-grande');

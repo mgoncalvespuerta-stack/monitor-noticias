@@ -17,6 +17,7 @@ Solo usa la biblioteca estándar de Python 3.
 import hashlib
 import html
 import json
+import math
 import os
 import re
 import sys
@@ -674,6 +675,7 @@ def recolectar():
         n["tema"] = clasificar_tema(n)
     clasificar_tono(final)
     final = retirar_no_menciones(final)
+    agrupar_historias(final)
     return final, list(estado.values())
 
 
@@ -830,6 +832,57 @@ def clasificar_tono(noticias):
                 hechas += 1
     if hechas:
         print("  ✓ Tono de {} menciones ({} tokens de entrada, {} de salida)".format(hechas, entrada, salida))
+
+
+PALABRAS_VACIAS = set("""para sobre como tras este esta desde entre hasta contra donde cuando quien segun porque
+    tambien despues antes durante mientras tiene tienen seria sera fueron sido estan habra hace hacen dice dijo
+    asi mas menos nuevo nueva anos video foto""".split())
+UMBRAL_HISTORIA = 0.35      # parecido mínimo entre titulares para considerarlos la misma historia
+VENTANA_HISTORIA = 48 * 3600
+
+
+def agrupar_historias(noticias):
+    """Marca con el mismo campo "historia" las notas que cuentan el mismo hecho.
+
+    Compara los titulares dando más peso a las palabras poco comunes (un "avalúos" pesa más
+    que un "Uribe", que está en casi todos) y solo junta notas publicadas con menos de 48 horas
+    de diferencia.
+    """
+    def claves(texto):
+        return {w[:6] for w in re.findall(r"[a-z0-9]+", normalizar(texto)) if len(w) > 3 and w not in PALABRAS_VACIAS}
+
+    palabras = [claves(n["titulo"]) for n in noticias]
+    frecuencia = {}
+    for conjunto in palabras:
+        for w in conjunto:
+            frecuencia[w] = frecuencia.get(w, 0) + 1
+    total = max(1, len(noticias))
+    peso = {w: math.log(total / c) for w, c in frecuencia.items()}
+    norma = [math.sqrt(sum(peso[w] ** 2 for w in conjunto)) or 1.0 for conjunto in palabras]
+    momento = [a_fecha(n["fecha"]).timestamp() for n in noticias]
+
+    def parecido(i, j):
+        comunes = palabras[i] & palabras[j]
+        if len(comunes) < 2:
+            return 0.0
+        return sum(peso[w] ** 2 for w in comunes) / (norma[i] * norma[j])
+
+    grupos = []     # cada grupo: índices de sus notas
+    for i, n in enumerate(noticias):
+        mejor, puntaje = None, UMBRAL_HISTORIA
+        for grupo in grupos:
+            if abs(momento[i] - momento[grupo[0]]) > VENTANA_HISTORIA:
+                continue
+            p = max(parecido(i, j) for j in grupo[:4])
+            if p >= puntaje:
+                mejor, puntaje = grupo, p
+        if mejor is None:
+            grupos.append([i])
+        else:
+            mejor.append(i)
+    for grupo in grupos:
+        for i in grupo:
+            noticias[i]["historia"] = noticias[grupo[0]]["id"]
 
 
 def _palabras(texto):
