@@ -847,9 +847,9 @@ async function compartirResumen() {
   const texto = construirResumen();
   const rotulo = $('botonResumenTexto');
   const copiado = await copiarTexto(texto);
-  rotulo.textContent = copiado ? '✓ Copiado. Péguelo en WhatsApp' : 'No se pudo copiar';
+  rotulo.textContent = copiado ? '✓ Copiado, listo para pegar' : 'No se pudo copiar';
   setTimeout(() => {
-    rotulo.textContent = 'Copiar resumen del día';
+    rotulo.textContent = 'Copiar resumen listo para pegar';
   }, 4000);
 }
 
