@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-17T00:45:11Z",
+ "generado": "2026-11-17T00:52:41Z",
  "origen": "vivo",
  "fuentes": [
   {
@@ -15,7 +15,7 @@
   {
    "nombre": "Google Noticias: Álvaro Uribe (hoy)",
    "ok": true,
-   "cantidad": 32
+   "cantidad": 33
   },
   {
    "nombre": "Google Noticias: Uribe Vélez (hoy)",
@@ -59,18 +59,18 @@
   },
   {
    "nombre": "Instagram hoy (vía Google Noticias)",
-   "ok": false,
-   "cantidad": 0
+   "ok": true,
+   "cantidad": 23
   },
   {
    "nombre": "X (vía Google Noticias)",
    "ok": true,
-   "cantidad": 24
+   "cantidad": 25
   },
   {
    "nombre": "YouTube (vía Google Noticias)",
    "ok": true,
-   "cantidad": 7
+   "cantidad": 8
   },
   {
    "nombre": "TikTok (vía Google Noticias)",
@@ -85,22 +85,22 @@
   {
    "nombre": "Google Noticias: titulares",
    "ok": true,
-   "cantidad": 11
+   "cantidad": 9
   },
   {
    "nombre": "Google Noticias: Gobierno",
    "ok": true,
-   "cantidad": 57
+   "cantidad": 58
   },
   {
    "nombre": "Google Noticias: Presidencia",
    "ok": true,
-   "cantidad": 97
+   "cantidad": 98
   },
   {
    "nombre": "Canales regionales (vía Google Noticias)",
-   "ok": true,
-   "cantidad": 17
+   "ok": false,
+   "cantidad": 0
   },
   {
    "nombre": "Medios internacionales (vía Google Noticias)",
@@ -120,12 +120,12 @@
   {
    "nombre": "Infobae",
    "ok": true,
-   "cantidad": 33
+   "cantidad": 34
   },
   {
    "nombre": "El Colombiano",
    "ok": true,
-   "cantidad": 33
+   "cantidad": 34
   },
   {
    "nombre": "La República",
@@ -155,7 +155,7 @@
   {
    "nombre": "El Heraldo",
    "ok": true,
-   "cantidad": 69
+   "cantidad": 68
   },
   {
    "nombre": "El Universal",
@@ -185,7 +185,7 @@
   {
    "nombre": "Caracol Radio",
    "ok": true,
-   "cantidad": 26
+   "cantidad": 27
   },
   {
    "nombre": "El Espectador",
@@ -195,12 +195,12 @@
   {
    "nombre": "Las2orillas",
    "ok": true,
-   "cantidad": 81
+   "cantidad": 80
   },
   {
    "nombre": "Valora Analitik",
    "ok": true,
-   "cantidad": 27
+   "cantidad": 25
   },
   {
    "nombre": "360 Radio",
@@ -230,7 +230,7 @@
   {
    "nombre": "Minuto30",
    "ok": true,
-   "cantidad": 8
+   "cantidad": 6
   },
   {
    "nombre": "El Nuevo Día",
@@ -250,7 +250,7 @@
   {
    "nombre": "El Diario (Pereira)",
    "ok": true,
-   "cantidad": 59
+   "cantidad": 58
   },
   {
    "nombre": "Diario del Norte",
@@ -280,12 +280,12 @@
   {
    "nombre": "El Tabloide",
    "ok": true,
-   "cantidad": 3
+   "cantidad": 2
   },
   {
    "nombre": "El País (España)",
    "ok": true,
-   "cantidad": 6
+   "cantidad": 5
   },
   {
    "nombre": "BBC Mundo",
@@ -330,6 +330,66 @@
    "historia": "33df418de053"
   },
   {
+   "id": "0619088ebd32",
+   "titulo": "El SENA abre investigaciones internas por denuncias de presiones a aprendices para asistir a protestas contra el Gobierno",
+   "resumen": "El Servicio Nacional de Aprendizaje (SENA) adelanta investigaciones internas para esclarecer denuncias según las cuales algunos aprendices habrían sido presionados, mediante chats, panfletos y bloqueos de sedes, para participar en…",
+   "detalle": "El Servicio Nacional de Aprendizaje (SENA) adelanta investigaciones internas para esclarecer denuncias según las cuales algunos aprendices habrían sido presionados, mediante chats, panfletos y bloqueos de sedes, para participar en movilizaciones contra el Gobierno del presidente Abelardo de la Espri",
+   "cita": "",
+   "enlace": "https://ifmnoticias.com/gobierno/el-sena-abre-investigaciones-internas-por-denuncias-de-presiones-a-aprendices-pa/",
+   "fuente": "IFM Noticias",
+   "fecha": "2026-11-17T00:49:10Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional",
+   "dominio": "ifmnoticias.com",
+   "tema": "Justicia",
+   "historia": "0619088ebd32"
+  },
+  {
+   "id": "59ed872eeb96",
+   "titulo": "Sindicato de la UNP cuestionó a Daniel Briceño tras el asesinato de un escolta en Norte de Santander: “Le falta un grado de respeto”",
+   "resumen": "El presidente de Analtraseg pidió al representante del Centro Democrático separar a los funcionarios de protección de las investigaciones que involucran a directivos y vehículos oficiales",
+   "detalle": "El homicidio de Gerson Corredor Camargo, escolta de la Unidad Nacional de Protección (UNP) asignado al esquema del alcalde de El Zulia, reavivó la controversia por los cuestionamientos del representante Daniel Briceño a la entidad. El presidente del sindicato Asociación Nacional de Trabajadores de la Seguridad Privada y de la Unidad Nacional de Protección (Analtraseg), Giovanni Gallo, criticó al congresista y le pidió no responsabilizar a los trabajadores por los escándalos que han rodeado a la institución. El ataque contra Corredor Camargo ocurrió el sábado 14 de noviembre en el barrio Carora de Cúcuta, Norte de Santander.",
+   "cita": "",
+   "enlace": "https://www.infobae.com/colombia/2026/11/17/sindicato-de-la-unp-cuestiono-a-daniel-briceno-tras-el-asesinato-de-un-escolta-en-norte-de-santander-le-falta-un-grado-de-respeto/",
+   "fuente": "Infobae",
+   "fecha": "2026-11-17T00:45:47Z",
+   "categoria": "coyuntura",
+   "tamano": "gran",
+   "dominio": "infobae.com",
+   "tema": "Regiones",
+   "historia": "59ed872eeb96"
+  },
+  {
+   "id": "fadf68e9f8a8",
+   "titulo": "“No toleramos el racismo”: Policía repudió insultos contra una joven auxiliar en Cali",
+   "resumen": "La Policía Nacional rechazó los presuntos actos de racismo y violencia verbal contra una auxiliar en Cali. El indignante momento quedó registrado en un video que circula en redes sociales.",
+   "detalle": "La Policía Nacional rechazó los presuntos actos de racismo y violencia verbal contra una auxiliar en Cali. El indignante momento quedó registrado en un video que circula en redes sociales. En la grabación se aprecia que un hombre la insulta y hace comentarios discriminatorios relacionados con su color de piel mientras ella cumple con sus funciones y mantiene la calma mientras es atacada con palabras soeces. Los hechos ocurrieron en la madrugada del domingo 15 de noviembre, en el barrio Obrero de Cali, según informó la Policía Metropolitana de Santiago de Cali en un comunicado publicado este lunes 16 de noviembre. En las imágenes se observa al hombre dirigiendo expresiones racistas contra la uniformada.",
+   "cita": "",
+   "enlace": "https://www.elcolombiano.com/colombia/racismo-policia-auxiliar-video-cali-denuncia-GE43652657",
+   "fuente": "El Colombiano",
+   "fecha": "2026-11-17T00:45:31Z",
+   "categoria": "coyuntura",
+   "tamano": "regional",
+   "dominio": "elcolombiano.com",
+   "tema": "Regiones",
+   "historia": "fadf68e9f8a8"
+  },
+  {
+   "id": "16bbf9de40fd",
+   "titulo": "En el puente festivo, Ejército evitó saqueo de camión y capturó a presunto disidente en el Cauca",
+   "resumen": "El despliegue del Ejército Nacional en el puente festivo en la vía Panamericana del Cauca dejó un presunto disidente capturado, un hurto evitado y un militar atropellado.",
+   "detalle": "El despliegue del Ejército Nacional en el puente festivo en la vía Panamericana del Cauca dejó un presunto disidente capturado, un hurto evitado y un militar atropellado. Los hechos se registraron en dos momentos diferentes en los municipios de Cajibío y El Patía, centro y sur del Cauca. En Cajibío un presunto integrante de la estructura Jaime Martínez fue detenido en flagrancia por uniformados de la Brigada 29. En los hechos se le incautó un revólver calibre 38 y seis cartuchos. El implicado y el material incautado quedaron a disposición de la autoridad competente. Para la Tercera División del Ejército Nacional “con la captura se contrarresta posibles hurtos contra viajeros y transportadores en la vía Panamericana”.",
+   "cita": "",
+   "enlace": "https://caracol.com.co/2026/11/17/en-el-puente-festivo-ejercito-evito-saqueo-de-camion-y-capturo-a-presunto-disidente-en-el-cauca/",
+   "fuente": "Caracol Radio",
+   "fecha": "2026-11-17T00:44:57Z",
+   "categoria": "coyuntura",
+   "tamano": "gran",
+   "dominio": "caracol.com.co",
+   "tema": "Seguridad y orden público",
+   "historia": "16bbf9de40fd"
+  },
+  {
    "id": "a6d4d29127de",
    "titulo": "El expresidente Álvaro Uribe Vélez expresó su respaldo al anuncio del presidente Abelardo de la Espriella de no imponer…",
    "resumen": "El expresidente Álvaro Uribe Vélez expresó su respaldo al anuncio del presidente Abelardo de la Espriella de no imponer nuevas cargas de IVA a los productos de la canasta familiar, en medio de la controversia por la reforma tributaria. “Buen anuncio del pr…",
@@ -358,6 +418,21 @@
    "dominio": "vanguardia.com",
    "tema": "Gobierno",
    "historia": "c31fd064d6d6"
+  },
+  {
+   "id": "c6ecac3f8b5b",
+   "titulo": "Ataque en San Martín de Loba, Norte de Santander, con explosivos lanzados desde drones: '¡Corran!', decían habitantes de Sardinata en video",
+   "resumen": "Con esta acción violenta ya se contabilizan cerca de 70 ataques con aeronaves no tripuladas en el Catatumbo durante el año.",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://www.eltiempo.com/colombia/otras-ciudades/ataque-en-san-martin-de-loba-norte-de-santander-con-explosivos-lanzados-desde-drones-habitantes-de-sardinata-tuvieron-que-confinarse-en-sus-casas-3601434",
+   "fuente": "El Tiempo",
+   "fecha": "2026-11-17T00:41:30Z",
+   "categoria": "coyuntura",
+   "tamano": "gran",
+   "dominio": "eltiempo.com",
+   "tema": "Seguridad y orden público",
+   "historia": "c6ecac3f8b5b"
   },
   {
    "id": "471319a0a68a",
@@ -437,6 +512,22 @@
    "historia": "6a2f42e2a0b3"
   },
   {
+   "id": "dc3335d236aa",
+   "titulo": "Oposición en Colombia confirma manifestación nacional el 19 de noviembre contra reformas fiscales del Gobierno de la Espriella",
+   "resumen": "La oposición y sindicatos en Colombia protestan este 19 de noviembre contra la ley de ajuste fiscal y en defensa de los sectores más vulnerables.",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMGwtbzdYRVVjM1QtaHhHVEpPTER1c1FGNnVLckJhYlJYbm56ekItdmZBdXhGWk82NXRCbUxwLVVFcGZwcGxhdzdUWjBuOHgySmlXN2RpRVp4QlVMajRxb1RCckwtWDJiakJlTkhXb0xJamxSNllWVXQzWG10clJzalFacTl0bE5RTlZKdlhUdVhPdWFIcnJBSXFyYjlJbUpEcHdJY3NPWmxONFA3YnU4bGtaSl9SdVlSV1Z3OGZVVEQyWTlreU81RG1HZHkycTJF0gHWAUFVX3lxTE5FdFZLeDN6WW95cGhqSTZCRU1tM1BBcmRUZnpaN0N2b2piM0d5NEJQSGROSWtGMWd4R1AyNW5CV01NNWhDcndOR20xLTNsVEFmUFhIQTZKUkJudWxGR1NkUHZacVF6VVdmOXBTSmN2OV9SUE43MV93eG45bl9fYm5xeXFzNXZiRElBdS1nQndjc0tDYkJnXzF5eDFTb0JZVTlrckpvZHJieUQwTS1MaFRlNW01OFgyYXVSVkRqUHVVRUZvNUxRZGFyY0ZBbXJwbmRlOEppMmc?oc=5",
+   "fuente": "Pulzo",
+   "fecha": "2026-11-17T00:30:47Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional",
+   "dominio": "pulzo.com",
+   "buscado": true,
+   "tema": "Política y Congreso",
+   "historia": "dc3335d236aa"
+  },
+  {
    "id": "838d112a88c2",
    "titulo": "Noboa cuestiona a Petro por su visita a Manta: “hay indicios de que tuvo contacto con líderes del crimen organizado”",
    "resumen": "“Por protocolo los presidentes no se relacionan con autoridades diferentes a otro presidente”, dijo Petro.",
@@ -493,7 +584,6 @@
    "categoria": "coyuntura",
    "tamano": "regional",
    "dominio": "telemedellin.tv",
-   "buscado": true,
    "tema": "Gobierno",
    "historia": "238ee4e514f3"
   },
@@ -554,7 +644,6 @@
    "categoria": "coyuntura",
    "tamano": "nacional",
    "dominio": "pulzo.com",
-   "buscado": true,
    "tema": "Gobierno",
    "historia": "e80dcf086e6b"
   },
@@ -600,7 +689,6 @@
    "categoria": "coyuntura",
    "tamano": "nacional",
    "dominio": "minuto60.com",
-   "buscado": true,
    "tema": "Gobierno",
    "historia": "57a717e8aba9"
   },
@@ -646,7 +734,6 @@
    "categoria": "coyuntura",
    "tamano": "regional",
    "dominio": "zonacero.com",
-   "buscado": true,
    "tema": "Gobierno",
    "historia": "14b3855d6cb6"
   },
@@ -696,6 +783,21 @@
    "historia": "899440fafe69"
   },
   {
+   "id": "6c6b1b5d6946",
+   "titulo": "La Fiscalía favorece a Álvaro Uribe: revictimiza a Iván Cepeda.",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5RQnpGejNsbVNuS3BNRnRnS2pkdjFLMW9ZUVJtTndIbUdCZVJWVFlFdlFxcENWelIxOHpwUVNJYUlRcEh3TGtpRE1KV3dvUnJMZGc0amRn?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-16T23:53:21Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Justicia",
+   "historia": "6c6b1b5d6946"
+  },
+  {
    "id": "2d8e87308ece",
    "titulo": "Un muerto y tres capturados en operativo contra el Clan del Golfo en Vegachí, Antioquia",
    "resumen": "Un integrante del Clan del Golfo murió y otras tres personas fueron capturadas durante una operación militar en zona rural de Vegachí, Nordeste de Antioquia.",
@@ -709,21 +811,6 @@
    "dominio": "caracol.com.co",
    "tema": "Seguridad y orden público",
    "historia": "2d8e87308ece"
-  },
-  {
-   "id": "d7a1e38a3356",
-   "titulo": "Shakira ya tiene fecha para llegar con su tour a Venezuela: acá te contamos",
-   "resumen": "Shakira dará dos conciertos en Caracas los días 16 y 17 de enero de 2027; la preventa general iniciará el jueves 19 de noviembre: entradas desde 60 dólares.",
-   "detalle": "¡La espera terminó para los fanáticos venezolanos! Shakira confirmó este lunes dos conciertos en Caracas, los días 16 y 17 de enero de 2027, como parte de su gira Las Mujeres Ya No Lloran World Tour. Ambos shows serán en el Estadio Monumental Simón Bolívar de La Rinconada. El anuncio lo hizo la productora Fenix Entertainment, que organiza el espectáculo junto a Invershow, a través de la cuenta oficial de la gira en Instagram. La preventa general de las boletas iniciará el jueves 19 de noviembre a las 10:00 a. m. a través de la plataforma MiTickera.com. ¿Cuánto valen las boletas para ver a Shakira en Caracas? La productora también publicó el mapa de localidades del estadio con los precios para ambas presentaciones: Piso 4: 60 dólares.",
-   "cita": "",
-   "enlace": "https://www.minuto30.com/shakira-ya-tiene-fecha-para-llegar-con-su-tour-a-venezuela-aca-te-contamos/1731140/",
-   "fuente": "Minuto30",
-   "fecha": "2026-11-16T23:44:22Z",
-   "categoria": "coyuntura",
-   "tamano": "regional",
-   "dominio": "minuto30.com",
-   "tema": "Economía",
-   "historia": "d7a1e38a3356"
   },
   {
    "id": "5bfdee74f000",
@@ -753,7 +840,6 @@
    "categoria": "coyuntura",
    "tamano": "gran",
    "dominio": "infobae.com",
-   "buscado": true,
    "tema": "Gobierno",
    "historia": "57a717e8aba9"
   },
@@ -814,7 +900,6 @@
    "categoria": "coyuntura",
    "tamano": "gran",
    "dominio": "semana.com",
-   "buscado": true,
    "tema": "Gobierno",
    "historia": "57a717e8aba9"
   },
@@ -847,21 +932,6 @@
    "dominio": "infobae.com",
    "tema": "Seguridad y orden público",
    "historia": "64e42a305945"
-  },
-  {
-   "id": "f6ddf8886244",
-   "titulo": "¡Todo listo! Así se jugarán las dos primeras fechas de los cuadrangulares",
-   "resumen": "La Liga BetPlay II-2026 entra en su etapa decisiva. La DIMAYOR confirmó la programación de las dos primeras jornadas de los cuadrangulares semifinales, que comenzarán el viernes 20 de noviembre con ocho equipos en busca de un lugar en la…",
-   "detalle": ". La primera fecha se disputará entre el viernes 20 y el sábado 21 de noviembre, con los siguientes encuentros: Grupo A. Independiente Medellín vs. Independiente Santa Fe: viernes 20, 4:30 p. m., estadio Atanasio Girardot. Once Caldas vs. Atlético Nacional: sábado 21, 8:15 p. m., estadio Palogrande. Grupo B. Atlético Bucaramanga vs. América de Cali: viernes 20, 6:35 p. m., estadio Américo Montanini. Deportivo Cali vs. Millonarios: viernes 20, 8:40 p. m., estadio Deportivo Cali. La segunda jornada se jugará entre el martes 24 y el miércoles 25 de noviembre. Uno de los encuentros más esperados será el clásico vallecaucano entre América y Deportivo Cali, programado para el martes a las 8:30 p. m. en el estadio Pascual Guerrero.",
-   "cita": "",
-   "enlace": "https://eltabloide.com.co/todo-listo-asi-se-jugaran-las-dos-primeras-fechas-de-los-cuadrangulares/",
-   "fuente": "El Tabloide",
-   "fecha": "2026-11-16T23:28:37Z",
-   "categoria": "coyuntura",
-   "tamano": "regional",
-   "dominio": "eltabloide.com.co",
-   "tema": "Regiones",
-   "historia": "f6ddf8886244"
   },
   {
    "id": "dd16e4270939",
@@ -935,7 +1005,6 @@
    "categoria": "coyuntura",
    "tamano": "local",
    "dominio": "ladiaria.com.uy",
-   "buscado": true,
    "tema": "Justicia",
    "historia": "dbf1d871a232"
   },
@@ -1058,6 +1127,22 @@
    "dominio": "facebook.com",
    "tema": "Economía",
    "historia": "325a38b6f3d7"
+  },
+  {
+   "id": "47ca0f045ba8",
+   "titulo": "Fuerte aguacero cayó sobre Medellín y el Aburrá: hubo 24 rayos en 20 minutos | El Colombiano",
+   "resumen": "Las lluvias registradas este lunes 16 de noviembre en el Valle de Aburrá sorprendieron a miles de ciudadanos y turistas que disfrutaron del festivo en las calles de la capital antioqueña. La tormenta.",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSUxjcUJTTERHNUtxRnRQdm9EQ1JfeXVRSVUzekU1eTNoRDd4OXVnNzRVWVdYRlJTeW9wemI2Qy1nN0RhWFl4a0FSRkI0d0tPQ3ptWmRlbDd5bGhFSU9CTnRQRWRDRWRCaXl5NjAwN1ZwcXVkajlKVjhzUnpJdHN1MG1QeFZ6V09lRmZSc0J5d21CR3lyclJWWDVjTVBGOWZnUzZxV9IBqgFBVV95cUxNYW9BOFVOR2o0RGNEWUFSLVhKSm1NUThHbkh3SWZxSnpYbmJCQ3p5N21LVnZwOUZSTmY1UWpkbmpkRUxUb014WkpHQW5zc0YzLUhNQVlOUThiYVZlUmwyWTd3UlR0LWt0bGJaQVBnQjRIZ1VxbzMyRXlJWlZEbmRxU0g0WnNSbk1IcG40SGVacS05eHJoaFpTQ25kNDlUanh4RTRHR0ZNdW0yZw?oc=5",
+   "fuente": "El Colombiano",
+   "fecha": "2026-11-16T22:57:48Z",
+   "categoria": "coyuntura",
+   "tamano": "regional",
+   "dominio": "elcolombiano.com",
+   "buscado": true,
+   "tema": "Regiones",
+   "historia": "0a102270dc34"
   },
   {
    "id": "c5ae1ebc1f63",
@@ -1331,22 +1416,6 @@
    "dominio": "cwmas.com.co",
    "tema": "Gobierno",
    "historia": "b3b5e06f2ad8"
-  },
-  {
-   "id": "35630b5f9084",
-   "titulo": "Murió alias Isaías, señalado cabecilla del Clan del Golfo, durante combates en Vegachí",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOXAwNzJaQS1Ga2tFWGFFYUtWaTRfY2EzODZndWxDYnkyaVNsUXpSdU4tc3dQNllZSFRkRlJjUmVaaDhpZnA0YWtZYVYtZnh6VWU4WjhUNEpna2I4NEQ1N2J4X2Y1SEp1M0hGSFpMemxqSnRZUXpGVnZMaEJVUWxtbGY2THlQUnI5R3hmdnhoVU9XWlhHT1RmbmVqQjFaMzF2YnF6aTVLZW02Q1lEZU43QVg1OFJiWTNVTmRNakIyOHI2VzhVMXVhWdIB1AFBVV95cUxQc2NablpScnRiYl9BVVpyZXppTFF5b0J2SXJjZXFoeGNoOEt2aTJzNnRpaDc1T1hic1BHekg0eUw3NVRuRTZTRVpHZlQ0bFd4NjMzU0tqem5icTNia0c1VHBDcHJoMHFYNVJRY0NoVDY3ZnA5NnUzNVlqZ200WkprMzVRbngza0JmV240bU1uTjdIQkZMaUZzWklfN2VPcERWQk9rQjFLVk9iNlB0M2haRkJHMVk1UEN6Y2k1aXVoeEZkUzhtbUV6d0lZWmVhTWllZ3k3RA?oc=5",
-   "fuente": "Teleantioquia",
-   "fecha": "2026-11-16T22:22:52Z",
-   "categoria": "coyuntura",
-   "tamano": "regional",
-   "dominio": "teleantioquia.co",
-   "buscado": true,
-   "tema": "Seguridad y orden público",
-   "historia": "2d8e87308ece"
   },
   {
    "id": "d87e028b00ae",
@@ -1724,7 +1793,6 @@
    "categoria": "coyuntura",
    "tamano": "gran",
    "dominio": "eltiempo.com",
-   "buscado": true,
    "tema": "Regiones",
    "historia": "752529e268b7"
   },
@@ -1969,36 +2037,6 @@
    "historia": "c96abcac7553"
   },
   {
-   "id": "fcd2549ddf3a",
-   "titulo": "EPM: no habrá cortes de agua en Medellín esta semana",
-   "resumen": "Los habitantes de Medellín y otros sectores abastecidos por el sistema de acueducto de Piedras Blancas no tendrán que afrontar interrupciones.",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1hZkRLX3RiODlHdnlnNEVTY1V2cEcxZHp1a21mTXdDY2hMamV3TjRnLWFhV0JoVVVKVk1DbVhJcnA5eG5lLXNzcGdRVDNmNWNWZTNEQXluMXY1Mi01SnhXSm9Lby1WbHVKVDZWVXdxbGdTUW5ldkFmaU5ydw?oc=5",
-   "fuente": "Telemedellín",
-   "fecha": "2026-11-16T21:11:35Z",
-   "categoria": "coyuntura",
-   "tamano": "regional",
-   "dominio": "telemedellin.tv",
-   "tema": "Regiones",
-   "historia": "fcd2549ddf3a"
-  },
-  {
-   "id": "98cdf43ed89e",
-   "titulo": "Murió el futbolista Abel Núñez tras recibir un pelotazo en la cabeza durante un partido juvenil",
-   "resumen": "El futbolista Abel Núñez murió tras un pelotazo en un partido de inferiores en Argentina. Fue operado pero no logró recuperarse de las lesiones.",
-   "detalle": "El futbolista juvenil Abel Núñez murió después de permanecer hospitalizado por un golpe en la cabeza sufrido durante un partido de las divisiones inferiores del Fútbol Club Ezeiza, en Argentina. El joven, integrante de la categoría 2008, había sido intervenido quirúrgicamente, pero no logró recuperarse. Su fallecimiento se conoció el domingo 15 de noviembre y fue lamentado por las instituciones en las que desarrollaba su carrera deportiva. Además de jugar fútbol once con Ezeiza, Núñez integraba la Reserva de futsal del Club Nueva Estrella, que suspendió su actividad prevista para esa jornada en señal de duelo. Un pelotazo durante el partido contra Muñiz. El accidente ocurrió en el complejo del Club Atlético La Sonia, situado en José C.",
-   "cita": "",
-   "enlace": "https://www.minuto30.com/murio-el-futbolista-abel-nunez-tras-recibir-un-pelotazo-en-la-cabeza-durante-un-partido-juvenil/1731134/",
-   "fuente": "Minuto30",
-   "fecha": "2026-11-16T21:10:00Z",
-   "categoria": "coyuntura",
-   "tamano": "regional",
-   "dominio": "minuto30.com",
-   "tema": "Política y Congreso",
-   "historia": "98cdf43ed89e"
-  },
-  {
    "id": "42101a19f424",
    "titulo": "Ataques con drones en Norte de Santander dejan una mujer herida y desatan temor en zonas rurales",
    "resumen": "El uso de drones en medio de los enfrentamientos armados en Norte de Santander volvió a poner en riesgo a las comunidades rurales. En dos hechos registrados en los corregimientos de Pacelli, en Tibú; y San Martín de Loba, en Sardinata, se…",
@@ -2059,21 +2097,6 @@
    "historia": "3498f4da015b"
   },
   {
-   "id": "573a47adcbed",
-   "titulo": "Bajar el IVA al 18 % le costaría hasta $7 billones al país: ¿de dónde saldría la plata para compensarlo? | El Colombiano",
-   "resumen": "El presidenteAbelardo de la Espriella anunció que el Ministerio de Hacienda estudia reducir la tarifa general del impuesto al valor agregado (IVA). La reducción sería del 19%, al 18% o incluso al 1.",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZGRmVVB6SDFKUDNZWWxpWktlR2ZXaF9WSlR4NDRCdFg2QWdFMDBzaEhOM1hleVlMUGM0RXk4cVF2OEx3SWJ0YzBpOThxaGh0STRra2d5WXlSeXNhU1JIcEVGRlowdDk5S3JrUUZFTWxmaDRuaXFDS0ppVFdLX3FHYVBBakItVnFReGhUN3RRWnJ1NmoxcVM4WktlTlRDZy1OcG9fdGM0RUvSAa4BQVVfeXFMTVpZN2dhSmZjY1ZaNGdYRHlOZTAxVDVENGhPTlFQbGliaEl2Z0hFMTJzYUNHRlUwYlFRRE0yUmVXRllJTDVWUWVJb1Z1ZkFPVlJFTEFQUnR2cWllZGNpQkVfYW1ISXV2b2w1NkFlTkp2Tk1TaGNmYUwwSzVscjhoUjJ6UWV5QnlGZng4d0tlZEhaN0tZZFNCbGhSOWVVZEliUnNCRmxFR2lnMVByMXJB?oc=5",
-   "fuente": "El Colombiano",
-   "fecha": "2026-11-16T20:56:47Z",
-   "categoria": "coyuntura",
-   "tamano": "regional",
-   "dominio": "elcolombiano.com",
-   "tema": "Economía",
-   "historia": "6b9185d8af69"
-  },
-  {
    "id": "f563d1d8ed4d",
    "titulo": "La inteligencia artificial, la inclusión y más retos financieros para los próximos cuatro años",
    "resumen": "El Gobierno se ha fijado, como una de sus principales metas la finanzas abiertas y un mayor acceso al crédito.",
@@ -2117,6 +2140,21 @@
    "dominio": "caracol.com.co",
    "tema": "Regiones",
    "historia": "bdda84e6e4dc"
+  },
+  {
+   "id": "573a47adcbed",
+   "titulo": "Bajar el IVA al 18 % le costaría hasta $7 billones al país: ¿de dónde saldría la plata para compensarlo? | El Colombiano",
+   "resumen": "El presidenteAbelardo de la Espriella anunció que el Ministerio de Hacienda estudia reducir la tarifa general del impuesto al valor agregado (IVA). La reducción sería del 19%, al 18% o incluso al 1.",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZGRmVVB6SDFKUDNZWWxpWktlR2ZXaF9WSlR4NDRCdFg2QWdFMDBzaEhOM1hleVlMUGM0RXk4cVF2OEx3SWJ0YzBpOThxaGh0STRra2d5WXlSeXNhU1JIcEVGRlowdDk5S3JrUUZFTWxmaDRuaXFDS0ppVFdLX3FHYVBBakItVnFReGhUN3RRWnJ1NmoxcVM4WktlTlRDZy1OcG9fdGM0RUvSAa4BQVVfeXFMTVpZN2dhSmZjY1ZaNGdYRHlOZTAxVDVENGhPTlFQbGliaEl2Z0hFMTJzYUNHRlUwYlFRRE0yUmVXRllJTDVWUWVJb1Z1ZkFPVlJFTEFQUnR2cWllZGNpQkVfYW1ISXV2b2w1NkFlTkp2Tk1TaGNmYUwwSzVscjhoUjJ6UWV5QnlGZng4d0tlZEhaN0tZZFNCbGhSOWVVZEliUnNCRmxFR2lnMVByMXJB?oc=5",
+   "fuente": "El Colombiano",
+   "fecha": "2026-11-16T20:47:17Z",
+   "categoria": "coyuntura",
+   "tamano": "regional",
+   "dominio": "elcolombiano.com",
+   "tema": "Economía",
+   "historia": "6b9185d8af69"
   },
   {
    "id": "89ca869dc1c5",
@@ -2525,21 +2563,6 @@
    "historia": "e95ee95e13f2"
   },
   {
-   "id": "6f0e1ca57fd1",
-   "titulo": "Gatorade invirtió $150 millones en una cancha en Cali y proyecta nuevos escenarios deportivos en Colombia",
-   "resumen": "La marca de PepsiCo inauguró un nuevo Estadio del Barrio y reveló que su programa ya ha impactado a más de 90.000 deportistas en el país.",
-   "detalle": "Gatorade destinó alrededor de $150 millones a la intervención de un escenario deportivo en Cali, inaugurado el viernes 13 de noviembre en alianza con la Alcaldía de la ciudad. El proyecto forma parte de Estadios del Barrio, una iniciativa que la marca de PepsiCo desarrolla desde 2021 y que busca ampliar el acceso a instalaciones para la práctica deportiva en distintas regiones de Colombia. La compañía también estudia nuevas intervenciones en el país, mientras el programa acumula más de 90.000 deportistas impactados, según cifras reveladas por Santiago Escobar, director de Franquicia de PepsiCo Bebidas Colombia, en entrevista con Valora Sports durante la inauguración.",
-   "cita": "",
-   "enlace": "https://www.valoraanalitik.com/gatorade-invirtio-150-millones-en-una-cancha-en-cali-y-proyecta-nuevos-escenarios-deportivos-en-colombia/",
-   "fuente": "Valora Analitik",
-   "fecha": "2026-11-16T20:00:00Z",
-   "categoria": "coyuntura",
-   "tamano": "nacional",
-   "dominio": "valoraanalitik.com",
-   "tema": "Economía",
-   "historia": "6f0e1ca57fd1"
-  },
-  {
    "id": "66c75b0fd23b",
    "titulo": "En Cartagena proponen un Gran Desfile Nocturno de Independencia para el 2027",
    "resumen": "La ciudad de Cartagena podría vivir en noviembre de 2027 uno de los cambios más novedosos en la historia reciente de sus Fiestas de Independencia: un Gran Desfile Nocturno, concebido como un espectáculo cultural y artístico de gran formato…",
@@ -2598,21 +2621,6 @@
    "dominio": "elnuevodia.com.co",
    "tema": "Seguridad y orden público",
    "historia": "14b3855d6cb6"
-  },
-  {
-   "id": "7b2a6e7a205b",
-   "titulo": "Un viejo casete hizo perder a Wilfrido Vargas la batalla por ‘El baile del perrito’",
-   "resumen": "Tribunal dominicano condena a Wilfrido Vargas a pagar RD$14 millones a Juan Valdez Ybet, reconocido coautor de ‘El baile del perrito’.",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMifkFVX3lxTE83WEpuUE5XSFV2NE11X3dxd0JsS3FfbFlHclBHVUZkM0diRG5HQmpNTlB2S1B6c1pxMlR5MjlsODRPRjEzcl9KdE5hY2JsUFdMZDBzVEptcWFKMG50REt6c2hJZU5jM3cxOGpGaWNtTER4V1k2VDRpY2ZQZVdUZw?oc=5",
-   "fuente": "Telemedellín",
-   "fecha": "2026-11-16T19:52:16Z",
-   "categoria": "coyuntura",
-   "tamano": "regional",
-   "dominio": "telemedellin.tv",
-   "tema": "Energía y ambiente",
-   "historia": "49b6220b3dce"
   },
   {
    "id": "29fd42adca64",
@@ -3077,7 +3085,7 @@
    "tamano": "regional",
    "dominio": "minuto30.com",
    "tema": "Justicia",
-   "historia": "fcd2549ddf3a"
+   "historia": "d202f10e22de"
   },
   {
    "id": "ef30f842fc25",
@@ -3395,21 +3403,6 @@
    "historia": "f0a438e706bc"
   },
   {
-   "id": "a2b579b7bda5",
-   "titulo": "“El consumidor de Medellín es amarrado y muy diferente al de Bogotá: se encierra después de las 7 de la noche”: Carlos ‘Caloncho’, pionero de Rappi | El Colombiano",
-   "resumen": "Carlos “Caloncho” Correa es quizás uno de los empresarios más importantes de Antioquia, debido a que se ha desempeñado en varias facetas que conectan el sector privado con el público. También se ha de.",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYlgyYzFZMkxjRXU4WFIycHBUTEZmaHJjd2RFN3pzcTBOUzJ2eVhRTGtQbnpVWVp4SkxuRC14aFBLMDdnbTN6RWFQdFhSZzhMdXkzY0tCZUJDenEzV3B3MGZwaGpONTd5ZjRGOGpRcGxOY2JVelJQMHJIWlZLanFUOEV2SUdxbE94NEFvTC1tV3pMNmhGNUM4WlFHdXFvNDNud0Z1S2U1UVBrMVZtaFZOdG1CeDY?oc=5",
-   "fuente": "El Colombiano",
-   "fecha": "2026-11-16T17:56:49Z",
-   "categoria": "coyuntura",
-   "tamano": "regional",
-   "dominio": "elcolombiano.com",
-   "tema": "Regiones",
-   "historia": "a2b579b7bda5"
-  },
-  {
    "id": "bb8e3160ae47",
    "titulo": "UniMagdalena recibirá visita de MinEducación tras el caso del presidente de Coljuegos",
    "resumen": "La Universidad del Magdalena se pronunció nuevamente frente a la polémica por el otorgamiento del título de Especialista en Alta Gerencia a Jaime Vives Pinedo, presidente de Coljuegos, y aseguró que las actuaciones académicas y…",
@@ -3423,21 +3416,6 @@
    "dominio": "caracol.com.co",
    "tema": "Gobierno",
    "historia": "bb8e3160ae47"
-  },
-  {
-   "id": "c6ecac3f8b5b",
-   "titulo": "Ataque en San Martín de Loba, Norte de Santander, con explosivos lanzados desde drones: '¡Corran!', decían habitantes de Sardinata en video",
-   "resumen": "Con esta acción violenta ya se contabilizan cerca de 70 ataques con aeronaves no tripuladas en el Catatumbo durante el año.",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://www.eltiempo.com/colombia/otras-ciudades/ataque-en-san-martin-de-loba-norte-de-santander-con-explosivos-lanzados-desde-drones-habitantes-de-sardinata-tuvieron-que-confinarse-en-sus-casas-3601434",
-   "fuente": "El Tiempo",
-   "fecha": "2026-11-16T17:55:01Z",
-   "categoria": "coyuntura",
-   "tamano": "gran",
-   "dominio": "eltiempo.com",
-   "tema": "Seguridad y orden público",
-   "historia": "c6ecac3f8b5b"
   },
   {
    "id": "44145d084944",
@@ -3602,7 +3580,7 @@
    "tamano": "gran",
    "dominio": "infobae.com",
    "tema": "Salud, educación y social",
-   "historia": "579a23becf9d"
+   "historia": "0619088ebd32"
   },
   {
    "id": "376c167e861d",
@@ -3691,7 +3669,6 @@
    "categoria": "coyuntura",
    "tamano": "internacional",
    "dominio": "cnnespanol.cnn.com",
-   "buscado": true,
    "tema": "Seguridad y orden público",
    "historia": "7db43b054505"
   },
@@ -3784,6 +3761,21 @@
    "dominio": "elheraldo.co",
    "tema": "Economía",
    "historia": "0715f2525a1c"
+  },
+  {
+   "id": "a2b579b7bda5",
+   "titulo": "“El consumidor de Medellín es amarrado y muy diferente al de Bogotá: se encierra después de las 7 de la noche”: Carlos ‘Caloncho’, pionero de Rappi | El Colombiano",
+   "resumen": "Carlos “Caloncho” Correa es quizás uno de los empresarios más importantes de Antioquia, debido a que se ha desempeñado en varias facetas que conectan el sector privado con el público. También se ha de.",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYlgyYzFZMkxjRXU4WFIycHBUTEZmaHJjd2RFN3pzcTBOUzJ2eVhRTGtQbnpVWVp4SkxuRC14aFBLMDdnbTN6RWFQdFhSZzhMdXkzY0tCZUJDenEzV3B3MGZwaGpONTd5ZjRGOGpRcGxOY2JVelJQMHJIWlZLanFUOEV2SUdxbE94NEFvTC1tV3pMNmhGNUM4WlFHdXFvNDNud0Z1S2U1UVBrMVZtaFZOdG1CeDY?oc=5",
+   "fuente": "El Colombiano",
+   "fecha": "2026-11-16T17:24:55Z",
+   "categoria": "coyuntura",
+   "tamano": "regional",
+   "dominio": "elcolombiano.com",
+   "tema": "Regiones",
+   "historia": "a2b579b7bda5"
   },
   {
    "id": "60e0fd7d776b",
@@ -3921,38 +3913,6 @@
    "historia": "e7802b2451d3"
   },
   {
-   "id": "928254929348",
-   "titulo": "Una intervención de brocha, luz y seguridad: Gobernación de Antioquia presentó estrategia integral contra el delito en el Suroeste",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNakFPb0JuOWRPVlMzUXFMemRQTzVGd1BxSDhEUTY2eHdRZmNIOTJoZlQ3S0FTRTdhOTRmaml3cXVLbG9OSldTSDlxbGhyME5DbjRJTHhyMGFtRTlibm9FdENoN1FpM3YxS19zSGF2WGY0Nm1mVUJFQjdNZkd1QktyR29mTk4tNTV2eHFfbV9UWlJWcXZxcDlzTlRyVXpxZTRzSld1Vnk3VGpvRS04d1dGdHlrVGhGcE80UnYxcGcwQ0JDNEFOeVVyN0NtWTJ6MVFONGJYN1c2SHFyZUhJdmF4VzNMaUI0RnU2WUVDU1pHRU5Tak9wcjhyeU9nc0QwNHhoeDJz0gGPAkFVX3lxTE5qYjJvQ3NkQVdxZWxtbU8xQUlNRkFtMkFJaUZVeV9jTDNiNG8tN3ViUTFTZDd2ckNFakZPTF9ERTRmMXFpbWtFbzNvOTBXZW02T0Y1OTFYZndYVkg3bEFVclZPZl9FNkZDOHlxQWc2T1lXazNna2NIYzRQMWFfdGFGNlpaeUNuU2NKOXhhWlFxZFFLbXRFZi04NnVuNXI5UFdUVkVyZEsxQ2R5Vm94SmEzQzdONEp4bDdQZDVaaHF1RDloMGJUc202WVhaUUcyWWtuRkMzWFo3aFhkV2JQSE9NaUNNWjVIeGFJOHhpWE8xSTQxRlBGOERvNThZUVJrWjRxalJNcUtNRVg5VG5GYUE?oc=5",
-   "fuente": "Teleantioquia",
-   "fecha": "2026-11-16T17:09:28Z",
-   "categoria": "coyuntura",
-   "tamano": "regional",
-   "dominio": "teleantioquia.co",
-   "buscado": true,
-   "tema": "Regiones",
-   "historia": "928254929348"
-  },
-  {
-   "id": "7ef37badd927",
-   "titulo": "\"Los ató de pies y manos y los encerró durante 15 días\": Fiscalía le imputó secuestro y otros dos delitos alias 'Primo Gay', pero se vienen más",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNd0Rua1lHckpGZE1MdU12eFZBY2YtRVZBLWlidHpWWEpVMTEyeVk3RzFLaXdZa0I2TUhBbHBvMGFOaGJiM1U5cno3bDVEWHI5bkJnaFFBTUxIRUxVMnN4ZlBxSTQ2NTlVd2JyV25tSlBjem5zYlBWLUZ5OERoQXpyOHRWSWlCNmdRV05BNWc2NHpwNnVEOFRTYmVkN2dqWVpsRlBoaUdIRnBwNWNabVhiakM0YUhVaER5SzVGTGN6UXd3WHJELUdzQkhXZTlJNEo5LS01UUIwZEFfRkl5cGt2WmNiT01PZ2VaNU8xXzBZME45SFlKOWdzSGhMUDBfMkdGYlR4QkRLenRGQ2ZPOG130gGbAkFVX3lxTE41ek9iQ1lvWnF5RkJhcHRmRV81THgtanNlamZEajU1QThsQWRvZjNqWmktbWVFc0E5Vlo5QlBDcjNBSjZiVW9kOEdZQmtLVjN3NmpHcWpoOWJDVVJNV25MV1UtVzBDOElLRjJvV0dLekpLWVN5cTZsamdPckVSMjc5YlZoZUFyWXNudmhabHNxVUp4ZFpTUDVHVkNtbzU0b0Q0b0dMVGp4bjNzNV93UFlZMDBvY09HRDE4Zl9ka2lWcXRJR3o0VEdubzg0anhoQzlGWWVQWkkyUFhmVWNacWJTdkxaZUVqZ0phMzg0Skp5bkxyYjhtTl9YSzhSYnVnRmlkbUc5MHhDdEhKbVZrWGVOQWtGNXRta0xDZ2c?oc=5",
-   "fuente": "Teleantioquia",
-   "fecha": "2026-11-16T17:09:28Z",
-   "categoria": "coyuntura",
-   "tamano": "regional",
-   "dominio": "teleantioquia.co",
-   "buscado": true,
-   "tema": "Seguridad y orden público",
-   "historia": "7ef37badd927"
-  },
-  {
    "id": "940bc92d9987",
    "titulo": "“El M-19 se equivocó”: Petro reconoce error histórico durante la toma tras ver la serie ‘Palacio’",
    "resumen": "El país aún no tiene una sola verdad sobre lo ocurrido el 6 y 7 de noviembre de 1985, cuando 35 guerrilleros del M-19 intentaron tomarse el Palacio de Justicia en una operación que terminó en tragedia.",
@@ -4054,7 +4014,6 @@
    "categoria": "coyuntura",
    "tamano": "gran",
    "dominio": "caracol.com.co",
-   "buscado": true,
    "tema": "Justicia",
    "historia": "aa6de785fc47"
   },
@@ -4148,6 +4107,21 @@
    "dominio": "infobae.com",
    "tema": "Seguridad y orden público",
    "historia": "be04df7e8db3"
+  },
+  {
+   "id": "8dbfb4ab0e26",
+   "titulo": "Tras los primeros 100 días del Gobierno del presidente Abelardo de la Espriella, en Caracol Radio analizamos la…",
+   "resumen": "Tras los primeros 100 días del Gobierno del presidente Abelardo de la Espriella, en Caracol Radio analizamos la relación que ha tenido el mandatario con el Congreso de la República. ¿Logró poner al petrismo y al uribismo en la mism…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5CQ0lYVV9ha3JqczQ4TUc2MzNhRWNVRlgtd0xpd09udFRsOE5BWTByV2tELWZRVXpOcnFyMjhhal9YRklBUENCZ0lzOUJhVGJnd1NYekhn?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-16T16:46:41Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Gobierno",
+   "historia": "8dbfb4ab0e26"
   },
   {
    "id": "b9c2eead6b6d",
@@ -4631,21 +4605,6 @@
    "historia": "ad13102bc7f1"
   },
   {
-   "id": "fcfaeedaad06",
-   "titulo": "Gobierno nacional inicia en Nueva York la Milagro Week con enfoque en inversión para el Caribe",
-   "resumen": "El Gobierno nacional inició en Nueva York la Milagro Week, una rueda de negocios con 298 citas confirmadas y 500 inversionistas, enfocada en proyectos de infraestructura y energía para la región Caribe.",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://ifmnoticias.com/gobierno/arranca-la-milagro-week-en-nueva-york-el-gobierno-llega-con-298-citas-de-negocio/",
-   "fuente": "IFM Noticias",
-   "fecha": "2026-11-16T15:50:03Z",
-   "categoria": "coyuntura",
-   "tamano": "nacional",
-   "dominio": "ifmnoticias.com",
-   "tema": "Economía",
-   "historia": "57a717e8aba9"
-  },
-  {
    "id": "2d86e3133e0d",
    "titulo": "En Montería inauguraron el Coliseo de Halterofilia",
    "resumen": "El evento contó con la presencia del presidente Abelardo De la Espriella y de su esposa, la primera dama Ana Lucía Pineda, ambos nativos de la ciudad de Montería.",
@@ -4719,21 +4678,6 @@
    "dominio": "semana.com",
    "tema": "Gobierno",
    "historia": "d13ca885886c"
-  },
-  {
-   "id": "ccaa62a862dd",
-   "titulo": "Colombia vs Chile EN VIVO, hora y dónde ver por TV el partido preparatorio por Gol Caracol y Ditu",
-   "resumen": "Este martes 17 de noviembre la Selección Colombia cerrará su año 2026 con un partido preparatorio más frente a Chile, pero esta vez en Santiago, tras el tirunfo 1-0 en Cali.",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNMkVjWlByZTBoQmZ5cjd1dm1qalB6QjEyNE4xXzE2TFZXTFBlMHZHeFJiekZjT3RGTm1zVWhuYVNoZXVKazJRTFBTUnVzejZ1dlg4d29hd3ZGeE92UWNaSUVOMllSRVg0TkZudk5ZRE9McHE0YmRybVI4Y183Y2dHcmlxUkNGNWtSZlc2NUVQZWZOWnY0S1dGemZfY0RMc3BETElzaEFfd1BZVmFuWWtZRVFtRXZCVk4ycVpVTkVBTFoxS2Z3VzJYQWtuajRqWTk3TnkyZ0hWYTg1T3JqMFFmTVotOS1PRDBkWjhBblVJSG9HcENJNkE?oc=5",
-   "fuente": "Noticias Caracol",
-   "fecha": "2026-11-16T15:44:28Z",
-   "categoria": "coyuntura",
-   "tamano": "gran",
-   "dominio": "noticiascaracol.com",
-   "tema": "Política y Congreso",
-   "historia": "ccaa62a862dd"
   },
   {
    "id": "5ef9ed36d301",
@@ -4839,6 +4783,22 @@
    "dominio": "cronicadelquindio.com",
    "tema": "Gobierno",
    "historia": "9abdd085cd38"
+  },
+  {
+   "id": "9710906e4d92",
+   "titulo": "Giro del Gobierno sobre IVA a la canasta familiar destrabó debate de ley de ajuste fiscal",
+   "resumen": "Oficialismo destacó que De la Espriella retire propuesta de IVA a la canasta familiar. Se retoma debate sobre ajuste fiscal.",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPREo3ZnFaNTVsbzM5MUdlSDI1LWhtSlItczBxd0xVUUs1cllLV2lTX21IZVlfWUE4UENMeUl4RTJvWTBrdUdKQVUtSVlqN1hxUnAyak5HdnFvTDJTQlJmQWIwWHFyc2ZMZnc3a0tuY0JIUUNiR05oYVc4STlUeGt6dUdyN2ZCS050cU5IVXg4MzRhUWZkcWx2UVF1M3I1RUFWWjZFMmctUlgyX1ZhdzhuUVQ3RXJMNzlZSlgtd2VyWFpwcFFkSmc?oc=5",
+   "fuente": "El Espectador",
+   "fecha": "2026-11-16T15:32:00Z",
+   "categoria": "coyuntura",
+   "tamano": "gran",
+   "dominio": "elespectador.com",
+   "buscado": true,
+   "tema": "Economía",
+   "historia": "9710906e4d92"
   },
   {
    "id": "59df8fb130c5",
@@ -4974,6 +4934,21 @@
    "dominio": "laopinion.com.co",
    "tema": "Seguridad y orden público",
    "historia": "f3316a039bdc"
+  },
+  {
+   "id": "a3977f2d37fc",
+   "titulo": "Durante una reunión de concertación con el gobierno del presidente Abelardo De La Espriella en el marco de la discusión…",
+   "resumen": "Durante una reunión de concertación con el gobierno del presidente Abelardo De La Espriella en el marco de la discusión de la Ley de Rescate Económico, la colectividad del Centro Democrático —liderada por el expresidente Álvaro Uribe— puso sobre la…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLNnVLRTlkMGtDUlJNcnJOYmcyUUlYcEJWRC1UTnFfVDRvd3pyUU1nYlRFaFhKTEdMUjI5Y1BSaTRyZk5tVVg1QzNwUUZlWTU5V1E?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-16T15:18:19Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Gobierno",
+   "historia": "a3977f2d37fc"
   },
   {
    "id": "5390564c5387",
@@ -5157,6 +5132,21 @@
    "historia": "72aeee549b51"
   },
   {
+   "id": "e1aa568cf45c",
+   "titulo": "Álvaro Uribe Vélez anuncia proyecto de ley sobre avalúos catastrales en Colombia.",
+   "resumen": "Álvaro Uribe Vélez anuncia proyecto de ley sobre avalúos catastrales en Colombia. El Centro Democrático insistirá en el Congreso para reducir la carga del predial en varias regiones del país. #Colombia #Congreso #Predial La nota completa, en acentocolo…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9BRU5iMzhiY0NxbUJobjNsZkNXMXZPbTR1RWE2c3VYcGVrTTNsaEczaEZuOVlJRjBjRmZycWhPYUR3UTZSbS1FNFBKTVRLRm9lR2c?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-16T15:02:27Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Política y Congreso",
+   "historia": "739d34f41a74"
+  },
+  {
    "id": "299a52dc2db1",
    "titulo": "Gobierno, sindicatos y empresarios definen cronograma para la negociación del salario mínimo de 2027 en Colombia",
    "resumen": "El salario mínimo de Colombia para 2027 se negociará desde el 18 de noviembre. Descubre fechas clave, actores y factores que incidirán.",
@@ -5320,6 +5310,21 @@
    "dominio": "elcolombiano.com",
    "tema": "Gobierno",
    "historia": "73a1c8a94fad"
+  },
+  {
+   "id": "c0895272bf08",
+   "titulo": "🇨🇴 ¡URIBE RESPALDA A DE LA ESPRIELLA POR DESCARTAR EL IVA A LA CANASTA FAMILIAR!",
+   "resumen": "🇨🇴 ¡URIBE RESPALDA A DE LA ESPRIELLA POR DESCARTAR EL IVA A LA CANASTA FAMILIAR! El expresidente Álvaro Uribe Vélez celebró la decisión del presidente Abelardo De La Espriella de no imponer IVA a los productos de la canasta familiar ni e…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5peXNYYXlscm8xd1VkZ2Y1MEZ4U09FZXRjWFhCZUEteUpsSkFPVzRySkdzZXU4NnM4N3Nkb25hSGgxYmhvMmdXTzhzaEI0eHEzYkE?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-16T14:54:29Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Economía",
+   "historia": "cc064ed70749"
   },
   {
    "id": "5a5f5ca6c5dd",
@@ -5538,7 +5543,7 @@
    "resumen": "El juez pide que se examine la conducta del presidente por el trato dado a tres capturados que harían parte del Clan del Golfo.",
    "detalle": "",
    "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOamUweEctVDJtY0hPUzgwazBxWHpRZTZmSEpPVnVEQzYyX1B2Mnl4TWVFX0dhRjdOa0FhT0FZTFdBaHdOLWpXUlFxMzZzTFJ2aFBuQkZXLWRUWWxYanZXaFltSnlRZUlnN3dEU0U0cm92YUpJMFl6TmJIX1ZxbmtfOEtiNmFlVGVFOUdrMHp4WXZMRkpUVE15NnpiY0dUR201TVZoeDEyVG52TkpxY2x5V2JtRU92SDdTd1ZwOFhheHhrWm9keG92cA?oc=5",
+   "enlace": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOamUweEctVDJtY0hPUzgwazBxWHpRZTZmSEpPVnVEQzYyX1B2Mnl4TWVFX0dhRjdOa0FhT0FZTFdBaHdOLWpXUlFxMzZzTFJ2aFBuQkZXLWRUWWxYanZXaFltSnlRZUlnN3dEU0U0cm92YUpJMFl6TmJIX1ZxbmtfOEtiNmFlVGVFOUdrMHp4WXZMRkpUVE15NnpiY0dUR201TVZoeDEyVG52TkpxY2x5V2JtRU92SDdTd1ZwOFhheHhrWm9keG92cNIB3AFBVV95cUxQSUhpdlA0d3MxLS1icERYTGZYU0UwcjJJYk9EVEVDWGo0eXhUeWd4MHFNbkFQX1ctZHFLbjUyV0tpTWZhMnBRbl9iWGxTZzUySi1ITVpZU2YwNWRTLTVzLXBpRlZOVF90c3VUN1JqaUtiVzJzZld3enNoamVGTTJIaWdvTlpGTXBFSVBlOVgxb3NPVUZDX3dveDVuNVV1LUYyWlQzVzB0bjMydVBRcWMyZGpWdUxnb0dHMVdMRXNaaWpfanB4dE8yd1ozOG5INTRpd3ZtUGZ0UmIzX1FB?oc=5",
    "fuente": "El Espectador",
    "fecha": "2026-11-16T14:44:09Z",
    "categoria": "coyuntura",
@@ -5650,7 +5655,23 @@
    "tamano": "redes",
    "dominio": "facebook.com",
    "tema": "Gobierno",
-   "historia": "a6d4d29127de"
+   "historia": "690051f043d3"
+  },
+  {
+   "id": "3194655bae95",
+   "titulo": "De la Espriella está en modo combate contra los criminales: cifras de su ofensiva militar",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdHhKQVRGVkR5bEJEeUR3bEs5QmRFeXpMajY0M1FKYXpMcU4wTWhRbHRZRnB1alU2TUhsS0VmenpzcmRheGd4bFRKVTdSa0I5VXhhSFNQc2l1ZHZKQ2NKUWJldVV0eEY5SThiUDlvMkU5VjlOSzBqYlkzd3gyNWdhQTdyVHlBN0VHOUprX1RMNkNuMUEwUzFuc213ay1YWGxuRXVEYkRiYXBHSzFtSmNqSk56QURDc0NqNFE2c2FVUFBnbmhrWjNnUVMzQ2RqYS1XcTEw0gHTAUFVX3lxTE9yRDJkYTI2SXhSMHNBMVRYOUluamtWdl9yX3lDVnIzZEx0eGQ5RW9IaTRQeGZiQ0U3alNIbmlqMnlDUGV5cDU3YUw5T3drT0JFTkJnMU1tRjZJVW1waHpNX0JlX0Ewd010Q3MtUXR5bHphTnVXcHFFX3V6blV5ek5iYkhObHdyOXNHbzQ2cDZqUmo4bXJqTEZ2VF9XTzE3RDF6TTlmN2VpRWxmUXdla3ozX21HOUhkZUdGM3JxUU1fNlEtUldRNFRlWXc5a0ktX3hhbU0?oc=5",
+   "fuente": "NTN24",
+   "fecha": "2026-11-16T14:27:51Z",
+   "categoria": "coyuntura",
+   "tamano": "nacional",
+   "dominio": "ntn24.com",
+   "buscado": true,
+   "tema": "Seguridad y orden público",
+   "historia": "3194655bae95"
   },
   {
    "id": "f474ee3d4aca",
@@ -6104,6 +6125,21 @@
    "historia": "2cdd4bdf1f22"
   },
   {
+   "id": "9a6898482a11",
+   "titulo": "Uribe celebra que el Gobierno no impondrá IVA a la canasta familiar El expresidente Álvaro Uribe reaccionó este domingo…",
+   "resumen": "Uribe celebra que el Gobierno no impondrá IVA a la canasta familiar El expresidente Álvaro Uribe reaccionó este domingo 15 de noviembre, a través de redes sociales, al anuncio del presidente Abelardo De La Espriella de que la Ley de Rescate E…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1qMk5rWmhnZDBxV2ZLLUZxLU8ySlpGZk4xeW9HVFE4V21Kcm9YSU43Umdob3doMlR2UV94ZlFFZzY3SjBsT20wTld6MzFJQXdrRlE?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-16T13:25:18Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Gobierno",
+   "historia": "cc064ed70749"
+  },
+  {
    "id": "53a64fb6b23a",
    "titulo": "A la cárcel hombre señalado de abusar de una niña de 6 años en Putumayo",
    "resumen": "Fecha nodo. Lun, 16/11/2026 - 08:24. Image. /sites/default/files/imagenes/2026/11/hxk5l-rwsaa3yxw.webp. Body. Un teléfono celular que terminó en una compraventa del municipio de Solita, Caquetá, se convirtió en una pieza clave para…",
@@ -6207,7 +6243,7 @@
    "tamano": "gran",
    "dominio": "semana.com",
    "tema": "Política y Congreso",
-   "historia": "ad13102bc7f1"
+   "historia": "739d34f41a74"
   },
   {
    "id": "3724a5cdd021",
@@ -6586,22 +6622,6 @@
    "historia": "5fbcaad10f11"
   },
   {
-   "id": "27941cab4128",
-   "titulo": "Demuelen inmueble que generaba inseguridad en Yarumal",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUjJXRUZLdEF0cTJzZkdlM1RETzM2bEtWSHdDUWdfa2tWbGNZeWhlQ0xENjFnVFppd3RYVy1zTVdiUnJNclp5RGRsb0piemliakt3aWhZNmxCeENMV2ljTHhwTjIyODd2QTE2NWR6WEhES1psN1FsZlJRM2EtcXo5WA?oc=5",
-   "fuente": "Telemedellín",
-   "fecha": "2026-11-16T12:37:51Z",
-   "categoria": "coyuntura",
-   "tamano": "regional",
-   "dominio": "telemedellin.tv",
-   "buscado": true,
-   "tema": "Otros temas",
-   "historia": "0ae3eb10584f"
-  },
-  {
    "id": "5e5ed5ccd2e8",
    "titulo": "Gobierno nacional entrega 120 kilómetros de dobles calzadas en corredor central",
    "resumen": "El Ministerio de Transporte entrega 120 kilómetros de dobles calzadas para conectar el interior del país con el Caribe colombiano de forma eficiente.",
@@ -6632,12 +6652,28 @@
    "historia": "bc27dbaeb295"
   },
   {
+   "id": "94ef4c525160",
+   "titulo": "Ley de Rescate Económico: esto plantea el proyecto para las empresas, trabajadores y hogares del país",
+   "resumen": "La iniciativa del Gobierno plantea cambios tributarios, ajustes al gasto público y modificaciones en las cotizaciones a salud.",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOVFJ0VXpOYTMxeFBhX1RwYkVGbkhYb08yUnBibmxiMzltTkNsZEYtaTl4bnA3WjJwS2xKT3dLNm5rQ3JrbTdTX0h2MzFvY0Q4OGNrUGxtemk3eTIwNDI4c0k0NkRvT0YxeEFjWU9jc2FRWV9qamZsRWVCcnhBQVJOblFNS0hmUEpuZnpaMmlBZnVhLTRnRFlxTkhXTmw0YWVyNW5yckZ3dF9YQ2M4TWVQMGpQMFBaMVpPMEgxcGhhNkw4a2tzWUFySktvV2UtVmMxNjBJeVNzcjVpQzZCaF85SW1wdWxZaEdNckZDZV9iUWhZOE800gH6AUFVX3lxTE85OE14cHQzb2N5TU4tZ3Vmay1xZHdmdjdVR2dhd29TQ3lTS3JkLU84eDhoZDAxM25yUWpOLVBwTkdZZW9aMHc0T3N1ODBLdzFJOU1EMmJ4a3V6OGJlTGJQeVNYOVk1UTNObkNVMllzOHNFYnNqVDJfQzI4SHlEUkRqWThtVXlfTllJbDYxOWRGN1ZzbzlVS3k1SkJCa2NnS1p6cHJWd0ZQNWpiLUNzbHIwR0puRXdnWEdvcU9IMFhFa0txYVc1WlVmWkd2VndHVWQzZnNpUGJxdWxjTWlMU0Y0MGFuMVVoNEFsRkRhdVp1Sm5wYjN0bjY1UEE?oc=5",
+   "fuente": "Revista Semana",
+   "fecha": "2026-11-16T12:26:21Z",
+   "categoria": "coyuntura",
+   "tamano": "gran",
+   "dominio": "semana.com",
+   "buscado": true,
+   "tema": "Economía",
+   "historia": "94ef4c525160"
+  },
+  {
    "id": "e4afb76b9ac6",
    "titulo": "Photo by Álvaro Uribe Vélez · November 16, 2026",
    "resumen": "",
    "detalle": "",
    "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMicEFVX3lxTE12VVgtVkd5TTItYjRtYXZrOEJ4VU9hcTl3bV9RQmktel8xY1ZJeXY5QXVqMFhmYVZ6Uk0waGdHSkp4eFBiOVItbjUxUllTZUJXUFVSSl9CcldkZkNsRGRDMEgtcE9BaDVrMnhpT3VkaWo?oc=5",
+   "enlace": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTm0tamtkY3NWWTNjTFlnV3dxTlNweGVySkFnLW01aFVtZ2RES0JGaXR3MzVpRzEwcUliZm10QjZSMVJWRkhXYnN3aTJ2cXZkUnNCMm5OYkpBT3FXci0tRmNaWWR3TzhjTGRNSTUySTRXTVB2dU1EcnYxTUxRZld1MUcxR0c0MHNKUkZ6NUF3?oc=5",
    "fuente": "Facebook",
    "fecha": "2026-11-16T12:24:56Z",
    "categoria": "mencion",
@@ -7055,6 +7091,66 @@
    "historia": "a9e6cbccb507"
   },
   {
+   "id": "2dc7b47bc903",
+   "titulo": "14 bibliotecas públicas siguen cerradas en Colombia tres meses después del terremoto: estos son los departamentos afectados",
+   "resumen": "El Gobierno anunció una alianza con Uniminuto, gestiones con Invías y una convocatoria al sector privado para habilitar espacios alternativos y financiar la recuperación de las bibliotecas afectadas",
+   "detalle": "Tres meses después del terremoto del 10 de agosto, 14 bibliotecas públicas de Colombia continúan cerradas debido a los daños ocasionados por el movimiento sísmico. La situación afecta a seis departamentos y mantiene suspendidos los servicios de lectura, consulta y formación que prestaban estas instituciones. De acuerdo con información publicada por El Tiempo, el balance de la Biblioteca Nacional de Colombia indica que 99 de las 1.569 bibliotecas que conforman la Red Nacional de Bibliotecas Públicas reportaron afectaciones por el terremoto. De ese total, 45 están en proceso de recuperación y 54 requieren acompañamiento e intervención. Entre las instituciones afectadas, 14 permanecen cerradas al público.",
+   "cita": "",
+   "enlace": "https://www.infobae.com/colombia/2026/11/16/14-bibliotecas-publicas-siguen-cerradas-en-colombia-tres-meses-despues-del-terremoto-estos-son-los-departamentos-afectados/",
+   "fuente": "Infobae",
+   "fecha": "2026-11-16T08:47:44Z",
+   "categoria": "coyuntura",
+   "tamano": "gran",
+   "dominio": "infobae.com",
+   "tema": "Energía y ambiente",
+   "historia": "2dc7b47bc903"
+  },
+  {
+   "id": "e5552a876c2d",
+   "titulo": "Álvaro Uribe Vélez Buen anuncio del Presidente De La Espriella que no habrá IVA a la Canasta Familiar.",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPMTBJYzk3X0psVDFYM2puTzNEemhaN1BmMWxnaU1aWmRYcWc4ckxQM192dDZqNzZfUU91RVd0cDhkTFRJUFNOUjNMUXRGQzlGVnRMbVZmMUVkMnlOZjJZY2lyay1rdVFBazJPV1prZ0JKQy1BV2c0YW81TlZILXdsdXNneGhRV2I3YlAwMENOTXF0cTNRRjhGUkdQZVc3TDQyVndDQ29YZzgzd0FsSTVfZC1QYkotdmJZVWZjeFp5YjJuZ0RPZjZyVVFMUzhyMU5WZDU5UUlrd3RVOWRKOWNCSjNtM2loeXpKNGdN?oc=5",
+   "fuente": "Facebook",
+   "fecha": "2026-11-16T08:39:00Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "facebook.com",
+   "tema": "Economía",
+   "historia": "d7d069f404dd"
+  },
+  {
+   "id": "977665c5ab50",
+   "titulo": "Hasta $20 millones de recompensa por responsables de atentados terroristas en el Huila",
+   "resumen": "El Gobierno Departamental anunció una recompensa de hasta $20 millones para quienes entreguen información que permita identificar y ubicar a los responsables de los ataques contra los peajes y la infraestructura eléctrica.",
+   "detalle": "El Gobierno Departamental anunció una recompensa de hasta $20 millones para quienes entreguen información que permita identificar y ubicar a los responsables de los ataques contra los peajes y la infraestructura eléctrica. En Consejo Extraordinario de Seguridad, el Gobierno Nacional también confirmó la llegada de 350 hombres de la FUDRA, vigilancia militar y policial en […].",
+   "cita": "",
+   "enlace": "https://diariodelhuila.com/hasta-20-millones-de-recompensa-por-responsables-de-atentados-terroristas-en-el-huila/",
+   "fuente": "Diario del Huila",
+   "fecha": "2026-11-16T08:11:00Z",
+   "categoria": "coyuntura",
+   "tamano": "regional",
+   "dominio": "diariodelhuila.com",
+   "tema": "Seguridad y orden público",
+   "historia": "977665c5ab50"
+  },
+  {
+   "id": "611a6867f870",
+   "titulo": "Cuando la violencia pone a prueba al Estado",
+   "resumen": "Los recientes atentados contra los peajes y la infraestructura energética del Huila representan una nueva señal de alarma sobre la situación de orden público que enfrenta el departamento.",
+   "detalle": "Los recientes atentados contra los peajes y la infraestructura energética del Huila representan una nueva señal de alarma sobre la situación de orden público que enfrenta el departamento. No se trata únicamente de daños materiales, vías afectadas o interrupciones en el servicio de energía. Se trata de acciones criminales que ponen en riesgo a la […].",
+   "cita": "",
+   "enlace": "https://diariodelhuila.com/cuando-la-violencia-pone-a-prueba-al-estado/",
+   "fuente": "Diario del Huila",
+   "fecha": "2026-11-16T07:50:00Z",
+   "categoria": "coyuntura",
+   "tamano": "regional",
+   "dominio": "diariodelhuila.com",
+   "tema": "Seguridad y orden público",
+   "historia": "611a6867f870"
+  },
+  {
    "id": "386a79b71015",
    "titulo": "Álvaro Uribe anuncia nueva jugada en el Congreso por impuesto que golpea el bolsillo de miles de colombianos",
    "resumen": "El expresidente Álvaro Uribe Vélez anunció que el Centro Democrático insistirá en el Congreso con un proyecto que busca aliviar la carga de un impuesto que golpea el bolsillo de miles de colombianos.",
@@ -7082,7 +7178,7 @@
    "tamano": "gran",
    "dominio": "infobae.com",
    "tema": "Economía",
-   "historia": "27a371981893"
+   "historia": "0fe5e0d50a78"
   },
   {
    "id": "6ff1cc1b3128",
@@ -7222,6 +7318,21 @@
    "historia": "3978676d4178"
   },
   {
+   "id": "966035c4c88c",
+   "titulo": "URIBE CELEBRA DECISIÓN DE ABELARDO DE NO PONER IVA A LA CANASTA FAMILIAR: “MOTIVO DE TRANQUILIDAD” El expresidente…",
+   "resumen": "URIBE CELEBRA DECISIÓN DE ABELARDO DE NO PONER IVA A LA CANASTA FAMILIAR: “MOTIVO DE TRANQUILIDAD” El expresidente Álvaro Uribe celebró la decisión del presidente Abelardo de la Espriella de excluir el IVA a la canasta familiar de su…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Uc1N6SG9oTDk0TW5iaE9veGEyejBIZzNLcXlOQWRreTdiNUxYS1JlemhpVFZOb3ljNk13TDZlRS1uQU52ZkI1TGNCbjdrWWZiNEE?oc=5",
+   "fuente": "Instagram",
+   "fecha": "2026-11-16T02:42:02Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "instagram.com",
+   "tema": "Economía",
+   "historia": "2cdd4bdf1f22"
+  },
+  {
    "id": "226537a71e3e",
    "titulo": "La labor de Álvaro Uribe Vélez ha sido de admirar, de manera genuina, busca soluciones en la ley de rescate.",
    "resumen": "La labor de Álvaro Uribe Vélez ha sido de admirar, de manera genuina, busca soluciones en la ley de rescate. Aplausos de pie al gran colombiano…",
@@ -7280,6 +7391,21 @@
    "dominio": "semana.com",
    "tema": "Gobierno",
    "historia": "2cdd4bdf1f22"
+  },
+  {
+   "id": "4e78867cf343",
+   "titulo": "@AlvaroUribeVel Presidente Uribe, usted lo prometió y lo cumplió. Abelardo recula y ya no subirá IVA a la canasta…",
+   "resumen": "@AlvaroUribeVel Presidente Uribe, usted lo prometió y lo cumplió. Abelardo recula y ya no subirá IVA a la canasta familiar. Agradecidos estaremos con el Centro Democrático que se paró en la raya y siempre se negaron a apoyar tal despropósito. Gracias @…",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBTV2JVZHlwSGgwaDlBOUZtQS0yM0tiMllnVkVOaFByZTYwd3BwOFdDLUlTdkFKVy1DSVc0TEFqeWxHa1RhendFc0RFczBLbWFxaXdMWVVBSVVLcm9oTVNZ?oc=5",
+   "fuente": "X",
+   "fecha": "2026-11-16T01:25:09Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "x.com",
+   "tema": "Economía",
+   "historia": "4e78867cf343"
   },
   {
    "id": "b20b82fe760a",
@@ -7385,6 +7511,21 @@
    "dominio": "vanguardia.com",
    "tema": "Política y Congreso",
    "historia": "29e4aafc519f"
+  },
+  {
+   "id": "aadc4e05f4fc",
+   "titulo": "Gonzalo Guillén habla de Uribe, las masacres de El Aro y la impunidad en Colombia | Cuestión Pública",
+   "resumen": "",
+   "detalle": "",
+   "cita": "",
+   "enlace": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBDTjUyZTNaUDMxSWk5TXNqNWR6UXk5elNhTHF0cFBWeHQwejN3TWI0VDVFbF9CNlEycXI1RFlOel9MRTVmV0RBckgzdTgxR25TejR0dW1R?oc=5",
+   "fuente": "YouTube",
+   "fecha": "2026-11-15T23:00:00Z",
+   "categoria": "mencion",
+   "tamano": "redes",
+   "dominio": "youtube.com",
+   "tema": "Seguridad y orden público",
+   "historia": "aadc4e05f4fc"
   },
   {
    "id": "bed2e43742d2",
@@ -7624,7 +7765,7 @@
    "tamano": "redes",
    "dominio": "youtube.com",
    "tema": "Economía",
-   "historia": "8626e157561e"
+   "historia": "8dbfb4ab0e26"
   },
   {
    "id": "96670501eab1",
@@ -7737,7 +7878,7 @@
    "resumen": "",
    "detalle": "",
    "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWlBmNmkyUU9nNDQySWU5Slo1ZWhUdG8wM29SZzlhTlR6eHA0VDJ1WGZ4QlRxeXd6ejY0Z19hbkpEbWM1LTFxcXlFdkhkeExPaXJSbVNzb3RyVzFrQlc0V1ZVem1LSXluaTVFVEk1N2FPUVVBNTRleFZrMUtQd3pKdE1ZaFZFcHFtSXNYaHdKcHpUZ3pyYndhamZXM2RCdDYwMEhoc0FEUVBxbmt3WUNaUV9FVHk5UEloZVk0?oc=5",
+   "enlace": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPOHVFV1c3Y1VsTTBsS2xPN2lSdUNtYVVsTEhZTkZxc1hzQlNselpRUFppQVRfeHkzbzgxNXNtZ3JLRml6dThodXc1cTl6ZHpqWUVjWnpOaVFjTVlFcklwVWNRQmw4dGpIaTdnemJkakJWdlRldnZGOVI0M2MwSERWWnd4V0RfMFpabE95MkJIRG1PUjJ6cEE0MDNMaWVHZWFoN3J5X0d6SzM3OEphX05ueTdIZWEzSkJCSTBBTw?oc=5",
    "fuente": "hoy diario del magdalena",
    "fecha": "2026-11-15T11:11:00Z",
    "categoria": "mencion",
@@ -9549,7 +9690,7 @@
    "tamano": "redes",
    "dominio": "instagram.com",
    "tema": "Gobierno",
-   "historia": "8a2dc7a385fc"
+   "historia": "30de09058125"
   },
   {
    "id": "a0e1f2c7dd97",
@@ -9746,7 +9887,7 @@
    "dominio": "infobae.com",
    "buscado": true,
    "tema": "Justicia",
-   "historia": "385f7c636368"
+   "historia": "70c1cbb74a70"
   },
   {
    "id": "f51b50c4bace",
@@ -9821,7 +9962,7 @@
    "tamano": "regional",
    "dominio": "zonacero.com",
    "tema": "Seguridad y orden público",
-   "historia": "4048f3aafaf3"
+   "historia": "7514215dff60"
   },
   {
    "id": "46f01b52e7ad",
@@ -9986,7 +10127,7 @@
    "tamano": "gran",
    "dominio": "caracol.com.co",
    "tema": "Justicia",
-   "historia": "4048f3aafaf3"
+   "historia": "7514215dff60"
   },
   {
    "id": "3d7a235664b6",
@@ -10034,21 +10175,6 @@
    "historia": "6b7232e1e6dc"
   },
   {
-   "id": "ebee7c659a8e",
-   "titulo": "El expresidente Álvaro Uribe propuso establecer una norma que impida que el nombramiento del presidente de Ecopetrol…",
-   "resumen": "El expresidente Álvaro Uribe propuso establecer una norma que impida que el nombramiento del presidente de Ecopetrol dependa de la voluntad del mandatario de turno. “Debe haber una norma que garantice un nombramiento ajeno al capri…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FelpsNjJkNTF3VFAya2FxYlY3ZmpFeXpLNmhrcVJ1NDlHZGVHVGgwWElDbTRzaTBsb3R6cDZnQzF5UENLNG5HdDVfWnkwV0R0SFQzZU93?oc=5",
-   "fuente": "Instagram",
-   "fecha": "2026-11-09T17:11:39Z",
-   "categoria": "mencion",
-   "tamano": "redes",
-   "dominio": "instagram.com",
-   "tema": "Gobierno",
-   "historia": "ebee7c659a8e"
-  },
-  {
    "id": "c3e72162b6f2",
    "titulo": "Álvaro Uribe entra en el debate de Ley de Rescate Fiscal. Vea aquí su propuesta",
    "resumen": "“Proponemos no cobrar IVA a la canasta familiar”, dice el expresidente Álvaro Uribe Vélez ante la Ley de Rescate Fiscal del gobierno de Abelardo De La Espriella. Aquí explica el borrador para la discu.",
@@ -10079,36 +10205,6 @@
    "historia": "fc2bd7ff17f9"
   },
   {
-   "id": "02a83d72600d",
-   "titulo": "El expresidente Álvaro Uribe Vélez volvió a plantear la venta de una parte de Ecopetrol y advirtió sobre los riesgos de…",
-   "resumen": "El expresidente Álvaro Uribe Vélez volvió a plantear la venta de una parte de Ecopetrol y advirtió sobre los riesgos de que futuros gobiernos comprometan la estabilidad de la compañía. La propuesta fue expuesta en un video publicado en sus re…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5KVi1IcmxJdnBfMnJING1ua2kwR3d6OGhjaHVmSzBRVXprRWctMGNsRzRxcFJaaWQ4amwyck9Ra0xFOGZDdHk2SGZFTHR2cnZVUkE?oc=5",
-   "fuente": "Instagram",
-   "fecha": "2026-11-09T16:46:02Z",
-   "categoria": "mencion",
-   "tamano": "redes",
-   "dominio": "instagram.com",
-   "tema": "Gobierno",
-   "historia": "02a83d72600d"
-  },
-  {
-   "id": "17a0bed02175",
-   "titulo": "El expresidente Álvaro Uribe Vélez rechazó la propuesta de Gustavo Petro de establecer una alianza política, incluso…",
-   "resumen": "El expresidente Álvaro Uribe Vélez rechazó la propuesta de Gustavo Petro de establecer una alianza política, incluso electoral, para hacerle frente al gobierno de Abelardo De la Espriella. “Eso nunca. Ese tema nunca ha existido (.) ese tema no…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1BYldIWXN5Vy00MFNGUk1MQjhXcXVqVUZnamlwR2Q5QXhSYzMxMm1BdXhLMUY2QmZfSGJ4M2poRDl3S1F4V1N3N0lFWHByRWRlVUE?oc=5",
-   "fuente": "Instagram",
-   "fecha": "2026-11-09T16:27:37Z",
-   "categoria": "mencion",
-   "tamano": "redes",
-   "dominio": "instagram.com",
-   "tema": "Gobierno",
-   "historia": "728efe8f0b94"
-  },
-  {
    "id": "83034e05f3dc",
    "titulo": "Álvaro Uribe Vélez explicó por qué se debe vender parte de las acciones de Ecopetrol para solucionar la crisis fiscal en Colombia",
    "resumen": "",
@@ -10125,21 +10221,6 @@
    "historia": "6b7232e1e6dc"
   },
   {
-   "id": "8deaa89220c5",
-   "titulo": "El expresidente Álvaro Uribe Vélez rechazó categóricamente la propuesta de alianza electoral realizada por el también…",
-   "resumen": "El expresidente Álvaro Uribe Vélez rechazó categóricamente la propuesta de alianza electoral realizada por el también expresidente Gustavo Petro entre el Centro Democrático y el Pacto Histórico, asegurando en entrevista con Caracol Radio que «eso nunc…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBqTkVSVnVUOVNRQWtwdHBZMUtrRFpQNkNma0hXWjV5TktKcmJocDlYNnN3Yzl4U2dGbGFJMlFMSkhTQkEyaUZ0VEVVTkwxZkUyMmc?oc=5",
-   "fuente": "Instagram",
-   "fecha": "2026-11-09T15:54:57Z",
-   "categoria": "mencion",
-   "tamano": "redes",
-   "dominio": "instagram.com",
-   "tema": "Política y Congreso",
-   "historia": "728efe8f0b94"
-  },
-  {
    "id": "4d06a3df72e3",
    "titulo": "Álvaro Uribe propuso vender parte de Ecopetrol para solucionar la crisis fiscal y así reaccionó la USO: “Traición a la patria”",
    "resumen": "",
@@ -10154,21 +10235,6 @@
    "buscado": true,
    "tema": "Economía",
    "historia": "6b7232e1e6dc"
-  },
-  {
-   "id": "80cc4bea9a5f",
-   "titulo": "#Política 🧐 | \"Debe haber una norma que garantice un nombramiento ajeno al capricho del presidente\": el expresidente…",
-   "resumen": "#Política 🧐 | \"Debe haber una norma que garantice un nombramiento ajeno al capricho del presidente\": el expresidente Álvaro Uribe se pronunció sobre la administración de Ecopetrol…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5aTEVFalQ0QjBHVjI3SG9JRTYwOTRWNzFPY1JPcE5UdDdLa0I4eG1aWnp3b2pHTWFjWDRZejNtQkxLbkItMEZzZ0VvQ2RqVjJ0U1ZaQ1p3?oc=5",
-   "fuente": "Instagram",
-   "fecha": "2026-11-09T15:16:17Z",
-   "categoria": "mencion",
-   "tamano": "redes",
-   "dominio": "instagram.com",
-   "tema": "Gobierno",
-   "historia": "80cc4bea9a5f"
   },
   {
    "id": "ecda8369fc36",
@@ -10202,21 +10268,6 @@
    "historia": "385f7c636368"
   },
   {
-   "id": "adc73768c423",
-   "titulo": "Álvaro Uribe: Detalles del 'pupitrazo' en el Congreso | #ImpactoCP en Tercer Canal 👇",
-   "resumen": "",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNbDhtbGdBbTlnNENHNm5YRlZlWjlLOUtub1UyNkdLTnlMSzhDdGNOdWxtTXpLU0xyaTU1SFNPNDhQLXludnRXOTVIMU1wN2RlVkgzeWluUTVLVW1ORkhpNklvMkcwWFNIRVZnLWYtNnZjWURDREVWR0tHSzhCY0dnR1NvQ2RKdEkwMFB2N2hoeHR3ODVHTkw4Mi1oa0twcUViT0lyVGRVMDkwT3l2ZGc4cEZiUWx2R1RLSTRGTjI1Z2FUZm5OSTNBbmU4ZTZwZFprd19yclhiOVVVVjFW?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-09T14:27:28Z",
-   "categoria": "mencion",
-   "tamano": "redes",
-   "dominio": "facebook.com",
-   "tema": "Política y Congreso",
-   "historia": "adc73768c423"
-  },
-  {
    "id": "257e0cd03d66",
    "titulo": "Corte no se pronuncia y el expediente contra Álvaro Uribe por la masacre de El Aro seguirá en la Fiscalía",
    "resumen": "",
@@ -10230,7 +10281,7 @@
    "dominio": "cambiocolombia.com",
    "buscado": true,
    "tema": "Justicia",
-   "historia": "46f01b52e7ad"
+   "historia": "7514215dff60"
   },
   {
    "id": "6d5e82ff6211",
@@ -10248,51 +10299,6 @@
    "historia": "6d5e82ff6211"
   },
   {
-   "id": "8c1e88af9b25",
-   "titulo": "Centro Democrático - Comunidad Oficial. Alternativas para dinamizar la economía: sí existen.",
-   "resumen": "Centro Democrático - Comunidad Oficial. Alternativas para dinamizar la economía: sí existen. El expresidente Álvaro Uribe, en 6AM de Caracol Radio, explicó las propuestas del Centro Democrático: ▪️ Incentivos para quienes deben ponerse al día con el E…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNRXVRMjBmak56OVNFbkJsdzdxMS1vQ3RzZEp4a3YtdVVmV0FsNzg1YW9MVHp2ekRoN3EzQUE0RlpYcDBOby1YYW5nNEZCU3V4bkRIMTlUUzNFZFRGZFNfa05ad2xwTENzNUtvQ29iTHZmRURGVHJVUmwya1hKdjNKYjdVMFJpY1VHRHV1UTVWblZmMmlON1pVeldEb1VuaENkbWx1bWpEaFQ2d3YxUVE3QlhNcWFJUXlPV2JIbGVTX0o2SEozSGxqdUtxdm9BYWx6QUlwSElnYzd2Y0Q2OTFPVWpqVzE3R2JKcWVCOHcxaFA?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-09T14:16:36Z",
-   "categoria": "mencion",
-   "tamano": "redes",
-   "dominio": "facebook.com",
-   "tema": "Política y Congreso",
-   "historia": "8c1e88af9b25"
-  },
-  {
-   "id": "6028f784cf0c",
-   "titulo": "📌 Álvaro Uribe pide blindar la presidencia de Ecopetrol frente a decisiones de turno El pronunciamiento se da mientras…",
-   "resumen": "📌 Álvaro Uribe pide blindar la presidencia de Ecopetrol frente a decisiones de turno El pronunciamiento se da mientras la junta directiva de la petrolera es presidida por Carlos Suárez, exjefe de campaña de Abelardo de la Espriella. Ante este panorama, el e…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZTByTUMyWjB4a2JhTVdmTHUyUEdJUDNoM3hPckRwX1A5dW1xM29jdDJFcmMyQTk0dTlTX0trT1pLQko5eFNBZzNCSWRsTktlX0x1N0k4NUdSYjlEczNBUDZaVFVBMU80VGhXdEtqN3l6Q3dhdkpjUENPa0lBeTU0TWZYU2E2VXVmQWpPbVh1b0dZOGlZWHJ4N2E1Qm5fOFRHUjJEWEM0TzRGS1lYX3Z3WkVZMGJFd0FpQXI1ejZSNU1KRldYUVFnZUg5UW80dDRkNnVabmx6ZmFJaHRqT0lJ?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-09T14:14:24Z",
-   "categoria": "mencion",
-   "tamano": "redes",
-   "dominio": "facebook.com",
-   "tema": "Economía",
-   "historia": "6028f784cf0c"
-  },
-  {
-   "id": "0ba26c4ebdbc",
-   "titulo": "El expresidente Álvaro Uribe Vélez aseguró que es necesaria una norma que garantice un nombramiento independiente en la…",
-   "resumen": "El expresidente Álvaro Uribe Vélez aseguró que es necesaria una norma que garantice un nombramiento independiente en la presidencia de Ecopetrol, alejado del \"capricho del presidente\". El pronunciamiento busca blindar el gobierno corporativo y la esta…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43dV9ObU9sQ1p0Y0o1MWJZa0RjUk5SWTh2YTk3YkFJMmFUendRTnNvTDk2WjIyekxUMVRlMVBDQjZ5QnV6RV8yVlNVQnllN3daTWl0UnB3?oc=5",
-   "fuente": "Instagram",
-   "fecha": "2026-11-09T14:10:09Z",
-   "categoria": "mencion",
-   "tamano": "redes",
-   "dominio": "instagram.com",
-   "tema": "Gobierno",
-   "historia": "80cc4bea9a5f"
-  },
-  {
    "id": "ec8f563d067d",
    "titulo": "Nombramiento de gerente de Ecopetrol \"debe ser ajeno al capricho del Presidente\": Uribe",
    "resumen": "El expresidente de la República, Álvaro Uribe Vélez, pidió este lunes una norma que garantice un nombramiento de gerente de Ecopetrol que sea \"ajeno al capricho del Presidente\". \"En la actual estructu.",
@@ -10305,7 +10311,7 @@
    "tamano": "regional",
    "dominio": "zonacero.com",
    "tema": "Gobierno",
-   "historia": "80cc4bea9a5f"
+   "historia": "ec8f563d067d"
   },
   {
    "id": "1875f36ae8e4",
@@ -10321,21 +10327,6 @@
    "dominio": "noticiascaracol.com",
    "tema": "Gobierno",
    "historia": "1875f36ae8e4"
-  },
-  {
-   "id": "c1461490b687",
-   "titulo": "El expresidente Álvaro Uribe habló con Noticias Caracol sobre los reparos del Centro Democrático a la Ley de Rescate…",
-   "resumen": "El expresidente Álvaro Uribe habló con Noticias Caracol sobre los reparos del Centro Democrático a la Ley de Rescate Fiscal impulsada por el Gobierno. Esto dijo. Siga la señal de Noticias Caracol en vivo 👉🏻…",
-   "detalle": "",
-   "cita": "",
-   "enlace": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNYkdSckpuQWRaUlFXaXVrb09QR09XMDhEbWppSG1Wakk5R01YaE0yUldkYW9BaXZLcXZoWmNzRWo4TVlZNXJmdGl6c3JUTVV0V0RIcllNUlJaZEdHU096QVM3cWhMNWU0ZlJiVm9Qek1EREVlejdzZzFmR012VERtdzhJSmFzeHk0VkhWM1NqZWp4MWFBclVqZElLNGdGVnlsVERTZUUzWDhZU2txMmF1RHBzZXdBa2RQcHVIOEFvR2pzT1lXWmo3bWxGTUtOamlJdjRBMy15WmsxYUlTdGl3ckZCckNIcWZXMGtLaEpMeWdjUQ?oc=5",
-   "fuente": "Facebook",
-   "fecha": "2026-11-09T13:24:13Z",
-   "categoria": "mencion",
-   "tamano": "redes",
-   "dominio": "facebook.com",
-   "tema": "Gobierno",
-   "historia": "c1461490b687"
   },
   {
    "id": "a67e17a30afd",
@@ -10395,7 +10386,7 @@
    "tamano": "gran",
    "dominio": "lafm.com.co",
    "tema": "Seguridad y orden público",
-   "historia": "4048f3aafaf3"
+   "historia": "7514215dff60"
   },
   {
    "id": "68f373dbbb2a",
@@ -10440,7 +10431,7 @@
    "tamano": "gran",
    "dominio": "semana.com",
    "tema": "Gobierno",
-   "historia": "80cc4bea9a5f"
+   "historia": "ec8f563d067d"
   },
   {
    "id": "7e0d091a833f",

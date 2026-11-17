@@ -292,6 +292,18 @@ RE_TITULO_EXCLUIDO = re.compile(
 )
 
 
+# Deportes y espectáculos: se revisan en el titular y también en el resumen
+RE_DEPORTE_FARANDULA = re.compile(
+    r"liga betplay|dimayor|cuadrangular|f[uú]tbol|\bgol(?:es|azo)?\b|goleador|jugador(?:es)?\b|"
+    r"director t[eé]cnico|\bhinchas?\b|estadio|fichaje|torneo|campeonato|copa (?:am[eé]rica|libertadores|"
+    r"sudamericana|mundial|colombia)|mundial de|eliminatorias|selecci[oó]n colombia|ciclis|tenista|"
+    r"b[eé]isbol|baloncesto|f[oó]rmula 1|boxe|medalla|atl[eé]tico nacional|am[eé]rica de cali|"
+    r"deportivo cali|junior de barranquilla|independiente (?:santa fe|medell[ií]n)|once caldas|"
+    r"far[aá]ndula|reality|telenovela|reinado|se[nñ]orita colombia|hor[oó]scopo|en concierto|su tour|\\bgira\\b|cantante|"
+    r"actriz|\bactor\b|influencer|estreno|pel[ií]cula|serie de (?:netflix|televisi[oó]n)",
+    re.IGNORECASE,
+)
+
 # Los feeds generales (marcados con "filtrar") solo aportan notas con estos temas
 RE_TEMA_NACIONAL = re.compile(
     r"gobierno|president|congreso|senad|c[aá]mara|ministr|fiscal|procurad|contralor|corte|"
@@ -563,7 +575,8 @@ def leer_feed(feed, medios):
 
         completo = " ".join(x for x in (titulo, descripcion, contenido) if x)
         es_mencion = feed["seccion"] == "mencion" or menciona_a_alvaro(completo)
-        if not es_mencion and (RE_RUTA_EXCLUIDA.search(enlace) or RE_TITULO_EXCLUIDO.search(titulo)):
+        if not es_mencion and (RE_RUTA_EXCLUIDA.search(enlace) or RE_TITULO_EXCLUIDO.search(titulo)
+                               or RE_DEPORTE_FARANDULA.search(titulo + " " + descripcion[:400])):
             continue
         if not es_mencion and feed.get("filtrar") and not RE_TEMA_NACIONAL.search(titulo + " " + descripcion):
             continue
