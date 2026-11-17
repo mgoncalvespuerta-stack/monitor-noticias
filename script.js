@@ -407,7 +407,9 @@ function getFilteredNews() {
   const palabras = normalizar(state.query).split(/\s+/).filter(Boolean);
   return state.noticias.filter(
     (noticia) =>
-      (state.filter === 'all' || noticia.categoria === state.filter) &&
+      (state.filter === 'all' ||
+        noticia.categoria === state.filter ||
+        (state.filter === 'prioritaria' && noticia.categoria === 'coyuntura' && noticia.interes === 'prioritaria')) &&
       (state.size === 'all' || noticia.tamano === state.size) &&
       (state.tema === 'all' || temaDe(noticia) === state.tema) &&
       (state.tono === 'all' || noticia.tono === state.tono) &&
@@ -424,6 +426,9 @@ function updateStats() {
   mencionCountEl.textContent = contar('categoria', 'mencion');
   sourcesCountEl.textContent = new Set(todas.map((noticia) => noticia.fuente)).size;
 
+  // El botón de coyuntura prioritaria solo aparece cuando la IA ya la clasificó
+  $('filtroPrioritaria').hidden = !todas.some((noticia) => noticia.interes === 'prioritaria');
+
   // El filtro de tono solo aparece cuando las menciones ya vienen analizadas
   $('bloqueTono').hidden = !todas.some((noticia) => noticia.tono);
 
@@ -431,6 +436,7 @@ function updateStats() {
     const clave = nodo.dataset.conteo;
     if (clave === 'all') nodo.textContent = todas.length;
     else if (clave === 'coyuntura' || clave === 'mencion') nodo.textContent = contar('categoria', clave);
+    else if (clave === 'prioritaria') nodo.textContent = contar('interes', 'prioritaria');
     else if (clave.startsWith('tono-')) nodo.textContent = contar('tono', clave.slice(5));
     else nodo.textContent = contar('tamano', clave);
   });
@@ -471,7 +477,7 @@ function agruparHistorias(noticias) {
     grupos.get(clave).push(noticia);
   });
   return [...grupos.entries()].map(([clave, miembros]) => {
-    const valor = (n) => (PESO_MEDIO[n.tamano] || 0) + (n.resumen ? 3 : 0);
+    const valor = (n) => (PESO_MEDIO[n.tamano] || 0) + (n.resumen ? 3 : 0) + (n.interes === 'prioritaria' ? 1 : 0);
     const principal = miembros.reduce((mejor, n) => (valor(n) > valor(mejor) ? n : mejor), miembros[0]);
     return {
       clave,
@@ -572,6 +578,9 @@ function crearTarjeta(noticia, grupo) {
   if (ETIQUETA_TONO[noticia.tono]) {
     etiquetas.append(crear('span', `etiqueta etiqueta-tono-${noticia.tono}`, ETIQUETA_TONO[noticia.tono]));
   }
+  if (noticia.categoria === 'coyuntura' && noticia.interes === 'prioritaria') {
+    etiquetas.append(crear('span', 'etiqueta etiqueta-prioritaria', '★ Prioritaria'));
+  }
 
   const titulo = crear('h3');
   const tituloEnlace = crear('a', '', noticia.titulo);
@@ -630,6 +639,17 @@ function crearTarjeta(noticia, grupo) {
           crear('dd', '', ETIQUETA_TONO[noticia.tono] + (noticia.tono_motivo ? `: ${noticia.tono_motivo}` : '')),
         ]
       : []),
+    ...(noticia.categoria === 'coyuntura' && noticia.interes
+      ? [
+          crear('dt', '', 'Interés'),
+          crear(
+            'dd',
+            '',
+            (noticia.interes === 'prioritaria' ? 'Prioritaria' : 'Normal') +
+              (noticia.interes_motivo ? `: ${noticia.interes_motivo}` : '')
+          ),
+        ]
+      : []),
     crear('dt', '', 'Tipo de medio'),
     crear('dd', '', ETIQUETA_TAMANO[noticia.tamano] || ETIQUETA_TAMANO.local),
     crear('dt', '', 'Publicada'),
@@ -681,7 +701,7 @@ function renderNews() {
 
   // Aviso visible de que se está viendo solo una parte de las noticias
   const partes = [];
-  if (state.filter !== 'all') partes.push(ETIQUETA_CATEGORIA[state.filter]);
+  if (state.filter !== 'all') partes.push(ETIQUETA_CATEGORIA[state.filter] || 'Coyuntura prioritaria');
   if (state.size !== 'all') partes.push(ETIQUETA_TAMANO[state.size]);
   if (state.tema !== 'all') partes.push(`tema «${state.tema}»`);
   if (state.tono !== 'all') partes.push(`menciones ${ETIQUETA_TONO[state.tono].toLowerCase()}s`);
@@ -765,7 +785,11 @@ function construirResumen() {
 
   const menciones = delDia.filter((n) => n.categoria === 'mencion');
   const historiasMencion = ordenar(agruparHistorias(menciones));
-  const historiasCoyuntura = ordenar(agruparHistorias(delDia.filter((n) => n.categoria === 'coyuntura')));
+  const coyuntura = delDia.filter((n) => n.categoria === 'coyuntura');
+  const hayPrioritarias = coyuntura.some((n) => n.interes === 'prioritaria');
+  const historiasCoyuntura = ordenar(
+    agruparHistorias(hayPrioritarias ? coyuntura.filter((n) => n.interes === 'prioritaria') : coyuntura)
+  );
   const contarTono = (tono) => menciones.filter((n) => n.tono === tono).length;
   const desfavorables = agruparHistorias(menciones.filter((n) => n.tono === 'desfavorable'));
 
@@ -787,7 +811,7 @@ function construirResumen() {
     texto.push('', '*Menciones desfavorables*', ...desfavorables.slice(0, 5).map((g, i) => linea(g, i + 1)));
   }
   if (historiasCoyuntura.length) {
-    texto.push('', '*Coyuntura nacional*', ...historiasCoyuntura.slice(0, 5).map((g, i) => linea(g, i + 1)));
+    texto.push('', hayPrioritarias ? '*Coyuntura prioritaria*' : '*Coyuntura nacional*', ...historiasCoyuntura.slice(0, 5).map((g, i) => linea(g, i + 1)));
   }
   if (typeof location !== 'undefined' && /^https?:/.test(location.href)) {
     texto.push('', `Ver todo: ${location.href.split('#')[0].split('?')[0]}`);
