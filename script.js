@@ -746,7 +746,7 @@ function construirResumen() {
     periodo = 'en las últimas 24 horas';
   }
 
-  const medios = (grupo) => new Set(grupo.todas.map((n) => n.fuente)).size;
+  const medios = (grupo) => grupo.todas.length;
   const ordenar = (grupos) => grupos.sort((a, b) => medios(b) - medios(a) || b.fecha - a.fecha);
   // Los enlaces de los buscadores son larguísimos: se prefiere el enlace directo de algún medio del grupo
   const enlaceCorto = (grupo) => {
@@ -756,9 +756,9 @@ function construirResumen() {
     return directa ? directa.enlace : '';
   };
   const linea = (grupo, numero) => {
-    const cuantos = medios(grupo);
+    const cuantos = grupo.todas.length;
     const tono = ETIQUETA_TONO[grupo.principal.tono] ? ` [${ETIQUETA_TONO[grupo.principal.tono]}]` : '';
-    const cobertura = cuantos > 1 ? ` (${cuantos} medios)` : '';
+    const cobertura = cuantos > 1 ? ` (${cuantos} publicaciones)` : '';
     const enlace = enlaceCorto(grupo);
     return `${numero}. ${grupo.principal.titulo} — ${grupo.principal.fuente}${cobertura}${tono}${enlace ? `\n${enlace}` : ''}`;
   };
