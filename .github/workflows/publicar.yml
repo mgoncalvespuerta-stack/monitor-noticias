@@ -6,21 +6,22 @@ on:
     branches: [main]
   workflow_dispatch:
   schedule:
-    # Cada 30 minutos
-    - cron: "0,30 * * * *"
+    # Red de seguridad. GitHub se salta muchas ejecuciones programadas, así que el ritmo de
+    # 30 minutos lo lleva el trabajo "relevo" de abajo; esto solo reinicia la cadena si se corta.
+    - cron: "17 */2 * * *"
 
 permissions:
   contents: read
   pages: write
   id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: false
+  actions: write
 
 jobs:
   publicar:
     runs-on: ubuntu-latest
+    concurrency:
+      group: pages
+      cancel-in-progress: false
     environment:
       name: github-pages
       url: ${{ steps.despliegue.outputs.page_url }}
@@ -61,3 +62,20 @@ jobs:
 
       - id: despliegue
         uses: actions/deploy-pages@v4
+
+  # Espera y vuelve a lanzar esta misma tarea, para que las noticias se renueven cada 30 minutos
+  # sin depender del reloj de GitHub. Solo queda un relevo vivo a la vez: el nuevo cancela al anterior.
+  relevo:
+    needs: publicar
+    if: always()
+    runs-on: ubuntu-latest
+    concurrency:
+      group: relevo
+      cancel-in-progress: true
+    steps:
+      - name: Esperar hasta la próxima actualización
+        run: sleep 1560
+      - name: Lanzar la siguiente actualización
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run publicar.yml --repo "$GITHUB_REPOSITORY" --ref main

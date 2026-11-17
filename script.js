@@ -10,6 +10,8 @@
 
 const AUTO_REFRESH_MS = 30 * 60 * 1000;
 const ARCHIVO_RECIENTE_MS = 2 * 60 * 60 * 1000;
+// Hasta esta antigüedad se prefiere el archivo publicado antes que el modo reducido
+const ARCHIVO_ATRASADO_MS = 36 * 60 * 60 * 1000;
 const POR_PAGINA = 30;
 const CLAVE_COPIA = 'monitor-noticias-copia';
 const CLAVE_LETRA = 'monitor-noticias-letra';
@@ -180,7 +182,16 @@ async function desdeArchivoReciente() {
   return { ...datos, origen: 'vivo' };
 }
 
-// 3. Modo simple: los feeds se leen a través de rss2json (admite CORS)
+// 3. El archivo publicado existe pero la tarea automática va atrasada: es preferible mostrarlo
+//    (todas las fuentes, ya filtradas y clasificadas) que caer al modo reducido.
+async function desdeArchivoAtrasado() {
+  const datos = await pedirJson(`data/respaldo.json?t=${Date.now()}`, 15000);
+  const edad = Date.now() - new Date(datos && datos.generado).getTime();
+  if (!datosValidos(datos) || !(edad < ARCHIVO_ATRASADO_MS)) throw new Error('Archivo de noticias demasiado viejo');
+  return { ...datos, origen: 'respaldo', modo: 'atrasado' };
+}
+
+// 4. Modo simple: los feeds se leen a través de rss2json (admite CORS)
 async function desdeRss2json() {
   let medios = {};
   try {
@@ -258,14 +269,14 @@ async function desdeRss2json() {
   return { generado: new Date().toISOString(), origen: 'vivo', modo: 'simple', fuentes: [], noticias };
 }
 
-// 4. Última carga real guardada en este navegador
+// 5. Última carga real guardada en este navegador
 function desdeCopiaNavegador() {
   const datos = JSON.parse(localStorage.getItem(CLAVE_COPIA) || 'null');
   if (!datosValidos(datos)) throw new Error('Sin copia en el navegador');
   return { ...datos, origen: 'respaldo' };
 }
 
-// 5. Copia local en disco
+// 6. Copia local en disco
 async function desdeArchivo() {
   const datos = await pedirJson('data/respaldo.json', 10000);
   if (!datosValidos(datos)) throw new Error('Respaldo vacío');
@@ -273,7 +284,7 @@ async function desdeArchivo() {
 }
 
 async function obtenerDatos(forzar) {
-  const pasos = [() => desdeServidor(forzar), desdeArchivoReciente, desdeRss2json, async () => desdeCopiaNavegador(), desdeArchivo];
+  const pasos = [() => desdeServidor(forzar), desdeArchivoReciente, desdeArchivoAtrasado, desdeRss2json, async () => desdeCopiaNavegador(), desdeArchivo];
   for (const paso of pasos) {
     try {
       const datos = await paso();
@@ -305,6 +316,12 @@ function mostrarEstado(datos) {
     avisoEl.hidden = false;
     avisoEl.textContent =
       'No fue posible cargar noticias. Revise la conexión a internet y presione «Actualizar ahora».';
+  } else if (datos.modo === 'atrasado') {
+    avisoEl.hidden = false;
+    avisoEl.textContent =
+      'La actualización automática va atrasada. Se muestran las noticias' +
+      (generado ? ` del ${fmtCompleta.format(generado)}.`.replace('..', '.') : ' guardadas.') +
+      ' La página volverá a intentarlo sola.';
   } else if (!enVivo) {
     avisoEl.hidden = false;
     avisoEl.textContent =
